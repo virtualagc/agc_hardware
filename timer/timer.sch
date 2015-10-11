@@ -1,0 +1,236 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:agc_kicad_components
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74HC02 U1
+U 1 1 561A9BEC
+P 2150 1300
+F 0 "U1" H 2150 1350 60  0000 C CNN
+F 1 "74HC02" H 2200 1250 60  0000 C CNN
+F 2 "" H 2150 1300 60  0000 C CNN
+F 3 "" H 2150 1300 60  0000 C CNN
+	1    2150 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC02 U1
+U 2 1 561A9D94
+P 3500 2000
+F 0 "U1" H 3500 2050 60  0000 C CNN
+F 1 "74HC02" H 3550 1950 60  0000 C CNN
+F 2 "" H 3500 2000 60  0000 C CNN
+F 3 "" H 3500 2000 60  0000 C CNN
+F 4 "1" H 3500 2000 60  0001 C CNN "Initial"
+	2    3500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC02 U1
+U 3 1 561A9E3F
+P 3500 2700
+F 0 "U1" H 3500 2750 60  0000 C CNN
+F 1 "74HC02" H 3550 2650 60  0000 C CNN
+F 2 "" H 3500 2700 60  0000 C CNN
+F 3 "" H 3500 2700 60  0000 C CNN
+	3    3500 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC02 U1
+U 4 1 561A9EF4
+P 2150 3400
+F 0 "U1" H 2150 3450 60  0000 C CNN
+F 1 "74HC02" H 2200 3350 60  0000 C CNN
+F 2 "" H 2150 3400 60  0000 C CNN
+F 3 "" H 2150 3400 60  0000 C CNN
+	4    2150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC27 U2
+U 1 1 561A9F65
+P 2150 2000
+F 0 "U2" H 2150 2050 60  0000 C CNN
+F 1 "74HC27" H 2150 1950 60  0000 C CNN
+F 2 "" H 2150 2000 60  0000 C CNN
+F 3 "" H 2150 2000 60  0000 C CNN
+	1    2150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC27 U2
+U 2 1 561AA0D2
+P 2150 2700
+F 0 "U2" H 2150 2750 60  0000 C CNN
+F 1 "74HC27" H 2150 2650 60  0000 C CNN
+F 2 "" H 2150 2700 60  0000 C CNN
+F 3 "" H 2150 2700 60  0000 C CNN
+F 4 "1" H 2150 2700 60  0001 C CNN "Initial"
+	2    2150 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 1400 1550 1550
+Wire Wire Line
+	1550 1550 2750 1750
+Wire Wire Line
+	2750 1750 2750 2250
+Wire Wire Line
+	1550 1850 1550 1750
+Wire Wire Line
+	1550 1750 2750 1550
+Wire Wire Line
+	2750 1550 2750 1300
+Wire Wire Line
+	2750 2250 1550 2450
+Wire Wire Line
+	1550 2450 1550 2550
+Connection ~ 2750 2000
+Wire Wire Line
+	2750 2450 2750 2950
+Wire Wire Line
+	2750 2450 1550 2250
+Wire Wire Line
+	1550 2250 1550 2150
+Wire Wire Line
+	2750 2950 1550 3150
+Wire Wire Line
+	1550 3150 1550 3300
+Connection ~ 2750 2700
+Wire Wire Line
+	2750 3400 2750 3150
+Wire Wire Line
+	2750 3150 1550 2950
+Wire Wire Line
+	1550 2950 1550 2850
+Wire Wire Line
+	2900 1900 2750 1900
+Connection ~ 2750 1900
+Wire Wire Line
+	2900 2800 2750 2800
+Connection ~ 2750 2800
+Wire Wire Line
+	4100 2450 4100 3650
+Wire Wire Line
+	4100 2450 2900 2250
+Wire Wire Line
+	2900 2250 2900 2100
+Wire Wire Line
+	4100 1050 4100 2250
+Wire Wire Line
+	4100 2250 2900 2450
+Wire Wire Line
+	2900 2450 2900 2600
+Connection ~ 4100 2000
+Wire Wire Line
+	4100 1050 1550 1050
+Wire Wire Line
+	1550 1050 1550 1200
+Connection ~ 4100 2700
+Wire Wire Line
+	4100 3650 1550 3650
+Wire Wire Line
+	1550 3650 1550 3500
+Wire Wire Line
+	1250 2000 1550 2000
+Wire Wire Line
+	1400 2000 1400 2700
+Wire Wire Line
+	1400 2700 1550 2700
+Text GLabel 1250 2000 0    60   Input ~ 0
+CLOCK
+Connection ~ 1400 2000
+$Comp
+L CONN_01X05 P1
+U 1 1 561AB217
+P 10250 1500
+F 0 "P1" H 10250 1800 50  0000 C CNN
+F 1 "CONN_01X05" V 10350 1500 50  0000 C CNN
+F 2 "" H 10250 1500 60  0000 C CNN
+F 3 "" H 10250 1500 60  0000 C CNN
+	1    10250 1500
+	1    0    0    -1  
+$EndComp
+Text GLabel 9700 1400 0    60   Input ~ 0
+CLOCK
+Wire Wire Line
+	9700 1400 10050 1400
+$Comp
+L GND #PWR01
+U 1 1 561AB327
+P 10000 1750
+F 0 "#PWR01" H 10000 1500 50  0001 C CNN
+F 1 "GND" H 10000 1600 50  0000 C CNN
+F 2 "" H 10000 1750 60  0000 C CNN
+F 3 "" H 10000 1750 60  0000 C CNN
+	1    10000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 561AB349
+P 10000 1250
+F 0 "#PWR02" H 10000 1100 50  0001 C CNN
+F 1 "VCC" H 10000 1400 50  0000 C CNN
+F 2 "" H 10000 1250 60  0000 C CNN
+F 3 "" H 10000 1250 60  0000 C CNN
+	1    10000 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 1250 10000 1300
+Wire Wire Line
+	10000 1300 10050 1300
+Wire Wire Line
+	10000 1500 10000 1750
+Wire Wire Line
+	10000 1700 10050 1700
+Wire Wire Line
+	10000 1600 10050 1600
+Connection ~ 10000 1700
+Wire Wire Line
+	10000 1500 10050 1500
+Connection ~ 10000 1600
+$EndSCHEMATC
