@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74LVC07
+D Hex Open Drain Buffer
+K CMOS OPEN DRAIN BUFFER
+$ENDCMP
+#
 $CMP 74LS27
 D Triple Nr 3 inputs
 K TTL Nor3
