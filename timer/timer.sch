@@ -399,7 +399,6 @@ Wire Wire Line
 Wire Wire Line
 	6400 2850 6550 2850
 NoConn ~ 6550 2350
-NoConn ~ 6550 2450
 NoConn ~ 6550 2550
 NoConn ~ 6550 2650
 NoConn ~ 6550 2750
@@ -568,8 +567,6 @@ Connection ~ 11300 4600
 Wire Wire Line
 	11300 4900 10650 4900
 Connection ~ 11300 4900
-Wire Wire Line
-	10150 4100 9550 4100
 Wire Wire Line
 	10150 4200 9550 4200
 Connection ~ 9550 4200
@@ -834,8 +831,6 @@ NoConn ~ 6450 4850
 NoConn ~ 6450 4950
 NoConn ~ 6450 5050
 Wire Wire Line
-	9550 5050 9550 4100
-Wire Wire Line
 	11300 4100 11300 5100
 Text GLabel 10050 3900 0    60   Output ~ 0
 WL15
@@ -869,4 +864,12 @@ Wire Wire Line
 	4550 5800 4700 5800
 Wire Wire Line
 	4550 5900 4700 5900
+Wire Wire Line
+	9550 5050 9550 4200
+Wire Wire Line
+	10150 4100 10050 4100
+Text GLabel 10050 4100 0    60   Input ~ 0
+FS01/
+Text GLabel 6550 2450 2    60   Output ~ 0
+FS01/
 $EndSCHEMATC
