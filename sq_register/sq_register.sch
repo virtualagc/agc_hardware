@@ -200,7 +200,6 @@ NoConn ~ 3350 4000
 NoConn ~ 3350 4200
 NoConn ~ 3350 4300
 NoConn ~ 3350 4400
-NoConn ~ 3350 4550
 NoConn ~ 3350 4650
 NoConn ~ 3350 4750
 NoConn ~ 3350 4950
@@ -700,8 +699,6 @@ Wire Wire Line
 Wire Wire Line
 	9950 2750 10050 2750
 Wire Wire Line
-	9950 2550 10600 2550
-Wire Wire Line
 	9950 2650 10600 2650
 Connection ~ 10600 2650
 Wire Wire Line
@@ -974,5 +971,10 @@ Wire Wire Line
 	9950 2350 10050 2350
 Wire Wire Line
 	10600 1850 10600 3000
-Connection ~ 10600 2550
+Text GLabel 3350 4550 2    60   Output ~ 0
+STRTFC
+Text GLabel 10050 2550 2    60   Input ~ 0
+STRTFC
+Wire Wire Line
+	10050 2550 9950 2550
 $EndSCHEMATC
