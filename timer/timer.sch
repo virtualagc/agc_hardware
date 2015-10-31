@@ -736,9 +736,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 4750 6450 4750
 NoConn ~ 6450 4750
-NoConn ~ 6450 4850
 NoConn ~ 6450 4950
-NoConn ~ 6450 5050
 Text GLabel 10050 3900 0    60   Output ~ 0
 WL15
 Wire Wire Line
@@ -917,11 +915,7 @@ Wire Wire Line
 Wire Wire Line
 	10650 5900 11300 5900
 Wire Wire Line
-	11300 4100 11300 6100
-Wire Wire Line
 	11300 6100 9500 6100
-Wire Wire Line
-	9500 6100 9500 5400
 Wire Wire Line
 	9500 5900 10150 5900
 Wire Wire Line
@@ -930,9 +924,6 @@ Connection ~ 9500 5900
 Wire Wire Line
 	9500 5500 10150 5500
 Connection ~ 9500 5600
-Wire Wire Line
-	9500 5400 10150 5400
-Connection ~ 9500 5500
 Wire Wire Line
 	10400 6100 10400 6250
 Connection ~ 10400 6100
@@ -947,8 +938,6 @@ F 3 "" H 10400 6250 60  0000 C CNN
 	1    10400 6250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10650 5400 11300 5400
 Connection ~ 11300 5900
 Wire Wire Line
 	10650 5500 11300 5500
@@ -980,5 +969,20 @@ Wire Wire Line
 	10750 4300 10650 4300
 Wire Wire Line
 	10650 4200 10750 4200
-Connection ~ 11300 5400
+Wire Wire Line
+	9500 6100 9500 5500
+Wire Wire Line
+	11300 4100 11300 6100
+Text GLabel 10050 5400 0    60   Input ~ 0
+OVF/
+Wire Wire Line
+	10050 5400 10150 5400
+Text GLabel 10750 5400 2    60   Input ~ 0
+UNF/
+Wire Wire Line
+	10750 5400 10650 5400
+Text GLabel 6450 4850 2    60   Output ~ 0
+OVF/
+Text GLabel 6450 5050 2    60   Output ~ 0
+UNF/
 $EndSCHEMATC
