@@ -158,17 +158,6 @@ F 3 "" H 7650 2400 60  0000 C CNN
 $EndComp
 $Comp
 L 74HC02 U2014
-U 1 1 56272343
-P 8950 1700
-F 0 "U2014" H 8950 1750 60  0000 C CNN
-F 1 "74HC02" H 9000 1650 60  0000 C CNN
-F 2 "" H 8950 1700 60  0000 C CNN
-F 3 "" H 8950 1700 60  0000 C CNN
-	1    8950 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74HC02 U2014
 U 2 1 56272349
 P 8950 2400
 F 0 "U2014" H 8950 2450 60  0000 C CNN
@@ -320,9 +309,9 @@ Wire Wire Line
 Wire Wire Line
 	5750 2300 5750 2150
 Wire Wire Line
-	5750 2150 6950 1950
+	6950 1950 5750 2150
 Wire Wire Line
-	6950 1950 6950 900 
+	6950 900  6950 1950
 Wire Wire Line
 	7050 1800 6950 1800
 Connection ~ 6950 1800
@@ -330,11 +319,7 @@ Wire Wire Line
 	7050 2300 6950 2300
 Connection ~ 6950 2300
 Wire Wire Line
-	8250 1700 8300 1700
-Wire Wire Line
-	8300 1700 8300 1600
-Wire Wire Line
-	8300 1600 8350 1600
+	8250 1700 8350 1700
 Wire Wire Line
 	8250 2400 8300 2400
 Wire Wire Line
@@ -346,7 +331,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 2150 8350 1950
 Wire Wire Line
-	8350 1950 8350 1800
+	8350 1950 8350 1850
 Wire Wire Line
 	9550 900  9550 1950
 Wire Wire Line
@@ -486,54 +471,54 @@ Text HLabel 1000 1400 0    60   Input ~ 0
 RINGB/
 Connection ~ 1300 1400
 Wire Wire Line
-	4350 900  4450 900 
+	4350 900  4600 900 
 Connection ~ 4350 1700
 Wire Wire Line
-	4350 3200 4450 3200
+	4350 3200 4650 3200
 Connection ~ 4350 2400
 Wire Wire Line
-	6950 900  7050 900 
+	6950 900  7150 900 
 Connection ~ 6950 1700
 Wire Wire Line
-	6950 3200 7050 3200
+	6950 3200 7250 3200
 Connection ~ 6950 2400
 Wire Wire Line
-	9550 900  9650 900 
+	9550 900  9800 900 
 Connection ~ 9550 1700
 Wire Wire Line
-	9550 3200 9650 3200
+	9550 3200 9800 3200
 Connection ~ 9550 2400
 Wire Wire Line
-	12150 900  12250 900 
+	12150 900  12350 900 
 Connection ~ 12150 1200
 Wire Wire Line
-	12150 3200 12250 3200
+	12150 3200 12400 3200
 Connection ~ 12150 2900
 Wire Wire Line
-	14750 900  14850 900 
+	14750 900  15050 900 
 Connection ~ 14750 1100
 Wire Wire Line
-	14750 3200 14850 3200
+	14750 3200 15000 3200
 Connection ~ 14750 3000
-Text HLabel 4450 900  2    60   Output ~ 0
+Text HLabel 4600 900  2    60   Output ~ 0
 P01
-Text HLabel 4450 3200 2    60   Output ~ 0
+Text HLabel 4650 3200 2    60   Output ~ 0
 P01/
-Text HLabel 7050 900  2    60   Output ~ 0
+Text HLabel 7150 900  2    60   Output ~ 0
 P02
-Text HLabel 7050 3200 2    60   Output ~ 0
+Text HLabel 7250 3200 2    60   Output ~ 0
 P02/
-Text HLabel 9650 900  2    60   Output ~ 0
+Text HLabel 9800 900  2    60   Output ~ 0
 P03
-Text HLabel 9650 3200 2    60   Output ~ 0
+Text HLabel 9800 3200 2    60   Output ~ 0
 P03/
-Text HLabel 12250 900  2    60   Output ~ 0
+Text HLabel 12350 900  2    60   Output ~ 0
 P04
-Text HLabel 12250 3200 2    60   Output ~ 0
+Text HLabel 12400 3200 2    60   Output ~ 0
 P04/
-Text HLabel 14850 900  2    60   Output ~ 0
+Text HLabel 15050 900  2    60   Output ~ 0
 P05
-Text HLabel 14850 3200 2    60   Output ~ 0
+Text HLabel 15000 3200 2    60   Output ~ 0
 P05/
 $Sheet
 S 4550 3950 950  750 
@@ -1056,4 +1041,167 @@ Text Notes 11750 3800 0    60   ~ 0
 Start/Stop Logic
 Text Notes 11750 3950 0    60   ~ 0
 TODO: Add descriptive local net names to this for debugging
+$Comp
+L 74HC02 U2037
+U 2 1 5637F41F
+P 16900 1050
+F 0 "U2037" H 16900 1100 60  0000 C CNN
+F 1 "74HC02" H 16950 1000 60  0000 C CNN
+F 2 "" H 16900 1050 60  0000 C CNN
+F 3 "" H 16900 1050 60  0000 C CNN
+	2    16900 1050
+	1    0    0    -1  
+$EndComp
+Text Label 7000 3200 0    60   ~ 0
+P02/
+Wire Wire Line
+	16300 950  16050 950 
+Text Label 16050 950  0    60   ~ 0
+P02/
+Text Label 14800 900  0    60   ~ 0
+P05
+Wire Wire Line
+	16300 1150 16050 1150
+Text Label 16050 1150 0    60   ~ 0
+P05
+Text HLabel 17650 1050 2    60   Output ~ 0
+SB0
+Wire Wire Line
+	17650 1050 17500 1050
+$Comp
+L 74HC02 U2037
+U 3 1 563841F5
+P 16900 1550
+F 0 "U2037" H 16900 1600 60  0000 C CNN
+F 1 "74HC02" H 16950 1500 60  0000 C CNN
+F 2 "" H 16900 1550 60  0000 C CNN
+F 3 "" H 16900 1550 60  0000 C CNN
+	3    16900 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC02 U2037
+U 4 1 563842BE
+P 16900 2050
+F 0 "U2037" H 16900 2100 60  0000 C CNN
+F 1 "74HC02" H 16950 2000 60  0000 C CNN
+F 2 "" H 16900 2050 60  0000 C CNN
+F 3 "" H 16900 2050 60  0000 C CNN
+	4    16900 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC02 U2004
+U 3 1 5638520D
+P 16900 2550
+F 0 "U2004" H 16900 2600 60  0000 C CNN
+F 1 "74HC02" H 16950 2500 60  0000 C CNN
+F 2 "" H 16900 2550 60  0000 C CNN
+F 3 "" H 16900 2550 60  0000 C CNN
+	3    16900 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17500 1550 17650 1550
+Text HLabel 17650 1550 2    60   Output ~ 0
+SB1
+Text HLabel 17650 2050 2    60   Output ~ 0
+SB2
+Wire Wire Line
+	17650 2050 17500 2050
+Text HLabel 17650 2550 2    60   Output ~ 0
+SB4
+Wire Wire Line
+	17650 2550 17500 2550
+Wire Wire Line
+	16300 1450 16050 1450
+Wire Wire Line
+	16300 1650 16050 1650
+Wire Wire Line
+	16300 1950 16050 1950
+Wire Wire Line
+	16300 2150 16050 2150
+Wire Wire Line
+	16300 2450 16050 2450
+Wire Wire Line
+	16300 2650 16050 2650
+Text Label 16050 1450 0    60   ~ 0
+P05/
+Text Label 16050 1650 0    60   ~ 0
+P03/
+Text Label 16050 1950 0    60   ~ 0
+P05/
+Text Label 16050 2150 0    60   ~ 0
+P02
+Text Label 16050 2450 0    60   ~ 0
+P02/
+Text Label 16050 2650 0    60   ~ 0
+P04
+$Comp
+L 74HC27 U2002
+U 3 1 56386C94
+P 16900 3050
+F 0 "U2002" H 16900 3100 60  0000 C CNN
+F 1 "74HC27" H 16900 3000 60  0000 C CNN
+F 2 "" H 16900 3050 60  0000 C CNN
+F 3 "" H 16900 3050 60  0000 C CNN
+	3    16900 3050
+	1    0    0    -1  
+$EndComp
+Text HLabel 17650 3050 2    60   Output ~ 0
+EDSET
+Wire Wire Line
+	17650 3050 17500 3050
+Wire Wire Line
+	16300 2900 16050 2900
+Wire Wire Line
+	16050 3050 16300 3050
+Wire Wire Line
+	16050 3200 16300 3200
+Text Label 16050 2900 0    60   ~ 0
+P02
+Text Label 16050 3050 0    60   ~ 0
+P03/
+Text Label 16050 3200 0    60   ~ 0
+P04
+Text Label 6950 900  0    60   ~ 0
+P02
+Text Label 14750 3200 0    60   ~ 0
+P05/
+Text Label 12150 900  0    60   ~ 0
+P04
+Text Label 12150 3200 0    60   ~ 0
+P04/
+Text Label 9550 3200 0    60   ~ 0
+P03/
+Text Label 9550 900  0    60   ~ 0
+P03
+Text Label 4350 900  0    60   ~ 0
+P01
+Text Label 4400 3200 0    60   ~ 0
+P01/
+$Comp
+L 74HC27 U2007
+U 3 1 5636CD8C
+P 8950 1700
+F 0 "U2007" H 8950 1750 60  0000 C CNN
+F 1 "74HC27" H 8950 1650 60  0000 C CNN
+F 2 "" H 8950 1700 60  0000 C CNN
+F 3 "" H 8950 1700 60  0000 C CNN
+	3    8950 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17600 3050 17600 3400
+Wire Wire Line
+	17600 3400 15600 3400
+Wire Wire Line
+	15600 3400 15600 600 
+Wire Wire Line
+	15600 600  8250 600 
+Wire Wire Line
+	8250 600  8250 1550
+Wire Wire Line
+	8250 1550 8350 1550
+Connection ~ 17600 3050
 $EndSCHEMATC
