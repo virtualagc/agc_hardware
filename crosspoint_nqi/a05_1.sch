@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -194,7 +194,7 @@ $EndComp
 Text Label 6350 1050 0    60   ~ 0
 10XP7
 Text HLabel 6750 900  0    60   Input ~ 0
-10XP6'
+10XP6
 $Comp
 L 74LVC07 U5005
 U 1 1 56561B45
@@ -675,7 +675,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 3350 5700 3350
 Wire Wire Line
-	8250 3350 8150 3350
+	8150 3350 8250 3350
 Wire Wire Line
 	5550 4200 7050 4200
 Wire Wire Line
@@ -2649,4 +2649,42 @@ Wire Wire Line
 Text HLabel 17250 13500 2    60   Output ~ 0
 PINC/
 Connection ~ 17150 13500
+$Comp
+L 74HC04 U5059
+U 5 1 5676172A
+P 8700 3650
+F 0 "U5059" H 8850 3750 40  0000 C CNN
+F 1 "74HC04" H 8900 3550 40  0000 C CNN
+F 2 "" H 8700 3650 60  0000 C CNN
+F 3 "" H 8700 3650 60  0000 C CNN
+	5    8700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC04 U5059
+U 6 1 56761887
+P 8700 4000
+F 0 "U5059" H 8850 4100 40  0000 C CNN
+F 1 "74HC04" H 8900 3900 40  0000 C CNN
+F 2 "" H 8700 4000 60  0000 C CNN
+F 3 "" H 8700 4000 60  0000 C CNN
+	6    8700 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 3650 8200 3650
+Wire Wire Line
+	8200 3350 8200 4000
+Connection ~ 8200 3350
+Wire Wire Line
+	8200 4000 8250 4000
+Connection ~ 8200 3650
+Text HLabel 9200 3650 2    60   Output ~ 0
+NISQ
+Wire Wire Line
+	9150 3650 9200 3650
+Wire Wire Line
+	9150 4000 9200 4000
+Text HLabel 9200 4000 2    60   Output ~ 0
+MNISQ
 $EndSCHEMATC
