@@ -823,8 +823,6 @@ F 3 "" H 5050 10100 60  0000 C CNN
 	2    5050 10100
 	1    0    0    -1  
 $EndComp
-Text Label 5650 10100 0    60   ~ 0
-5XP15
 Text Notes 5650 10200 0    60   ~ 0
 RG,WQ
 $Comp
@@ -1609,8 +1607,6 @@ F 3 "" H 17700 4500 60  0000 C CNN
 	4    17700 4500
 	1    0    0    -1  
 $EndComp
-Text Label 15800 4400 0    60   ~ 0
-6XP8
 Text Notes 15600 4550 0    60   ~ 0
 RU,WG,WSC,TOV
 $Comp
@@ -3015,4 +3011,18 @@ Wire Wire Line
 Wire Wire Line
 	16350 1350 17100 1350
 Connection ~ 16350 9300
+Wire Wire Line
+	5700 10100 5700 10000
+Wire Wire Line
+	5700 10000 5750 10000
+Connection ~ 5700 10100
+Text HLabel 5750 10000 2    60   Output ~ 0
+5XP15
+Wire Wire Line
+	15850 4400 15850 4300
+Wire Wire Line
+	15850 4300 15950 4300
+Connection ~ 15850 4400
+Text HLabel 15950 4300 2    60   Output ~ 0
+6XP8
 $EndSCHEMATC

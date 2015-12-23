@@ -1268,9 +1268,7 @@ Wire Wire Line
 Text Label 5700 13850 0    60   ~ 0
 8XP3
 Wire Wire Line
-	5700 14150 6950 14150
-Text Label 5700 14150 0    60   ~ 0
-4XP5
+	5950 14150 6950 14150
 $Comp
 L 74LVC07 U5018
 U 2 1 56592D5E
@@ -2687,4 +2685,6 @@ Wire Wire Line
 	9150 4000 9200 4000
 Text HLabel 9200 4000 2    60   Output ~ 0
 MNISQ
+Text HLabel 5950 14150 0    60   Input ~ 0
+4XP5
 $EndSCHEMATC
