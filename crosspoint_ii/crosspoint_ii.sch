@@ -280,12 +280,6 @@ Connection ~ 14200 3050
 Wire Wire Line
 	14200 2850 14300 2850
 Connection ~ 14200 2950
-Wire Wire Line
-	14200 2750 14300 2750
-Connection ~ 14200 2850
-Wire Wire Line
-	14200 2650 14300 2650
-Connection ~ 14200 2750
 $Comp
 L VCC #PWR02
 U 1 1 5687F437
@@ -1447,10 +1441,10 @@ Text GLabel 5400 3950 2    60   Output ~ 0
 TSGU/
 Wire Wire Line
 	5400 3950 5300 3950
-Text GLabel 13150 5550 0    60   Input ~ 0
+Text GLabel 14200 2550 0    60   Input ~ 0
 TSGU/
 Wire Wire Line
-	13150 5550 13250 5550
+	14200 2550 14300 2550
 Text GLabel 3650 7000 0    60   Input ~ 0
 3XP7
 Wire Wire Line
@@ -1479,10 +1473,26 @@ Text GLabel 8200 5200 2    60   Output ~ 0
 7XP14
 Wire Wire Line
 	8200 5200 8100 5200
-Wire Wire Line
-	14200 2650 14200 5650
-Text GLabel 14200 2550 0    60   Input ~ 0
+Text GLabel 14200 2750 0    60   Input ~ 0
 7XP14
 Wire Wire Line
-	14200 2550 14300 2550
+	14200 2750 14300 2750
+Text GLabel 8200 4900 2    60   Output ~ 0
+RPTSET
+Wire Wire Line
+	8200 4900 8100 4900
+Text GLabel 14200 2650 0    60   Input ~ 0
+RPTSET
+Wire Wire Line
+	14200 2650 14300 2650
+Text GLabel 5400 3850 2    60   Output ~ 0
+TOV/
+Wire Wire Line
+	5400 3850 5300 3850
+Wire Wire Line
+	14200 2850 14200 5650
+Text GLabel 13150 5550 0    60   Input ~ 0
+TOV/
+Wire Wire Line
+	13150 5550 13250 5550
 $EndSCHEMATC
