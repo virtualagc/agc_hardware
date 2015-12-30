@@ -1812,8 +1812,6 @@ Text HLabel 14300 6900 0    60   Input ~ 0
 T08/
 Text HLabel 14300 7050 0    60   Input ~ 0
 MONWBK
-Text Label 16150 7050 2    60   ~ 0
-U2BBK
 $Comp
 L 74HC02 U5062
 U 4 1 5697E43F
@@ -1847,7 +1845,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 900  4450 900 
 Wire Wire Line
-	6500 1000 5650 1000
+	5650 1000 6500 1000
 Wire Wire Line
 	8600 1150 8750 1150
 Wire Wire Line
@@ -2005,7 +2003,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 6050 5650 6050
 Wire Wire Line
-	4400 7000 4400 11700
+	4400 5950 4400 11700
 Wire Wire Line
 	4400 6650 4450 6650
 Connection ~ 4400 5950
@@ -2132,7 +2130,7 @@ Wire Wire Line
 	4400 11700 4450 11700
 Connection ~ 4400 10200
 Wire Wire Line
-	4100 3150 4100 11500
+	4100 2100 4100 11500
 Wire Wire Line
 	4100 11500 4450 11500
 Connection ~ 4100 2100
@@ -2475,7 +2473,7 @@ Connection ~ 14350 6650
 Wire Wire Line
 	14600 7050 14300 7050
 Wire Wire Line
-	15800 7050 16150 7050
+	15800 7050 15900 7050
 Wire Wire Line
 	14550 6900 14550 7450
 Wire Wire Line
@@ -3025,4 +3023,14 @@ Wire Wire Line
 Connection ~ 15850 4400
 Text HLabel 15950 4300 2    60   Output ~ 0
 6XP8
+Wire Wire Line
+	6300 1000 6300 800 
+Wire Wire Line
+	6300 800  6450 800 
+Connection ~ 6300 1000
+Text HLabel 6450 800  2    60   Output ~ 0
+RL10BB
+Connection ~ 8750 6700
+Text HLabel 15900 7050 2    60   Output ~ 0
+U2BBK
 $EndSCHEMATC

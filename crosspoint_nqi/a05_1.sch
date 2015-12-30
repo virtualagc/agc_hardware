@@ -2394,7 +2394,7 @@ F 3 "" H 17350 11850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 17950 11850 2    60   Output ~ 0
-RC/
+WA/
 Wire Wire Line
 	17800 11850 17950 11850
 $Comp
