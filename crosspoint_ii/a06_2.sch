@@ -1016,8 +1016,6 @@ Text HLabel 1100 12500 0    60   Input ~ 0
 IC6
 Text HLabel 1100 12650 0    60   Input ~ 0
 IC7
-Text HLabel 1100 12800 0    60   Input ~ 0
-DV4B1B
 $Comp
 L 74HC02 U6039
 U 4 1 56840320
@@ -1872,7 +1870,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 6300 2400 6300
 Wire Wire Line
-	2400 6600 1100 6600
+	1100 6600 2400 6600
 Wire Wire Line
 	1100 6450 2400 6450
 Wire Wire Line
@@ -1981,10 +1979,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 9750 2400 9750
 Wire Wire Line
-	1750 2300 1750 9850
-Wire Wire Line
 	1750 9850 2400 9850
-Connection ~ 1750 2300
 Wire Wire Line
 	1650 2600 1650 9950
 Wire Wire Line
@@ -2066,10 +2061,7 @@ Wire Wire Line
 	1350 11750 2400 11750
 Connection ~ 2250 8750
 Wire Wire Line
-	2150 6900 2150 11900
-Wire Wire Line
 	2150 11900 2400 11900
-Connection ~ 2150 6900
 Wire Wire Line
 	4500 11700 4500 12950
 Connection ~ 4500 11750
@@ -2592,4 +2584,12 @@ Text HLabel 13800 4850 2    60   Output ~ 0
 RDBANK
 Text Notes 11950 4500 0    60   ~ 0
 Not sure if this is actually T06/... it looks like TO61 in the schematic.\nAlso not sure what this logic is for, as neither STORE1 nor FETCH1 have anything\nlisted in timepulse 6, and neither ever use RU.
+Text HLabel 1100 12800 0    60   Input ~ 0
+IC9
+Wire Wire Line
+	2150 6600 2150 11900
+Connection ~ 2150 6600
+Connection ~ 1750 1850
+Wire Wire Line
+	1750 9850 1750 1850
 $EndSCHEMATC
