@@ -178,24 +178,19 @@ Connection ~ 10600 4350
 Wire Wire Line
 	10600 4150 10700 4150
 Connection ~ 10600 4250
-Wire Wire Line
-	10600 4050 10700 4050
 Connection ~ 10600 4150
 Wire Wire Line
 	10600 3950 10700 3950
-Connection ~ 10600 4050
 Wire Wire Line
-	10600 3850 10700 3850
+	10600 2750 10700 2750
 Wire Wire Line
-	10600 2650 10700 2650
+	10600 2550 10700 2550
 Wire Wire Line
 	10600 2450 10700 2450
 Wire Wire Line
 	10600 2350 10700 2350
 Wire Wire Line
 	10600 2250 10700 2250
-Wire Wire Line
-	10600 2150 10700 2150
 $Comp
 L DIN_41612_128P P1
 U 4 1 567B1377
@@ -1277,46 +1272,46 @@ Wire Wire Line
 Text GLabel 6750 2350 2    60   Output ~ 0
 RBLG/
 Wire Wire Line
-	10600 2050 10700 2050
-Text GLabel 10600 2050 0    60   Input ~ 0
+	10600 2150 10700 2150
+Text GLabel 10600 2150 0    60   Input ~ 0
 RBLG/
 Wire Wire Line
 	6650 2450 6750 2450
 Text GLabel 6750 2450 2    60   Output ~ 0
 RCG/
-Text GLabel 10600 2150 0    60   Input ~ 0
+Text GLabel 10600 2250 0    60   Input ~ 0
 RCG/
 Wire Wire Line
 	6650 2850 6750 2850
 Text GLabel 6750 2850 2    60   Output ~ 0
 RGG/
-Text GLabel 10600 2250 0    60   Input ~ 0
+Text GLabel 10600 2350 0    60   Input ~ 0
 RGG/
 Wire Wire Line
 	6650 2950 6750 2950
 Text GLabel 6750 2950 2    60   Output ~ 0
 RLG/
-Text GLabel 10600 2350 0    60   Input ~ 0
+Text GLabel 10600 2450 0    60   Input ~ 0
 RLG/
 Wire Wire Line
 	6650 3050 6750 3050
 Text GLabel 6750 3050 2    60   Output ~ 0
 RQG/
-Text GLabel 10600 2450 0    60   Input ~ 0
+Text GLabel 10600 2550 0    60   Input ~ 0
 RQG/
 Wire Wire Line
 	6650 3250 6750 3250
 Text GLabel 6750 3250 2    60   Output ~ 0
 RULOG/
 Wire Wire Line
-	10600 2550 10700 2550
-Text GLabel 10600 2550 0    60   Input ~ 0
+	10600 2650 10700 2650
+Text GLabel 10600 2650 0    60   Input ~ 0
 RULOG/
 Wire Wire Line
 	6650 3450 6750 3450
 Text GLabel 6750 3450 2    60   Output ~ 0
 RZG/
-Text GLabel 10600 2650 0    60   Input ~ 0
+Text GLabel 10600 2750 0    60   Input ~ 0
 RZG/
 Wire Wire Line
 	4050 2200 4150 2200
@@ -1327,20 +1322,20 @@ Wire Wire Line
 Text GLabel 4150 2400 2    60   Output ~ 0
 WALSG/
 Wire Wire Line
-	10600 2750 10700 2750
-Text GLabel 10600 2750 0    60   Input ~ 0
-WAG/
-Wire Wire Line
 	10600 2850 10700 2850
 Text GLabel 10600 2850 0    60   Input ~ 0
+WAG/
+Wire Wire Line
+	10600 2950 10700 2950
+Text GLabel 10600 2950 0    60   Input ~ 0
 WALSG/
 Wire Wire Line
 	4050 2500 4150 2500
 Text GLabel 4150 2500 2    60   Output ~ 0
 WBG/
 Wire Wire Line
-	10600 2950 10700 2950
-Text GLabel 10600 2950 0    60   Input ~ 0
+	10600 3050 10700 3050
+Text GLabel 10600 3050 0    60   Input ~ 0
 WBG/
 Wire Wire Line
 	4050 2800 4150 2800
@@ -1355,16 +1350,16 @@ Wire Wire Line
 Text GLabel 4150 3100 2    60   Output ~ 0
 WG4G/
 Wire Wire Line
-	10600 3050 10700 3050
-Text GLabel 10600 3050 0    60   Input ~ 0
-WG1G/
-Wire Wire Line
 	10600 3150 10700 3150
 Text GLabel 10600 3150 0    60   Input ~ 0
-WG3G/
+WG1G/
 Wire Wire Line
 	10600 3250 10700 3250
 Text GLabel 10600 3250 0    60   Input ~ 0
+WG3G/
+Wire Wire Line
+	10600 3350 10700 3350
+Text GLabel 10600 3350 0    60   Input ~ 0
 WG4G/
 Wire Wire Line
 	4050 3400 4150 3400
@@ -1375,12 +1370,12 @@ Wire Wire Line
 Text GLabel 4150 3300 2    60   Output ~ 0
 WLG/
 Wire Wire Line
-	10600 3350 10700 3350
-Text GLabel 10600 3350 0    60   Input ~ 0
-WLG/
-Wire Wire Line
 	10600 3450 10700 3450
 Text GLabel 10600 3450 0    60   Input ~ 0
+WLG/
+Wire Wire Line
+	10600 3550 10700 3550
+Text GLabel 10600 3550 0    60   Input ~ 0
 WQG/
 Wire Wire Line
 	4050 3700 4150 3700
@@ -1395,23 +1390,33 @@ Wire Wire Line
 Text GLabel 4150 3900 2    60   Output ~ 0
 WYLOG/
 Wire Wire Line
-	10600 3550 10700 3550
-Text GLabel 10600 3550 0    60   Input ~ 0
-WYDG/
-Wire Wire Line
 	10600 3650 10700 3650
 Text GLabel 10600 3650 0    60   Input ~ 0
-WYDLOG/
+WYDG/
 Wire Wire Line
 	10600 3750 10700 3750
 Text GLabel 10600 3750 0    60   Input ~ 0
+WYDLOG/
+Wire Wire Line
+	10600 3850 10700 3850
+Text GLabel 10600 3850 0    60   Input ~ 0
 WYLOG/
 Wire Wire Line
 	4050 4000 4150 4000
 Text GLabel 4150 4000 2    60   Output ~ 0
 WZG/
 Wire Wire Line
-	10600 3950 10600 4550
-Text GLabel 10600 3850 0    60   Input ~ 0
+	10600 4050 10600 4550
+Text GLabel 10600 3950 0    60   Input ~ 0
 WZG/
+Wire Wire Line
+	6650 2250 6750 2250
+Text GLabel 6750 2250 2    60   Output ~ 0
+RBHG/
+Wire Wire Line
+	10600 4050 10700 4050
+Wire Wire Line
+	10600 2050 10700 2050
+Text GLabel 10600 2050 0    60   Input ~ 0
+RBHG/
 $EndSCHEMATC
