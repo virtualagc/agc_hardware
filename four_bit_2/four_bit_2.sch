@@ -45,7 +45,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1750 1200 1400 7250
+S 1750 1200 1400 7600
 U 5692835C
 F0 "A09_1" 60
 F1 "two_bit_columns.sch" 60
@@ -109,7 +109,7 @@ F58 "_L_IN_1" I L 1750 4700 60
 F59 "_WG12G_1" I L 1750 6500 60 
 F60 "_WL1" O R 3150 4050 60 
 F61 "_WL1/" O R 3150 4150 60 
-F62 "_MWL1" O R 3150 4600 60 
+F62 "_MWL1" O R 3150 4750 60 
 F63 "_CI_OUT" O R 3150 2750 60 
 F64 "_CO_IN" I L 1750 3650 60 
 F65 "_XUY_IN2" I L 1750 4050 60 
@@ -145,9 +145,14 @@ F94 "_L_IN_2" I L 1750 4800 60
 F95 "_WG12G_2" I L 1750 6600 60 
 F96 "_WL2" O R 3150 4250 60 
 F97 "_WL2/" O R 3150 4350 60 
-F98 "_MWL2" O R 3150 4700 60 
+F98 "_MWL2" O R 3150 4850 60 
 F99 "_RL1/" O R 3150 3850 60 
 F100 "_RL2/" O R 3150 3950 60 
+F101 "_RL_OUT_2" O R 3150 4600 60 
+F102 "_RL_OUT_1" O R 3150 4500 60 
+F103 "_WHOMPA" I L 1750 8700 60 
+F104 "_WHOMP_1" I L 1750 8500 60 
+F105 "_WHOMP_2" I L 1750 8600 60 
 $EndSheet
 $Comp
 L DIN_41612_128P P1
@@ -260,7 +265,7 @@ F 3 "" H 12600 800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 4400 1200 1400 7250
+S 4400 1200 1400 7600
 U 56928367
 F0 "A09_2" 60
 F1 "two_bit_columns.sch" 60
@@ -324,7 +329,7 @@ F58 "_L_IN_1" I L 4400 4700 60
 F59 "_WG12G_1" I L 4400 6500 60 
 F60 "_WL1" O R 5800 4050 60 
 F61 "_WL1/" O R 5800 4150 60 
-F62 "_MWL1" O R 5800 4600 60 
+F62 "_MWL1" O R 5800 4700 60 
 F63 "_CI_OUT" O R 5800 2750 60 
 F64 "_CO_IN" I L 4400 3650 60 
 F65 "_XUY_IN2" I L 4400 4050 60 
@@ -360,9 +365,14 @@ F94 "_L_IN_2" I L 4400 4800 60
 F95 "_WG12G_2" I L 4400 6600 60 
 F96 "_WL2" O R 5800 4250 60 
 F97 "_WL2/" O R 5800 4350 60 
-F98 "_MWL2" O R 5800 4700 60 
+F98 "_MWL2" O R 5800 4850 60 
 F99 "_RL1/" O R 5800 3850 60 
 F100 "_RL2/" O R 5800 3950 60 
+F101 "_RL_OUT_2" O R 5800 4600 60 
+F102 "_RL_OUT_1" O R 5800 4500 60 
+F103 "_WHOMPA" I L 4400 8700 60 
+F104 "_WHOMP_1" I L 4400 8500 60 
+F105 "_WHOMP_2" I L 4400 8600 60 
 $EndSheet
 Text GLabel 1650 1300 0    60   Input ~ 0
 A2XG/
@@ -1460,10 +1470,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 8350 4300 8350
 Wire Wire Line
-	9700 1550 9800 1550
-Wire Wire Line
 	9700 1650 9800 1650
-Connection ~ 9700 1650
 Wire Wire Line
 	9700 1750 9800 1750
 Connection ~ 9700 1750
@@ -1653,20 +1660,20 @@ Text GLabel 5900 1800 2    60   Output ~ 0
 G07/
 Wire Wire Line
 	5800 1800 5900 1800
-Text GLabel 8750 3750 0    60   Input ~ 0
-G05/
 Text GLabel 8750 3850 0    60   Input ~ 0
-G06/
+G05/
 Text GLabel 8750 3950 0    60   Input ~ 0
+G06/
+Text GLabel 8750 4050 0    60   Input ~ 0
 G07/
-Wire Wire Line
-	8850 3750 8750 3750
 Wire Wire Line
 	8850 3850 8750 3850
 Wire Wire Line
 	8850 3950 8750 3950
 Wire Wire Line
-	9700 1550 9700 4200
+	8850 4050 8750 4050
+Wire Wire Line
+	9700 1650 9700 4200
 Text GLabel 3250 3350 2    60   Output ~ 0
 XUY05/
 Wire Wire Line
@@ -1675,30 +1682,30 @@ Text GLabel 3250 3450 2    60   Output ~ 0
 XUY06/
 Wire Wire Line
 	3150 3450 3250 3450
-Text GLabel 9700 950  0    60   Input ~ 0
-XUY05/
 Text GLabel 9700 1050 0    60   Input ~ 0
+XUY05/
+Text GLabel 9700 1150 0    60   Input ~ 0
 XUY06/
 Wire Wire Line
-	8850 4050 8750 4050
-Wire Wire Line
-	9800 1050 9700 1050
-Text GLabel 9700 1150 0    60   Input ~ 0
-WL05/
+	9800 950  9700 950 
 Wire Wire Line
 	9800 1150 9700 1150
 Text GLabel 9700 1250 0    60   Input ~ 0
-WL06/
+WL05/
 Wire Wire Line
 	9800 1250 9700 1250
 Text GLabel 9700 1350 0    60   Input ~ 0
-WL07/
+WL06/
 Wire Wire Line
 	9800 1350 9700 1350
 Text GLabel 9700 1450 0    60   Input ~ 0
-WL08/
+WL07/
 Wire Wire Line
 	9800 1450 9700 1450
+Text GLabel 9700 1550 0    60   Input ~ 0
+WL08/
+Wire Wire Line
+	9800 1550 9700 1550
 Text GLabel 5900 2750 2    60   Output ~ 0
 CI09/
 Wire Wire Line
@@ -1707,14 +1714,14 @@ Text GLabel 5900 2850 2    60   Output ~ 0
 CO10
 Wire Wire Line
 	5800 2850 5900 2850
-Text GLabel 8750 3550 0    60   Input ~ 0
-CI09/
 Text GLabel 8750 3650 0    60   Input ~ 0
+CI09/
+Text GLabel 8750 3750 0    60   Input ~ 0
 CO10
 Wire Wire Line
-	8850 3550 8750 3550
-Wire Wire Line
 	8850 3650 8750 3650
+Wire Wire Line
+	8850 3750 8750 3750
 Text Label 3250 2200 0    60   ~ 0
 L06/
 Text GLabel 5900 2200 2    60   Output ~ 0
@@ -1722,7 +1729,54 @@ L08/
 Wire Wire Line
 	5800 2200 5900 2200
 Wire Wire Line
-	9700 950  9800 950 
-Text GLabel 8750 4050 0    60   Input ~ 0
+	9700 1050 9800 1050
+Text GLabel 9700 950  0    60   Input ~ 0
 L08/
+Wire Wire Line
+	1750 8600 1200 8600
+Wire Wire Line
+	1200 8500 1200 8750
+Wire Wire Line
+	1750 8700 1200 8700
+Connection ~ 1200 8700
+$Comp
+L GND #PWR011
+U 1 1 56C64D2D
+P 1200 8750
+F 0 "#PWR011" H 1200 8500 50  0001 C CNN
+F 1 "GND" H 1200 8600 50  0000 C CNN
+F 2 "" H 1200 8750 60  0000 C CNN
+F 3 "" H 1200 8750 60  0000 C CNN
+	1    1200 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 8500 1750 8500
+Connection ~ 1200 8600
+Wire Wire Line
+	4400 8600 3850 8600
+Wire Wire Line
+	3850 8600 3850 8750
+Wire Wire Line
+	4400 8700 3850 8700
+Connection ~ 3850 8700
+$Comp
+L GND #PWR012
+U 1 1 56C696A6
+P 3850 8750
+F 0 "#PWR012" H 3850 8500 50  0001 C CNN
+F 1 "GND" H 3850 8600 50  0000 C CNN
+F 2 "" H 3850 8750 60  0000 C CNN
+F 3 "" H 3850 8750 60  0000 C CNN
+	1    3850 8750
+	1    0    0    -1  
+$EndComp
+Text GLabel 4300 8500 0    60   Input ~ 0
+WHOMP
+Wire Wire Line
+	4400 8500 4300 8500
+Text GLabel 8750 3550 0    60   Output ~ 0
+WHOMP
+Wire Wire Line
+	8850 3550 8750 3550
 $EndSCHEMATC
