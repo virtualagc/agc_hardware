@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:agc_kicad_components
-LIBS:four_bit_1-cache
+LIBS:four_bit_4-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
@@ -46,8 +46,8 @@ Comment4 ""
 $EndDescr
 $Sheet
 S 1750 1200 1400 7250
-U 5684C508
-F0 "A08_1" 60
+U 568CD527
+F0 "A11_1" 60
 F1 "two_bit_columns.sch" 60
 F2 "A2XG/" I L 1750 1300 60 
 F3 "_SETX_1" I L 1750 3750 60 
@@ -109,7 +109,7 @@ F58 "_L_IN_1" I L 1750 4700 60
 F59 "_WG12G_1" I L 1750 6500 60 
 F60 "_WL1" O R 3150 4050 60 
 F61 "_WL1/" O R 3150 4150 60 
-F62 "_MWL1" O R 3150 4600 60 
+F62 "_MWL1" O R 3150 4750 60 
 F63 "_CI_OUT" O R 3150 2750 60 
 F64 "_CO_IN" I L 1750 3650 60 
 F65 "_XUY_IN2" I L 1750 4050 60 
@@ -145,13 +145,15 @@ F94 "_L_IN_2" I L 1750 4800 60
 F95 "_WG12G_2" I L 1750 6600 60 
 F96 "_WL2" O R 3150 4250 60 
 F97 "_WL2/" O R 3150 4350 60 
-F98 "_MWL2" O R 3150 4700 60 
+F98 "_MWL2" O R 3150 4850 60 
 F99 "_RL1/" O R 3150 3850 60 
 F100 "_RL2/" O R 3150 3950 60 
+F101 "_RL_OUT_2" O R 3150 4600 60 
+F102 "_RL_OUT_1" O R 3150 4500 60 
 $EndSheet
 $Comp
 L DIN_41612_128P P1
-U 1 1 5684C851
+U 1 1 568CD528
 P 8100 2500
 F 0 "P1" H 8100 4150 50  0000 C CNN
 F 1 "DIN_41612_128P" V 8300 2500 50  0000 C CNN
@@ -162,7 +164,7 @@ F 3 "" H 8100 2500 60  0000 C CNN
 $EndComp
 $Comp
 L DIN_41612_128P P1
-U 2 1 5684C9DA
+U 2 1 568CD529
 P 9050 2500
 F 0 "P1" H 9050 4150 50  0000 C CNN
 F 1 "DIN_41612_128P" V 9250 2500 50  0000 C CNN
@@ -173,7 +175,7 @@ F 3 "" H 9050 2500 60  0000 C CNN
 $EndComp
 $Comp
 L DIN_41612_128P P1
-U 3 1 5684CA50
+U 3 1 568CD52A
 P 10000 2500
 F 0 "P1" H 10000 4150 50  0000 C CNN
 F 1 "DIN_41612_128P" V 10200 2500 50  0000 C CNN
@@ -184,7 +186,7 @@ F 3 "" H 10000 2500 60  0000 C CNN
 $EndComp
 $Comp
 L DIN_41612_128P P1
-U 4 1 5684CA9C
+U 4 1 568CD52B
 P 11250 2500
 F 0 "P1" H 11250 4150 50  0000 C CNN
 F 1 "DIN_41612_128P" V 11450 2500 50  0000 C CNN
@@ -195,7 +197,7 @@ F 3 "" H 11250 2500 60  0000 C CNN
 $EndComp
 $Comp
 L GND #PWR01
-U 1 1 5684CAE2
+U 1 1 568CD52C
 P 10950 4200
 F 0 "#PWR01" H 10950 3950 50  0001 C CNN
 F 1 "GND" H 10950 4050 50  0000 C CNN
@@ -206,7 +208,7 @@ F 3 "" H 10950 4200 60  0000 C CNN
 $EndComp
 $Comp
 L DIN_41612_128P P1
-U 5 1 5684CB44
+U 5 1 568CD52D
 P 12050 2500
 F 0 "P1" H 12050 4150 50  0000 C CNN
 F 1 "DIN_41612_128P" V 12250 2500 50  0000 C CNN
@@ -217,7 +219,7 @@ F 3 "" H 12050 2500 60  0000 C CNN
 $EndComp
 $Comp
 L GND #PWR02
-U 1 1 5684CB8A
+U 1 1 568CD52E
 P 11750 4200
 F 0 "#PWR02" H 11750 3950 50  0001 C CNN
 F 1 "GND" H 11750 4050 50  0000 C CNN
@@ -228,7 +230,7 @@ F 3 "" H 11750 4200 60  0000 C CNN
 $EndComp
 $Comp
 L DIN_41612_128P P1
-U 6 1 5684CB90
+U 6 1 568CD52F
 P 12900 2500
 F 0 "P1" H 12900 4150 50  0000 C CNN
 F 1 "DIN_41612_128P" V 13100 2500 50  0000 C CNN
@@ -239,7 +241,7 @@ F 3 "" H 12900 2500 60  0000 C CNN
 $EndComp
 $Comp
 L GND #PWR03
-U 1 1 5684CBD6
+U 1 1 568CD530
 P 12600 4200
 F 0 "#PWR03" H 12600 3950 50  0001 C CNN
 F 1 "GND" H 12600 4050 50  0000 C CNN
@@ -250,7 +252,7 @@ F 3 "" H 12600 4200 60  0000 C CNN
 $EndComp
 $Comp
 L VCC #PWR04
-U 1 1 5684D251
+U 1 1 568CD531
 P 12600 800
 F 0 "#PWR04" H 12600 650 50  0001 C CNN
 F 1 "VCC" H 12600 950 50  0000 C CNN
@@ -260,109 +262,111 @@ F 3 "" H 12600 800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 4300 1200 1400 7250
-U 5689EF80
-F0 "A08_2" 60
+S 4600 1200 1400 7250
+U 568CD532
+F0 "A11_2" 60
 F1 "two_bit_columns.sch" 60
-F2 "A2XG/" I L 4300 1300 60 
-F3 "_SETX_1" I L 4300 3750 60 
-F4 "CLXC" I L 4300 1800 60 
-F5 "CUG" I L 4300 2000 60 
-F6 "_WYHILOG" I L 4300 7300 60 
-F7 "_WL_WYD_1" I L 4300 8250 60 
-F8 "_WYDG_1" I L 4300 7100 60 
-F9 "_XUY1" O R 5700 3350 60 
-F10 "_SUMA1" O R 5700 2950 60 
-F11 "_CI_IN" I L 4300 3550 60 
-F12 "_SUMB1" O R 5700 3150 60 
-F13 "_RUG_1" I L 4300 6050 60 
-F14 "_XUY_IN1" I L 4300 3950 60 
-F15 "_CO_OUT" O R 5700 2850 60 
-F16 "WAG/" I L 4300 2900 60 
-F17 "WALSG/" I L 4300 3000 60 
-F18 "_WALSG_IN1" I L 4300 6300 60 
-F19 "CAG" I L 4300 1400 60 
-F20 "_A1/" O R 5700 1300 60 
-F21 "RAG/" I L 4300 2300 60 
-F22 "_CH1" I L 4300 4200 60 
-F23 "WLG/" I L 4300 3200 60 
-F24 "_L_OP/" I L 4300 4900 60 
-F25 "_L_OP_IN1" I L 4300 5000 60 
-F26 "_CLG" I L 4300 1700 60 
-F27 "_L1/" O R 5700 2100 60 
-F28 "RLG/" I L 4300 2600 60 
-F29 "WQG/" I L 4300 3300 60 
-F30 "CQG" I L 4300 1900 60 
-F31 "RQG/" I L 4300 2700 60 
-F32 "WZG/" I L 4300 3400 60 
-F33 "CZG" I L 4300 2100 60 
-F34 "_Z1/" O R 5700 2500 60 
-F35 "RZG/" I L 4300 2800 60 
-F36 "_Q1/" O R 5700 2300 60 
-F37 "_MDT_1" I L 4300 5450 60 
-F38 "_WL_EXTRA1_1" I L 4300 7450 60 
-F39 "_WL_EXTRA2_1" I L 4300 7650 60 
-F40 "WBG/" I L 4300 3100 60 
-F41 "CBG" I L 4300 1500 60 
-F42 "_B1/" O R 5700 1500 60 
-F43 "_RBG/" I L 4300 5950 60 
-F44 "RCG/" I L 4300 2400 60 
-F45 "_SA_1" I L 4300 5700 60 
-F46 "CGG" I L 4300 1600 60 
-F47 "RGG/" I L 4300 2500 60 
-F48 "_GEM1" O R 5700 3600 60 
-F49 "_LINH_1" I L 4300 5200 60 
-F50 "_G_ED_1" I L 4300 4450 60 
-F51 "_G1" O R 5700 1700 60 
-F52 "_G1/" O R 5700 1800 60 
-F53 "_WLM_1/" I L 4300 7850 60 
-F54 "_WLP_1/" I L 4300 8050 60 
-F55 "_WG3G_1" I L 4300 6700 60 
-F56 "_WG45G_1" I L 4300 6900 60 
-F57 "L2GDG/" I L 4300 2200 60 
-F58 "_L_IN_1" I L 4300 4700 60 
-F59 "_WG12G_1" I L 4300 6500 60 
-F60 "_WL1" O R 5700 4050 60 
-F61 "_WL1/" O R 5700 4150 60 
-F62 "_MWL1" O R 5700 4600 60 
-F63 "_CI_OUT" O R 5700 2750 60 
-F64 "_CO_IN" I L 4300 3650 60 
-F65 "_XUY_IN2" I L 4300 4050 60 
-F66 "_RUG_2" I L 4300 6150 60 
-F67 "_SUMB2" O R 5700 3250 60 
-F68 "_SUMA2" O R 5700 3050 60 
-F69 "_XUY2" O R 5700 3450 60 
-F70 "_WYDG_2" I L 4300 7200 60 
-F71 "_WL_WYD_2" I L 4300 8350 60 
-F72 "_SETX_2" I L 4300 3850 60 
-F73 "_WALSG_IN2" I L 4300 6400 60 
-F74 "_A2/" O R 5700 1400 60 
-F75 "_CH2" I L 4300 4300 60 
-F76 "_LINH_2" I L 4300 5300 60 
-F77 "_WL_EXTRA2_2" I L 4300 7750 60 
-F78 "_WL_EXTRA1_2" I L 4300 7550 60 
-F79 "_MDT_2" I L 4300 5550 60 
-F80 "_Q2/" O R 5700 2400 60 
-F81 "_Z2/" O R 5700 2600 60 
-F82 "_L2/" O R 5700 2200 60 
-F83 "_L_OP_IN2" I L 4300 5100 60 
-F84 "_B2/" O R 5700 1600 60 
-F85 "_SA_2" I L 4300 5800 60 
-F86 "_GEM2" O R 5700 3700 60 
-F87 "_G_ED_2" I L 4300 4550 60 
-F88 "_G2" O R 5700 1900 60 
-F89 "_G2/" O R 5700 2000 60 
-F90 "_WLM_2/" I L 4300 7950 60 
-F91 "_WLP_2/" I L 4300 8150 60 
-F92 "_WG3G_2" I L 4300 6800 60 
-F93 "_WG45G_2" I L 4300 7000 60 
-F94 "_L_IN_2" I L 4300 4800 60 
-F95 "_WG12G_2" I L 4300 6600 60 
-F96 "_WL2" O R 5700 4250 60 
-F97 "_WL2/" O R 5700 4350 60 
-F98 "_MWL2" O R 5700 4700 60 
-F99 "_RL1/" O R 5700 3850 60 
-F100 "_RL2/" O R 5700 3950 60 
+F2 "A2XG/" I L 4600 1300 60 
+F3 "_SETX_1" I L 4600 3750 60 
+F4 "CLXC" I L 4600 1800 60 
+F5 "CUG" I L 4600 2000 60 
+F6 "_WYHILOG" I L 4600 7300 60 
+F7 "_WL_WYD_1" I L 4600 8250 60 
+F8 "_WYDG_1" I L 4600 7100 60 
+F9 "_XUY1" O R 6000 3350 60 
+F10 "_SUMA1" O R 6000 2950 60 
+F11 "_CI_IN" I L 4600 3550 60 
+F12 "_SUMB1" O R 6000 3150 60 
+F13 "_RUG_1" I L 4600 6050 60 
+F14 "_XUY_IN1" I L 4600 3950 60 
+F15 "_CO_OUT" O R 6000 2850 60 
+F16 "WAG/" I L 4600 2900 60 
+F17 "WALSG/" I L 4600 3000 60 
+F18 "_WALSG_IN1" I L 4600 6300 60 
+F19 "CAG" I L 4600 1400 60 
+F20 "_A1/" O R 6000 1300 60 
+F21 "RAG/" I L 4600 2300 60 
+F22 "_CH1" I L 4600 4200 60 
+F23 "WLG/" I L 4600 3200 60 
+F24 "_L_OP/" I L 4600 4900 60 
+F25 "_L_OP_IN1" I L 4600 5000 60 
+F26 "_CLG" I L 4600 1700 60 
+F27 "_L1/" O R 6000 2100 60 
+F28 "RLG/" I L 4600 2600 60 
+F29 "WQG/" I L 4600 3300 60 
+F30 "CQG" I L 4600 1900 60 
+F31 "RQG/" I L 4600 2700 60 
+F32 "WZG/" I L 4600 3400 60 
+F33 "CZG" I L 4600 2100 60 
+F34 "_Z1/" O R 6000 2500 60 
+F35 "RZG/" I L 4600 2800 60 
+F36 "_Q1/" O R 6000 2300 60 
+F37 "_MDT_1" I L 4600 5450 60 
+F38 "_WL_EXTRA1_1" I L 4600 7450 60 
+F39 "_WL_EXTRA2_1" I L 4600 7650 60 
+F40 "WBG/" I L 4600 3100 60 
+F41 "CBG" I L 4600 1500 60 
+F42 "_B1/" O R 6000 1500 60 
+F43 "_RBG/" I L 4600 5950 60 
+F44 "RCG/" I L 4600 2400 60 
+F45 "_SA_1" I L 4600 5700 60 
+F46 "CGG" I L 4600 1600 60 
+F47 "RGG/" I L 4600 2500 60 
+F48 "_GEM1" O R 6000 3600 60 
+F49 "_LINH_1" I L 4600 5200 60 
+F50 "_G_ED_1" I L 4600 4450 60 
+F51 "_G1" O R 6000 1700 60 
+F52 "_G1/" O R 6000 1800 60 
+F53 "_WLM_1/" I L 4600 7850 60 
+F54 "_WLP_1/" I L 4600 8050 60 
+F55 "_WG3G_1" I L 4600 6700 60 
+F56 "_WG45G_1" I L 4600 6900 60 
+F57 "L2GDG/" I L 4600 2200 60 
+F58 "_L_IN_1" I L 4600 4700 60 
+F59 "_WG12G_1" I L 4600 6500 60 
+F60 "_WL1" O R 6000 4050 60 
+F61 "_WL1/" O R 6000 4150 60 
+F62 "_MWL1" O R 6000 4750 60 
+F63 "_CI_OUT" O R 6000 2750 60 
+F64 "_CO_IN" I L 4600 3650 60 
+F65 "_XUY_IN2" I L 4600 4050 60 
+F66 "_RUG_2" I L 4600 6150 60 
+F67 "_SUMB2" O R 6000 3250 60 
+F68 "_SUMA2" O R 6000 3050 60 
+F69 "_XUY2" O R 6000 3450 60 
+F70 "_WYDG_2" I L 4600 7200 60 
+F71 "_WL_WYD_2" I L 4600 8350 60 
+F72 "_SETX_2" I L 4600 3850 60 
+F73 "_WALSG_IN2" I L 4600 6400 60 
+F74 "_A2/" O R 6000 1400 60 
+F75 "_CH2" I L 4600 4300 60 
+F76 "_LINH_2" I L 4600 5300 60 
+F77 "_WL_EXTRA2_2" I L 4600 7750 60 
+F78 "_WL_EXTRA1_2" I L 4600 7550 60 
+F79 "_MDT_2" I L 4600 5550 60 
+F80 "_Q2/" O R 6000 2400 60 
+F81 "_Z2/" O R 6000 2600 60 
+F82 "_L2/" O R 6000 2200 60 
+F83 "_L_OP_IN2" I L 4600 5100 60 
+F84 "_B2/" O R 6000 1600 60 
+F85 "_SA_2" I L 4600 5800 60 
+F86 "_GEM2" O R 6000 3700 60 
+F87 "_G_ED_2" I L 4600 4550 60 
+F88 "_G2" O R 6000 1900 60 
+F89 "_G2/" O R 6000 2000 60 
+F90 "_WLM_2/" I L 4600 7950 60 
+F91 "_WLP_2/" I L 4600 8150 60 
+F92 "_WG3G_2" I L 4600 6800 60 
+F93 "_WG45G_2" I L 4600 7000 60 
+F94 "_L_IN_2" I L 4600 4800 60 
+F95 "_WG12G_2" I L 4600 6600 60 
+F96 "_WL2" O R 6000 4250 60 
+F97 "_WL2/" O R 6000 4350 60 
+F98 "_MWL2" O R 6000 4850 60 
+F99 "_RL1/" O R 6000 3850 60 
+F100 "_RL2/" O R 6000 3950 60 
+F101 "_RL_OUT_2" O R 6000 4600 60 
+F102 "_RL_OUT_1" O R 6000 4500 60 
 $EndSheet
 Text GLabel 1650 1300 0    60   Input ~ 0
 A2XG/
@@ -452,118 +456,83 @@ Text GLabel 7800 2950 0    60   Output ~ 0
 WQG/
 Text GLabel 7800 3050 0    60   Output ~ 0
 WZG/
-Text GLabel 4200 1300 0    60   Input ~ 0
+Text GLabel 4500 1300 0    60   Input ~ 0
 A2XG/
-Text GLabel 4200 1400 0    60   Input ~ 0
+Text GLabel 4500 1400 0    60   Input ~ 0
 CAG
-Text GLabel 4200 1500 0    60   Input ~ 0
+Text GLabel 4500 1500 0    60   Input ~ 0
 CBG
-Text GLabel 4200 1600 0    60   Input ~ 0
+Text GLabel 4500 1600 0    60   Input ~ 0
 CGG
-Text GLabel 4200 1700 0    60   Input ~ 0
+Text GLabel 4500 1700 0    60   Input ~ 0
 CLG1G
-Text GLabel 4200 1800 0    60   Input ~ 0
+Text GLabel 4500 1800 0    60   Input ~ 0
 CLXC
-Text GLabel 4200 1900 0    60   Input ~ 0
+Text GLabel 4500 1900 0    60   Input ~ 0
 CQG
-Text GLabel 4200 2000 0    60   Input ~ 0
+Text GLabel 4500 2000 0    60   Input ~ 0
 CUG
-Text GLabel 4200 2100 0    60   Input ~ 0
+Text GLabel 4500 2100 0    60   Input ~ 0
 CZG
-Text GLabel 4200 2200 0    60   Input ~ 0
+Text GLabel 4500 2200 0    60   Input ~ 0
 L2GDG/
-Text GLabel 4200 2300 0    60   Input ~ 0
+Text GLabel 4500 2300 0    60   Input ~ 0
 RAG/
-Text GLabel 4200 2400 0    60   Input ~ 0
+Text GLabel 4500 2400 0    60   Input ~ 0
 RCG/
-Text GLabel 4200 2500 0    60   Input ~ 0
+Text GLabel 4500 2500 0    60   Input ~ 0
 RGG/
-Text GLabel 4200 2600 0    60   Input ~ 0
+Text GLabel 4500 2600 0    60   Input ~ 0
 RLG/
-Text GLabel 4200 2700 0    60   Input ~ 0
+Text GLabel 4500 2700 0    60   Input ~ 0
 RQG/
-Text GLabel 4200 2800 0    60   Input ~ 0
+Text GLabel 4500 2800 0    60   Input ~ 0
 RZG/
-Text GLabel 4200 2900 0    60   Input ~ 0
+Text GLabel 4500 2900 0    60   Input ~ 0
 WAG/
-Text GLabel 4200 3000 0    60   Input ~ 0
+Text GLabel 4500 3000 0    60   Input ~ 0
 WALSG/
-Text GLabel 4200 3100 0    60   Input ~ 0
+Text GLabel 4500 3100 0    60   Input ~ 0
 WBG/
-Text GLabel 4200 3200 0    60   Input ~ 0
+Text GLabel 4500 3200 0    60   Input ~ 0
 WLG/
-Text GLabel 4200 3300 0    60   Input ~ 0
+Text GLabel 4500 3300 0    60   Input ~ 0
 WQG/
-Text GLabel 4200 3400 0    60   Input ~ 0
+Text GLabel 4500 3400 0    60   Input ~ 0
 WZG/
 Text GLabel 1650 3550 0    60   Input ~ 0
-CI01/
+CI13/
+Text GLabel 7800 3150 0    60   Output ~ 0
+CI13/
+Text GLabel 4500 3850 0    60   Input ~ 0
+MONEX
+Text GLabel 7800 3450 0    60   Output ~ 0
+MONEX
+Text Label 3200 2750 0    60   ~ 0
+CI15/
+Text Label 3200 2850 0    60   ~ 0
+CO16
+Text GLabel 4500 3950 0    60   Input ~ 0
+XUY01/
+Text GLabel 4500 4050 0    60   Input ~ 0
+XUY02/
+Text GLabel 1650 4200 0    60   Input ~ 0
+CH13
+Text GLabel 1650 4300 0    60   Input ~ 0
+CH14
+Text GLabel 4500 4200 0    60   Input ~ 0
+CH16
+Text GLabel 7800 3750 0    60   Output ~ 0
+CH13
+Text GLabel 7800 3850 0    60   Output ~ 0
+CH14
+Text GLabel 7800 3950 0    60   Output ~ 0
+CH16
 $Comp
 L GND #PWR05
-U 1 1 568C04F8
-P 1200 3750
-F 0 "#PWR05" H 1200 3500 50  0001 C CNN
-F 1 "GND" H 1200 3600 50  0000 C CNN
-F 2 "" H 1200 3750 60  0000 C CNN
-F 3 "" H 1200 3750 60  0000 C CNN
-	1    1200 3750
-	1    0    0    -1  
-$EndComp
-Text GLabel 7800 3150 0    60   Output ~ 0
-CI01/
-Text GLabel 1650 3750 0    60   Input ~ 0
-PONEX
-Text GLabel 1650 3850 0    60   Input ~ 0
-TWOX
-Text GLabel 4200 3750 0    60   Input ~ 0
-MONEX
-Text GLabel 7800 3250 0    60   Output ~ 0
-MONEX
-Text GLabel 7800 3350 0    60   Output ~ 0
-PONEX
-Text GLabel 7800 3450 0    60   Output ~ 0
-TWOX
-Text Label 3200 2750 0    60   ~ 0
-CI03/
-Text Label 3200 2850 0    60   ~ 0
-CO04
-Text GLabel 4200 3950 0    60   Input ~ 0
-XUY05/
-Text GLabel 4200 4050 0    60   Input ~ 0
-XUY06/
-Text GLabel 7800 3550 0    60   Output ~ 0
-XUY05/
-Text GLabel 7800 3650 0    60   Output ~ 0
-XUY06/
-Text GLabel 1650 4200 0    60   Input ~ 0
-CH01
-Text GLabel 1650 4300 0    60   Input ~ 0
-CH02
-Text GLabel 4200 4200 0    60   Input ~ 0
-CH03
-Text GLabel 4200 4300 0    60   Input ~ 0
-CH04
-Text GLabel 7800 3750 0    60   Output ~ 0
-CH01
-Text GLabel 7800 3850 0    60   Output ~ 0
-CH02
-Text GLabel 7800 3950 0    60   Output ~ 0
-CH03
-Text GLabel 7800 4050 0    60   Output ~ 0
-CH04
-Text GLabel 1650 4450 0    60   Input ~ 0
-G01ED
-Text GLabel 1650 4550 0    60   Input ~ 0
-G02ED
-Text GLabel 4200 4450 0    60   Input ~ 0
-G03ED
-Text GLabel 4200 4550 0    60   Input ~ 0
-G04ED
-$Comp
-L GND #PWR06
-U 1 1 56911028
+U 1 1 568CD533
 P 1200 5350
-F 0 "#PWR06" H 1200 5100 50  0001 C CNN
+F 0 "#PWR05" H 1200 5100 50  0001 C CNN
 F 1 "GND" H 1200 5200 50  0000 C CNN
 F 2 "" H 1200 5350 60  0000 C CNN
 F 3 "" H 1200 5350 60  0000 C CNN
@@ -571,30 +540,153 @@ F 3 "" H 1200 5350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
-U 1 1 5691228F
-P 3750 5350
-F 0 "#PWR07" H 3750 5100 50  0001 C CNN
-F 1 "GND" H 3750 5200 50  0000 C CNN
-F 2 "" H 3750 5350 60  0000 C CNN
-F 3 "" H 3750 5350 60  0000 C CNN
-	1    3750 5350
+L GND #PWR06
+U 1 1 568CD534
+P 4050 5350
+F 0 "#PWR06" H 4050 5100 50  0001 C CNN
+F 1 "GND" H 4050 5200 50  0000 C CNN
+F 2 "" H 4050 5350 60  0000 C CNN
+F 3 "" H 4050 5350 60  0000 C CNN
+	1    4050 5350
 	1    0    0    -1  
 $EndComp
+Text Label 6150 3350 0    60   ~ 0
+XUY15/
+Text Label 6150 3450 0    60   ~ 0
+XUY16/
+Text Label 6150 2200 0    60   ~ 0
+L16/
+Text GLabel 7800 4050 0    60   Output ~ 0
+L12/
+Text GLabel 1650 4900 0    60   Input ~ 0
+WALSG/
+Text GLabel 4500 4900 0    60   Input ~ 0
+G2LSG/
 Text GLabel 8750 950  0    60   Output ~ 0
-G01ED
-Text GLabel 8750 1050 0    60   Output ~ 0
-G02ED
-Text GLabel 8750 1150 0    60   Output ~ 0
-G03ED
+G2LSG/
+Text GLabel 4500 5000 0    60   Input ~ 0
+G01/
 Text GLabel 8750 1250 0    60   Output ~ 0
-G04ED
+G01/
+Text GLabel 1650 5450 0    60   Input ~ 0
+MDT13
+Text GLabel 1650 5550 0    60   Input ~ 0
+MDT14
+Text GLabel 4500 5450 0    60   Input ~ 0
+MDT15
+Text GLabel 4500 5550 0    60   Input ~ 0
+MDT16
+Text GLabel 8750 1350 0    60   Output ~ 0
+MDT13
+Text GLabel 8750 1450 0    60   Output ~ 0
+MDT14
+Text GLabel 8750 1550 0    60   Output ~ 0
+MDT15
+Text GLabel 8750 1650 0    60   Output ~ 0
+MDT16
+Text GLabel 1650 5700 0    60   Input ~ 0
+SA13
+Text GLabel 1650 5800 0    60   Input ~ 0
+SA14
+Text GLabel 4500 5700 0    60   Input ~ 0
+SA16
+Text GLabel 8750 1750 0    60   Output ~ 0
+SA13
+Text GLabel 8750 1850 0    60   Output ~ 0
+SA14
+Text GLabel 8750 1950 0    60   Output ~ 0
+SA16
+Text GLabel 1650 5950 0    60   Input ~ 0
+RBHG/
+Text GLabel 4500 5950 0    60   Input ~ 0
+RBHG/
+Text GLabel 8750 2050 0    60   Output ~ 0
+RBHG/
+Text GLabel 1650 6050 0    60   Input ~ 0
+RULOG/
+Text GLabel 4500 6050 0    60   Input ~ 0
+RULOG/
+Text GLabel 1650 6300 0    60   Input ~ 0
+WL15/
+Text GLabel 1650 6400 0    60   Input ~ 0
+WL16/
+Text GLabel 4500 6300 0    60   Input ~ 0
+G16SW/
+Text GLabel 1650 6500 0    60   Input ~ 0
+WG1G/
+Text GLabel 4500 6500 0    60   Input ~ 0
+WG1G/
+Text GLabel 8750 2550 0    60   Output ~ 0
+WG2G/
+Text GLabel 1650 6700 0    60   Input ~ 0
+WG3G/
+Text GLabel 4500 6800 0    60   Input ~ 0
+WG3G/
+Text GLabel 8750 2650 0    60   Output ~ 0
+WG3G/
+Text GLabel 1650 6900 0    60   Input ~ 0
+WG4G/
+Text GLabel 8750 2750 0    60   Output ~ 0
+WG4G/
+Text GLabel 1650 7100 0    60   Input ~ 0
+WYDG/
+Text GLabel 4500 7100 0    60   Input ~ 0
+WYDG/
+Text GLabel 8750 2950 0    60   Output ~ 0
+WYDG/
+Text GLabel 4500 7300 0    60   Input ~ 0
+WYHIG/
+Text GLabel 8750 3050 0    60   Output ~ 0
+WYHIG/
+Text GLabel 4500 7450 0    60   Input ~ 0
+R1C
+Text GLabel 8750 3150 0    60   Output ~ 0
+R1C
+Text GLabel 1650 7850 0    60   Input ~ 0
+WL12/
+Text GLabel 1650 7950 0    60   Input ~ 0
+WL13/
+Text GLabel 4500 7950 0    60   Input ~ 0
+WL14/
+Text GLabel 8750 3350 0    60   Output ~ 0
+WL12/
+Text GLabel 1650 8050 0    60   Input ~ 0
+WL14/
+Text GLabel 1650 8150 0    60   Input ~ 0
+WL16/
+Text GLabel 4500 8150 0    60   Input ~ 0
+WL01/
+Text GLabel 1650 8250 0    60   Input ~ 0
+WL12/
+Text GLabel 1650 8350 0    60   Input ~ 0
+WL13/
+Text GLabel 4500 8250 0    60   Input ~ 0
+WL14/
+Text GLabel 4500 8350 0    60   Input ~ 0
+WL16/
+$Comp
+L GND #PWR07
+U 1 1 568CD535
+P 9700 4200
+F 0 "#PWR07" H 9700 3950 50  0001 C CNN
+F 1 "GND" H 9700 4050 50  0000 C CNN
+F 2 "" H 9700 4200 60  0000 C CNN
+F 3 "" H 9700 4200 60  0000 C CNN
+	1    9700 4200
+	1    0    0    -1  
+$EndComp
+Text Label 6150 2000 0    60   ~ 0
+G16/
+Text GLabel 1650 3650 0    60   Input ~ 0
+CO14
+Text GLabel 7800 3250 0    60   Output ~ 0
+CO14
+Text GLabel 1650 3750 0    60   Input ~ 0
+MONEX
 Text GLabel 1650 4700 0    60   Input ~ 0
-MCRO/
-Text GLabel 1650 4800 0    60   Input ~ 0
-L01/
-Text GLabel 4200 4700 0    60   Input ~ 0
-L02/
+L12/
+Text Label 3250 2100 0    60   ~ 0
+L13/
 Wire Wire Line
 	11050 950  10950 950 
 Wire Wire Line
@@ -976,49 +1068,49 @@ Wire Wire Line
 Wire Wire Line
 	7900 3050 7800 3050
 Wire Wire Line
-	4300 1300 4200 1300
+	4600 1300 4500 1300
 Wire Wire Line
-	4300 1400 4200 1400
+	4600 1400 4500 1400
 Wire Wire Line
-	4300 1500 4200 1500
+	4600 1500 4500 1500
 Wire Wire Line
-	4300 1600 4200 1600
+	4600 1600 4500 1600
 Wire Wire Line
-	4300 1700 4200 1700
+	4600 1700 4500 1700
 Wire Wire Line
-	4300 1800 4200 1800
+	4600 1800 4500 1800
 Wire Wire Line
-	4300 1900 4200 1900
+	4600 1900 4500 1900
 Wire Wire Line
-	4300 2000 4200 2000
+	4600 2000 4500 2000
 Wire Wire Line
-	4300 2100 4200 2100
+	4600 2100 4500 2100
 Wire Wire Line
-	4300 2200 4200 2200
+	4600 2200 4500 2200
 Wire Wire Line
-	4300 2300 4200 2300
+	4600 2300 4500 2300
 Wire Wire Line
-	4300 2400 4200 2400
+	4600 2400 4500 2400
 Wire Wire Line
-	4300 2500 4200 2500
+	4600 2500 4500 2500
 Wire Wire Line
-	4300 2600 4200 2600
+	4600 2600 4500 2600
 Wire Wire Line
-	4300 2700 4200 2700
+	4600 2700 4500 2700
 Wire Wire Line
-	4300 2800 4200 2800
+	4600 2800 4500 2800
 Wire Wire Line
-	4300 2900 4200 2900
+	4600 2900 4500 2900
 Wire Wire Line
-	4300 3000 4200 3000
+	4600 3000 4500 3000
 Wire Wire Line
-	4300 3100 4200 3100
+	4600 3100 4500 3100
 Wire Wire Line
-	4300 3200 4200 3200
+	4600 3200 4500 3200
 Wire Wire Line
-	4300 3300 4200 3300
+	4600 3300 4500 3300
 Wire Wire Line
-	4300 3400 4200 3400
+	4600 3400 4500 3400
 Wire Wire Line
 	1750 3550 1650 3550
 Wire Wire Line
@@ -1026,88 +1118,55 @@ Wire Wire Line
 Wire Wire Line
 	3600 2750 3600 3550
 Wire Wire Line
-	3600 3550 4300 3550
+	3600 3550 4600 3550
 Wire Wire Line
 	3150 2850 3500 2850
 Wire Wire Line
 	3500 2850 3500 3650
 Wire Wire Line
-	3500 3650 4300 3650
-Wire Wire Line
-	1750 3650 1200 3650
-Wire Wire Line
-	1200 3650 1200 3750
+	3500 3650 4600 3650
 Wire Wire Line
 	7900 3150 7800 3150
 Wire Wire Line
-	1750 3750 1650 3750
+	4500 3850 4600 3850
 Wire Wire Line
-	1750 3850 1650 3850
+	7800 3450 7900 3450
 Wire Wire Line
-	4200 3750 4300 3750
+	6000 3350 6950 3350
 Wire Wire Line
-	4250 3750 4250 3850
+	6950 3350 6950 800 
 Wire Wire Line
-	4250 3850 4300 3850
-Connection ~ 4250 3750
-Wire Wire Line
-	7800 3250 7900 3250
-Wire Wire Line
-	7900 3350 7800 3350
-Wire Wire Line
-	7900 3450 7800 3450
-Wire Wire Line
-	5700 3350 6650 3350
-Wire Wire Line
-	6650 3350 6650 800 
-Wire Wire Line
-	6650 800  950  800 
+	6950 800  950  800 
 Wire Wire Line
 	950  800  950  3950
 Wire Wire Line
 	950  3950 1750 3950
 Wire Wire Line
-	5700 3450 6750 3450
+	6000 3450 7050 3450
 Wire Wire Line
-	6750 3450 6750 700 
+	7050 3450 7050 700 
 Wire Wire Line
-	6750 700  850  700 
+	7050 700  850  700 
 Wire Wire Line
 	850  700  850  4050
 Wire Wire Line
 	850  4050 1750 4050
 Wire Wire Line
-	4300 3950 4200 3950
+	4600 3950 4500 3950
 Wire Wire Line
-	4300 4050 4200 4050
-Wire Wire Line
-	7900 3550 7800 3550
-Wire Wire Line
-	7900 3650 7800 3650
+	4600 4050 4500 4050
 Wire Wire Line
 	1750 4200 1650 4200
 Wire Wire Line
 	1750 4300 1650 4300
 Wire Wire Line
-	4300 4200 4200 4200
-Wire Wire Line
-	4300 4300 4200 4300
+	4500 4200 4600 4200
 Wire Wire Line
 	7900 3750 7800 3750
 Wire Wire Line
 	7900 3850 7800 3850
 Wire Wire Line
 	7900 3950 7800 3950
-Wire Wire Line
-	7900 4050 7800 4050
-Wire Wire Line
-	1750 4450 1650 4450
-Wire Wire Line
-	1750 4550 1650 4550
-Wire Wire Line
-	4300 4450 4200 4450
-Wire Wire Line
-	4300 4550 4200 4550
 Wire Wire Line
 	1750 5200 1200 5200
 Wire Wire Line
@@ -1116,170 +1175,65 @@ Wire Wire Line
 	1750 5300 1200 5300
 Connection ~ 1200 5300
 Wire Wire Line
-	4300 5200 3750 5200
+	4050 5300 4050 5350
 Wire Wire Line
-	3750 5200 3750 5350
+	4600 5300 4050 5300
 Wire Wire Line
-	4300 5300 3750 5300
-Connection ~ 3750 5300
+	4000 4800 4600 4800
+Wire Wire Line
+	6000 2200 6750 2200
+Wire Wire Line
+	6750 2200 6750 1050
+Wire Wire Line
+	6750 1050 4000 1050
+Wire Wire Line
+	4000 1050 4000 4800
+Wire Wire Line
+	7900 4050 7800 4050
+Wire Wire Line
+	1750 4900 1650 4900
+Wire Wire Line
+	4600 4900 4500 4900
 Wire Wire Line
 	8850 950  8750 950 
 Wire Wire Line
-	8850 1050 8750 1050
-Wire Wire Line
-	8850 1150 8750 1150
+	4600 5000 4500 5000
 Wire Wire Line
 	8850 1250 8750 1250
-Wire Wire Line
-	1750 4700 1650 4700
-Wire Wire Line
-	1750 4800 1650 4800
-Wire Wire Line
-	4300 4700 4200 4700
-Wire Wire Line
-	3700 4800 4300 4800
-Wire Wire Line
-	3150 2100 3250 2100
-Text GLabel 3250 2100 2    60   Output ~ 0
-L01/
-Wire Wire Line
-	3150 2200 3250 2200
-Text GLabel 3250 2200 2    60   Output ~ 0
-L02/
-Text Label 5850 3350 0    60   ~ 0
-XUY03/
-Text Label 5850 3450 0    60   ~ 0
-XUY04/
-Wire Wire Line
-	5700 2100 6450 2100
-Wire Wire Line
-	6450 2100 6450 1050
-Wire Wire Line
-	6450 1050 3700 1050
-Wire Wire Line
-	3700 1050 3700 4800
-Text Label 5850 2100 0    60   ~ 0
-L03/
-Text GLabel 8750 1350 0    60   Output ~ 0
-MCRO/
-Wire Wire Line
-	8850 1350 8750 1350
-Text GLabel 1650 4900 0    60   Input ~ 0
-G2LSG/
-Wire Wire Line
-	1750 4900 1650 4900
-Text GLabel 4200 4900 0    60   Input ~ 0
-G2LSG/
-Wire Wire Line
-	4300 4900 4200 4900
-Text GLabel 8750 1450 0    60   Output ~ 0
-G2LSG/
-Wire Wire Line
-	8850 1450 8750 1450
-Wire Wire Line
-	1050 5000 1750 5000
-Text GLabel 1650 5100 0    60   Input ~ 0
-G05/
-Wire Wire Line
-	1750 5100 1650 5100
-Text GLabel 4200 5000 0    60   Input ~ 0
-G06/
-Wire Wire Line
-	4300 5000 4200 5000
-Text GLabel 4200 5100 0    60   Input ~ 0
-G07/
-Wire Wire Line
-	4300 5100 4200 5100
-Text GLabel 8750 1550 0    60   Output ~ 0
-G05/
-Wire Wire Line
-	8850 1550 8750 1550
-Text GLabel 8750 1650 0    60   Output ~ 0
-G06/
-Wire Wire Line
-	8850 1650 8750 1650
-Text GLabel 8750 1750 0    60   Output ~ 0
-G07/
-Wire Wire Line
-	8850 1750 8750 1750
-Text GLabel 1650 5450 0    60   Input ~ 0
-MDT01
-Text GLabel 1650 5550 0    60   Input ~ 0
-MDT02
 Wire Wire Line
 	1750 5450 1650 5450
 Wire Wire Line
 	1750 5550 1650 5550
-Text GLabel 4200 5450 0    60   Input ~ 0
-MDT03
-Text GLabel 4200 5550 0    60   Input ~ 0
-MDT04
 Wire Wire Line
-	4300 5450 4200 5450
+	4600 5450 4500 5450
 Wire Wire Line
-	4300 5550 4200 5550
-Text GLabel 8750 1850 0    60   Output ~ 0
-MDT01
-Text GLabel 8750 1950 0    60   Output ~ 0
-MDT02
+	4600 5550 4500 5550
 Wire Wire Line
-	8850 1850 8750 1850
+	8850 1350 8750 1350
 Wire Wire Line
-	8850 1950 8750 1950
-Text GLabel 8750 2050 0    60   Output ~ 0
-MDT03
-Text GLabel 8750 2150 0    60   Output ~ 0
-MDT04
+	8850 1450 8750 1450
 Wire Wire Line
-	8850 2050 8750 2050
+	8850 1550 8750 1550
 Wire Wire Line
-	8850 2150 8750 2150
-Text GLabel 1650 5700 0    60   Input ~ 0
-SA01
-Text GLabel 1650 5800 0    60   Input ~ 0
-SA02
+	8850 1650 8750 1650
 Wire Wire Line
 	1750 5700 1650 5700
 Wire Wire Line
 	1750 5800 1650 5800
-Text GLabel 4200 5700 0    60   Input ~ 0
-SA03
-Text GLabel 4200 5800 0    60   Input ~ 0
-SA04
 Wire Wire Line
-	4300 5700 4200 5700
+	4500 5700 4600 5700
 Wire Wire Line
-	4300 5800 4200 5800
-Text GLabel 8750 2250 0    60   Output ~ 0
-SA01
-Text GLabel 8750 2350 0    60   Output ~ 0
-SA02
+	8850 1750 8750 1750
 Wire Wire Line
-	8850 2250 8750 2250
+	8850 1850 8750 1850
 Wire Wire Line
-	8850 2350 8750 2350
-Text GLabel 8750 2450 0    60   Output ~ 0
-SA03
-Text GLabel 8750 2550 0    60   Output ~ 0
-SA04
-Wire Wire Line
-	8850 2450 8750 2450
-Wire Wire Line
-	8850 2550 8750 2550
-Text GLabel 1650 5950 0    60   Input ~ 0
-RBLG/
+	8850 1950 8750 1950
 Wire Wire Line
 	1750 5950 1650 5950
-Text GLabel 4200 5950 0    60   Input ~ 0
-RBLG/
 Wire Wire Line
-	4300 5950 4200 5950
-Text GLabel 8750 2650 0    60   Output ~ 0
-RBLG/
+	4600 5950 4500 5950
 Wire Wire Line
-	8850 2650 8750 2650
-Text GLabel 1650 6050 0    60   Input ~ 0
-RULOG/
+	8850 2050 8750 2050
 Wire Wire Line
 	1650 6050 1750 6050
 Wire Wire Line
@@ -1287,53 +1241,18 @@ Wire Wire Line
 Wire Wire Line
 	1700 6150 1750 6150
 Connection ~ 1700 6050
-Text GLabel 4200 6050 0    60   Input ~ 0
-RULOG/
 Wire Wire Line
-	4200 6050 4300 6050
+	4500 6050 4600 6050
 Wire Wire Line
-	4250 6050 4250 6150
-Wire Wire Line
-	4250 6150 4300 6150
-Connection ~ 4250 6050
-Text GLabel 8750 2750 0    60   Output ~ 0
-RULOG/
-Wire Wire Line
-	8750 2750 8850 2750
-Text GLabel 1650 6300 0    60   Input ~ 0
-WL03/
+	4500 6150 4600 6150
 Wire Wire Line
 	1750 6300 1650 6300
-Text GLabel 1650 6400 0    60   Input ~ 0
-WL04/
 Wire Wire Line
 	1750 6400 1650 6400
-Text GLabel 4200 6300 0    60   Input ~ 0
-WL05/
 Wire Wire Line
-	4300 6300 4200 6300
-Text GLabel 4200 6400 0    60   Input ~ 0
-WL06/
+	4500 6300 4600 6300
 Wire Wire Line
-	4300 6400 4200 6400
-Text GLabel 5800 4150 2    60   Output ~ 0
-WL03/
-Wire Wire Line
-	5700 4150 5800 4150
-Text GLabel 5800 4350 2    60   Output ~ 0
-WL04/
-Wire Wire Line
-	5700 4350 5800 4350
-Text GLabel 8750 2850 0    60   Output ~ 0
-WL05/
-Wire Wire Line
-	8850 2850 8750 2850
-Text GLabel 8750 2950 0    60   Output ~ 0
-WL06/
-Wire Wire Line
-	8850 2950 8750 2950
-Text GLabel 1650 6500 0    60   Input ~ 0
-WG1G/
+	4600 6400 4550 6400
 Wire Wire Line
 	1650 6500 1750 6500
 Wire Wire Line
@@ -1341,21 +1260,12 @@ Wire Wire Line
 Wire Wire Line
 	1700 6600 1750 6600
 Connection ~ 1700 6500
-Text GLabel 4200 6500 0    60   Input ~ 0
-WG1G/
 Wire Wire Line
-	4200 6500 4300 6500
+	4500 6500 4600 6500
 Wire Wire Line
-	4250 6500 4250 6600
+	4500 6600 4600 6600
 Wire Wire Line
-	4250 6600 4300 6600
-Connection ~ 4250 6500
-Text GLabel 8750 3050 0    60   Output ~ 0
-WG1G/
-Wire Wire Line
-	8750 3050 8850 3050
-Text GLabel 1650 6700 0    60   Input ~ 0
-WG3G/
+	8750 2550 8850 2550
 Wire Wire Line
 	1650 6700 1750 6700
 Wire Wire Line
@@ -1363,21 +1273,10 @@ Wire Wire Line
 Wire Wire Line
 	1700 6800 1750 6800
 Connection ~ 1700 6700
-Text GLabel 4200 6700 0    60   Input ~ 0
-WG3G/
 Wire Wire Line
-	4200 6700 4300 6700
+	4500 6800 4600 6800
 Wire Wire Line
-	4250 6700 4250 6800
-Wire Wire Line
-	4250 6800 4300 6800
-Connection ~ 4250 6700
-Text GLabel 8750 3150 0    60   Output ~ 0
-WG3G/
-Wire Wire Line
-	8750 3150 8850 3150
-Text GLabel 1650 6900 0    60   Input ~ 0
-WG4G/
+	8750 2650 8850 2650
 Wire Wire Line
 	1650 6900 1750 6900
 Wire Wire Line
@@ -1385,179 +1284,62 @@ Wire Wire Line
 Wire Wire Line
 	1700 7000 1750 7000
 Connection ~ 1700 6900
-Text GLabel 4200 6900 0    60   Input ~ 0
-WG4G/
 Wire Wire Line
-	4200 6900 4300 6900
+	8750 2750 8850 2750
 Wire Wire Line
-	4250 6900 4250 7000
+	1650 7100 1750 7100
 Wire Wire Line
-	4250 7000 4300 7000
-Connection ~ 4250 6900
-Text GLabel 8750 3250 0    60   Output ~ 0
-WG4G/
+	4500 7100 4600 7100
 Wire Wire Line
-	8750 3250 8850 3250
-Text GLabel 1650 7100 0    60   Input ~ 0
-WYDLOG/
+	4550 7100 4550 7200
 Wire Wire Line
-	1750 7100 1650 7100
-Text GLabel 1650 7200 0    60   Input ~ 0
-WYDG/
+	4550 7200 4600 7200
+Connection ~ 4550 7100
 Wire Wire Line
-	1750 7200 1650 7200
-Text GLabel 4200 7100 0    60   Input ~ 0
-WYDG/
+	8850 2950 8750 2950
 Wire Wire Line
-	4200 7100 4300 7100
+	4600 7300 4500 7300
 Wire Wire Line
-	4250 7100 4250 7200
+	8850 3050 8750 3050
 Wire Wire Line
-	4250 7200 4300 7200
-Connection ~ 4250 7100
-Text GLabel 8750 3350 0    60   Output ~ 0
-WYDLOG/
+	4500 7450 4600 7450
 Wire Wire Line
-	8850 3350 8750 3350
-Text GLabel 8750 3450 0    60   Output ~ 0
-WYDG/
+	4600 7550 4550 7550
 Wire Wire Line
-	8850 3450 8750 3450
-Text GLabel 1650 7300 0    60   Input ~ 0
-WYLOG/
+	4550 7550 4550 7450
+Connection ~ 4550 7450
 Wire Wire Line
-	1750 7300 1650 7300
-Text GLabel 4200 7300 0    60   Input ~ 0
-WYLOG/
-Wire Wire Line
-	4300 7300 4200 7300
-Text GLabel 8750 3550 0    60   Output ~ 0
-WYLOG/
-Wire Wire Line
-	8850 3550 8750 3550
-Text GLabel 1650 7450 0    60   Input ~ 0
-RB1
-Wire Wire Line
-	1750 7450 1650 7450
-Text GLabel 1650 7550 0    60   Input ~ 0
-R1C
-Wire Wire Line
-	1750 7550 1650 7550
-Text GLabel 1650 7650 0    60   Input ~ 0
-R15
-Wire Wire Line
-	1750 7650 1650 7650
-Text GLabel 1650 7750 0    60   Input ~ 0
-RB2
-Wire Wire Line
-	1750 7750 1650 7750
-Text GLabel 4200 7450 0    60   Input ~ 0
-R1C
-Wire Wire Line
-	4200 7450 4300 7450
-Text GLabel 4200 7650 0    60   Input ~ 0
-R15
-Wire Wire Line
-	4200 7650 4300 7650
-Wire Wire Line
-	4300 7550 4250 7550
-Wire Wire Line
-	4300 7750 4250 7750
-Wire Wire Line
-	4250 7550 4250 7450
-Connection ~ 4250 7450
-Wire Wire Line
-	4250 7750 4250 7650
-Connection ~ 4250 7650
-Text GLabel 8750 3650 0    60   Output ~ 0
-RB1
-Wire Wire Line
-	8850 3650 8750 3650
-Text GLabel 8750 3750 0    60   Output ~ 0
-R1C
-Wire Wire Line
-	8850 3750 8750 3750
-Text GLabel 8750 3850 0    60   Output ~ 0
-R15
-Wire Wire Line
-	8850 3850 8750 3850
-Text GLabel 8750 3950 0    60   Output ~ 0
-RB2
-Wire Wire Line
-	8850 3950 8750 3950
-Text GLabel 1650 7850 0    60   Input ~ 0
-WL16/
+	8850 3150 8750 3150
 Wire Wire Line
 	1750 7850 1650 7850
-Text GLabel 1650 7950 0    60   Input ~ 0
-WL01/
 Wire Wire Line
 	1750 7950 1650 7950
-Text GLabel 3250 4150 2    60   Output ~ 0
-WL01/
 Wire Wire Line
-	3150 4150 3250 4150
-Text GLabel 3250 4350 2    60   Output ~ 0
-WL02/
+	4600 7950 4500 7950
 Wire Wire Line
-	3150 4350 3250 4350
-Text GLabel 4200 7850 0    60   Input ~ 0
-WL02/
-Wire Wire Line
-	4300 7850 4200 7850
-Text GLabel 4200 7950 0    60   Input ~ 0
-WL03/
-Wire Wire Line
-	4300 7950 4200 7950
-Text GLabel 8750 4050 0    60   Output ~ 0
-WL16/
-Wire Wire Line
-	8850 4050 8750 4050
-Text GLabel 1650 8050 0    60   Input ~ 0
-WL02/
+	8850 3350 8750 3350
 Wire Wire Line
 	1750 8050 1650 8050
-Text GLabel 1650 8150 0    60   Input ~ 0
-WL03/
 Wire Wire Line
 	1750 8150 1650 8150
-Text GLabel 4200 8050 0    60   Input ~ 0
-WL04/
 Wire Wire Line
-	4300 8050 4200 8050
-Text GLabel 4200 8150 0    60   Input ~ 0
-WL05/
-Wire Wire Line
-	4300 8150 4200 8150
-Text GLabel 1650 8250 0    60   Input ~ 0
-WL16/
+	4600 8150 4500 8150
 Wire Wire Line
 	1750 8250 1650 8250
-Text GLabel 1650 8350 0    60   Input ~ 0
-WL01/
 Wire Wire Line
 	1750 8350 1650 8350
-Text GLabel 4200 8250 0    60   Input ~ 0
-WL02/
 Wire Wire Line
-	4300 8250 4200 8250
-Text GLabel 4200 8350 0    60   Input ~ 0
-WL03/
+	4600 8250 4500 8250
 Wire Wire Line
-	4300 8350 4200 8350
-$Comp
-L GND #PWR08
-U 1 1 56A4BF3C
-P 9700 4200
-F 0 "#PWR08" H 9700 3950 50  0001 C CNN
-F 1 "GND" H 9700 4050 50  0000 C CNN
-F 2 "" H 9700 4200 60  0000 C CNN
-F 3 "" H 9700 4200 60  0000 C CNN
-	1    9700 4200
-	1    0    0    -1  
-$EndComp
+	4600 8350 4500 8350
+Wire Wire Line
+	9700 1950 9800 1950
+Wire Wire Line
+	9700 2050 9800 2050
+Connection ~ 9700 2050
 Wire Wire Line
 	9700 2150 9800 2150
+Connection ~ 9700 2150
 Wire Wire Line
 	9700 2250 9800 2250
 Connection ~ 9700 2250
@@ -1616,87 +1398,398 @@ Wire Wire Line
 	9700 4050 9800 4050
 Connection ~ 9700 4050
 Wire Wire Line
-	5700 2000 6550 2000
+	6000 2000 6850 2000
 Wire Wire Line
-	6550 2000 6550 950 
+	1750 3650 1650 3650
 Wire Wire Line
-	6550 950  1050 950 
+	7900 3250 7800 3250
 Wire Wire Line
-	1050 950  1050 5000
-Text Label 5850 2000 0    60   ~ 0
-G04/
-Text GLabel 9700 1250 0    60   Input ~ 0
-L01/
+	1650 3750 1750 3750
 Wire Wire Line
-	9800 1250 9700 1250
-Text GLabel 9700 1350 0    60   Input ~ 0
-L02/
+	1700 3750 1700 3850
 Wire Wire Line
-	9800 1350 9700 1350
+	1700 3850 1750 3850
+Connection ~ 1700 3750
 Wire Wire Line
-	9700 2150 9700 4200
-Text GLabel 9700 1550 0    60   BiDi ~ 0
+	1750 4700 1650 4700
+Wire Wire Line
+	3150 2100 3600 2100
+Wire Wire Line
+	3600 2100 3600 1050
+Wire Wire Line
+	3600 1050 1150 1050
+Wire Wire Line
+	1150 1050 1150 4800
+Wire Wire Line
+	1150 4800 1750 4800
+Wire Wire Line
+	3150 2200 3800 2200
+Wire Wire Line
+	3800 2200 3800 4700
+Wire Wire Line
+	3800 4700 4600 4700
+Wire Wire Line
+	1750 7300 1650 7300
+Text GLabel 1650 7300 0    60   Input ~ 0
+WYHIG/
+Wire Wire Line
+	1700 7100 1700 7200
+Wire Wire Line
+	1700 7200 1750 7200
+Connection ~ 1700 7100
+Text GLabel 1650 7450 0    60   Input ~ 0
+R1C
+Wire Wire Line
+	1650 7450 1750 7450
+Wire Wire Line
+	1750 7550 1700 7550
+Wire Wire Line
+	1700 7550 1700 7450
+Connection ~ 1700 7450
+Wire Wire Line
+	1750 7650 1200 7650
+Wire Wire Line
+	1200 7650 1200 7800
+Wire Wire Line
+	1750 7750 1200 7750
+Connection ~ 1200 7750
+$Comp
+L GND #PWR08
+U 1 1 568CD537
+P 1200 7800
+F 0 "#PWR08" H 1200 7550 50  0001 C CNN
+F 1 "GND" H 1200 7650 50  0000 C CNN
+F 2 "" H 1200 7800 60  0000 C CNN
+F 3 "" H 1200 7800 60  0000 C CNN
+	1    1200 7800
+	1    0    0    -1  
+$EndComp
+Text Label 3250 2200 0    60   ~ 0
+L14/
+Text GLabel 4500 3750 0    60   Input ~ 0
+BXVX
+Wire Wire Line
+	4500 3750 4600 3750
+Text GLabel 7800 3350 0    60   Output ~ 0
+BXVX
+Wire Wire Line
+	7800 3350 7900 3350
+Text GLabel 7800 3550 0    60   Output ~ 0
+XUY01/
+Text GLabel 7800 3650 0    60   Output ~ 0
+XUY02/
+Wire Wire Line
+	7900 3550 7800 3550
+Wire Wire Line
+	7900 3650 7800 3650
+Wire Wire Line
+	4550 4200 4550 4300
+Wire Wire Line
+	4550 4300 4600 4300
+Connection ~ 4550 4200
+$Comp
+L GND #PWR09
+U 1 1 56966BAA
+P 950 4600
+F 0 "#PWR09" H 950 4350 50  0001 C CNN
+F 1 "GND" H 950 4450 50  0000 C CNN
+F 2 "" H 950 4600 60  0000 C CNN
+F 3 "" H 950 4600 60  0000 C CNN
+	1    950  4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 4450 950  4450
+Wire Wire Line
+	950  4450 950  4600
+Wire Wire Line
+	1750 4550 950  4550
+Connection ~ 950  4550
+$Comp
+L GND #PWR010
+U 1 1 56967344
+P 3600 4600
+F 0 "#PWR010" H 3600 4350 50  0001 C CNN
+F 1 "GND" H 3600 4450 50  0000 C CNN
+F 2 "" H 3600 4600 60  0000 C CNN
+F 3 "" H 3600 4600 60  0000 C CNN
+	1    3600 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4450 3600 4450
+Wire Wire Line
+	3600 4450 3600 4600
+Wire Wire Line
+	4600 4550 3600 4550
+Connection ~ 3600 4550
+Text GLabel 1650 5000 0    60   Input ~ 0
 WL01/
 Wire Wire Line
-	9800 1550 9700 1550
-Text GLabel 9700 1650 0    60   BiDi ~ 0
+	1750 5000 1650 5000
+Text GLabel 1650 5100 0    60   Input ~ 0
 WL02/
 Wire Wire Line
-	9800 1650 9700 1650
-Text GLabel 9700 1750 0    60   BiDi ~ 0
-WL03/
+	1750 5100 1650 5100
 Wire Wire Line
-	9800 1750 9700 1750
-Text GLabel 9700 1850 0    60   BiDi ~ 0
-WL04/
+	6850 2000 6850 950 
 Wire Wire Line
-	9800 1850 9700 1850
-Text GLabel 5800 2750 2    60   Output ~ 0
-CI05/
+	6850 950  3900 950 
 Wire Wire Line
-	5700 2750 5800 2750
-Text GLabel 5800 2850 2    60   Output ~ 0
-CO06
+	3900 950  3900 5100
 Wire Wire Line
-	5700 2850 5800 2850
+	3900 5100 4600 5100
+Text GLabel 8750 1050 0    60   Output ~ 0
+WL01/
+Wire Wire Line
+	8850 1050 8750 1050
+Text GLabel 8750 1150 0    60   Output ~ 0
+WL02/
+Wire Wire Line
+	8850 1150 8750 1150
+Wire Wire Line
+	4600 5200 3600 5200
+Wire Wire Line
+	3600 5200 3600 5100
+$Comp
+L VCC #PWR011
+U 1 1 569953C3
+P 3600 5100
+F 0 "#PWR011" H 3600 4950 50  0001 C CNN
+F 1 "VCC" H 3600 5250 50  0000 C CNN
+F 2 "" H 3600 5100 60  0000 C CNN
+F 3 "" H 3600 5100 60  0000 C CNN
+	1    3600 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5700 4550 5800
+Wire Wire Line
+	4550 5800 4600 5800
+Connection ~ 4550 5700
+Text GLabel 4500 6150 0    60   Input ~ 0
+RUG/
+Text GLabel 8750 2150 0    60   Output ~ 0
+RULOG/
+Wire Wire Line
+	8750 2150 8850 2150
+Text GLabel 8750 2250 0    60   Output ~ 0
+RUG/
+Wire Wire Line
+	8750 2250 8850 2250
+Wire Wire Line
+	4550 6400 4550 6300
+Connection ~ 4550 6300
+Text GLabel 6100 4150 2    60   Output ~ 0
+WL15/
+Text GLabel 6100 4350 2    60   Output ~ 0
+WL16/
+Wire Wire Line
+	6000 4150 6100 4150
+Wire Wire Line
+	6000 4350 6100 4350
+Text GLabel 8750 2350 0    60   Output ~ 0
+G16SW/
+Wire Wire Line
+	8750 2350 8850 2350
+Text GLabel 4500 6600 0    60   Input ~ 0
+WG2G/
+Text GLabel 8750 2450 0    60   Output ~ 0
+WG1G/
+Wire Wire Line
+	8750 2450 8850 2450
+Wire Wire Line
+	4600 6700 3900 6700
+Wire Wire Line
+	3900 6600 3900 6900
+$Comp
+L VCC #PWR012
+U 1 1 569D9B4D
+P 3900 6600
+F 0 "#PWR012" H 3900 6450 50  0001 C CNN
+F 1 "VCC" H 3900 6750 50  0000 C CNN
+F 2 "" H 3900 6600 60  0000 C CNN
+F 3 "" H 3900 6600 60  0000 C CNN
+	1    3900 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 6900 4600 6900
+Connection ~ 3900 6700
+Wire Wire Line
+	4600 7000 4500 7000
+Text GLabel 4500 7000 0    60   Input ~ 0
+WG5G/
+Text GLabel 8750 2850 0    60   Output ~ 0
+WG5G/
+Wire Wire Line
+	8750 2850 8850 2850
+Wire Wire Line
+	6000 4600 7150 4600
+Wire Wire Line
+	7150 4600 7150 600 
+Wire Wire Line
+	7150 600  3700 600 
+Wire Wire Line
+	3700 600  3700 7650
+Wire Wire Line
+	3700 7650 4600 7650
+Text Label 6200 4600 0    60   ~ 0
+RL16
+Text GLabel 4500 7750 0    60   Input ~ 0
+US2SG
+Wire Wire Line
+	4600 7750 4500 7750
+Text GLabel 8750 3250 0    60   Output ~ 0
+US2SG
+Wire Wire Line
+	8850 3250 8750 3250
+Text GLabel 3250 4150 2    60   Output ~ 0
+WL13/
+Text GLabel 3250 4350 2    60   Output ~ 0
+WL14/
+Wire Wire Line
+	3150 4150 3250 4150
+Wire Wire Line
+	3150 4350 3250 4350
+Wire Wire Line
+	4600 7850 4000 7850
+Wire Wire Line
+	4000 7850 4000 8100
+$Comp
+L GND #PWR013
+U 1 1 56A0FE07
+P 4000 8100
+F 0 "#PWR013" H 4000 7850 50  0001 C CNN
+F 1 "GND" H 4000 7950 50  0000 C CNN
+F 2 "" H 4000 8100 60  0000 C CNN
+F 3 "" H 4000 8100 60  0000 C CNN
+	1    4000 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 8050 4000 8050
+Connection ~ 4000 8050
+Text GLabel 3250 1800 2    60   Output ~ 0
+G13/
+Text GLabel 3250 2000 2    60   Output ~ 0
+G14/
+Wire Wire Line
+	3150 1800 3250 1800
+Wire Wire Line
+	3150 2000 3250 2000
+Text GLabel 6100 1800 2    60   Output ~ 0
+G15/
+Wire Wire Line
+	6000 1800 6100 1800
+Text GLabel 8750 3550 0    60   Input ~ 0
+G13/
+Wire Wire Line
+	8850 3550 8750 3550
+Text GLabel 8750 3650 0    60   Input ~ 0
+G14/
+Wire Wire Line
+	8850 3650 8750 3650
+Text GLabel 8750 3750 0    60   Input ~ 0
+G15/
+Wire Wire Line
+	8850 3750 8750 3750
+Text GLabel 6100 2100 2    60   Output ~ 0
+L15/
+Wire Wire Line
+	6000 2100 6100 2100
+Text GLabel 8750 3850 0    60   Input ~ 0
+L15/
+Wire Wire Line
+	8850 3850 8750 3850
+Text GLabel 6100 3050 2    60   Output ~ 0
+SUMA16/
+Wire Wire Line
+	6000 3050 6100 3050
+Text GLabel 6100 3250 2    60   Output ~ 0
+SUMB16/
+Wire Wire Line
+	6000 3250 6100 3250
 Text GLabel 9700 950  0    60   Input ~ 0
-CI05/
+SUMA16/
 Wire Wire Line
 	9800 950  9700 950 
 Text GLabel 9700 1050 0    60   Input ~ 0
-CO06
+SUMB16/
 Wire Wire Line
 	9800 1050 9700 1050
-Text GLabel 5800 2200 2    60   Output ~ 0
-L04/
-Wire Wire Line
-	5700 2200 5800 2200
-Text GLabel 9700 1450 0    60   Input ~ 0
-L04/
-Wire Wire Line
-	9800 1450 9700 1450
-Wire Wire Line
-	3150 1800 3250 1800
-Text GLabel 3250 1800 2    60   Output ~ 0
-G01/
-Text GLabel 9700 1150 0    60   Input ~ 0
-G01/
-Wire Wire Line
-	9800 1150 9700 1150
 Text GLabel 3250 3350 2    60   Output ~ 0
-XUY01/
+XUY13/
 Wire Wire Line
 	3150 3350 3250 3350
 Text GLabel 3250 3450 2    60   Output ~ 0
-XUY02/
+XUY14/
 Wire Wire Line
 	3150 3450 3250 3450
-Text GLabel 9700 1950 0    60   Input ~ 0
-XUY01/
+Text GLabel 9700 1750 0    60   Input ~ 0
+XUY13/
 Wire Wire Line
-	9800 1950 9700 1950
-Text GLabel 9700 2050 0    60   Input ~ 0
-XUY02/
+	9800 1750 9700 1750
+Text GLabel 9700 1850 0    60   Input ~ 0
+XUY14/
 Wire Wire Line
-	9800 2050 9700 2050
+	9800 1850 9700 1850
+Text GLabel 6100 4050 2    60   Output ~ 0
+WL15
+Text GLabel 6100 4250 2    60   Output ~ 0
+WL16
+Wire Wire Line
+	6000 4050 6100 4050
+Wire Wire Line
+	6000 4250 6100 4250
+Text GLabel 9700 1150 0    60   Input ~ 0
+WL13/
+Text GLabel 9700 1250 0    60   Input ~ 0
+WL14/
+Wire Wire Line
+	9800 1150 9700 1150
+Wire Wire Line
+	9800 1250 9700 1250
+Text GLabel 9700 1450 0    60   Input ~ 0
+WL15/
+Wire Wire Line
+	9800 1450 9700 1450
+Wire Wire Line
+	9800 1650 9700 1650
+Text GLabel 9700 1350 0    60   Input ~ 0
+WL15
+Text GLabel 9700 1550 0    60   Input ~ 0
+WL16
+Wire Wire Line
+	9800 1350 9700 1350
+Wire Wire Line
+	9800 1550 9700 1550
+Text GLabel 9700 1650 0    60   Input ~ 0
+WL16/
+Wire Wire Line
+	9700 1950 9700 4200
+Text GLabel 6100 2750 2    60   Output ~ 0
+EAC/
+Wire Wire Line
+	6000 2750 6100 2750
+Text GLabel 8750 3450 0    60   Input ~ 0
+EAC/
+Wire Wire Line
+	8850 3450 8750 3450
+Text GLabel 6100 2950 2    60   Output ~ 0
+SUMA15/
+Text GLabel 6100 3150 2    60   Output ~ 0
+SUMB15/
+Wire Wire Line
+	6100 3150 6000 3150
+Wire Wire Line
+	6000 2950 6100 2950
+Text GLabel 8750 3950 0    60   Input ~ 0
+SUMA15/
+Wire Wire Line
+	8850 3950 8750 3950
+Text GLabel 8750 4050 0    60   Input ~ 0
+SUMB15/
+Wire Wire Line
+	8850 4050 8750 4050
 $EndSCHEMATC
