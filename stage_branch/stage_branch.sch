@@ -649,7 +649,6 @@ Text GLabel 13700 5200 0    60   Output ~ 0
 EXST0/
 Text GLabel 13700 5300 0    60   Output ~ 0
 EXST1/
-NoConn ~ 8350 8150
 Text GLabel 8300 2350 2    60   Output ~ 0
 BR1B2B
 Text GLabel 5950 3100 2    60   Output ~ 0
@@ -1191,7 +1190,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 8050 8200 8050
 Wire Wire Line
-	8200 8150 8350 8150
+	8200 8150 8300 8150
 Wire Wire Line
 	8300 8250 8200 8250
 Wire Wire Line
@@ -1472,10 +1471,7 @@ Wire Wire Line
 	16850 6150 16950 6150
 Connection ~ 16850 6150
 Wire Wire Line
-	16850 5850 16950 5850
-Wire Wire Line
 	16850 5950 16950 5950
-Connection ~ 16850 5950
 Wire Wire Line
 	16850 6050 16950 6050
 Connection ~ 16850 6050
@@ -1590,10 +1586,10 @@ Text GLabel 15900 4650 0    60   Input ~ 0
 DV376/
 Text GLabel 8300 8500 2    60   Output ~ 0
 MP0T10
-Text GLabel 16850 5750 0    60   Input ~ 0
+Text GLabel 16850 5850 0    60   Input ~ 0
 MP0T10
 Wire Wire Line
-	16850 5750 16950 5750
+	16850 5850 16950 5850
 Text GLabel 8300 5800 2    60   Output ~ 0
 R15
 Wire Wire Line
@@ -1654,11 +1650,11 @@ Text GLabel 16850 4250 0    60   Input ~ 0
 8PP4
 Text GLabel 8300 8250 2    60   Output ~ 0
 8XP6
-Text GLabel 16850 5550 0    60   Input ~ 0
+Text GLabel 16850 5650 0    60   Input ~ 0
 8XP6
 Text GLabel 8300 8350 2    60   Output ~ 0
 9XP1
-Text GLabel 16850 5650 0    60   Input ~ 0
+Text GLabel 16850 5750 0    60   Input ~ 0
 9XP1
 Wire Wire Line
 	16850 4250 16950 4250
@@ -1681,11 +1677,11 @@ Wire Wire Line
 Wire Wire Line
 	16850 5450 16950 5450
 Wire Wire Line
-	16950 5550 16850 5550
+	16950 5650 16850 5650
 Wire Wire Line
-	16850 5650 16950 5650
+	16850 5750 16950 5750
 Wire Wire Line
-	16850 5850 16850 6500
+	16850 5950 16850 6500
 Text GLabel 8300 7350 2    60   Output ~ 0
 4XP5
 Wire Wire Line
@@ -1894,4 +1890,10 @@ Wire Wire Line
 	16850 4150 16950 4150
 Text GLabel 16850 4150 0    60   Input ~ 0
 WY/
+Text GLabel 8300 8150 2    60   Output ~ 0
+8XP5
+Text GLabel 16850 5550 0    60   Input ~ 0
+8XP5
+Wire Wire Line
+	16950 5550 16850 5550
 $EndSCHEMATC

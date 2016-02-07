@@ -309,7 +309,7 @@ F 3 "" H 9650 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 4700 5400 1650 5500
+S 4700 5400 1650 5650
 U 5627290E
 F0 "A02_3" 60
 F1 "a02_3.sch" 60
@@ -373,6 +373,7 @@ F58 "WL15" I L 4700 6350 60
 F59 "WL16/" I L 4700 6650 60 
 F60 "WL16" I L 4700 6550 60 
 F61 "WL15/" I L 4700 6450 60 
+F62 "T12A" O R 6350 10950 60 
 $EndSheet
 NoConn ~ 6450 8400
 NoConn ~ 6450 8500
@@ -909,8 +910,6 @@ Wire Wire Line
 Wire Wire Line
 	6350 6050 6450 6050
 Wire Wire Line
-	10650 4100 11300 4100
-Wire Wire Line
 	10050 4200 10150 4200
 Wire Wire Line
 	10150 4300 10050 4300
@@ -949,7 +948,6 @@ Connection ~ 10400 6100
 Connection ~ 11300 5900
 Wire Wire Line
 	10650 5500 11300 5500
-Connection ~ 11300 5500
 Wire Wire Line
 	11300 5600 10650 5600
 Connection ~ 11300 5600
@@ -978,9 +976,7 @@ Wire Wire Line
 Wire Wire Line
 	10650 4200 10750 4200
 Wire Wire Line
-	9500 5600 9500 6100
-Wire Wire Line
-	11300 4100 11300 6100
+	9500 6100 9500 5600
 Wire Wire Line
 	10050 5400 10150 5400
 Wire Wire Line
@@ -1015,4 +1011,14 @@ Wire Wire Line
 	10050 5500 10150 5500
 Text GLabel 6550 4050 2    60   Output ~ 0
 SB2/
+Text GLabel 6450 10950 2    60   Output ~ 0
+T12A
+Wire Wire Line
+	6350 10950 6450 10950
+Wire Wire Line
+	11300 5500 11300 6100
+Text GLabel 10750 4100 2    60   Input ~ 0
+T12A
+Wire Wire Line
+	10650 4100 10750 4100
 $EndSCHEMATC
