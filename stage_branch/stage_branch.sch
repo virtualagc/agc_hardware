@@ -187,8 +187,6 @@ Text GLabel 4850 2150 2    60   Output ~ 0
 STD2
 Text GLabel 4850 2250 2    60   Output ~ 0
 ST3/
-Text GLabel 4850 2350 2    60   Output ~ 0
-ST4/
 NoConn ~ 4850 2450
 NoConn ~ 4850 2550
 NoConn ~ 4850 2650
@@ -213,8 +211,6 @@ Text GLabel 14850 5550 0    60   Input ~ 0
 ST0/
 Text GLabel 14850 5750 0    60   Input ~ 0
 STD2
-Text GLabel 14850 5950 0    60   Input ~ 0
-ST4/
 Text GLabel 14850 5650 0    60   Input ~ 0
 ST1/
 Text GLabel 14850 5850 0    60   Input ~ 0
@@ -653,17 +649,17 @@ Text GLabel 8300 2350 2    60   Output ~ 0
 BR1B2B
 Text GLabel 5950 3100 2    60   Output ~ 0
 BR2/
-Text GLabel 15900 3550 0    60   Input ~ 0
+Text GLabel 15900 3450 0    60   Input ~ 0
 BR1B2B
 Text GLabel 8300 5600 2    60   Output ~ 0
 KRPT
-Text GLabel 15900 3850 0    60   Input ~ 0
+Text GLabel 15900 3750 0    60   Input ~ 0
 KRPT
 NoConn ~ 8350 5700
 NoConn ~ 8350 8650
 Text GLabel 8300 3800 2    60   Output ~ 0
 RXOR0
-Text GLabel 15900 5550 0    60   Input ~ 0
+Text GLabel 15900 5450 0    60   Input ~ 0
 RXOR0
 NoConn ~ 8350 4350
 NoConn ~ 8350 4150
@@ -752,8 +748,6 @@ Wire Wire Line
 Wire Wire Line
 	3350 1950 3450 1950
 Wire Wire Line
-	4850 2350 4700 2350
-Wire Wire Line
 	4700 2250 4850 2250
 Wire Wire Line
 	4850 2150 4700 2150
@@ -781,8 +775,6 @@ Wire Wire Line
 	14850 5550 14950 5550
 Wire Wire Line
 	14850 5750 14950 5750
-Wire Wire Line
-	14850 5950 14950 5950
 Wire Wire Line
 	14850 5650 14950 5650
 Wire Wire Line
@@ -1199,7 +1191,7 @@ Wire Wire Line
 	8300 2350 8200 2350
 Connection ~ 5650 3100
 Wire Wire Line
-	15900 3550 16000 3550
+	15900 3450 16000 3450
 Wire Wire Line
 	8300 5800 8200 5800
 Wire Wire Line
@@ -1213,7 +1205,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 5600 8200 5600
 Wire Wire Line
-	15900 3850 16000 3850
+	15900 3750 16000 3750
 Wire Wire Line
 	8350 5700 8200 5700
 Wire Wire Line
@@ -1245,7 +1237,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 3800 8200 3800
 Wire Wire Line
-	15900 5550 16000 5550
+	15900 5450 16000 5450
 Wire Wire Line
 	8300 4250 8200 4250
 Wire Wire Line
@@ -1319,15 +1311,15 @@ Wire Wire Line
 Wire Wire Line
 	12500 6300 12600 6300
 Wire Wire Line
+	16000 4050 15900 4050
+Wire Wire Line
 	16000 4150 15900 4150
 Wire Wire Line
 	16000 4250 15900 4250
 Wire Wire Line
-	16000 4350 15900 4350
+	15900 4650 16000 4650
 Wire Wire Line
 	15900 4750 16000 4750
-Wire Wire Line
-	15900 4850 16000 4850
 Wire Wire Line
 	4850 4650 4700 4650
 Wire Wire Line
@@ -1363,18 +1355,18 @@ Wire Wire Line
 	13700 6450 13700 6300
 Wire Wire Line
 	13700 6300 13800 6300
-Text GLabel 14850 6350 0    60   Input ~ 0
+Text GLabel 14850 6250 0    60   Input ~ 0
 BR2/
 Wire Wire Line
-	14850 6350 14950 6350
+	14850 6250 14950 6250
 Text GLabel 8300 7550 2    60   Output ~ 0
 5XP4
 Wire Wire Line
 	8300 7550 8200 7550
-Text GLabel 16850 5050 0    60   Input ~ 0
+Text GLabel 16850 4950 0    60   Input ~ 0
 5XP4
 Wire Wire Line
-	16850 5050 16950 5050
+	16850 4950 16950 4950
 Connection ~ 5800 2800
 Text GLabel 5950 2800 2    60   Output ~ 0
 BR1
@@ -1384,39 +1376,39 @@ BR1/
 Connection ~ 5700 3000
 Text GLabel 5950 3000 2    60   Output ~ 0
 BR2
-Text GLabel 14850 6250 0    60   Input ~ 0
-BR2
-Wire Wire Line
-	14850 6250 14950 6250
 Text GLabel 14850 6150 0    60   Input ~ 0
-BR1/
+BR2
 Wire Wire Line
 	14850 6150 14950 6150
 Text GLabel 14850 6050 0    60   Input ~ 0
-BR1
+BR1/
 Wire Wire Line
 	14850 6050 14950 6050
-Text GLabel 15900 3250 0    60   Input ~ 0
+Text GLabel 14850 5950 0    60   Input ~ 0
+BR1
+Wire Wire Line
+	14850 5950 14950 5950
+Text GLabel 14850 6350 0    60   Input ~ 0
 BRDIF/
 Wire Wire Line
-	15900 3250 16000 3250
+	14850 6350 14950 6350
 Text GLabel 8300 2550 2    60   Output ~ 0
 BRDIF/
 Text GLabel 8300 2050 2    60   Output ~ 0
 BR1B2/
 Text GLabel 8300 2250 2    60   Output ~ 0
 BR12B/
-Text GLabel 15900 3450 0    60   Input ~ 0
-BR1B2/
 Text GLabel 15900 3350 0    60   Input ~ 0
+BR1B2/
+Text GLabel 15900 3250 0    60   Input ~ 0
 BR12B/
 Wire Wire Line
-	15900 3350 16000 3350
+	15900 3250 16000 3250
 Wire Wire Line
-	16000 3450 15900 3450
+	16000 3350 15900 3350
 Text GLabel 4850 3350 2    60   Output ~ 0
 DIV/
-Text GLabel 15900 4150 0    60   Input ~ 0
+Text GLabel 15900 4050 0    60   Input ~ 0
 DIV/
 Text GLabel 4850 3700 2    60   Output ~ 0
 DV1
@@ -1431,13 +1423,13 @@ Wire Wire Line
 Connection ~ 5450 4300
 Text GLabel 5950 4300 2    60   Output ~ 0
 DV4/
-Text GLabel 15900 4250 0    60   Input ~ 0
+Text GLabel 15900 4150 0    60   Input ~ 0
 DV1
-Text GLabel 15900 4350 0    60   Input ~ 0
+Text GLabel 15900 4250 0    60   Input ~ 0
 DV1/
-Text GLabel 15900 4750 0    60   Input ~ 0
+Text GLabel 15900 4650 0    60   Input ~ 0
 DV4
-Text GLabel 15900 4850 0    60   Input ~ 0
+Text GLabel 15900 4750 0    60   Input ~ 0
 DV4/
 $Comp
 L DIN_41612_128P P1
@@ -1479,49 +1471,49 @@ Text GLabel 8300 2800 2    60   Output ~ 0
 INOUT/
 Text GLabel 8300 2700 2    60   Output ~ 0
 INOUT
-Text GLabel 15900 3950 0    60   Input ~ 0
+Text GLabel 15900 3850 0    60   Input ~ 0
 INOUT
 Wire Wire Line
-	15900 3950 16000 3950
-Text GLabel 15900 4050 0    60   Input ~ 0
+	15900 3850 16000 3850
+Text GLabel 15900 3950 0    60   Input ~ 0
 INOUT/
 Wire Wire Line
-	15900 4050 16000 4050
+	15900 3950 16000 3950
 Text GLabel 8300 4500 2    60   Output ~ 0
 PRINC
 Wire Wire Line
-	15900 4950 16000 4950
-Text GLabel 15900 4950 0    60   Input ~ 0
+	15900 4850 16000 4850
+Text GLabel 15900 4850 0    60   Input ~ 0
 PRINC
 Text GLabel 8300 3300 2    60   Output ~ 0
 RAND0
 Wire Wire Line
-	15900 5050 16000 5050
-Text GLabel 15900 5050 0    60   Input ~ 0
+	15900 4950 16000 4950
+Text GLabel 15900 4950 0    60   Input ~ 0
 RAND0
 Text GLabel 8300 2900 2    60   Output ~ 0
 READ0
 Wire Wire Line
-	15900 5150 16000 5150
-Text GLabel 15900 5150 0    60   Input ~ 0
+	15900 5050 16000 5050
+Text GLabel 15900 5050 0    60   Input ~ 0
 READ0
 Text GLabel 8300 3500 2    60   Output ~ 0
 ROR0
 Wire Wire Line
-	15900 5250 16000 5250
-Text GLabel 15900 5250 0    60   Input ~ 0
+	15900 5150 16000 5150
+Text GLabel 15900 5150 0    60   Input ~ 0
 ROR0
 Text GLabel 8300 4050 2    60   Output ~ 0
 RUPT0
 Wire Wire Line
-	15900 5350 16000 5350
-Text GLabel 15900 5350 0    60   Input ~ 0
+	15900 5250 16000 5250
+Text GLabel 15900 5250 0    60   Input ~ 0
 RUPT0
 Text GLabel 8300 3900 2    60   Output ~ 0
 RXOR0/
 Wire Wire Line
-	15900 5650 16000 5650
-Text GLabel 15900 5650 0    60   Input ~ 0
+	15900 5550 16000 5550
+Text GLabel 15900 5550 0    60   Input ~ 0
 RXOR0/
 Text GLabel 4850 5050 2    60   Output ~ 0
 T12USE/
@@ -1533,32 +1525,32 @@ Text GLabel 8300 3400 2    60   Output ~ 0
 WAND0
 Text GLabel 8300 3600 2    60   Output ~ 0
 WOR0
-Text GLabel 15900 5750 0    60   Input ~ 0
+Text GLabel 15900 5650 0    60   Input ~ 0
 WAND0
 Wire Wire Line
-	15900 5750 16000 5750
+	15900 5650 16000 5650
 Wire Wire Line
-	15900 5850 16000 5850
-Text GLabel 15900 5850 0    60   Input ~ 0
+	15900 5750 16000 5750
+Text GLabel 15900 5750 0    60   Input ~ 0
 WOR0
 Text GLabel 8300 7650 2    60   Output ~ 0
 5XP11
-Text GLabel 16850 5150 0    60   Input ~ 0
+Text GLabel 16850 5050 0    60   Input ~ 0
 5XP11
 Wire Wire Line
-	16850 5150 16950 5150
+	16850 5050 16950 5050
 Text GLabel 8300 5400 2    60   Output ~ 0
 B15X
 Wire Wire Line
-	15900 5950 16000 5950
-Text GLabel 15900 5950 0    60   Input ~ 0
+	15900 5850 16000 5850
+Text GLabel 15900 5850 0    60   Input ~ 0
 B15X
 Text GLabel 8300 2450 2    60   Output ~ 0
 BR1B2B/
-Text GLabel 15900 3650 0    60   Input ~ 0
+Text GLabel 15900 3550 0    60   Input ~ 0
 BR1B2B/
 Wire Wire Line
-	15900 3650 16000 3650
+	15900 3550 16000 3550
 Text GLabel 4850 3250 2    60   Output ~ 0
 DIVSTG
 Connection ~ 5400 4400
@@ -1567,150 +1559,150 @@ DV1376
 Text GLabel 4850 4500 2    60   Output ~ 0
 DV1376/
 Wire Wire Line
-	16000 4450 15900 4450
+	16000 4350 15900 4350
 Wire Wire Line
-	16000 4550 15900 4550
-Text GLabel 15900 4450 0    60   Input ~ 0
+	16000 4450 15900 4450
+Text GLabel 15900 4350 0    60   Input ~ 0
 DV1376
-Text GLabel 15900 4550 0    60   Input ~ 0
+Text GLabel 15900 4450 0    60   Input ~ 0
 DV1376/
-Text GLabel 15900 3750 0    60   Input ~ 0
+Text GLabel 15900 3650 0    60   Input ~ 0
 DIVSTG
 Wire Wire Line
-	15900 3750 16000 3750
+	15900 3650 16000 3650
 Text GLabel 4850 4000 2    60   Output ~ 0
 DV376/
 Wire Wire Line
-	16000 4650 15900 4650
-Text GLabel 15900 4650 0    60   Input ~ 0
+	16000 4550 15900 4550
+Text GLabel 15900 4550 0    60   Input ~ 0
 DV376/
 Text GLabel 8300 8500 2    60   Output ~ 0
 MP0T10
-Text GLabel 16850 5850 0    60   Input ~ 0
+Text GLabel 16850 5750 0    60   Input ~ 0
 MP0T10
 Wire Wire Line
-	16850 5850 16950 5850
+	16850 5750 16950 5750
 Text GLabel 8300 5800 2    60   Output ~ 0
 R15
 Wire Wire Line
-	15900 6150 16000 6150
-Text GLabel 15900 6150 0    60   Input ~ 0
+	15900 6050 16000 6050
+Text GLabel 15900 6050 0    60   Input ~ 0
 R15
 Text GLabel 8300 6200 2    60   Output ~ 0
 RRPA
 Wire Wire Line
-	16850 3750 16950 3750
-Text GLabel 16850 3750 0    60   Input ~ 0
+	16850 3650 16950 3650
+Text GLabel 16850 3650 0    60   Input ~ 0
 RRPA
 Text GLabel 8300 4250 2    60   Output ~ 0
 RUPT1
 Wire Wire Line
-	15900 5450 16000 5450
-Text GLabel 15900 5450 0    60   Input ~ 0
+	15900 5350 16000 5350
+Text GLabel 15900 5350 0    60   Input ~ 0
 RUPT1
 Text GLabel 8300 6850 2    60   Output ~ 0
 1XP10
-Text GLabel 16850 4350 0    60   Input ~ 0
+Text GLabel 16850 4250 0    60   Input ~ 0
 1XP10
 Text GLabel 8300 6950 2    60   Output ~ 0
 2XP3
-Text GLabel 16850 4450 0    60   Input ~ 0
+Text GLabel 16850 4350 0    60   Input ~ 0
 2XP3
 Text GLabel 8300 7050 2    60   Output ~ 0
 2XP5
-Text GLabel 16850 4550 0    60   Input ~ 0
+Text GLabel 16850 4450 0    60   Input ~ 0
 2XP5
 Text GLabel 8300 7150 2    60   Output ~ 0
 3XP2
-Text GLabel 16850 4650 0    60   Input ~ 0
+Text GLabel 16850 4550 0    60   Input ~ 0
 3XP2
 Text GLabel 8300 7250 2    60   Output ~ 0
 3XP7
-Text GLabel 16850 4750 0    60   Input ~ 0
+Text GLabel 16850 4650 0    60   Input ~ 0
 3XP7
 Text GLabel 8300 7450 2    60   Output ~ 0
 4XP11
-Text GLabel 16850 4950 0    60   Input ~ 0
+Text GLabel 16850 4850 0    60   Input ~ 0
 4XP11
 Text GLabel 8300 7750 2    60   Output ~ 0
 5XP28
-Text GLabel 16850 5250 0    60   Input ~ 0
+Text GLabel 16850 5150 0    60   Input ~ 0
 5XP28
 Text GLabel 8300 7850 2    60   Output ~ 0
 6XP5
-Text GLabel 16850 5350 0    60   Input ~ 0
+Text GLabel 16850 5250 0    60   Input ~ 0
 6XP5
 Text GLabel 8300 7950 2    60   Output ~ 0
 7XP19
 Text GLabel 8300 8050 2    60   Output ~ 0
 8PP4
-Text GLabel 16850 5450 0    60   Input ~ 0
+Text GLabel 16850 5350 0    60   Input ~ 0
 7XP19
-Text GLabel 16850 4250 0    60   Input ~ 0
+Text GLabel 16850 4150 0    60   Input ~ 0
 8PP4
 Text GLabel 8300 8250 2    60   Output ~ 0
 8XP6
-Text GLabel 16850 5650 0    60   Input ~ 0
+Text GLabel 16850 5550 0    60   Input ~ 0
 8XP6
 Text GLabel 8300 8350 2    60   Output ~ 0
 9XP1
-Text GLabel 16850 5750 0    60   Input ~ 0
+Text GLabel 16850 5650 0    60   Input ~ 0
 9XP1
+Wire Wire Line
+	16850 4150 16950 4150
 Wire Wire Line
 	16850 4250 16950 4250
 Wire Wire Line
-	16850 4350 16950 4350
+	16950 4350 16850 4350
 Wire Wire Line
-	16950 4450 16850 4450
+	16850 4450 16950 4450
 Wire Wire Line
 	16850 4550 16950 4550
 Wire Wire Line
 	16850 4650 16950 4650
 Wire Wire Line
-	16850 4750 16950 4750
+	16950 4850 16850 4850
 Wire Wire Line
-	16950 4950 16850 4950
+	16850 5150 16950 5150
 Wire Wire Line
-	16850 5250 16950 5250
+	16950 5250 16850 5250
 Wire Wire Line
-	16950 5350 16850 5350
+	16850 5350 16950 5350
 Wire Wire Line
-	16850 5450 16950 5450
+	16950 5550 16850 5550
 Wire Wire Line
-	16950 5650 16850 5650
+	16850 5650 16950 5650
 Wire Wire Line
-	16850 5750 16950 5750
-Wire Wire Line
-	16850 5950 16850 6500
+	16850 5850 16850 6500
 Text GLabel 8300 7350 2    60   Output ~ 0
 4XP5
 Wire Wire Line
-	16950 4850 16850 4850
-Text GLabel 16850 4850 0    60   Input ~ 0
+	16950 4750 16850 4750
+Text GLabel 16850 4750 0    60   Input ~ 0
 4XP5
 Text GLabel 8300 5500 2    60   Output ~ 0
 CI/
 Wire Wire Line
-	15900 6050 16000 6050
-Text GLabel 15900 6050 0    60   Input ~ 0
+	15900 5950 16000 5950
+Text GLabel 15900 5950 0    60   Input ~ 0
 CI/
 Text GLabel 8300 4650 2    60   Output ~ 0
 RA/
 Wire Wire Line
-	15900 6350 16000 6350
-Text GLabel 15900 6350 0    60   Input ~ 0
+	15900 6250 16000 6250
+Text GLabel 15900 6250 0    60   Input ~ 0
 RA/
 Text GLabel 8300 4750 2    60   Output ~ 0
 RB/
 Wire Wire Line
-	16850 3250 16950 3250
-Text GLabel 16850 3250 0    60   Input ~ 0
+	15900 6350 16000 6350
+Text GLabel 15900 6350 0    60   Input ~ 0
 RB/
 Text GLabel 8300 4850 2    60   Output ~ 0
 RC/
 Wire Wire Line
-	16850 3550 16950 3550
-Text GLabel 16850 3550 0    60   Input ~ 0
+	16850 3450 16950 3450
+Text GLabel 16850 3450 0    60   Input ~ 0
 RC/
 $Comp
 L DIN_41612_128P P1
@@ -1831,14 +1823,14 @@ Wire Wire Line
 Text GLabel 8300 5250 2    60   Output ~ 0
 RSC/
 Wire Wire Line
-	16850 3650 16950 3650
-Text GLabel 16850 3650 0    60   Input ~ 0
+	16850 3550 16950 3550
+Text GLabel 16850 3550 0    60   Input ~ 0
 RSC/
 Text GLabel 8300 6700 2    60   Output ~ 0
 WCH/
 Wire Wire Line
-	16850 3850 16950 3850
-Text GLabel 16850 3850 0    60   Input ~ 0
+	16850 3750 16950 3750
+Text GLabel 16850 3750 0    60   Input ~ 0
 WCH/
 Text GLabel 6850 6300 0    60   Input ~ 0
 IC15/
@@ -1851,14 +1843,14 @@ Wire Wire Line
 Text GLabel 8300 4950 2    60   Output ~ 0
 WG/
 Wire Wire Line
-	16850 3950 16950 3950
-Text GLabel 16850 3950 0    60   Input ~ 0
+	16850 3850 16950 3850
+Text GLabel 16850 3850 0    60   Input ~ 0
 WG/
 Text GLabel 8300 5050 2    60   Output ~ 0
 WL/
 Wire Wire Line
-	16850 4050 16950 4050
-Text GLabel 16850 4050 0    60   Input ~ 0
+	16850 3950 16950 3950
+Text GLabel 16850 3950 0    60   Input ~ 0
 WL/
 Text GLabel 8300 5150 2    60   Output ~ 0
 WY/
@@ -1871,29 +1863,32 @@ Wire Wire Line
 Text GLabel 8300 6100 2    60   Output ~ 0
 RB2
 Wire Wire Line
-	16850 3450 16950 3450
-Text GLabel 16850 3450 0    60   Input ~ 0
+	16850 3350 16950 3350
+Text GLabel 16850 3350 0    60   Input ~ 0
 RB2
 Text GLabel 8300 5900 2    60   Output ~ 0
 R1C/
 Text GLabel 8300 6000 2    60   Output ~ 0
 RB1/
 Wire Wire Line
-	16850 3350 16950 3350
-Text GLabel 16850 3350 0    60   Input ~ 0
+	16850 3250 16950 3250
+Text GLabel 16850 3250 0    60   Input ~ 0
 RB1/
 Wire Wire Line
-	15900 6250 16000 6250
-Text GLabel 15900 6250 0    60   Input ~ 0
+	15900 6150 16000 6150
+Text GLabel 15900 6150 0    60   Input ~ 0
 R1C/
 Wire Wire Line
-	16850 4150 16950 4150
-Text GLabel 16850 4150 0    60   Input ~ 0
+	16850 4050 16950 4050
+Text GLabel 16850 4050 0    60   Input ~ 0
 WY/
 Text GLabel 8300 8150 2    60   Output ~ 0
 8XP5
-Text GLabel 16850 5550 0    60   Input ~ 0
+Text GLabel 16850 5450 0    60   Input ~ 0
 8XP5
 Wire Wire Line
-	16950 5550 16850 5550
+	16950 5450 16850 5450
+Wire Wire Line
+	16850 5850 16950 5850
+Connection ~ 16850 5950
 $EndSCHEMATC

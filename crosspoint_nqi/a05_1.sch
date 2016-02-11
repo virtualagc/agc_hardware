@@ -194,8 +194,6 @@ F 4 "1" H 7800 1050 60  0000 C CIN "Initial"
 $EndComp
 Text Label 6350 1050 0    60   ~ 0
 10XP7
-Text HLabel 6750 900  0    60   Input ~ 0
-10XP6
 $Comp
 L 74LVC07 U5005
 U 1 1 56561B45
@@ -661,7 +659,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 1050 6350 1050
 Wire Wire Line
-	6950 900  6750 900 
+	6950 900  6350 900 
 Wire Wire Line
 	9050 1050 9200 1050
 Wire Wire Line
@@ -862,10 +860,10 @@ F 3 "" H 7550 9700 60  0000 C CNN
 	2    7550 9700
 	1    0    0    -1  
 $EndComp
-Text HLabel 8250 9700 2    60   Output ~ 0
+Text HLabel 9150 9700 2    60   Output ~ 0
 TSGN/
 Wire Wire Line
-	8250 9700 8150 9700
+	9150 9700 9050 9700
 Wire Wire Line
 	6600 9550 6950 9550
 Wire Wire Line
@@ -2022,9 +2020,7 @@ BR2
 Wire Wire Line
 	12850 8350 13250 8350
 Wire Wire Line
-	14450 8350 14750 8350
-Text HLabel 14750 8350 2    60   Output ~ 0
-10XP6
+	14450 8350 15100 8350
 Text Notes 14400 8350 0    60   ~ 0
 MONEX
 Text Notes 14500 8450 0    60   ~ 0
@@ -2696,4 +2692,44 @@ Text HLabel 9200 4000 2    60   Output ~ 0
 MNISQ
 Text HLabel 5950 14150 0    60   Input ~ 0
 4XP5
+$Comp
+L 74LVC07 U5067
+U 5 1 56BC4770
+P 8600 9700
+F 0 "U5067" H 8795 9815 60  0000 C CNN
+F 1 "74LVC07" H 8790 9575 60  0000 C CNN
+F 2 "" H 8600 9700 60  0000 C CNN
+F 3 "" H 8600 9700 60  0000 C CNN
+	5    8600 9700
+	1    0    0    -1  
+$EndComp
+Text Label 15100 8350 2    60   ~ 0
+10XP6
+Text Label 6350 900  0    60   ~ 0
+10XP6
+Connection ~ 9100 9700
+Wire Wire Line
+	9100 9700 9100 9650
+$Comp
+L R R5012
+U 1 1 56C97E7E
+P 9100 9500
+F 0 "R5012" V 9180 9500 50  0000 C CNN
+F 1 "5k" V 9100 9500 50  0000 C CNN
+F 2 "" V 9030 9500 30  0000 C CNN
+F 3 "" H 9100 9500 30  0000 C CNN
+	1    9100 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR04
+U 1 1 56C97FAB
+P 9100 9350
+F 0 "#PWR04" H 9100 9200 50  0001 C CNN
+F 1 "VCC" H 9100 9500 50  0000 C CNN
+F 2 "" H 9100 9350 60  0000 C CNN
+F 3 "" H 9100 9350 60  0000 C CNN
+	1    9100 9350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
