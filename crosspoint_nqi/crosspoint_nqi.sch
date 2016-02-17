@@ -918,11 +918,11 @@ Text GLabel 11750 3150 0    60   Input ~ 0
 TOV/
 Text GLabel 11750 3250 0    60   Input ~ 0
 TPZG/
-Text GLabel 11750 4650 0    60   Input ~ 0
+Text GLabel 12800 1750 0    60   Input ~ 0
 TRSM
 Text GLabel 6150 4100 2    60   Output ~ 0
 DV4B1B
-Text GLabel 11750 4550 0    60   Input ~ 0
+Text GLabel 12800 1650 0    60   Input ~ 0
 DV4B1B
 Text GLabel 3450 1250 2    60   Output ~ 0
 MONEX/
@@ -940,51 +940,51 @@ Text GLabel 6150 1250 2    60   Output ~ 0
 R6
 Text GLabel 11750 1550 0    60   Input ~ 0
 R6
-Text GLabel 12800 2750 0    60   Input ~ 0
+Text GLabel 12800 2950 0    60   Input ~ 0
 10XP1
 Text GLabel 3450 4650 2    60   Output ~ 0
 10XP1
 Text GLabel 3450 4950 2    60   Output ~ 0
 10XP8
-Text GLabel 12800 2850 0    60   Input ~ 0
+Text GLabel 12800 3050 0    60   Input ~ 0
 10XP8
 Text GLabel 3450 5050 2    60   Output ~ 0
 11XP2
 Text GLabel 3450 4050 2    60   Output ~ 0
 2XP7
-Text GLabel 12800 1750 0    60   Input ~ 0
+Text GLabel 12800 1950 0    60   Input ~ 0
 2XP7
 Text GLabel 6150 4800 2    60   Output ~ 0
 2XP8
-Text GLabel 12800 1850 0    60   Input ~ 0
+Text GLabel 12800 2050 0    60   Input ~ 0
 2XP8
 Text GLabel 3450 4150 2    60   Output ~ 0
 3XP6
-Text GLabel 12800 1950 0    60   Input ~ 0
+Text GLabel 12800 2150 0    60   Input ~ 0
 3XP6
 Text GLabel 3450 4250 2    60   Output ~ 0
 5XP12
-Text GLabel 12800 2050 0    60   Input ~ 0
+Text GLabel 12800 2250 0    60   Input ~ 0
 5XP12
 Text GLabel 6150 4900 2    60   Output ~ 0
 5XP15
-Text GLabel 12800 2150 0    60   Input ~ 0
+Text GLabel 12800 2350 0    60   Input ~ 0
 5XP15
 Text GLabel 6150 5100 2    60   Output ~ 0
 6XP8
-Text GLabel 12800 2350 0    60   Input ~ 0
+Text GLabel 12800 2550 0    60   Input ~ 0
 6XP8
 Text GLabel 3450 4350 2    60   Output ~ 0
 7XP4
-Text GLabel 12800 2450 0    60   Input ~ 0
+Text GLabel 12800 2650 0    60   Input ~ 0
 7XP4
 Text GLabel 3450 4450 2    60   Output ~ 0
 7XP9
-Text GLabel 12800 2550 0    60   Input ~ 0
+Text GLabel 12800 2750 0    60   Input ~ 0
 7XP9
 Text GLabel 3450 4550 2    60   Output ~ 0
 9XP5
-Text GLabel 12800 2650 0    60   Input ~ 0
+Text GLabel 12800 2850 0    60   Input ~ 0
 9XP5
 Text GLabel 1800 7200 0    60   Input ~ 0
 4XP5
@@ -993,7 +993,7 @@ Text GLabel 10700 3750 0    60   Output ~ 0
 Text GLabel 6150 5000 2    60   Output ~ 0
 5XP21
 NoConn ~ 3450 4850
-Text GLabel 12800 2250 0    60   Input ~ 0
+Text GLabel 12800 2450 0    60   Input ~ 0
 5XP21
 Wire Wire Line
 	12800 1450 12800 1550
@@ -1570,11 +1570,11 @@ Wire Wire Line
 Wire Wire Line
 	11750 3250 11850 3250
 Wire Wire Line
-	11750 4650 11850 4650
+	12800 1750 12900 1750
 Wire Wire Line
 	6150 4100 6050 4100
 Wire Wire Line
-	11750 4550 11850 4550
+	12800 1650 12900 1650
 Wire Wire Line
 	3450 1250 3350 1250
 Wire Wire Line
@@ -1616,6 +1616,10 @@ Wire Wire Line
 Wire Wire Line
 	3350 4550 3450 4550
 Wire Wire Line
+	12900 3050 12800 3050
+Wire Wire Line
+	12800 2950 12900 2950
+Wire Wire Line
 	12900 2850 12800 2850
 Wire Wire Line
 	12800 2750 12900 2750
@@ -1624,9 +1628,9 @@ Wire Wire Line
 Wire Wire Line
 	12800 2550 12900 2550
 Wire Wire Line
-	12900 2450 12800 2450
+	12900 2350 12800 2350
 Wire Wire Line
-	12800 2350 12900 2350
+	12800 2250 12900 2250
 Wire Wire Line
 	12900 2150 12800 2150
 Wire Wire Line
@@ -1634,23 +1638,19 @@ Wire Wire Line
 Wire Wire Line
 	12900 1950 12800 1950
 Wire Wire Line
-	12800 1850 12900 1850
-Wire Wire Line
-	12900 1750 12800 1750
-Wire Wire Line
 	1800 7200 1900 7200
 Wire Wire Line
 	6050 5000 6150 5000
 Wire Wire Line
 	3450 4850 3350 4850
 Wire Wire Line
-	12800 2250 12900 2250
+	12800 2450 12900 2450
 Wire Wire Line
 	10700 3750 10800 3750
-Text GLabel 12800 2950 0    60   Input ~ 0
+Text GLabel 12800 3150 0    60   Input ~ 0
 11XP2
 Wire Wire Line
-	12800 2950 12900 2950
+	12800 3150 12900 3150
 Text GLabel 3450 2650 2    60   Output ~ 0
 TMZ/
 Wire Wire Line
@@ -1988,10 +1988,10 @@ Text GLabel 6150 2350 2    60   Output ~ 0
 SCAD
 Wire Wire Line
 	6150 2350 6050 2350
-Text GLabel 12800 1650 0    60   Input ~ 0
+Text GLabel 12800 1850 0    60   Input ~ 0
 OCTAD2
 Wire Wire Line
-	12800 1650 12900 1650
+	12800 1850 12900 1850
 Text GLabel 11750 2750 0    60   Input ~ 0
 SCAD
 Wire Wire Line
@@ -2000,16 +2000,26 @@ Text GLabel 3450 2950 2    60   Output ~ 0
 TSUDO/
 Wire Wire Line
 	3450 2950 3350 2950
-Wire Wire Line
-	12800 3050 12800 4750
 Text GLabel 11750 3450 0    60   Input ~ 0
 TSUDO/
 Wire Wire Line
 	11750 3450 11850 3450
 Wire Wire Line
-	12900 3150 12800 3150
-Connection ~ 12800 3250
+	12800 4750 12800 3250
+Text GLabel 11750 4550 0    60   Input ~ 0
+Z15/
 Wire Wire Line
-	12900 3050 12800 3050
-Connection ~ 12800 3150
+	11750 4550 11850 4550
+Text GLabel 11750 4650 0    60   Input ~ 0
+Z16/
+Wire Wire Line
+	11750 4650 11850 4650
+Text GLabel 6150 3750 2    60   Output ~ 0
+Z15/
+Wire Wire Line
+	6150 3750 6050 3750
+Text GLabel 6150 3850 2    60   Output ~ 0
+Z16/
+Wire Wire Line
+	6150 3850 6050 3850
 $EndSCHEMATC
