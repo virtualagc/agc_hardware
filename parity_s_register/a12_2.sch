@@ -1684,4 +1684,7 @@ Text HLabel 2700 8650 0    60   Input ~ 0
 8XP5
 Text HLabel 12550 3550 0    60   Input ~ 0
 OCTAD2
+Wire Wire Line
+	8200 8500 6650 8500
+Connection ~ 6650 8500
 $EndSCHEMATC

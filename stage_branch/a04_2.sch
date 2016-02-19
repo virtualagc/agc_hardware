@@ -673,6 +673,7 @@ F 0 "U4040" H 4650 11700 60  0000 C CNN
 F 1 "74HC27" H 4650 11600 60  0000 C CNN
 F 2 "" H 4650 11650 60  0000 C CNN
 F 3 "" H 4650 11650 60  0000 C CNN
+F 4 "1" H 4900 11650 60  0000 C CIN "Initial"
 	3    4650 11650
 	1    0    0    -1  
 $EndComp
@@ -2905,6 +2906,7 @@ F 0 "U4058" H 22650 19900 40  0000 C CNN
 F 1 "74HC04" H 22700 19700 40  0000 C CNN
 F 2 "" H 22500 19800 60  0000 C CNN
 F 3 "" H 22500 19800 60  0000 C CNN
+F 4 "1" H 22550 19800 60  0000 C CIN "Initial"
 	2    22500 19800
 	1    0    0    -1  
 $EndComp
@@ -2924,8 +2926,6 @@ Wire Wire Line
 	23850 19800 24050 19800
 Text HLabel 24050 19800 2    60   Output ~ 0
 L16/
-Text Notes 22300 20200 0    60   ~ 0
-Figure out what to do with this...\nthis is acting as a fan-in expansion for L bit 16
 $Comp
 L 74LVC07 U4063
 U 5 1 568260F5

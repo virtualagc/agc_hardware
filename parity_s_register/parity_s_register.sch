@@ -166,61 +166,6 @@ Wire Wire Line
 Connection ~ 9900 3700
 Wire Wire Line
 	10000 3600 9900 3600
-Connection ~ 9900 3600
-Wire Wire Line
-	10000 3500 9900 3500
-Connection ~ 9900 3500
-Wire Wire Line
-	10000 3400 9900 3400
-Connection ~ 9900 3400
-Wire Wire Line
-	10000 3300 9900 3300
-Connection ~ 9900 3300
-Wire Wire Line
-	10000 3200 9900 3200
-Connection ~ 9900 3200
-Wire Wire Line
-	10000 3100 9900 3100
-Connection ~ 9900 3100
-Wire Wire Line
-	10000 3000 9900 3000
-Connection ~ 9900 3000
-Wire Wire Line
-	10000 2900 9900 2900
-Connection ~ 9900 2900
-Wire Wire Line
-	10000 2800 9900 2800
-Connection ~ 9900 2800
-Wire Wire Line
-	10000 2700 9900 2700
-Connection ~ 9900 2700
-Wire Wire Line
-	10000 2600 9900 2600
-Connection ~ 9900 2600
-Wire Wire Line
-	10000 2500 9900 2500
-Connection ~ 9900 2500
-Wire Wire Line
-	10000 2400 9900 2400
-Connection ~ 9900 2400
-Wire Wire Line
-	10000 2300 9900 2300
-Connection ~ 9900 2300
-Wire Wire Line
-	10000 2200 9900 2200
-Connection ~ 9900 2200
-Wire Wire Line
-	10000 2100 9900 2100
-Connection ~ 9900 2100
-Wire Wire Line
-	10000 2000 9900 2000
-Connection ~ 9900 2000
-Wire Wire Line
-	10000 1900 9900 1900
-Connection ~ 9900 1900
-Wire Wire Line
-	10000 1800 9900 1800
-Connection ~ 9900 1800
 $Comp
 L DIN_41612_128P P1
 U 4 1 56AFEA23
@@ -1092,8 +1037,6 @@ Wire Wire Line
 Text GLabel 2900 1250 2    60   Output ~ 0
 GEQZRO/
 Wire Wire Line
-	10000 1700 9900 1700
-Wire Wire Line
 	10000 1200 9900 1200
 Text GLabel 9900 1200 0    60   Input ~ 0
 GEQZRO/
@@ -1201,12 +1144,12 @@ Wire Wire Line
 Text GLabel 5650 3100 2    60   Output ~ 0
 S12
 Wire Wire Line
-	10000 1500 9900 1500
-Text GLabel 9900 1500 0    60   Input ~ 0
+	10000 3400 9900 3400
+Text GLabel 9900 3400 0    60   Input ~ 0
 S11
 Wire Wire Line
-	10000 1600 9900 1600
-Text GLabel 9900 1600 0    60   Input ~ 0
+	10000 3500 9900 3500
+Text GLabel 9900 3500 0    60   Input ~ 0
 S12
 Text GLabel 1550 1050 0    60   Input ~ 0
 T07/
@@ -1216,8 +1159,6 @@ Text GLabel 1550 3950 0    60   Input ~ 0
 PHS4/
 Wire Wire Line
 	1550 3950 1650 3950
-Wire Wire Line
-	9900 1700 9900 4150
 Text GLabel 7700 1000 0    60   Output ~ 0
 PHS4/
 Wire Wire Line
@@ -1230,4 +1171,158 @@ Text GLabel 1550 4050 0    60   Input ~ 0
 FUTEXT
 Wire Wire Line
 	1550 4050 1650 4050
+Wire Wire Line
+	5550 900  5650 900 
+Text GLabel 5650 900  2    60   Output ~ 0
+S01
+Wire Wire Line
+	5550 1000 5650 1000
+Text GLabel 5650 1000 2    60   Output ~ 0
+S01/
+Wire Wire Line
+	10000 1500 9900 1500
+Text GLabel 9900 1500 0    60   Input ~ 0
+S01
+Wire Wire Line
+	10000 1600 9900 1600
+Text GLabel 9900 1600 0    60   Input ~ 0
+S01/
+Wire Wire Line
+	5550 1100 5650 1100
+Text GLabel 5650 1100 2    60   Output ~ 0
+S02
+Wire Wire Line
+	5550 1200 5650 1200
+Text GLabel 5650 1200 2    60   Output ~ 0
+S02/
+Wire Wire Line
+	10000 1700 9900 1700
+Text GLabel 9900 1700 0    60   Input ~ 0
+S02
+Wire Wire Line
+	10000 1800 9900 1800
+Text GLabel 9900 1800 0    60   Input ~ 0
+S02/
+Wire Wire Line
+	5550 1300 5650 1300
+Text GLabel 5650 1300 2    60   Output ~ 0
+S03
+Wire Wire Line
+	5550 1400 5650 1400
+Text GLabel 5650 1400 2    60   Output ~ 0
+S03/
+Wire Wire Line
+	10000 1900 9900 1900
+Text GLabel 9900 1900 0    60   Input ~ 0
+S03
+Wire Wire Line
+	10000 2000 9900 2000
+Text GLabel 9900 2000 0    60   Input ~ 0
+S03/
+Wire Wire Line
+	5550 1500 5650 1500
+Text GLabel 5650 1500 2    60   Output ~ 0
+S04
+Wire Wire Line
+	5550 1600 5650 1600
+Text GLabel 5650 1600 2    60   Output ~ 0
+S04/
+Wire Wire Line
+	10000 2100 9900 2100
+Text GLabel 9900 2100 0    60   Input ~ 0
+S04
+Wire Wire Line
+	10000 2200 9900 2200
+Text GLabel 9900 2200 0    60   Input ~ 0
+S04/
+Wire Wire Line
+	5550 1700 5650 1700
+Text GLabel 5650 1700 2    60   Output ~ 0
+S05
+Wire Wire Line
+	5550 1800 5650 1800
+Text GLabel 5650 1800 2    60   Output ~ 0
+S05/
+Wire Wire Line
+	10000 2300 9900 2300
+Text GLabel 9900 2300 0    60   Input ~ 0
+S05
+Wire Wire Line
+	10000 2400 9900 2400
+Text GLabel 9900 2400 0    60   Input ~ 0
+S05/
+Wire Wire Line
+	5550 1900 5650 1900
+Text GLabel 5650 1900 2    60   Output ~ 0
+S06
+Wire Wire Line
+	5550 2000 5650 2000
+Text GLabel 5650 2000 2    60   Output ~ 0
+S06/
+Wire Wire Line
+	10000 2500 9900 2500
+Text GLabel 9900 2500 0    60   Input ~ 0
+S06
+Wire Wire Line
+	10000 2600 9900 2600
+Text GLabel 9900 2600 0    60   Input ~ 0
+S06/
+Wire Wire Line
+	5550 2100 5650 2100
+Text GLabel 5650 2100 2    60   Output ~ 0
+S07
+Wire Wire Line
+	5550 2200 5650 2200
+Text GLabel 5650 2200 2    60   Output ~ 0
+S07/
+Wire Wire Line
+	10000 2700 9900 2700
+Text GLabel 9900 2700 0    60   Input ~ 0
+S07
+Wire Wire Line
+	10000 2800 9900 2800
+Text GLabel 9900 2800 0    60   Input ~ 0
+S07/
+Wire Wire Line
+	5550 2300 5650 2300
+Text GLabel 5650 2300 2    60   Output ~ 0
+S08
+Wire Wire Line
+	5550 2400 5650 2400
+Text GLabel 5650 2400 2    60   Output ~ 0
+S08/
+Wire Wire Line
+	10000 2900 9900 2900
+Text GLabel 9900 2900 0    60   Input ~ 0
+S08
+Wire Wire Line
+	10000 3000 9900 3000
+Text GLabel 9900 3000 0    60   Input ~ 0
+S08/
+Wire Wire Line
+	5550 2500 5650 2500
+Text GLabel 5650 2500 2    60   Output ~ 0
+S09
+Wire Wire Line
+	5550 2600 5650 2600
+Text GLabel 5650 2600 2    60   Output ~ 0
+S09/
+Wire Wire Line
+	10000 3100 9900 3100
+Text GLabel 9900 3100 0    60   Input ~ 0
+S09
+Wire Wire Line
+	10000 3200 9900 3200
+Text GLabel 9900 3200 0    60   Input ~ 0
+S09/
+Wire Wire Line
+	10000 3300 9900 3300
+Text GLabel 9900 3300 0    60   Input ~ 0
+S10/
+Wire Wire Line
+	5550 2800 5650 2800
+Text GLabel 5650 2800 2    60   Output ~ 0
+S10/
+Wire Wire Line
+	9900 3600 9900 4150
 $EndSCHEMATC

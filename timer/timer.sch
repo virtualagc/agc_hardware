@@ -475,7 +475,7 @@ F 3 "" H 10400 6250 60  0000 C CNN
 $EndComp
 Text GLabel 10050 4500 0    60   Input ~ 0
 OVF/
-Text GLabel 10750 4400 2    60   Input ~ 0
+Text GLabel 10750 4500 2    60   Input ~ 0
 UNF/
 Text GLabel 6450 5600 2    60   Output ~ 0
 OVF/
@@ -486,7 +486,6 @@ NoConn ~ 6550 2550
 NoConn ~ 6550 2650
 NoConn ~ 6550 2750
 NoConn ~ 6550 2850
-NoConn ~ 6550 4350
 Wire Wire Line
 	4700 1500 3800 1500
 Wire Wire Line
@@ -841,7 +840,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 4500 10150 4500
 Wire Wire Line
-	10750 4400 10650 4400
+	10750 4500 10650 4500
 Wire Wire Line
 	6400 4250 6550 4250
 Wire Wire Line
@@ -866,10 +865,10 @@ Wire Wire Line
 	6400 4050 6550 4050
 Wire Wire Line
 	6400 4150 6550 4150
-Text GLabel 10750 4500 2    60   Input ~ 0
+Text GLabel 10750 4600 2    60   Input ~ 0
 SB2/
 Wire Wire Line
-	10750 4500 10650 4500
+	10750 4600 10650 4600
 Text GLabel 6550 4050 2    60   Output ~ 0
 SB2/
 Text GLabel 6450 10950 2    60   Output ~ 0
@@ -908,9 +907,6 @@ Wire Wire Line
 Connection ~ 10750 5400
 Wire Wire Line
 	10650 5300 10750 5300
-Connection ~ 10750 5300
-Wire Wire Line
-	10650 5200 10750 5200
 Connection ~ 10050 5600
 Text GLabel 6450 9700 2    60   Output ~ 0
 MT01
@@ -986,30 +982,36 @@ Wire Wire Line
 	10050 5200 10150 5200
 Wire Wire Line
 	10050 5300 10050 6100
-Wire Wire Line
-	10750 5200 10750 6100
-Text GLabel 10750 4600 2    60   Input ~ 0
-MT01
-Wire Wire Line
-	10750 4600 10650 4600
 Text GLabel 10750 4700 2    60   Input ~ 0
-MT03
+MT01
 Wire Wire Line
 	10750 4700 10650 4700
 Text GLabel 10750 4800 2    60   Input ~ 0
-MT05
+MT03
 Wire Wire Line
 	10750 4800 10650 4800
 Text GLabel 10750 4900 2    60   Input ~ 0
-MT07
+MT05
 Wire Wire Line
 	10750 4900 10650 4900
 Text GLabel 10750 5000 2    60   Input ~ 0
-MT09
+MT07
 Wire Wire Line
 	10750 5000 10650 5000
 Text GLabel 10750 5100 2    60   Input ~ 0
-MT11
+MT09
 Wire Wire Line
 	10750 5100 10650 5100
+Text GLabel 10750 5200 2    60   Input ~ 0
+MT11
+Wire Wire Line
+	10750 5200 10650 5200
+Text GLabel 6550 4350 2    60   Output ~ 0
+TIMR
+Wire Wire Line
+	10750 5300 10750 6100
+Text GLabel 10750 4400 2    60   Input ~ 0
+TIMR
+Wire Wire Line
+	10750 4400 10650 4400
 $EndSCHEMATC
