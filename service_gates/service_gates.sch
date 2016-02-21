@@ -157,17 +157,17 @@ F 3 "" H 10900 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11550 1850 11650 1850
+	11550 2750 11650 2750
+Wire Wire Line
+	10600 3750 10700 3750
+Wire Wire Line
+	10600 3450 10700 3450
+Wire Wire Line
+	10600 3350 10700 3350
 Wire Wire Line
 	10600 3250 10700 3250
 Wire Wire Line
 	10600 2950 10700 2950
-Wire Wire Line
-	10600 2850 10700 2850
-Wire Wire Line
-	10600 2750 10700 2750
-Wire Wire Line
-	10600 2650 10700 2650
 $Comp
 L DIN_41612_128P P1
 U 4 1 567B1377
@@ -240,33 +240,6 @@ Connection ~ 11550 3050
 Wire Wire Line
 	11550 2850 11650 2850
 Connection ~ 11550 2950
-Wire Wire Line
-	11550 2750 11650 2750
-Connection ~ 11550 2850
-Wire Wire Line
-	11550 2650 11650 2650
-Connection ~ 11550 2750
-Wire Wire Line
-	11550 2550 11650 2550
-Connection ~ 11550 2650
-Wire Wire Line
-	11550 2450 11650 2450
-Connection ~ 11550 2550
-Wire Wire Line
-	11550 2350 11650 2350
-Connection ~ 11550 2450
-Wire Wire Line
-	11550 2250 11650 2250
-Connection ~ 11550 2350
-Wire Wire Line
-	11550 2150 11650 2150
-Connection ~ 11550 2250
-Wire Wire Line
-	11550 2050 11650 2050
-Connection ~ 11550 2150
-Wire Wire Line
-	11550 1950 11650 1950
-Connection ~ 11550 2050
 $Comp
 L DIN_41612_128P P1
 U 6 1 567B13EF
@@ -1052,7 +1025,7 @@ Wire Wire Line
 	12400 1350 12500 1350
 Connection ~ 12400 1450
 Wire Wire Line
-	10600 2050 10700 2050
+	10600 2250 10700 2250
 $Sheet
 S 5400 1250 1250 6100
 U 56818373
@@ -1086,25 +1059,25 @@ F26 "CGG" O R 6650 1650 60
 F27 "WSCG/" I L 5400 4250 60 
 F28 "XB3/" I L 5400 4950 60 
 F29 "WEBG/" O R 6650 3650 60 
-F30 "MWEBG" O R 6650 7000 60 
+F30 "MWEBG" O R 6650 4700 60 
 F31 "U2BBK" I L 5400 3800 60 
 F32 "CEBG" O R 6650 1450 60 
 F33 "CFBG" O R 6650 1550 60 
 F34 "WFBG/" O R 6650 3750 60 
-F35 "MWFBG" O R 6650 7100 60 
+F35 "MWFBG" O R 6650 4800 60 
 F36 "WBBEG/" O R 6650 3550 60 
-F37 "MWBBEG" O R 6650 6900 60 
+F37 "MWBBEG" O R 6650 4600 60 
 F38 "RG/" I L 5400 3000 60 
 F39 "RGG/" O R 6650 2850 60 
-F40 "MRGG" O R 6650 6600 60 
+F40 "MRGG" O R 6650 4300 60 
 F41 "RA/" I L 5400 2600 60 
 F42 "RAG/" O R 6650 2050 60 
-F43 "MRAG" O R 6650 6500 60 
+F43 "MRAG" O R 6650 4200 60 
 F44 "XB0/" I L 5400 4650 60 
 F45 "RL/" I L 5400 3100 60 
 F46 "RLG/" O R 6650 2950 60 
 F47 "XB1/" I L 5400 4750 60 
-F48 "MRLG" O R 6650 6700 60 
+F48 "MRLG" O R 6650 4400 60 
 F49 "RZ/" I L 5400 3700 60 
 F50 "XB5/" I L 5400 5150 60 
 F51 "RZG/" O R 6650 3350 60 
@@ -1113,7 +1086,7 @@ F53 "RU/" I L 5400 3500 60
 F54 "RUG/" O R 6650 3150 60 
 F55 "RUS/" I L 5400 3600 60 
 F56 "RULOG/" O R 6650 3250 60 
-F57 "MRULOG" O R 6650 6800 60 
+F57 "MRULOG" O R 6650 4500 60 
 F58 "US2SG" O R 6650 3450 60 
 F59 "RB/" I L 5400 2700 60 
 F60 "RBHG/" O R 6650 2250 60 
@@ -1129,7 +1102,7 @@ F69 "RSC/" I L 5400 3400 60
 F70 "SCAD/" I L 5400 4500 60 
 F71 "RCH/" I L 5400 2900 60 
 F72 "RCHG/" O R 6650 2550 60 
-F73 "U2BBKG/" O R 6650 7250 60 
+F73 "U2BBKG/" O R 6650 4050 60 
 F74 "SUMA15/" I L 5400 5500 60 
 F75 "SUMB15/" I L 5400 5600 60 
 $EndSheet
@@ -1162,16 +1135,16 @@ Wire Wire Line
 Text GLabel 9500 4450 0    60   Input ~ 0
 CBG
 Wire Wire Line
-	10700 1350 10600 1350
-Text GLabel 10600 1350 0    60   Input ~ 0
+	10700 1550 10600 1550
+Text GLabel 10600 1550 0    60   Input ~ 0
 CGG
 Wire Wire Line
 	4050 1950 4150 1950
 Text GLabel 4150 1950 2    60   Output ~ 0
 CLG1G
 Wire Wire Line
-	10700 1450 10600 1450
-Text GLabel 10600 1450 0    60   Input ~ 0
+	10700 1650 10600 1650
+Text GLabel 10600 1650 0    60   Input ~ 0
 CLG1G
 Wire Wire Line
 	4050 1550 4150 1550
@@ -1181,96 +1154,96 @@ Text GLabel 4700 1750 2    60   Output ~ 0
 CUG
 Connection ~ 4650 1750
 Wire Wire Line
-	10700 1650 10600 1650
-Text GLabel 10600 1650 0    60   Input ~ 0
-CQG
-Wire Wire Line
 	10700 1850 10600 1850
 Text GLabel 10600 1850 0    60   Input ~ 0
+CQG
+Wire Wire Line
+	10700 2050 10600 2050
+Text GLabel 10600 2050 0    60   Input ~ 0
 CUG
 Wire Wire Line
 	4050 1850 4150 1850
 Text GLabel 4150 1850 2    60   Output ~ 0
 CZG
 Wire Wire Line
-	10700 1950 10600 1950
-Text GLabel 10600 1950 0    60   Input ~ 0
+	10700 2150 10600 2150
+Text GLabel 10600 2150 0    60   Input ~ 0
 CZG
 Wire Wire Line
 	6650 3900 6750 3900
 Text GLabel 6750 3900 2    60   Output ~ 0
 CI01/
-Text GLabel 10600 2050 0    60   Input ~ 0
+Text GLabel 10600 2250 0    60   Input ~ 0
 CI01/
 Wire Wire Line
 	6650 1850 6750 1850
 Text GLabel 6750 1850 2    60   Output ~ 0
 G2LSG/
 Wire Wire Line
-	10600 2150 10700 2150
-Text GLabel 10600 2150 0    60   Input ~ 0
+	10600 2350 10700 2350
+Text GLabel 10600 2350 0    60   Input ~ 0
 G2LSG/
 Wire Wire Line
 	6650 1950 6750 1950
 Text GLabel 6750 1950 2    60   Output ~ 0
 L2GDG/
 Wire Wire Line
-	10600 2250 10700 2250
-Text GLabel 10600 2250 0    60   Input ~ 0
+	10600 2450 10700 2450
+Text GLabel 10600 2450 0    60   Input ~ 0
 L2GDG/
 Wire Wire Line
 	6650 2050 6750 2050
 Text GLabel 6750 2050 2    60   Output ~ 0
 RAG/
 Wire Wire Line
-	10600 2350 10700 2350
-Text GLabel 10600 2350 0    60   Input ~ 0
+	10600 2550 10700 2550
+Text GLabel 10600 2550 0    60   Input ~ 0
 RAG/
 Wire Wire Line
 	6650 2350 6750 2350
 Text GLabel 6750 2350 2    60   Output ~ 0
 RBLG/
 Wire Wire Line
-	10600 2550 10700 2550
-Text GLabel 10600 2550 0    60   Input ~ 0
+	10600 2850 10700 2850
+Text GLabel 10600 2850 0    60   Input ~ 0
 RBLG/
 Wire Wire Line
 	6650 2450 6750 2450
 Text GLabel 6750 2450 2    60   Output ~ 0
 RCG/
-Text GLabel 10600 2650 0    60   Input ~ 0
+Text GLabel 10600 2950 0    60   Input ~ 0
 RCG/
 Wire Wire Line
 	6650 2850 6750 2850
 Text GLabel 6750 2850 2    60   Output ~ 0
 RGG/
-Text GLabel 10600 2750 0    60   Input ~ 0
+Text GLabel 10600 3250 0    60   Input ~ 0
 RGG/
 Wire Wire Line
 	6650 2950 6750 2950
 Text GLabel 6750 2950 2    60   Output ~ 0
 RLG/
-Text GLabel 10600 2850 0    60   Input ~ 0
+Text GLabel 10600 3350 0    60   Input ~ 0
 RLG/
 Wire Wire Line
 	6650 3050 6750 3050
 Text GLabel 6750 3050 2    60   Output ~ 0
 RQG/
-Text GLabel 10600 2950 0    60   Input ~ 0
+Text GLabel 10600 3450 0    60   Input ~ 0
 RQG/
 Wire Wire Line
 	6650 3250 6750 3250
 Text GLabel 6750 3250 2    60   Output ~ 0
 RULOG/
 Wire Wire Line
-	10600 3150 10700 3150
-Text GLabel 10600 3150 0    60   Input ~ 0
+	10600 3650 10700 3650
+Text GLabel 10600 3650 0    60   Input ~ 0
 RULOG/
 Wire Wire Line
 	6650 3350 6750 3350
 Text GLabel 6750 3350 2    60   Output ~ 0
 RZG/
-Text GLabel 10600 3250 0    60   Input ~ 0
+Text GLabel 10600 3750 0    60   Input ~ 0
 RZG/
 Wire Wire Line
 	4050 2200 4150 2200
@@ -1281,20 +1254,20 @@ Wire Wire Line
 Text GLabel 4150 2400 2    60   Output ~ 0
 WALSG/
 Wire Wire Line
-	10600 3450 10700 3450
-Text GLabel 10600 3450 0    60   Input ~ 0
+	10600 4050 10700 4050
+Text GLabel 10600 4050 0    60   Input ~ 0
 WAG/
 Wire Wire Line
-	10600 3550 10700 3550
-Text GLabel 10600 3550 0    60   Input ~ 0
+	10600 4150 10700 4150
+Text GLabel 10600 4150 0    60   Input ~ 0
 WALSG/
 Wire Wire Line
 	4050 2500 4150 2500
 Text GLabel 4150 2500 2    60   Output ~ 0
 WBG/
 Wire Wire Line
-	10600 3650 10700 3650
-Text GLabel 10600 3650 0    60   Input ~ 0
+	10600 4350 10700 4350
+Text GLabel 10600 4350 0    60   Input ~ 0
 WBG/
 Wire Wire Line
 	4050 2800 4150 2800
@@ -1309,16 +1282,16 @@ Wire Wire Line
 Text GLabel 4150 3100 2    60   Output ~ 0
 WG4G/
 Wire Wire Line
-	10600 3850 10700 3850
-Text GLabel 10600 3850 0    60   Input ~ 0
+	11550 1550 11650 1550
+Text GLabel 11550 1550 0    60   Input ~ 0
 WG1G/
 Wire Wire Line
-	10600 4050 10700 4050
-Text GLabel 10600 4050 0    60   Input ~ 0
+	11550 1750 11650 1750
+Text GLabel 11550 1750 0    60   Input ~ 0
 WG3G/
 Wire Wire Line
-	10600 4150 10700 4150
-Text GLabel 10600 4150 0    60   Input ~ 0
+	11550 1850 11650 1850
+Text GLabel 11550 1850 0    60   Input ~ 0
 WG4G/
 Wire Wire Line
 	4050 3400 4150 3400
@@ -1329,12 +1302,12 @@ Wire Wire Line
 Text GLabel 4150 3300 2    60   Output ~ 0
 WLG/
 Wire Wire Line
-	10600 4350 10700 4350
-Text GLabel 10600 4350 0    60   Input ~ 0
+	11550 2050 11650 2050
+Text GLabel 11550 2050 0    60   Input ~ 0
 WLG/
 Wire Wire Line
-	10600 4450 10700 4450
-Text GLabel 10600 4450 0    60   Input ~ 0
+	11550 2150 11650 2150
+Text GLabel 11550 2150 0    60   Input ~ 0
 WQG/
 Wire Wire Line
 	4050 3700 4150 3700
@@ -1349,38 +1322,38 @@ Wire Wire Line
 Text GLabel 4150 3900 2    60   Output ~ 0
 WYLOG/
 Wire Wire Line
-	11550 1450 11650 1450
-Text GLabel 11550 1450 0    60   Input ~ 0
+	11550 2350 11650 2350
+Text GLabel 11550 2350 0    60   Input ~ 0
 WYDG/
 Wire Wire Line
-	11550 1550 11650 1550
-Text GLabel 11550 1550 0    60   Input ~ 0
+	11550 2450 11650 2450
+Text GLabel 11550 2450 0    60   Input ~ 0
 WYDLOG/
 Wire Wire Line
-	11550 1750 11650 1750
-Text GLabel 11550 1750 0    60   Input ~ 0
+	11550 2650 11650 2650
+Text GLabel 11550 2650 0    60   Input ~ 0
 WYLOG/
 Wire Wire Line
 	4050 4000 4150 4000
 Text GLabel 4150 4000 2    60   Output ~ 0
 WZG/
-Text GLabel 11550 1850 0    60   Input ~ 0
+Text GLabel 11550 2750 0    60   Input ~ 0
 WZG/
 Wire Wire Line
 	6650 2250 6750 2250
 Text GLabel 6750 2250 2    60   Output ~ 0
 RBHG/
 Wire Wire Line
-	10600 2450 10700 2450
-Text GLabel 10600 2450 0    60   Input ~ 0
+	10600 2750 10700 2750
+Text GLabel 10600 2750 0    60   Input ~ 0
 RBHG/
 Wire Wire Line
 	6650 3150 6750 3150
 Text GLabel 6750 3150 2    60   Output ~ 0
 RUG/
 Wire Wire Line
-	10600 3050 10700 3050
-Text GLabel 10600 3050 0    60   Input ~ 0
+	10600 3550 10700 3550
+Text GLabel 10600 3550 0    60   Input ~ 0
 RUG/
 Wire Wire Line
 	4050 2900 4150 2900
@@ -1391,20 +1364,20 @@ Wire Wire Line
 Text GLabel 4150 3200 2    60   Output ~ 0
 WG5G/
 Wire Wire Line
-	10600 3950 10700 3950
-Text GLabel 10600 3950 0    60   Input ~ 0
+	11550 1650 11650 1650
+Text GLabel 11550 1650 0    60   Input ~ 0
 WG2G/
 Wire Wire Line
-	10600 4250 10700 4250
-Text GLabel 10600 4250 0    60   Input ~ 0
+	11550 1950 11650 1950
+Text GLabel 11550 1950 0    60   Input ~ 0
 WG5G/
 Wire Wire Line
 	4050 3800 4150 3800
 Text GLabel 4150 3800 2    60   Output ~ 0
 WYHIG/
 Wire Wire Line
-	11550 1650 11650 1650
-Text GLabel 11550 1650 0    60   Input ~ 0
+	11550 2550 11650 2550
+Text GLabel 11550 2550 0    60   Input ~ 0
 WYHIG/
 Wire Wire Line
 	6650 3450 6750 3450
@@ -1419,8 +1392,8 @@ Wire Wire Line
 Text GLabel 5300 5600 0    60   Input ~ 0
 SUMB15/
 Wire Wire Line
-	10600 3350 10700 3350
-Text GLabel 10600 3350 0    60   Input ~ 0
+	10600 3950 10700 3950
+Text GLabel 10600 3950 0    60   Input ~ 0
 US2SG
 Wire Wire Line
 	9600 3250 9500 3250
@@ -1435,33 +1408,105 @@ Wire Wire Line
 Text GLabel 4150 1650 2    60   Output ~ 0
 CSG
 Wire Wire Line
-	10700 1750 10600 1750
-Text GLabel 10600 1750 0    60   Input ~ 0
+	10700 1950 10600 1950
+Text GLabel 10600 1950 0    60   Input ~ 0
 CSG
 Wire Wire Line
 	4050 3500 4150 3500
 Text GLabel 4150 3500 2    60   Output ~ 0
 WSG/
 Wire Wire Line
-	11550 1350 11650 1350
-Text GLabel 11550 1350 0    60   Input ~ 0
+	11550 2250 11650 2250
+Text GLabel 11550 2250 0    60   Input ~ 0
 WSG/
 Wire Wire Line
 	4050 2600 4150 2600
 Text GLabel 4150 2600 2    60   Output ~ 0
 WEDOPG/
 Wire Wire Line
-	10600 3750 10700 3750
-Text GLabel 10600 3750 0    60   Input ~ 0
+	10600 4450 10700 4450
+Text GLabel 10600 4450 0    60   Input ~ 0
 WEDOPG/
-Wire Wire Line
-	11550 1950 11550 4550
 Wire Wire Line
 	4050 2050 4150 2050
 Text GLabel 4150 2050 2    60   Output ~ 0
 CLG2G
 Wire Wire Line
-	10700 1550 10600 1550
-Text GLabel 10600 1550 0    60   Input ~ 0
+	10700 1750 10600 1750
+Text GLabel 10600 1750 0    60   Input ~ 0
 CLG2G
+Wire Wire Line
+	6650 1450 6750 1450
+Text GLabel 6750 1450 2    60   Output ~ 0
+CEBG
+Wire Wire Line
+	6650 1550 6750 1550
+Text GLabel 6750 1550 2    60   Output ~ 0
+CFBG
+Wire Wire Line
+	10700 1350 10600 1350
+Text GLabel 10600 1350 0    60   Input ~ 0
+CEBG
+Wire Wire Line
+	10700 1450 10600 1450
+Text GLabel 10600 1450 0    60   Input ~ 0
+CFBG
+Wire Wire Line
+	6650 2150 6750 2150
+Text GLabel 6750 2150 2    60   Output ~ 0
+RBBEG/
+Wire Wire Line
+	10600 2650 10700 2650
+Text GLabel 10600 2650 0    60   Input ~ 0
+RBBEG/
+Wire Wire Line
+	6650 2650 6750 2650
+Text GLabel 6750 2650 2    60   Output ~ 0
+REBG/
+Wire Wire Line
+	6650 2750 6750 2750
+Text GLabel 6750 2750 2    60   Output ~ 0
+RFBG/
+Wire Wire Line
+	10600 3050 10700 3050
+Text GLabel 10600 3050 0    60   Input ~ 0
+REBG/
+Wire Wire Line
+	10600 3150 10700 3150
+Text GLabel 10600 3150 0    60   Input ~ 0
+RFBG/
+Wire Wire Line
+	10600 4250 10700 4250
+Text GLabel 10600 4250 0    60   Input ~ 0
+WBBEG/
+Wire Wire Line
+	11550 1350 11650 1350
+Text GLabel 11550 1350 0    60   Input ~ 0
+WEBG/
+Wire Wire Line
+	11550 1450 11650 1450
+Text GLabel 11550 1450 0    60   Input ~ 0
+WFBG/
+Wire Wire Line
+	6650 3550 6750 3550
+Text GLabel 6750 3550 2    60   Output ~ 0
+WBBEG/
+Wire Wire Line
+	6650 3650 6750 3650
+Text GLabel 6750 3650 2    60   Output ~ 0
+WEBG/
+Wire Wire Line
+	6650 3750 6750 3750
+Text GLabel 6750 3750 2    60   Output ~ 0
+WFBG/
+Wire Wire Line
+	6650 4050 6750 4050
+Text GLabel 6750 4050 2    60   Output ~ 0
+U2BBKG/
+Wire Wire Line
+	11550 2850 11550 4550
+Wire Wire Line
+	10600 3850 10700 3850
+Text GLabel 10600 3850 0    60   Input ~ 0
+U2BBKG/
 $EndSCHEMATC

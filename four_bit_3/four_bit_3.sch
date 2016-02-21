@@ -179,12 +179,12 @@ $EndComp
 $Comp
 L DIN_41612_128P P1
 U 3 1 568CB569
-P 10000 2500
-F 0 "P1" H 10000 4150 50  0000 C CNN
-F 1 "DIN_41612_128P" V 10200 2500 50  0000 C CNN
-F 2 "" H 10000 2500 60  0000 C CNN
-F 3 "" H 10000 2500 60  0000 C CNN
-	3    10000 2500
+P 10050 2500
+F 0 "P1" H 10050 4150 50  0000 C CNN
+F 1 "DIN_41612_128P" V 10250 2500 50  0000 C CNN
+F 2 "" H 10050 2500 60  0000 C CNN
+F 3 "" H 10050 2500 60  0000 C CNN
+	3    10050 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -707,12 +707,12 @@ WL11/
 $Comp
 L GND #PWR07
 U 1 1 568CB574
-P 9700 4200
-F 0 "#PWR07" H 9700 3950 50  0001 C CNN
-F 1 "GND" H 9700 4050 50  0000 C CNN
-F 2 "" H 9700 4200 60  0000 C CNN
-F 3 "" H 9700 4200 60  0000 C CNN
-	1    9700 4200
+P 9750 4200
+F 0 "#PWR07" H 9750 3950 50  0001 C CNN
+F 1 "GND" H 9750 4050 50  0000 C CNN
+F 2 "" H 9750 4200 60  0000 C CNN
+F 3 "" H 9750 4200 60  0000 C CNN
+	1    9750 4200
 	1    0    0    -1  
 $EndComp
 Text Label 5950 2000 0    60   ~ 0
@@ -1431,70 +1431,46 @@ Wire Wire Line
 Wire Wire Line
 	4400 8350 4300 8350
 Wire Wire Line
-	9700 1950 9800 1950
+	9750 2750 9850 2750
 Wire Wire Line
-	9700 2050 9800 2050
-Connection ~ 9700 2050
+	9750 2850 9850 2850
+Connection ~ 9750 2850
 Wire Wire Line
-	9700 2150 9800 2150
-Connection ~ 9700 2150
+	9750 2950 9850 2950
+Connection ~ 9750 2950
 Wire Wire Line
-	9700 2250 9800 2250
-Connection ~ 9700 2250
+	9750 3050 9850 3050
+Connection ~ 9750 3050
 Wire Wire Line
-	9700 2350 9800 2350
-Connection ~ 9700 2350
+	9750 3150 9850 3150
+Connection ~ 9750 3150
 Wire Wire Line
-	9700 2450 9800 2450
-Connection ~ 9700 2450
+	9750 3250 9850 3250
+Connection ~ 9750 3250
 Wire Wire Line
-	9700 2550 9800 2550
-Connection ~ 9700 2550
+	9750 3350 9850 3350
+Connection ~ 9750 3350
 Wire Wire Line
-	9700 2650 9800 2650
-Connection ~ 9700 2650
+	9750 3450 9850 3450
+Connection ~ 9750 3450
 Wire Wire Line
-	9700 2750 9800 2750
-Connection ~ 9700 2750
+	9750 3550 9850 3550
+Connection ~ 9750 3550
 Wire Wire Line
-	9700 2850 9800 2850
-Connection ~ 9700 2850
+	9750 3650 9850 3650
+Connection ~ 9750 3650
 Wire Wire Line
-	9700 2950 9800 2950
-Connection ~ 9700 2950
+	9750 3750 9850 3750
+Connection ~ 9750 3750
 Wire Wire Line
-	9700 3050 9800 3050
-Connection ~ 9700 3050
+	9750 3850 9850 3850
+Connection ~ 9750 3850
 Wire Wire Line
-	9700 3150 9800 3150
-Connection ~ 9700 3150
+	9750 3950 9850 3950
+Connection ~ 9750 3950
 Wire Wire Line
-	9700 3250 9800 3250
-Connection ~ 9700 3250
-Wire Wire Line
-	9700 3350 9800 3350
-Connection ~ 9700 3350
-Wire Wire Line
-	9700 3450 9800 3450
-Connection ~ 9700 3450
-Wire Wire Line
-	9700 3550 9800 3550
-Connection ~ 9700 3550
-Wire Wire Line
-	9700 3650 9800 3650
-Connection ~ 9700 3650
-Wire Wire Line
-	9700 3750 9800 3750
-Connection ~ 9700 3750
-Wire Wire Line
-	9700 3850 9800 3850
-Connection ~ 9700 3850
-Wire Wire Line
-	9700 3950 9800 3950
-Connection ~ 9700 3950
-Wire Wire Line
-	9700 4050 9800 4050
-Connection ~ 9700 4050
+	9750 4050 9850 4050
+Connection ~ 9750 4050
 Wire Wire Line
 	5800 2000 6650 2000
 Wire Wire Line
@@ -1664,26 +1640,26 @@ Text GLabel 8750 4050 0    60   Input ~ 0
 G10/
 Wire Wire Line
 	8850 4050 8750 4050
-Text GLabel 9700 1050 0    60   Input ~ 0
+Text GLabel 9750 1050 0    60   Input ~ 0
 G11/
 Wire Wire Line
-	9800 1050 9700 1050
-Text GLabel 9700 1350 0    60   Input ~ 0
+	9850 1050 9750 1050
+Text GLabel 9750 2150 0    60   Input ~ 0
 WL09/
 Wire Wire Line
-	9800 1350 9700 1350
-Text GLabel 9700 1450 0    60   Input ~ 0
+	9850 2150 9750 2150
+Text GLabel 9750 2250 0    60   Input ~ 0
 WL10/
 Wire Wire Line
-	9800 1450 9700 1450
-Text GLabel 9700 1550 0    60   Input ~ 0
+	9850 2250 9750 2250
+Text GLabel 9750 2350 0    60   Input ~ 0
 WL11/
 Wire Wire Line
-	9800 1550 9700 1550
-Text GLabel 9700 1650 0    60   Input ~ 0
+	9850 2350 9750 2350
+Text GLabel 9750 2450 0    60   Input ~ 0
 WL12/
 Wire Wire Line
-	9800 1650 9700 1650
+	9850 2450 9750 2450
 Text GLabel 3250 3350 2    60   Output ~ 0
 XUY09/
 Wire Wire Line
@@ -1692,22 +1668,22 @@ Text GLabel 3250 3450 2    60   Output ~ 0
 XUY10/
 Wire Wire Line
 	3150 3450 3250 3450
-Text GLabel 9700 1750 0    60   Input ~ 0
+Text GLabel 9750 2550 0    60   Input ~ 0
 XUY09/
 Wire Wire Line
-	9800 1750 9700 1750
-Text GLabel 9700 1850 0    60   Input ~ 0
+	9850 2550 9750 2550
+Text GLabel 9750 2650 0    60   Input ~ 0
 XUY10/
 Wire Wire Line
-	9800 1850 9700 1850
+	9850 2650 9750 2650
 Text GLabel 5900 2200 2    60   Output ~ 0
 L12/
 Wire Wire Line
 	5800 2200 5900 2200
-Text GLabel 9700 1250 0    60   Input ~ 0
+Text GLabel 9750 1250 0    60   Input ~ 0
 L12/
 Wire Wire Line
-	9800 1250 9700 1250
+	9850 1250 9750 1250
 Text GLabel 5900 2750 2    60   Output ~ 0
 CI13/
 Wire Wire Line
@@ -1792,8 +1768,6 @@ Text GLabel 5900 1900 2    60   Output ~ 0
 G12
 Wire Wire Line
 	5800 1900 5900 1900
-Wire Wire Line
-	9700 1950 9700 4200
 Text GLabel 8750 3750 0    60   Input ~ 0
 G09
 Wire Wire Line
@@ -1802,12 +1776,78 @@ Text GLabel 8750 3950 0    60   Input ~ 0
 G10
 Wire Wire Line
 	8850 3950 8750 3950
-Text GLabel 9700 950  0    60   Input ~ 0
+Text GLabel 9750 950  0    60   Input ~ 0
 G11
 Wire Wire Line
-	9800 950  9700 950 
-Text GLabel 9700 1150 0    60   Input ~ 0
+	9850 950  9750 950 
+Text GLabel 9750 1150 0    60   Input ~ 0
 G12
 Wire Wire Line
-	9800 1150 9700 1150
+	9850 1150 9750 1150
+Text GLabel 5900 2950 2    60   Output ~ 0
+SUMA11/
+Wire Wire Line
+	5800 2950 5900 2950
+Text GLabel 5900 3050 2    60   Output ~ 0
+SUMA12/
+Wire Wire Line
+	5800 3050 5900 3050
+Text GLabel 5900 3150 2    60   Output ~ 0
+SUMB11/
+Wire Wire Line
+	5800 3150 5900 3150
+Text GLabel 5900 3250 2    60   Output ~ 0
+SUMB12/
+Wire Wire Line
+	5800 3250 5900 3250
+Text GLabel 9750 1750 0    60   Input ~ 0
+SUMA11/
+Wire Wire Line
+	9850 1750 9750 1750
+Text GLabel 9750 1950 0    60   Input ~ 0
+SUMA12/
+Wire Wire Line
+	9850 1950 9750 1950
+Text GLabel 9750 1850 0    60   Input ~ 0
+SUMB11/
+Wire Wire Line
+	9850 1850 9750 1850
+Text GLabel 9750 2050 0    60   Input ~ 0
+SUMB12/
+Wire Wire Line
+	9850 2050 9750 2050
+Text GLabel 3250 3850 2    60   BiDi ~ 0
+RL09/
+Wire Wire Line
+	3150 3850 3250 3850
+Text GLabel 3250 3950 2    60   BiDi ~ 0
+RL10/
+Wire Wire Line
+	3150 3950 3250 3950
+Text GLabel 5900 3850 2    60   BiDi ~ 0
+RL11/
+Wire Wire Line
+	5800 3850 5900 3850
+Text GLabel 5900 3950 2    60   BiDi ~ 0
+RL12/
+Wire Wire Line
+	5800 3950 5900 3950
+Text GLabel 9750 1350 0    60   BiDi ~ 0
+RL09/
+Wire Wire Line
+	9850 1350 9750 1350
+Text GLabel 9750 1450 0    60   BiDi ~ 0
+RL10/
+Wire Wire Line
+	9850 1450 9750 1450
+Text GLabel 9750 1550 0    60   BiDi ~ 0
+RL11/
+Wire Wire Line
+	9850 1550 9750 1550
+Text GLabel 9750 1650 0    60   BiDi ~ 0
+RL12/
+Wire Wire Line
+	9850 1650 9750 1650
+Wire Wire Line
+	9750 2750 9750 4200
 $EndSCHEMATC

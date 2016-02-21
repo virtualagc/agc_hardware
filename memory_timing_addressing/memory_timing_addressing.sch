@@ -156,7 +156,6 @@ F 3 "" H 9750 2950 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	9450 3000 9550 3000
-Connection ~ 9450 3000
 Wire Wire Line
 	9450 3100 9550 3100
 Connection ~ 9450 3100
@@ -1214,8 +1213,8 @@ Wire Wire Line
 Text GLabel 8450 4200 0    60   Input ~ 0
 STBF
 Wire Wire Line
-	8550 4300 8450 4300
-Text GLabel 8450 4300 0    60   Input ~ 0
+	8550 4400 8450 4400
+Text GLabel 8450 4400 0    60   Input ~ 0
 TPARG/
 Wire Wire Line
 	5500 1400 5600 1400
@@ -1250,36 +1249,36 @@ Wire Wire Line
 Text GLabel 5600 2800 2    60   Output ~ 0
 XB7/
 Wire Wire Line
-	8550 4400 8450 4400
-Text GLabel 8450 4400 0    60   Input ~ 0
-XB0/
-Wire Wire Line
 	8550 4500 8450 4500
 Text GLabel 8450 4500 0    60   Input ~ 0
-XB1/
+XB0/
 Wire Wire Line
 	9550 1400 9450 1400
 Text GLabel 9450 1400 0    60   Input ~ 0
-XB2/
+XB1/
 Wire Wire Line
 	9550 1500 9450 1500
 Text GLabel 9450 1500 0    60   Input ~ 0
-XB3/
+XB2/
 Wire Wire Line
 	9550 1600 9450 1600
 Text GLabel 9450 1600 0    60   Input ~ 0
-XB4/
+XB3/
 Wire Wire Line
 	9550 1700 9450 1700
 Text GLabel 9450 1700 0    60   Input ~ 0
-XB5/
+XB4/
 Wire Wire Line
 	9550 1800 9450 1800
 Text GLabel 9450 1800 0    60   Input ~ 0
-XB6/
+XB5/
 Wire Wire Line
 	9550 1900 9450 1900
 Text GLabel 9450 1900 0    60   Input ~ 0
+XB6/
+Wire Wire Line
+	9550 2000 9450 2000
+Text GLabel 9450 2000 0    60   Input ~ 0
 XB7/
 Wire Wire Line
 	5500 3050 5600 3050
@@ -1310,51 +1309,57 @@ Wire Wire Line
 Text GLabel 5600 4250 2    60   Output ~ 0
 XT6/
 Wire Wire Line
-	9550 2000 9450 2000
-Text GLabel 9450 2000 0    60   Input ~ 0
-XT0/
-Wire Wire Line
 	9550 2100 9450 2100
 Text GLabel 9450 2100 0    60   Input ~ 0
-XT1/
+XT0/
 Wire Wire Line
 	9550 2200 9450 2200
 Text GLabel 9450 2200 0    60   Input ~ 0
-XT2/
+XT1/
 Wire Wire Line
 	9550 2300 9450 2300
 Text GLabel 9450 2300 0    60   Input ~ 0
-XT3/
+XT2/
 Wire Wire Line
 	9550 2400 9450 2400
 Text GLabel 9450 2400 0    60   Input ~ 0
-XT4/
+XT3/
 Wire Wire Line
 	9550 2500 9450 2500
 Text GLabel 9450 2500 0    60   Input ~ 0
-XT5/
+XT4/
 Wire Wire Line
 	9550 2600 9450 2600
 Text GLabel 9450 2600 0    60   Input ~ 0
+XT5/
+Wire Wire Line
+	9550 2700 9450 2700
+Text GLabel 9450 2700 0    60   Input ~ 0
 XT6/
 Wire Wire Line
 	5500 4700 5600 4700
 Text GLabel 5600 4700 2    60   Output ~ 0
 YB0/
 Wire Wire Line
-	9550 2700 9450 2700
-Text GLabel 9450 2700 0    60   Input ~ 0
+	9550 2800 9450 2800
+Text GLabel 9450 2800 0    60   Input ~ 0
 YB0/
 Wire Wire Line
 	5500 5550 5600 5550
 Text GLabel 5600 5550 2    60   Output ~ 0
 YT0/
 Wire Wire Line
-	9550 2800 9450 2800
-Text GLabel 9450 2800 0    60   Input ~ 0
+	9550 2900 9450 2900
+Text GLabel 9450 2900 0    60   Input ~ 0
 YT0/
 Wire Wire Line
-	9550 2900 9450 2900
+	2850 4650 2950 4650
+Text GLabel 2950 4650 2    60   Output ~ 0
+STRGAT
 Wire Wire Line
-	9450 2900 9450 4600
+	9450 3000 9450 4600
+Wire Wire Line
+	8550 4300 8450 4300
+Text GLabel 8450 4300 0    60   Input ~ 0
+STRGAT
 $EndSCHEMATC

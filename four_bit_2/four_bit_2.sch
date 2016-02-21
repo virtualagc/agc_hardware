@@ -1470,19 +1470,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 8350 4300 8350
 Wire Wire Line
-	9700 2050 9800 2050
-Wire Wire Line
-	9700 2150 9800 2150
-Connection ~ 9700 2150
-Wire Wire Line
-	9700 2250 9800 2250
-Connection ~ 9700 2250
-Wire Wire Line
-	9700 2350 9800 2350
-Connection ~ 9700 2350
-Wire Wire Line
 	9700 2450 9800 2450
-Connection ~ 9700 2450
 Wire Wire Line
 	9700 2550 9800 2550
 Connection ~ 9700 2550
@@ -1668,30 +1656,30 @@ Text GLabel 3250 3450 2    60   Output ~ 0
 XUY06/
 Wire Wire Line
 	3150 3450 3250 3450
-Text GLabel 9700 1450 0    60   Input ~ 0
+Text GLabel 9700 1650 0    60   Input ~ 0
 XUY05/
-Text GLabel 9700 1550 0    60   Input ~ 0
+Text GLabel 9700 1750 0    60   Input ~ 0
 XUY06/
 Wire Wire Line
 	9800 1350 9700 1350
 Wire Wire Line
-	9800 1550 9700 1550
-Text GLabel 9700 1650 0    60   Input ~ 0
-WL05/
-Wire Wire Line
-	9800 1650 9700 1650
-Text GLabel 9700 1750 0    60   Input ~ 0
-WL06/
-Wire Wire Line
 	9800 1750 9700 1750
 Text GLabel 9700 1850 0    60   Input ~ 0
-WL07/
+WL05/
 Wire Wire Line
 	9800 1850 9700 1850
 Text GLabel 9700 1950 0    60   Input ~ 0
-WL08/
+WL06/
 Wire Wire Line
 	9800 1950 9700 1950
+Text GLabel 9700 2050 0    60   Input ~ 0
+WL07/
+Wire Wire Line
+	9800 2050 9700 2050
+Text GLabel 9700 2150 0    60   Input ~ 0
+WL08/
+Wire Wire Line
+	9800 2150 9700 2150
 Text GLabel 5900 2750 2    60   Output ~ 0
 CI09/
 Wire Wire Line
@@ -1715,7 +1703,7 @@ L08/
 Wire Wire Line
 	5800 2200 5900 2200
 Wire Wire Line
-	9700 1450 9800 1450
+	9700 1650 9800 1650
 Text GLabel 9700 1350 0    60   Input ~ 0
 L08/
 Wire Wire Line
@@ -1781,8 +1769,6 @@ Text GLabel 5900 1900 2    60   Output ~ 0
 G08
 Wire Wire Line
 	5800 1900 5900 1900
-Wire Wire Line
-	9700 2050 9700 4200
 Text GLabel 8750 3850 0    60   Input ~ 0
 G05
 Wire Wire Line
@@ -1799,4 +1785,28 @@ Text GLabel 9700 1250 0    60   Input ~ 0
 G08
 Wire Wire Line
 	9800 1250 9700 1250
+Text GLabel 3250 3850 2    60   BiDi ~ 0
+RL05/
+Wire Wire Line
+	3150 3850 3250 3850
+Text GLabel 3250 3950 2    60   BiDi ~ 0
+RL06/
+Wire Wire Line
+	3150 3950 3250 3950
+Text GLabel 9700 1450 0    60   BiDi ~ 0
+RL05/
+Wire Wire Line
+	9800 1450 9700 1450
+Text GLabel 9700 1550 0    60   BiDi ~ 0
+RL06/
+Wire Wire Line
+	9800 1550 9700 1550
+Wire Wire Line
+	9700 2250 9700 4200
+Wire Wire Line
+	9700 2350 9800 2350
+Connection ~ 9700 2450
+Wire Wire Line
+	9700 2250 9800 2250
+Connection ~ 9700 2350
 $EndSCHEMATC

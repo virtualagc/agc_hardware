@@ -157,15 +157,6 @@ Wire Wire Line
 Connection ~ 9900 4000
 Wire Wire Line
 	10000 3900 9900 3900
-Connection ~ 9900 3900
-Wire Wire Line
-	10000 3800 9900 3800
-Connection ~ 9900 3800
-Wire Wire Line
-	10000 3700 9900 3700
-Connection ~ 9900 3700
-Wire Wire Line
-	10000 3600 9900 3600
 $Comp
 L DIN_41612_128P P1
 U 4 1 56AFEA23
@@ -1144,12 +1135,12 @@ Wire Wire Line
 Text GLabel 5650 3100 2    60   Output ~ 0
 S12
 Wire Wire Line
-	10000 3400 9900 3400
-Text GLabel 9900 3400 0    60   Input ~ 0
-S11
-Wire Wire Line
 	10000 3500 9900 3500
 Text GLabel 9900 3500 0    60   Input ~ 0
+S11
+Wire Wire Line
+	10000 3700 9900 3700
+Text GLabel 9900 3700 0    60   Input ~ 0
 S12
 Text GLabel 1550 1050 0    60   Input ~ 0
 T07/
@@ -1316,13 +1307,37 @@ Wire Wire Line
 Text GLabel 9900 3200 0    60   Input ~ 0
 S09/
 Wire Wire Line
-	10000 3300 9900 3300
-Text GLabel 9900 3300 0    60   Input ~ 0
+	10000 3400 9900 3400
+Text GLabel 9900 3400 0    60   Input ~ 0
 S10/
 Wire Wire Line
 	5550 2800 5650 2800
 Text GLabel 5650 2800 2    60   Output ~ 0
 S10/
 Wire Wire Line
-	9900 3600 9900 4150
+	5550 2700 5650 2700
+Text GLabel 5650 2700 2    60   Output ~ 0
+S10
+Wire Wire Line
+	5550 3000 5650 3000
+Text GLabel 5650 3000 2    60   Output ~ 0
+S11/
+Wire Wire Line
+	5550 3200 5650 3200
+Text GLabel 5650 3200 2    60   Output ~ 0
+S12/
+Wire Wire Line
+	9900 3900 9900 4150
+Wire Wire Line
+	10000 3300 9900 3300
+Text GLabel 9900 3300 0    60   Input ~ 0
+S10
+Wire Wire Line
+	10000 3600 9900 3600
+Text GLabel 9900 3600 0    60   Input ~ 0
+S11/
+Wire Wire Line
+	10000 3800 9900 3800
+Text GLabel 9900 3800 0    60   Input ~ 0
+S12/
 $EndSCHEMATC

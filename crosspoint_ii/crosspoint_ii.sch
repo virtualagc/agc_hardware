@@ -260,7 +260,7 @@ F44 "MONPCH" I L 6600 9850 60
 F45 "T04/" I L 6600 2800 60 
 F46 "MON/" I L 6600 9750 60 
 F47 "FETCH1" I L 6600 6300 60 
-F48 "WOVR" O R 8100 4350 60 
+F48 "WOVR/" O R 8100 4350 60 
 F49 "WSC/" O R 8100 4550 60 
 F50 "WG/" O R 8100 4250 60 
 F51 "IC9" I L 6600 8750 60 
@@ -1343,22 +1343,22 @@ Text GLabel 8200 4050 2    60   Output ~ 0
 ST2
 Wire Wire Line
 	8200 4050 8100 4050
-Text GLabel 14200 4450 0    60   Input ~ 0
+Text GLabel 14200 4550 0    60   Input ~ 0
 ST1
 Wire Wire Line
-	14200 4450 14300 4450
-Text GLabel 14200 4550 0    60   Input ~ 0
+	14200 4550 14300 4550
+Text GLabel 14200 4650 0    60   Input ~ 0
 ST2
 Wire Wire Line
-	14200 4550 14300 4550
+	14200 4650 14300 4650
 Text GLabel 5400 3950 2    60   Output ~ 0
 TSGU/
 Wire Wire Line
 	5400 3950 5300 3950
-Text GLabel 14200 4750 0    60   Input ~ 0
+Text GLabel 14200 4850 0    60   Input ~ 0
 TSGU/
 Wire Wire Line
-	14200 4750 14300 4750
+	14200 4850 14300 4850
 Text GLabel 3650 7000 0    60   Input ~ 0
 3XP7
 Wire Wire Line
@@ -1387,26 +1387,26 @@ Text GLabel 8200 5200 2    60   Output ~ 0
 7XP14
 Wire Wire Line
 	8200 5200 8100 5200
-Text GLabel 15550 3050 0    60   Input ~ 0
+Text GLabel 15550 3250 0    60   Input ~ 0
 7XP14
 Wire Wire Line
-	15550 3050 15650 3050
+	15550 3250 15650 3250
 Text GLabel 8200 4900 2    60   Output ~ 0
 RPTSET
 Wire Wire Line
 	8200 4900 8100 4900
-Text GLabel 15550 2950 0    60   Input ~ 0
+Text GLabel 15550 3150 0    60   Input ~ 0
 RPTSET
 Wire Wire Line
-	15550 2950 15650 2950
+	15550 3150 15650 3150
 Text GLabel 5400 3850 2    60   Output ~ 0
 TOV/
 Wire Wire Line
 	5400 3850 5300 3850
-Text GLabel 14200 4650 0    60   Input ~ 0
+Text GLabel 14200 4750 0    60   Input ~ 0
 TOV/
 Wire Wire Line
-	14200 4650 14300 4650
+	14200 4750 14300 4750
 Text GLabel 5400 2550 2    60   Output ~ 0
 A2X/
 Wire Wire Line
@@ -1471,10 +1471,10 @@ Text GLabel 5400 3550 2    60   Output ~ 0
 RCH/
 Wire Wire Line
 	5400 3550 5300 3550
-Text GLabel 14200 3950 0    60   Input ~ 0
+Text GLabel 14200 4050 0    60   Input ~ 0
 RCH/
 Wire Wire Line
-	14200 3950 14300 3950
+	14200 4050 14300 4050
 Text GLabel 5400 3450 2    60   Output ~ 0
 RC/
 Wire Wire Line
@@ -1483,18 +1483,18 @@ Text GLabel 8200 3550 2    60   Output ~ 0
 RC/
 Wire Wire Line
 	8200 3550 8100 3550
-Text GLabel 14200 3850 0    60   Input ~ 0
+Text GLabel 14200 3950 0    60   Input ~ 0
 RC/
 Wire Wire Line
-	14200 3850 14300 3850
+	14200 3950 14300 3950
 Text GLabel 5400 3650 2    60   Output ~ 0
 RG/
 Wire Wire Line
 	5400 3650 5300 3650
-Text GLabel 14200 4050 0    60   Input ~ 0
+Text GLabel 14200 4150 0    60   Input ~ 0
 RG/
 Wire Wire Line
-	14200 4050 14300 4050
+	14200 4150 14300 4150
 $Comp
 L DIN_41612_128P P1
 U 6 1 56CF64EF
@@ -1575,24 +1575,18 @@ Wire Wire Line
 Connection ~ 15550 3850
 Connection ~ 15550 3750
 Wire Wire Line
-	15550 3450 15650 3450
-Wire Wire Line
-	15550 3350 15650 3350
-Connection ~ 15550 3450
-Wire Wire Line
 	15550 3650 15650 3650
 Wire Wire Line
 	15550 3550 15650 3550
 Connection ~ 15550 3650
-Connection ~ 15550 3550
 Text GLabel 8200 3750 2    60   Output ~ 0
 RUS/
 Wire Wire Line
 	8200 3750 8100 3750
-Text GLabel 14200 4150 0    60   Input ~ 0
+Text GLabel 14200 4250 0    60   Input ~ 0
 RU/
 Wire Wire Line
-	14200 4150 14300 4150
+	14200 4250 14300 4250
 Text GLabel 5400 3750 2    60   Output ~ 0
 RU/
 Wire Wire Line
@@ -1601,34 +1595,34 @@ Text GLabel 8200 3650 2    60   Output ~ 0
 RU/
 Wire Wire Line
 	8200 3650 8100 3650
-Text GLabel 14200 4250 0    60   Input ~ 0
+Text GLabel 14200 4350 0    60   Input ~ 0
 RUS/
 Wire Wire Line
-	14200 4250 14300 4250
+	14200 4350 14300 4350
 Text GLabel 8200 3850 2    60   Output ~ 0
 RZ/
 Wire Wire Line
 	8200 3850 8100 3850
-Text GLabel 14200 4350 0    60   Input ~ 0
+Text GLabel 14200 4450 0    60   Input ~ 0
 RZ/
 Wire Wire Line
-	14200 4350 14300 4350
+	14200 4450 14300 4450
 Text GLabel 8200 4150 2    60   Output ~ 0
 WA/
 Wire Wire Line
 	8200 4150 8100 4150
-Text GLabel 14200 4950 0    60   Input ~ 0
+Text GLabel 14200 5050 0    60   Input ~ 0
 WA/
 Wire Wire Line
-	14200 4950 14300 4950
+	14200 5050 14300 5050
 Text GLabel 5400 4150 2    60   Output ~ 0
 WB/
 Wire Wire Line
 	5400 4150 5300 4150
-Text GLabel 14200 5050 0    60   Input ~ 0
+Text GLabel 14200 5150 0    60   Input ~ 0
 WB/
 Wire Wire Line
-	14200 5050 14300 5050
+	14200 5150 14300 5150
 Text GLabel 5400 4250 2    60   Output ~ 0
 WG/
 Wire Wire Line
@@ -1637,26 +1631,26 @@ Text GLabel 8200 4250 2    60   Output ~ 0
 WG/
 Wire Wire Line
 	8200 4250 8100 4250
-Text GLabel 14200 5150 0    60   Input ~ 0
+Text GLabel 14200 5250 0    60   Input ~ 0
 WG/
 Wire Wire Line
-	14200 5150 14300 5150
+	14200 5250 14300 5250
 Text GLabel 5400 4350 2    60   Output ~ 0
 WL/
 Wire Wire Line
 	5400 4350 5300 4350
-Text GLabel 14200 5250 0    60   Input ~ 0
+Text GLabel 14200 5350 0    60   Input ~ 0
 WL/
 Wire Wire Line
-	14200 5250 14300 5250
+	14200 5350 14300 5350
 Text GLabel 5400 4450 2    60   Output ~ 0
 WQ/
 Wire Wire Line
 	5400 4450 5300 4450
-Text GLabel 14200 5350 0    60   Input ~ 0
+Text GLabel 14200 5550 0    60   Input ~ 0
 WQ/
 Wire Wire Line
-	14200 5350 14300 5350
+	14200 5550 14300 5550
 Text GLabel 5400 4550 2    60   Output ~ 0
 WSC/
 Wire Wire Line
@@ -1665,50 +1659,50 @@ Text GLabel 8200 4550 2    60   Output ~ 0
 WSC/
 Wire Wire Line
 	8200 4550 8100 4550
-Text GLabel 14200 5550 0    60   Input ~ 0
+Text GLabel 15550 2650 0    60   Input ~ 0
 WSC/
 Wire Wire Line
-	14200 5550 14300 5550
+	15550 2650 15650 2650
 Text GLabel 8200 4450 2    60   Output ~ 0
 WS/
 Wire Wire Line
 	8200 4450 8100 4450
-Text GLabel 14200 5450 0    60   Input ~ 0
+Text GLabel 15550 2550 0    60   Input ~ 0
 WS/
 Wire Wire Line
-	14200 5450 14300 5450
+	15550 2550 15650 2550
 Text GLabel 5400 4750 2    60   Output ~ 0
 WYD/
 Wire Wire Line
 	5400 4750 5300 4750
-Text GLabel 15550 2650 0    60   Input ~ 0
+Text GLabel 15550 2850 0    60   Input ~ 0
 WYD/
 Wire Wire Line
-	15550 2650 15650 2650
+	15550 2850 15650 2850
 Text GLabel 5400 4650 2    60   Output ~ 0
 WY/
 Wire Wire Line
 	5400 4650 5300 4650
-Text GLabel 15550 2550 0    60   Input ~ 0
+Text GLabel 15550 2750 0    60   Input ~ 0
 WY/
 Wire Wire Line
-	15550 2550 15650 2550
+	15550 2750 15650 2750
 Text GLabel 5400 4850 2    60   Output ~ 0
 WZ/
 Wire Wire Line
 	5400 4850 5300 4850
-Text GLabel 15550 2750 0    60   Input ~ 0
+Text GLabel 15550 2950 0    60   Input ~ 0
 WZ/
 Wire Wire Line
-	15550 2750 15650 2750
+	15550 2950 15650 2950
 Text GLabel 5400 5050 2    60   Output ~ 0
 ZAP/
 Wire Wire Line
 	5400 5050 5300 5050
-Text GLabel 15550 2850 0    60   Input ~ 0
+Text GLabel 15550 3050 0    60   Input ~ 0
 ZAP/
 Wire Wire Line
-	15550 2850 15650 2850
+	15550 3050 15650 3050
 Text GLabel 5400 2750 2    60   Output ~ 0
 CLXC
 Wire Wire Line
@@ -1777,10 +1771,10 @@ Text GLabel 5400 4050 2    60   Output ~ 0
 TWOX
 Wire Wire Line
 	5400 4050 5300 4050
-Text GLabel 14200 4850 0    60   Input ~ 0
+Text GLabel 14200 4950 0    60   Input ~ 0
 TWOX
 Wire Wire Line
-	14200 4850 14300 4850
+	14200 4950 14300 4950
 Text GLabel 5400 3050 2    60   Output ~ 0
 MONEX
 Wire Wire Line
@@ -1805,8 +1799,6 @@ Text GLabel 3650 8500 0    60   Input ~ 0
 NISQ
 Wire Wire Line
 	3650 8500 3750 8500
-Wire Wire Line
-	15550 3350 15550 5650
 Text GLabel 12050 2550 0    60   Output ~ 0
 NISQ
 Wire Wire Line
@@ -1819,12 +1811,30 @@ Text GLabel 5400 6000 2    60   Output ~ 0
 WHOMPA
 Wire Wire Line
 	5400 6000 5300 6000
-Text GLabel 15550 3250 0    60   Input ~ 0
+Text GLabel 15550 3450 0    60   Input ~ 0
 WHOMPA
 Wire Wire Line
-	15550 3250 15650 3250
-Text GLabel 15550 3150 0    60   Input ~ 0
+	15550 3450 15650 3450
+Text GLabel 15550 3350 0    60   Input ~ 0
 WHOMP
 Wire Wire Line
-	15550 3150 15650 3150
+	15550 3350 15650 3350
+Text GLabel 5400 3350 2    60   Output ~ 0
+RB1F
+Wire Wire Line
+	5400 3350 5300 3350
+Wire Wire Line
+	15550 3550 15550 5650
+Text GLabel 14200 3850 0    60   Input ~ 0
+RB1F
+Wire Wire Line
+	14200 3850 14300 3850
+Text GLabel 8200 4350 2    60   Output ~ 0
+WOVR/
+Wire Wire Line
+	8200 4350 8100 4350
+Text GLabel 14200 5450 0    60   Input ~ 0
+WOVR/
+Wire Wire Line
+	14200 5450 14300 5450
 $EndSCHEMATC
