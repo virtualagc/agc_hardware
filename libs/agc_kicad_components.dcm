@@ -15,4 +15,10 @@ D Hex Open Drain Buffer
 K CMOS OPEN DRAIN BUFFER
 $ENDCMP
 #
+$CMP SST39VF200A
+D Silicon Storage Technology (SST) 128k x 16 Flash ROM
+K 128k x 16 flash rom
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25001A.pdf
+$ENDCMP
+#
 #End Doc Library

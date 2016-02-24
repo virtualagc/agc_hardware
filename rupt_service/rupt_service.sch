@@ -193,47 +193,6 @@ F 3 "" H 12450 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12250 1500 12150 1500
-Wire Wire Line
-	12150 1600 12250 1600
-Connection ~ 12150 1600
-Wire Wire Line
-	12150 1700 12250 1700
-Connection ~ 12150 1700
-Wire Wire Line
-	12150 1800 12250 1800
-Connection ~ 12150 1800
-Wire Wire Line
-	12150 1900 12250 1900
-Connection ~ 12150 1900
-Wire Wire Line
-	12150 2000 12250 2000
-Connection ~ 12150 2000
-Wire Wire Line
-	12150 2100 12250 2100
-Connection ~ 12150 2100
-Wire Wire Line
-	12150 2200 12250 2200
-Connection ~ 12150 2200
-Wire Wire Line
-	12150 2300 12250 2300
-Connection ~ 12150 2300
-Wire Wire Line
-	12150 2400 12250 2400
-Connection ~ 12150 2400
-Wire Wire Line
-	12150 2500 12250 2500
-Connection ~ 12150 2500
-Wire Wire Line
-	12150 2600 12250 2600
-Connection ~ 12150 2600
-Wire Wire Line
-	12150 2700 12250 2700
-Connection ~ 12150 2700
-Wire Wire Line
-	12150 2800 12250 2800
-Connection ~ 12150 2800
-Wire Wire Line
 	12150 2900 12250 2900
 Connection ~ 12150 2900
 Wire Wire Line
@@ -1562,5 +1521,101 @@ Wire Wire Line
 Text GLabel 11050 4500 0    60   Input ~ 0
 RL16/
 Wire Wire Line
-	12150 1500 12150 4600
+	7300 2000 7400 2000
+Text GLabel 7400 2000 2    60   Output ~ 0
+ROPER
+Wire Wire Line
+	7300 2100 7400 2100
+Text GLabel 7400 2100 2    60   Output ~ 0
+ROPES
+Wire Wire Line
+	7300 2200 7400 2200
+Text GLabel 7400 2200 2    60   Output ~ 0
+ROPET
+Wire Wire Line
+	12250 1500 12150 1500
+Text GLabel 12150 1500 0    60   Input ~ 0
+ROPER
+Wire Wire Line
+	12250 1600 12150 1600
+Text GLabel 12150 1600 0    60   Input ~ 0
+ROPES
+Wire Wire Line
+	12250 1700 12150 1700
+Text GLabel 12150 1700 0    60   Input ~ 0
+ROPET
+Wire Wire Line
+	7300 2350 7400 2350
+Text GLabel 7400 2350 2    60   Output ~ 0
+HIMOD
+Wire Wire Line
+	7300 2450 7400 2450
+Text GLabel 7400 2450 2    60   Output ~ 0
+LOMOD
+Wire Wire Line
+	12250 1800 12150 1800
+Text GLabel 12150 1800 0    60   Input ~ 0
+HIMOD
+Wire Wire Line
+	12250 1900 12150 1900
+Text GLabel 12150 1900 0    60   Input ~ 0
+LOMOD
+Wire Wire Line
+	7300 2600 7400 2600
+Text GLabel 7400 2600 2    60   Output ~ 0
+STR19
+Wire Wire Line
+	7300 2700 7400 2700
+Text GLabel 7400 2700 2    60   Output ~ 0
+STR210
+Wire Wire Line
+	7300 2800 7400 2800
+Text GLabel 7400 2800 2    60   Output ~ 0
+STR311
+Wire Wire Line
+	12250 2000 12150 2000
+Text GLabel 12150 2000 0    60   Input ~ 0
+STR19
+Wire Wire Line
+	12250 2100 12150 2100
+Text GLabel 12150 2100 0    60   Input ~ 0
+STR210
+Wire Wire Line
+	12250 2200 12150 2200
+Text GLabel 12150 2200 0    60   Input ~ 0
+STR311
+Wire Wire Line
+	7300 3050 7400 3050
+Text GLabel 7400 3050 2    60   Output ~ 0
+STR14
+Wire Wire Line
+	7300 3150 7400 3150
+Text GLabel 7400 3150 2    60   Output ~ 0
+STR58
+Wire Wire Line
+	7300 3250 7400 3250
+Text GLabel 7400 3250 2    60   Output ~ 0
+STR912
+Wire Wire Line
+	12250 2300 12150 2300
+Text GLabel 12150 2300 0    60   Input ~ 0
+STR14
+Wire Wire Line
+	12250 2400 12150 2400
+Text GLabel 12150 2400 0    60   Input ~ 0
+STR58
+Wire Wire Line
+	12250 2500 12150 2500
+Text GLabel 12150 2500 0    60   Input ~ 0
+STR912
+Wire Wire Line
+	12150 2700 12250 2700
+Connection ~ 12150 2700
+Wire Wire Line
+	12150 2800 12250 2800
+Connection ~ 12150 2800
+Wire Wire Line
+	12250 2600 12150 2600
+Wire Wire Line
+	12150 2600 12150 4600
 $EndSCHEMATC
