@@ -1597,25 +1597,30 @@ Wire Wire Line
 Text GLabel 7400 3250 2    60   Output ~ 0
 STR912
 Wire Wire Line
-	12250 2300 12150 2300
-Text GLabel 12150 2300 0    60   Input ~ 0
-STR14
-Wire Wire Line
 	12250 2400 12150 2400
 Text GLabel 12150 2400 0    60   Input ~ 0
-STR58
+STR14
 Wire Wire Line
 	12250 2500 12150 2500
 Text GLabel 12150 2500 0    60   Input ~ 0
+STR58
+Wire Wire Line
+	12250 2600 12150 2600
+Text GLabel 12150 2600 0    60   Input ~ 0
 STR912
 Wire Wire Line
 	12150 2700 12250 2700
-Connection ~ 12150 2700
 Wire Wire Line
 	12150 2800 12250 2800
 Connection ~ 12150 2800
 Wire Wire Line
-	12250 2600 12150 2600
+	7300 2900 7400 2900
+Text GLabel 7400 2900 2    60   Output ~ 0
+STR412
 Wire Wire Line
-	12150 2600 12150 4600
+	12150 2700 12150 4600
+Wire Wire Line
+	12250 2300 12150 2300
+Text GLabel 12150 2300 0    60   Input ~ 0
+STR412
 $EndSCHEMATC

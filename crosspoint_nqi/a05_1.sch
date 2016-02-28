@@ -1992,10 +1992,7 @@ Wire Wire Line
 	15350 7650 15750 7650
 Connection ~ 15350 5650
 Wire Wire Line
-	13000 1050 13000 8200
-Wire Wire Line
 	13000 7950 13250 7950
-Connection ~ 13000 1050
 $Comp
 L 74HC27 U5025
 U 2 1 565F9DC7
@@ -2732,4 +2729,7 @@ F 3 "" H 9100 9350 60  0000 C CNN
 	1    9100 9350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	13000 1250 13000 8200
+Connection ~ 13000 1250
 $EndSCHEMATC

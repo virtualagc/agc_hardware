@@ -155,19 +155,7 @@ F 3 "" H 9750 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9450 4100 9550 4100
-Wire Wire Line
-	9450 4200 9550 4200
-Connection ~ 9450 4200
-Wire Wire Line
-	9450 4300 9550 4300
-Connection ~ 9450 4300
-Wire Wire Line
-	9450 4400 9550 4400
-Connection ~ 9450 4400
-Wire Wire Line
 	9450 4500 9550 4500
-Connection ~ 9450 4500
 $Comp
 L GND #PWR01
 U 1 1 56B9AD0B
@@ -1340,16 +1328,16 @@ Wire Wire Line
 Text GLabel 2950 2350 2    60   Output ~ 0
 RESETC
 Wire Wire Line
-	9550 3100 9450 3100
-Text GLabel 9450 3100 0    60   Input ~ 0
-RESETA
-Wire Wire Line
-	9550 3200 9450 3200
-Text GLabel 9450 3200 0    60   Input ~ 0
-RESETB
-Wire Wire Line
 	9550 3300 9450 3300
 Text GLabel 9450 3300 0    60   Input ~ 0
+RESETA
+Wire Wire Line
+	9550 3400 9450 3400
+Text GLabel 9450 3400 0    60   Input ~ 0
+RESETB
+Wire Wire Line
+	9550 3500 9450 3500
+Text GLabel 9450 3500 0    60   Input ~ 0
 RESETC
 Wire Wire Line
 	5500 10150 5600 10150
@@ -1380,41 +1368,73 @@ Wire Wire Line
 Text GLabel 5600 11350 2    60   Output ~ 0
 IL07
 Wire Wire Line
-	9550 3400 9450 3400
-Text GLabel 9450 3400 0    60   Input ~ 0
-IL01
-Wire Wire Line
-	9550 3500 9450 3500
-Text GLabel 9450 3500 0    60   Input ~ 0
-IL02
-Wire Wire Line
-	9550 3600 9450 3600
-Text GLabel 9450 3600 0    60   Input ~ 0
-IL03
-Wire Wire Line
-	9550 3700 9450 3700
-Text GLabel 9450 3700 0    60   Input ~ 0
-IL04
-Wire Wire Line
 	9550 3800 9450 3800
 Text GLabel 9450 3800 0    60   Input ~ 0
-IL05
+IL01
 Wire Wire Line
 	9550 3900 9450 3900
 Text GLabel 9450 3900 0    60   Input ~ 0
-IL06
+IL02
 Wire Wire Line
 	9550 4000 9450 4000
 Text GLabel 9450 4000 0    60   Input ~ 0
+IL03
+Wire Wire Line
+	9550 4100 9450 4100
+Text GLabel 9450 4100 0    60   Input ~ 0
+IL04
+Wire Wire Line
+	9550 4200 9450 4200
+Text GLabel 9450 4200 0    60   Input ~ 0
+IL05
+Wire Wire Line
+	9550 4300 9450 4300
+Text GLabel 9450 4300 0    60   Input ~ 0
+IL06
+Wire Wire Line
+	9550 4400 9450 4400
+Text GLabel 9450 4400 0    60   Input ~ 0
 IL07
 Wire Wire Line
 	2850 2750 2950 2750
 Text GLabel 2950 2750 2    60   Output ~ 0
 SBF
 Wire Wire Line
-	9450 4100 9450 4600
-Wire Wire Line
 	8550 4300 8450 4300
 Text GLabel 8450 4300 0    60   Input ~ 0
 SBF
+Wire Wire Line
+	2850 2450 2950 2450
+Text GLabel 2950 2450 2    60   Output ~ 0
+RESETD
+Wire Wire Line
+	9550 3600 9450 3600
+Text GLabel 9450 3600 0    60   Input ~ 0
+RESETD
+Wire Wire Line
+	9550 3100 9450 3100
+Text GLabel 9450 3100 0    60   Input ~ 0
+SETAB
+Wire Wire Line
+	9550 3200 9450 3200
+Text GLabel 9450 3200 0    60   Input ~ 0
+SETCD
+Wire Wire Line
+	2850 1700 2950 1700
+Text GLabel 2950 1700 2    60   Output ~ 0
+SETAB
+Wire Wire Line
+	2850 1900 2950 1900
+Text GLabel 2950 1900 2    60   Output ~ 0
+SETCD
+Wire Wire Line
+	2850 1550 2950 1550
+Text GLabel 2950 1550 2    60   Output ~ 0
+CLROPE
+Wire Wire Line
+	9450 4500 9450 4600
+Wire Wire Line
+	9550 3700 9450 3700
+Text GLabel 9450 3700 0    60   Input ~ 0
+CLROPE
 $EndSCHEMATC

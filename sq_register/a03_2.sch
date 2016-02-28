@@ -727,7 +727,7 @@ $EndComp
 Text HLabel 13550 950  0    60   Input ~ 0
 SQ1/
 Text HLabel 13550 1100 0    60   Input ~ 0
-QC0/
+QC0
 Text Label 13250 1250 0    60   ~ 0
 EXST0/
 $Comp
@@ -1413,8 +1413,6 @@ Connection ~ 15850 1100
 Wire Wire Line
 	16900 1100 17250 1100
 Wire Wire Line
-	14400 1100 14400 11900
-Wire Wire Line
 	14400 1600 14600 1600
 Connection ~ 14400 1100
 Wire Wire Line
@@ -1492,8 +1490,7 @@ Wire Wire Line
 	14300 2600 14600 2600
 Connection ~ 14300 950 
 Wire Wire Line
-	14400 2750 14600 2750
-Connection ~ 14400 1600
+	13200 2750 14600 2750
 Wire Wire Line
 	10550 5550 10550 2900
 Wire Wire Line
@@ -2348,4 +2345,10 @@ Wire Wire Line
 	15950 2950 19100 2950
 Wire Wire Line
 	19100 2950 19100 3300
+Wire Wire Line
+	14400 1100 14400 1600
+Text HLabel 13200 2750 0    60   Input ~ 0
+QC0/
+Wire Wire Line
+	14400 2750 14400 11900
 $EndSCHEMATC
