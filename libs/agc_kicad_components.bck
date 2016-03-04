@@ -25,12 +25,6 @@ D Hex Open Drain Buffer
 K CMOS OPEN DRAIN BUFFER
 $ENDCMP
 #
-$CMP MR0A16A
-D Everspin Technologies 64k x 16 Parallel MRAM
-K 64k x 16 mram
-F http://www.everspin.com/PDF/EST_MR0A16A_prod.pdf
-$ENDCMP
-#
 $CMP SST39VF200A
 D Silicon Storage Technology (SST) 128k x 16 Flash ROM
 K 128k x 16 flash rom

@@ -1555,28 +1555,6 @@ Text GLabel 4200 8350 0    60   Input ~ 0
 WL03/
 Wire Wire Line
 	4300 8350 4200 8350
-$Comp
-L GND #PWR08
-U 1 1 56A4BF3C
-P 9850 4200
-F 0 "#PWR08" H 9850 3950 50  0001 C CNN
-F 1 "GND" H 9850 4050 50  0000 C CNN
-F 2 "" H 9850 4200 60  0000 C CNN
-F 3 "" H 9850 4200 60  0000 C CNN
-	1    9850 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9850 3750 9950 3750
-Wire Wire Line
-	9850 3850 9950 3850
-Connection ~ 9850 3850
-Wire Wire Line
-	9850 3950 9950 3950
-Connection ~ 9850 3950
-Wire Wire Line
-	9850 4050 9950 4050
-Connection ~ 9850 4050
 Wire Wire Line
 	5700 2000 6550 2000
 Wire Wire Line
@@ -1808,8 +1786,6 @@ Text GLabel 5800 3950 2    60   BiDi ~ 0
 RL04/
 Wire Wire Line
 	5700 3950 5800 3950
-Wire Wire Line
-	9850 3750 9850 4200
 Text GLabel 9850 2150 0    60   BiDi ~ 0
 RL01/
 Wire Wire Line
@@ -1826,4 +1802,36 @@ Text GLabel 9850 2450 0    60   BiDi ~ 0
 RL04/
 Wire Wire Line
 	9950 2450 9850 2450
+Text GLabel 3250 3600 2    60   Output ~ 0
+GEM01
+Wire Wire Line
+	3150 3600 3250 3600
+Text GLabel 3250 3700 2    60   Output ~ 0
+GEM02
+Wire Wire Line
+	3150 3700 3250 3700
+Text GLabel 5800 3600 2    60   Output ~ 0
+GEM03
+Wire Wire Line
+	5700 3600 5800 3600
+Text GLabel 5800 3700 2    60   Output ~ 0
+GEM04
+Wire Wire Line
+	5700 3700 5800 3700
+Text GLabel 9850 3750 0    60   Input ~ 0
+GEM01
+Wire Wire Line
+	9950 3750 9850 3750
+Text GLabel 9850 3850 0    60   Input ~ 0
+GEM02
+Wire Wire Line
+	9950 3850 9850 3850
+Text GLabel 9850 3950 0    60   Input ~ 0
+GEM03
+Wire Wire Line
+	9950 3950 9850 3950
+Text GLabel 9850 4050 0    60   Input ~ 0
+GEM04
+Wire Wire Line
+	9950 4050 9850 4050
 $EndSCHEMATC

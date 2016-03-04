@@ -71,7 +71,7 @@ DVST
 Wire Wire Line
 	900  1650 1800 1650
 Text HLabel 3600 1350 0    60   Input ~ 0
-T03
+T03/
 Wire Wire Line
 	3600 1350 3800 1350
 Wire Wire Line
@@ -1005,8 +1005,6 @@ Wire Wire Line
 Text HLabel 9600 7850 2    60   Output ~ 0
 STG3
 Wire Wire Line
-	9350 7300 9350 8700
-Wire Wire Line
 	9050 8000 10300 8000
 Wire Wire Line
 	9500 7850 9500 8000
@@ -1067,7 +1065,6 @@ Wire Wire Line
 	9900 7300 9900 6250
 Wire Wire Line
 	9900 6250 10300 6250
-Connection ~ 9350 7300
 Wire Wire Line
 	10000 6400 10300 6400
 Connection ~ 10000 4900
@@ -2564,4 +2561,7 @@ Wire Wire Line
 Wire Wire Line
 	15600 6450 15700 6450
 Connection ~ 15650 6450
+Wire Wire Line
+	9350 8000 9350 8700
+Connection ~ 9350 8000
 $EndSCHEMATC

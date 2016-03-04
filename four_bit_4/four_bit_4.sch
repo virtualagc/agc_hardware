@@ -1339,16 +1339,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 8350 4500 8350
 Wire Wire Line
-	10250 3650 10350 3650
-Wire Wire Line
-	10250 3750 10350 3750
-Connection ~ 10250 3750
-Wire Wire Line
-	10250 3850 10350 3850
-Connection ~ 10250 3850
-Wire Wire Line
 	10250 3950 10350 3950
-Connection ~ 10250 3950
 Wire Wire Line
 	10250 4050 10350 4050
 Connection ~ 10250 4050
@@ -1915,6 +1906,30 @@ Text GLabel 10250 1950 0    60   BiDi ~ 0
 RL16/
 Wire Wire Line
 	10350 1950 10250 1950
+Text GLabel 3250 3600 2    60   Output ~ 0
+GEM13
 Wire Wire Line
-	10250 3650 10250 4200
+	3150 3600 3250 3600
+Text GLabel 3250 3700 2    60   Output ~ 0
+GEM14
+Wire Wire Line
+	3150 3700 3250 3700
+Text GLabel 6100 3700 2    60   Output ~ 0
+GEM16
+Wire Wire Line
+	6000 3700 6100 3700
+Wire Wire Line
+	10250 3950 10250 4200
+Text GLabel 10250 3750 0    60   Input ~ 0
+GEM14
+Wire Wire Line
+	10350 3750 10250 3750
+Text GLabel 10250 3850 0    60   Input ~ 0
+GEM16
+Wire Wire Line
+	10350 3850 10250 3850
+Wire Wire Line
+	10350 3650 10250 3650
+Text GLabel 10250 3650 0    60   Input ~ 0
+GEM13
 $EndSCHEMATC

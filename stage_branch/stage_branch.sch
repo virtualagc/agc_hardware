@@ -50,7 +50,7 @@ U 5631C834
 F0 "A04_1" 60
 F1 "a04_1.sch" 60
 F2 "DVST" I L 3450 5250 60 
-F3 "T03" I L 3450 2650 60 
+F3 "T03/" I L 3450 2650 60 
 F4 "PHS3/" I L 3450 2200 60 
 F5 "T12USE/" O R 4700 5050 60 
 F6 "DIVSTG" O R 4700 3250 60 
@@ -154,7 +154,7 @@ PHS3/
 Text GLabel 3350 2550 0    60   Input ~ 0
 T01
 Text GLabel 3350 2650 0    60   Input ~ 0
-T03
+T03/
 Text GLabel 3350 2750 0    60   Input ~ 0
 T12/
 Text GLabel 3350 2900 0    60   Input ~ 0
@@ -193,8 +193,6 @@ NoConn ~ 4850 2650
 NoConn ~ 4850 5200
 Text GLabel 12500 3200 0    60   Output ~ 0
 GOJAM
-Text GLabel 12500 3800 0    60   Output ~ 0
-T03
 Text GLabel 12500 3700 0    60   Output ~ 0
 T01
 Text GLabel 13700 5400 0    60   Output ~ 0
@@ -294,7 +292,7 @@ Text GLabel 12500 3600 0    60   Output ~ 0
 PHS4/
 Text GLabel 12500 5800 0    60   Output ~ 0
 SQEXT/
-Text GLabel 12500 5400 0    60   Output ~ 0
+Text GLabel 12500 5300 0    60   Output ~ 0
 QC0/
 Text GLabel 13700 3200 0    60   Output ~ 0
 WL16/
@@ -516,7 +514,7 @@ QC2/
 Text GLabel 6850 3600 0    60   Input ~ 0
 QC3/
 Text GLabel 6850 3700 0    60   Input ~ 0
-SQEXT/
+SQEXT
 Text GLabel 6850 3850 0    60   Input ~ 0
 SQR10
 Text GLabel 6850 3950 0    60   Input ~ 0
@@ -599,41 +597,41 @@ F 3 "" H 16200 4800 60  0000 C CNN
 	4    16200 4800
 	1    0    0    -1  
 $EndComp
-Text GLabel 12500 3900 0    60   Output ~ 0
+Text GLabel 12500 3800 0    60   Output ~ 0
 T01/
-Text GLabel 12500 4000 0    60   Output ~ 0
+Text GLabel 12500 3900 0    60   Output ~ 0
 T02/
-Text GLabel 12500 4100 0    60   Output ~ 0
+Text GLabel 12500 4000 0    60   Output ~ 0
 T03/
-Text GLabel 12500 4200 0    60   Output ~ 0
+Text GLabel 12500 4100 0    60   Output ~ 0
 T04/
-Text GLabel 12500 4300 0    60   Output ~ 0
+Text GLabel 12500 4200 0    60   Output ~ 0
 T05/
-Text GLabel 12500 4400 0    60   Output ~ 0
+Text GLabel 12500 4300 0    60   Output ~ 0
 T06/
-Text GLabel 12500 4500 0    60   Output ~ 0
+Text GLabel 12500 4400 0    60   Output ~ 0
 T07/
-Text GLabel 12500 4600 0    60   Output ~ 0
+Text GLabel 12500 4500 0    60   Output ~ 0
 T08/
-Text GLabel 12500 4700 0    60   Output ~ 0
+Text GLabel 12500 4600 0    60   Output ~ 0
 T09/
-Text GLabel 12500 4800 0    60   Output ~ 0
+Text GLabel 12500 4700 0    60   Output ~ 0
 T10/
-Text GLabel 12500 4900 0    60   Output ~ 0
+Text GLabel 12500 4800 0    60   Output ~ 0
 T11/
-Text GLabel 12500 5000 0    60   Output ~ 0
+Text GLabel 12500 4900 0    60   Output ~ 0
 T12/
-Text GLabel 12500 5100 0    60   Output ~ 0
+Text GLabel 12500 5000 0    60   Output ~ 0
 SQ0/
-Text GLabel 12500 5200 0    60   Output ~ 0
+Text GLabel 12500 5100 0    60   Output ~ 0
 SQ1/
-Text GLabel 12500 5300 0    60   Output ~ 0
+Text GLabel 12500 5200 0    60   Output ~ 0
 SQ2/
-Text GLabel 12500 5500 0    60   Output ~ 0
+Text GLabel 12500 5400 0    60   Output ~ 0
 QC1/
-Text GLabel 12500 5600 0    60   Output ~ 0
+Text GLabel 12500 5500 0    60   Output ~ 0
 QC2/
-Text GLabel 12500 5700 0    60   Output ~ 0
+Text GLabel 12500 5600 0    60   Output ~ 0
 QC3/
 Text GLabel 12500 5900 0    60   Output ~ 0
 SQR10
@@ -764,8 +762,6 @@ Wire Wire Line
 Wire Wire Line
 	4850 5200 4700 5200
 Wire Wire Line
-	12500 3800 12600 3800
-Wire Wire Line
 	12600 3700 12500 3700
 Wire Wire Line
 	14850 4050 14950 4050
@@ -876,7 +872,7 @@ Wire Wire Line
 Wire Wire Line
 	12600 5800 12500 5800
 Wire Wire Line
-	12500 5400 12600 5400
+	12500 5300 12600 5300
 Wire Wire Line
 	13700 3200 13800 3200
 Wire Wire Line
@@ -1110,6 +1106,8 @@ Wire Wire Line
 Wire Wire Line
 	6950 6900 6850 6900
 Wire Wire Line
+	12500 3800 12600 3800
+Wire Wire Line
 	12500 3900 12600 3900
 Wire Wire Line
 	12500 4000 12600 4000
@@ -1138,13 +1136,11 @@ Wire Wire Line
 Wire Wire Line
 	12500 5200 12600 5200
 Wire Wire Line
-	12500 5300 12600 5300
+	12500 5400 12600 5400
 Wire Wire Line
 	12500 5500 12600 5500
 Wire Wire Line
 	12500 5600 12600 5600
-Wire Wire Line
-	12500 5700 12600 5700
 Wire Wire Line
 	12600 5900 12500 5900
 Wire Wire Line
@@ -1304,8 +1300,6 @@ Wire Wire Line
 	14850 5250 14950 5250
 Wire Wire Line
 	14950 5350 14850 5350
-Wire Wire Line
-	12500 6450 12500 6300
 Wire Wire Line
 	12500 6300 12600 6300
 Wire Wire Line
@@ -1895,4 +1889,10 @@ Wire Wire Line
 	16000 4650 15900 4650
 Text GLabel 15900 4650 0    60   Input ~ 0
 DV3764
+Wire Wire Line
+	12500 6300 12500 6450
+Text GLabel 12500 5700 0    60   Output ~ 0
+SQEXT
+Wire Wire Line
+	12600 5700 12500 5700
 $EndSCHEMATC

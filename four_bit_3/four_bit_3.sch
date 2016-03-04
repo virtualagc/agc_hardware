@@ -1431,19 +1431,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 8350 4300 8350
 Wire Wire Line
-	9750 2750 9850 2750
-Wire Wire Line
-	9750 2850 9850 2850
-Connection ~ 9750 2850
-Wire Wire Line
-	9750 2950 9850 2950
-Connection ~ 9750 2950
-Wire Wire Line
-	9750 3050 9850 3050
-Connection ~ 9750 3050
-Wire Wire Line
 	9750 3150 9850 3150
-Connection ~ 9750 3150
 Wire Wire Line
 	9750 3250 9850 3250
 Connection ~ 9750 3250
@@ -1848,6 +1836,38 @@ Text GLabel 9750 1650 0    60   BiDi ~ 0
 RL12/
 Wire Wire Line
 	9850 1650 9750 1650
+Text GLabel 3250 3600 2    60   Output ~ 0
+GEM09
 Wire Wire Line
-	9750 2750 9750 4200
+	3150 3600 3250 3600
+Text GLabel 3250 3700 2    60   Output ~ 0
+GEM10
+Wire Wire Line
+	3150 3700 3250 3700
+Text GLabel 5900 3600 2    60   Output ~ 0
+GEM11
+Wire Wire Line
+	5800 3600 5900 3600
+Text GLabel 5900 3700 2    60   Output ~ 0
+GEM12
+Wire Wire Line
+	5800 3700 5900 3700
+Wire Wire Line
+	9750 3150 9750 4200
+Text GLabel 9750 2750 0    60   Input ~ 0
+GEM09
+Wire Wire Line
+	9850 2750 9750 2750
+Text GLabel 9750 2850 0    60   Input ~ 0
+GEM10
+Wire Wire Line
+	9850 2850 9750 2850
+Text GLabel 9750 2950 0    60   Input ~ 0
+GEM11
+Wire Wire Line
+	9850 2950 9750 2950
+Text GLabel 9750 3050 0    60   Input ~ 0
+GEM12
+Wire Wire Line
+	9850 3050 9750 3050
 $EndSCHEMATC

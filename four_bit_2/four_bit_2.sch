@@ -1470,13 +1470,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 8350 4300 8350
 Wire Wire Line
-	9700 2450 9800 2450
-Wire Wire Line
-	9700 2550 9800 2550
-Connection ~ 9700 2550
-Wire Wire Line
 	9700 2650 9800 2650
-Connection ~ 9700 2650
 Wire Wire Line
 	9700 2750 9800 2750
 Connection ~ 9700 2750
@@ -1801,12 +1795,38 @@ Text GLabel 9700 1550 0    60   BiDi ~ 0
 RL06/
 Wire Wire Line
 	9800 1550 9700 1550
+Text GLabel 3250 3600 2    60   Output ~ 0
+GEM05
 Wire Wire Line
-	9700 2250 9700 4200
+	3150 3600 3250 3600
+Text GLabel 3250 3700 2    60   Output ~ 0
+GEM06
 Wire Wire Line
-	9700 2350 9800 2350
-Connection ~ 9700 2450
+	3150 3700 3250 3700
+Text GLabel 5900 3600 2    60   Output ~ 0
+GEM07
 Wire Wire Line
-	9700 2250 9800 2250
-Connection ~ 9700 2350
+	5800 3600 5900 3600
+Text GLabel 5900 3700 2    60   Output ~ 0
+GEM08
+Wire Wire Line
+	5800 3700 5900 3700
+Wire Wire Line
+	9700 2650 9700 4200
+Text GLabel 9700 2250 0    60   Input ~ 0
+GEM05
+Wire Wire Line
+	9800 2250 9700 2250
+Text GLabel 9700 2350 0    60   Input ~ 0
+GEM06
+Wire Wire Line
+	9800 2350 9700 2350
+Text GLabel 9700 2450 0    60   Input ~ 0
+GEM07
+Wire Wire Line
+	9800 2450 9700 2450
+Text GLabel 9700 2550 0    60   Input ~ 0
+GEM08
+Wire Wire Line
+	9800 2550 9700 2550
 $EndSCHEMATC

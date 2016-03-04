@@ -2265,4 +2265,11 @@ Wire Wire Line
 	11750 4600 11700 4600
 Text Label 11250 5350 0    60   ~ 0
 T7PHS4/
+Wire Wire Line
+	2200 10450 2200 11150
+Wire Wire Line
+	2200 11150 2500 11150
+Connection ~ 2200 10450
+Text HLabel 2500 11150 2    60   Output ~ 0
+G16A/
 $EndSCHEMATC
