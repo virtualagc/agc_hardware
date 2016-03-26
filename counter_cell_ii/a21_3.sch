@@ -509,9 +509,7 @@ Connection ~ 9250 5250
 Wire Wire Line
 	9250 5250 9600 5250
 Wire Wire Line
-	11750 5800 11800 5800
-Text HLabel 11800 5800 2    60   Output ~ 0
-CG15
+	11750 5800 12100 5800
 Text HLabel 10850 5100 2    60   Output ~ 0
 C43A
 Wire Wire Line
@@ -1369,9 +1367,7 @@ Connection ~ 19850 1600
 Wire Wire Line
 	19850 1600 20200 1600
 Wire Wire Line
-	19900 1400 20200 1400
-Text HLabel 19900 1400 0    60   Input ~ 0
-CG15
+	19750 1400 20200 1400
 Text HLabel 21450 1500 2    60   Output ~ 0
 C44A
 Wire Wire Line
@@ -1648,9 +1644,7 @@ Connection ~ 19850 5250
 Wire Wire Line
 	19850 5250 20200 5250
 Wire Wire Line
-	22350 5800 22400 5800
-Text HLabel 22400 5800 2    60   Output ~ 0
-CG16
+	22350 5800 22700 5800
 Text HLabel 21450 5100 2    60   Output ~ 0
 C45A
 Wire Wire Line
@@ -1956,9 +1950,7 @@ F 4 "1" H 21050 8100 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	20100 8000 20200 8000
-Text HLabel 20100 8000 0    60   Input ~ 0
-CG16
+	19650 8000 20200 8000
 Text HLabel 21450 8100 2    60   Output ~ 0
 C46A
 Wire Wire Line
@@ -2292,4 +2284,12 @@ F 3 "" H 20800 12050 60  0000 C CNN
 	2    20800 12050
 	1    0    0    -1  
 $EndComp
+Text Label 19650 8000 0    60   ~ 0
+CG16
+Text Label 22700 5800 2    60   ~ 0
+CG16
+Text Label 19750 1400 0    60   ~ 0
+CG15
+Text Label 12100 5800 2    60   ~ 0
+CG15
 $EndSCHEMATC

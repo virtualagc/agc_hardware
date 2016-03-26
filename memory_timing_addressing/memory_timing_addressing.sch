@@ -177,20 +177,6 @@ F 3 "" H 11450 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11250 1400 11150 1400
-Wire Wire Line
-	11250 1500 11150 1500
-Connection ~ 11150 1500
-Wire Wire Line
-	11150 1600 11250 1600
-Connection ~ 11150 1600
-Wire Wire Line
-	11150 1700 11250 1700
-Connection ~ 11150 1700
-Wire Wire Line
-	11150 1800 11250 1800
-Connection ~ 11150 1800
-Wire Wire Line
 	11150 1900 11250 1900
 Connection ~ 11150 1900
 Wire Wire Line
@@ -271,8 +257,6 @@ Connection ~ 11150 4400
 Wire Wire Line
 	11150 4500 11250 4500
 Connection ~ 11150 4500
-Wire Wire Line
-	11150 1400 11150 4600
 $Comp
 L GND #PWR01
 U 1 1 56B9AE6B
@@ -1083,36 +1067,36 @@ Wire Wire Line
 Text GLabel 5600 2800 2    60   Output ~ 0
 XB7/
 Wire Wire Line
-	9550 1400 9450 1400
-Text GLabel 9450 1400 0    60   Input ~ 0
-XB0/
-Wire Wire Line
 	9550 1500 9450 1500
 Text GLabel 9450 1500 0    60   Input ~ 0
-XB1/
-Wire Wire Line
-	9550 1600 9450 1600
-Text GLabel 9450 1600 0    60   Input ~ 0
-XB2/
+XB0/
 Wire Wire Line
 	9550 1700 9450 1700
 Text GLabel 9450 1700 0    60   Input ~ 0
-XB3/
-Wire Wire Line
-	9550 1800 9450 1800
-Text GLabel 9450 1800 0    60   Input ~ 0
-XB4/
+XB1/
 Wire Wire Line
 	9550 1900 9450 1900
 Text GLabel 9450 1900 0    60   Input ~ 0
-XB5/
-Wire Wire Line
-	9550 2000 9450 2000
-Text GLabel 9450 2000 0    60   Input ~ 0
-XB6/
+XB2/
 Wire Wire Line
 	9550 2100 9450 2100
 Text GLabel 9450 2100 0    60   Input ~ 0
+XB3/
+Wire Wire Line
+	9550 2300 9450 2300
+Text GLabel 9450 2300 0    60   Input ~ 0
+XB4/
+Wire Wire Line
+	9550 2500 9450 2500
+Text GLabel 9450 2500 0    60   Input ~ 0
+XB5/
+Wire Wire Line
+	9550 2700 9450 2700
+Text GLabel 9450 2700 0    60   Input ~ 0
+XB6/
+Wire Wire Line
+	9550 2900 9450 2900
+Text GLabel 9450 2900 0    60   Input ~ 0
 XB7/
 Wire Wire Line
 	5500 3050 5600 3050
@@ -1143,48 +1127,48 @@ Wire Wire Line
 Text GLabel 5600 4250 2    60   Output ~ 0
 XT6/
 Wire Wire Line
-	9550 2200 9450 2200
-Text GLabel 9450 2200 0    60   Input ~ 0
+	9550 3000 9450 3000
+Text GLabel 9450 3000 0    60   Input ~ 0
 XT0/
 Wire Wire Line
-	9550 2300 9450 2300
-Text GLabel 9450 2300 0    60   Input ~ 0
+	9550 3100 9450 3100
+Text GLabel 9450 3100 0    60   Input ~ 0
 XT1/
 Wire Wire Line
-	9550 2400 9450 2400
-Text GLabel 9450 2400 0    60   Input ~ 0
+	9550 3200 9450 3200
+Text GLabel 9450 3200 0    60   Input ~ 0
 XT2/
 Wire Wire Line
-	9550 2500 9450 2500
-Text GLabel 9450 2500 0    60   Input ~ 0
+	9550 3300 9450 3300
+Text GLabel 9450 3300 0    60   Input ~ 0
 XT3/
 Wire Wire Line
-	9550 2600 9450 2600
-Text GLabel 9450 2600 0    60   Input ~ 0
+	9550 3400 9450 3400
+Text GLabel 9450 3400 0    60   Input ~ 0
 XT4/
 Wire Wire Line
-	9550 2700 9450 2700
-Text GLabel 9450 2700 0    60   Input ~ 0
+	9550 3500 9450 3500
+Text GLabel 9450 3500 0    60   Input ~ 0
 XT5/
 Wire Wire Line
-	9550 2800 9450 2800
-Text GLabel 9450 2800 0    60   Input ~ 0
+	9550 3600 9450 3600
+Text GLabel 9450 3600 0    60   Input ~ 0
 XT6/
 Wire Wire Line
 	5500 4700 5600 4700
 Text GLabel 5600 4700 2    60   Output ~ 0
 YB0/
 Wire Wire Line
-	9550 2900 9450 2900
-Text GLabel 9450 2900 0    60   Input ~ 0
+	9550 3700 9450 3700
+Text GLabel 9450 3700 0    60   Input ~ 0
 YB0/
 Wire Wire Line
 	5500 5550 5600 5550
 Text GLabel 5600 5550 2    60   Output ~ 0
 YT0/
 Wire Wire Line
-	9550 3000 9450 3000
-Text GLabel 9450 3000 0    60   Input ~ 0
+	9550 3800 9450 3800
+Text GLabel 9450 3800 0    60   Input ~ 0
 YT0/
 Wire Wire Line
 	2850 4650 2950 4650
@@ -1207,16 +1191,16 @@ Wire Wire Line
 Text GLabel 2950 2350 2    60   Output ~ 0
 RESETC
 Wire Wire Line
-	9550 3300 9450 3300
-Text GLabel 9450 3300 0    60   Input ~ 0
+	9550 4100 9450 4100
+Text GLabel 9450 4100 0    60   Input ~ 0
 RESETA
 Wire Wire Line
-	9550 3400 9450 3400
-Text GLabel 9450 3400 0    60   Input ~ 0
+	9550 4200 9450 4200
+Text GLabel 9450 4200 0    60   Input ~ 0
 RESETB
 Wire Wire Line
-	9550 3500 9450 3500
-Text GLabel 9450 3500 0    60   Input ~ 0
+	9550 4300 9450 4300
+Text GLabel 9450 4300 0    60   Input ~ 0
 RESETC
 Wire Wire Line
 	5500 10150 5600 10150
@@ -1247,32 +1231,32 @@ Wire Wire Line
 Text GLabel 5600 11350 2    60   Output ~ 0
 IL07
 Wire Wire Line
-	9550 3800 9450 3800
-Text GLabel 9450 3800 0    60   Input ~ 0
+	10450 1400 10350 1400
+Text GLabel 10350 1400 0    60   Input ~ 0
 IL01
 Wire Wire Line
-	9550 3900 9450 3900
-Text GLabel 9450 3900 0    60   Input ~ 0
+	10450 1500 10350 1500
+Text GLabel 10350 1500 0    60   Input ~ 0
 IL02
 Wire Wire Line
-	9550 4000 9450 4000
-Text GLabel 9450 4000 0    60   Input ~ 0
+	10450 1600 10350 1600
+Text GLabel 10350 1600 0    60   Input ~ 0
 IL03
 Wire Wire Line
-	9550 4100 9450 4100
-Text GLabel 9450 4100 0    60   Input ~ 0
+	10450 1700 10350 1700
+Text GLabel 10350 1700 0    60   Input ~ 0
 IL04
 Wire Wire Line
-	9550 4200 9450 4200
-Text GLabel 9450 4200 0    60   Input ~ 0
+	10450 1800 10350 1800
+Text GLabel 10350 1800 0    60   Input ~ 0
 IL05
 Wire Wire Line
-	9550 4300 9450 4300
-Text GLabel 9450 4300 0    60   Input ~ 0
+	10450 1900 10350 1900
+Text GLabel 10350 1900 0    60   Input ~ 0
 IL06
 Wire Wire Line
-	9550 4400 9450 4400
-Text GLabel 9450 4400 0    60   Input ~ 0
+	10450 2000 10350 2000
+Text GLabel 10350 2000 0    60   Input ~ 0
 IL07
 Wire Wire Line
 	2850 2750 2950 2750
@@ -1287,16 +1271,16 @@ Wire Wire Line
 Text GLabel 2950 2450 2    60   Output ~ 0
 RESETD
 Wire Wire Line
-	9550 3600 9450 3600
-Text GLabel 9450 3600 0    60   Input ~ 0
+	9550 4400 9450 4400
+Text GLabel 9450 4400 0    60   Input ~ 0
 RESETD
 Wire Wire Line
-	9550 3100 9450 3100
-Text GLabel 9450 3100 0    60   Input ~ 0
+	9550 3900 9450 3900
+Text GLabel 9450 3900 0    60   Input ~ 0
 SETAB
 Wire Wire Line
-	9550 3200 9450 3200
-Text GLabel 9450 3200 0    60   Input ~ 0
+	9550 4000 9450 4000
+Text GLabel 9450 4000 0    60   Input ~ 0
 SETCD
 Wire Wire Line
 	2850 1700 2950 1700
@@ -1311,8 +1295,8 @@ Wire Wire Line
 Text GLabel 2950 1550 2    60   Output ~ 0
 CLROPE
 Wire Wire Line
-	9550 3700 9450 3700
-Text GLabel 9450 3700 0    60   Input ~ 0
+	9550 4500 9450 4500
+Text GLabel 9450 4500 0    60   Input ~ 0
 CLROPE
 Wire Wire Line
 	5500 7800 5600 7800
@@ -1411,100 +1395,100 @@ Wire Wire Line
 Text GLabel 5600 9900 2    60   Output ~ 0
 YT6E
 Wire Wire Line
-	10450 1800 10350 1800
-Text GLabel 10350 1800 0    60   Input ~ 0
-XB7E
-Wire Wire Line
-	10450 1900 10350 1900
-Text GLabel 10350 1900 0    60   Input ~ 0
-XB1E
-Wire Wire Line
-	10450 2000 10350 2000
-Text GLabel 10350 2000 0    60   Input ~ 0
-XB2E
-Wire Wire Line
-	10450 2100 10350 2100
-Text GLabel 10350 2100 0    60   Input ~ 0
-XB3E
-Wire Wire Line
-	10450 2200 10350 2200
-Text GLabel 10350 2200 0    60   Input ~ 0
-XB4E
-Wire Wire Line
-	10450 2300 10350 2300
-Text GLabel 10350 2300 0    60   Input ~ 0
-XB5E
-Wire Wire Line
-	10450 2400 10350 2400
-Text GLabel 10350 2400 0    60   Input ~ 0
-XB6E
-Wire Wire Line
-	10450 2500 10350 2500
-Text GLabel 10350 2500 0    60   Input ~ 0
-XT7E
-Wire Wire Line
 	10450 2600 10350 2600
 Text GLabel 10350 2600 0    60   Input ~ 0
-XT1E
+XB7E
 Wire Wire Line
 	10450 2700 10350 2700
 Text GLabel 10350 2700 0    60   Input ~ 0
-XT2E
+XB1E
 Wire Wire Line
 	10450 2800 10350 2800
 Text GLabel 10350 2800 0    60   Input ~ 0
-XT3E
+XB2E
 Wire Wire Line
 	10450 2900 10350 2900
 Text GLabel 10350 2900 0    60   Input ~ 0
-XT4E
+XB3E
 Wire Wire Line
 	10450 3000 10350 3000
 Text GLabel 10350 3000 0    60   Input ~ 0
-XT5E
+XB4E
 Wire Wire Line
 	10450 3100 10350 3100
 Text GLabel 10350 3100 0    60   Input ~ 0
-XT6E
+XB5E
 Wire Wire Line
 	10450 3200 10350 3200
 Text GLabel 10350 3200 0    60   Input ~ 0
-YB3E
+XB6E
 Wire Wire Line
 	10450 3300 10350 3300
 Text GLabel 10350 3300 0    60   Input ~ 0
-YB1E
+XT7E
 Wire Wire Line
 	10450 3400 10350 3400
 Text GLabel 10350 3400 0    60   Input ~ 0
-YB2E
+XT1E
 Wire Wire Line
 	10450 3500 10350 3500
 Text GLabel 10350 3500 0    60   Input ~ 0
-YT7E
+XT2E
 Wire Wire Line
 	10450 3600 10350 3600
 Text GLabel 10350 3600 0    60   Input ~ 0
-YT1E
+XT3E
 Wire Wire Line
 	10450 3700 10350 3700
 Text GLabel 10350 3700 0    60   Input ~ 0
-YT2E
+XT4E
 Wire Wire Line
 	10450 3800 10350 3800
 Text GLabel 10350 3800 0    60   Input ~ 0
-YT3E
+XT5E
 Wire Wire Line
 	10450 3900 10350 3900
 Text GLabel 10350 3900 0    60   Input ~ 0
-YT4E
+XT6E
 Wire Wire Line
 	10450 4000 10350 4000
 Text GLabel 10350 4000 0    60   Input ~ 0
-YT5E
+YB3E
 Wire Wire Line
 	10450 4100 10350 4100
 Text GLabel 10350 4100 0    60   Input ~ 0
+YB1E
+Wire Wire Line
+	10450 4200 10350 4200
+Text GLabel 10350 4200 0    60   Input ~ 0
+YB2E
+Wire Wire Line
+	10450 4300 10350 4300
+Text GLabel 10350 4300 0    60   Input ~ 0
+YT7E
+Wire Wire Line
+	10450 4400 10350 4400
+Text GLabel 10350 4400 0    60   Input ~ 0
+YT1E
+Wire Wire Line
+	10450 4500 10350 4500
+Text GLabel 10350 4500 0    60   Input ~ 0
+YT2E
+Wire Wire Line
+	11250 1400 11150 1400
+Text GLabel 11150 1400 0    60   Input ~ 0
+YT3E
+Wire Wire Line
+	11250 1500 11150 1500
+Text GLabel 11150 1500 0    60   Input ~ 0
+YT4E
+Wire Wire Line
+	11250 1600 11150 1600
+Text GLabel 11150 1600 0    60   Input ~ 0
+YT5E
+Wire Wire Line
+	11250 1700 11150 1700
+Text GLabel 11150 1700 0    60   Input ~ 0
 YT6E
 Wire Wire Line
 	2850 3950 2950 3950
@@ -1523,51 +1507,95 @@ Wire Wire Line
 Text GLabel 2950 3400 2    60   Output ~ 0
 WEY
 Wire Wire Line
-	9550 4500 9450 4500
-Text GLabel 9450 4500 0    60   Input ~ 0
+	10450 2100 10350 2100
+Text GLabel 10350 2100 0    60   Input ~ 0
 SBE
 Wire Wire Line
-	10450 1700 10350 1700
-Text GLabel 10350 1700 0    60   Input ~ 0
+	10450 2500 10350 2500
+Text GLabel 10350 2500 0    60   Input ~ 0
 ZID
 Wire Wire Line
-	10450 1500 10350 1500
-Text GLabel 10350 1500 0    60   Input ~ 0
+	10450 2300 10350 2300
+Text GLabel 10350 2300 0    60   Input ~ 0
 WEX
 Wire Wire Line
-	10450 1600 10350 1600
-Text GLabel 10350 1600 0    60   Input ~ 0
+	10450 2400 10350 2400
+Text GLabel 10350 2400 0    60   Input ~ 0
 WEY
-Wire Wire Line
-	10350 4500 10450 4500
-Connection ~ 10350 4500
-Wire Wire Line
-	10350 4400 10450 4400
-Connection ~ 10350 4400
-Wire Wire Line
-	10350 4300 10450 4300
-Connection ~ 10350 4300
-Wire Wire Line
-	10350 4200 10450 4200
-$Comp
-L GND #PWR04
-U 1 1 56E21367
-P 10350 4600
-F 0 "#PWR04" H 10350 4350 50  0001 C CNN
-F 1 "GND" H 10350 4450 50  0000 C CNN
-F 2 "" H 10350 4600 60  0000 C CNN
-F 3 "" H 10350 4600 60  0000 C CNN
-	1    10350 4600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2850 2900 2950 2900
 Text GLabel 2950 2900 2    60   Output ~ 0
 SETEK
 Wire Wire Line
-	10350 4600 10350 4200
-Wire Wire Line
-	10450 1400 10350 1400
-Text GLabel 10350 1400 0    60   Input ~ 0
+	10450 2200 10350 2200
+Text GLabel 10350 2200 0    60   Input ~ 0
 SETEK
+Wire Wire Line
+	5500 1300 5600 1300
+Text GLabel 5600 1300 2    60   Output ~ 0
+XB0
+Wire Wire Line
+	5500 1500 5600 1500
+Text GLabel 5600 1500 2    60   Output ~ 0
+XB1
+Wire Wire Line
+	5500 1700 5600 1700
+Text GLabel 5600 1700 2    60   Output ~ 0
+XB2
+Wire Wire Line
+	5500 1900 5600 1900
+Text GLabel 5600 1900 2    60   Output ~ 0
+XB3
+Wire Wire Line
+	5500 2100 5600 2100
+Text GLabel 5600 2100 2    60   Output ~ 0
+XB4
+Wire Wire Line
+	5500 2300 5600 2300
+Text GLabel 5600 2300 2    60   Output ~ 0
+XB5
+Wire Wire Line
+	5500 2500 5600 2500
+Text GLabel 5600 2500 2    60   Output ~ 0
+XB6
+Wire Wire Line
+	5500 2700 5600 2700
+Text GLabel 5600 2700 2    60   Output ~ 0
+XB7
+Wire Wire Line
+	11250 1800 11150 1800
+Wire Wire Line
+	11150 1800 11150 4600
+Wire Wire Line
+	9550 1400 9450 1400
+Text GLabel 9450 1400 0    60   Input ~ 0
+XB0
+Wire Wire Line
+	9550 1600 9450 1600
+Text GLabel 9450 1600 0    60   Input ~ 0
+XB1
+Wire Wire Line
+	9550 1800 9450 1800
+Text GLabel 9450 1800 0    60   Input ~ 0
+XB2
+Wire Wire Line
+	9550 2000 9450 2000
+Text GLabel 9450 2000 0    60   Input ~ 0
+XB3
+Wire Wire Line
+	9550 2200 9450 2200
+Text GLabel 9450 2200 0    60   Input ~ 0
+XB4
+Wire Wire Line
+	9550 2400 9450 2400
+Text GLabel 9450 2400 0    60   Input ~ 0
+XB5
+Wire Wire Line
+	9550 2600 9450 2600
+Text GLabel 9450 2600 0    60   Input ~ 0
+XB6
+Wire Wire Line
+	9550 2800 9450 2800
+Text GLabel 9450 2800 0    60   Input ~ 0
+XB7
 $EndSCHEMATC
