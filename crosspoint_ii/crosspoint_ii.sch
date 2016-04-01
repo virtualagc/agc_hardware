@@ -1387,10 +1387,10 @@ Text GLabel 8200 5200 2    60   Output ~ 0
 7XP14
 Wire Wire Line
 	8200 5200 8100 5200
-Text GLabel 15550 3250 0    60   Input ~ 0
+Text GLabel 15550 3350 0    60   Input ~ 0
 7XP14
 Wire Wire Line
-	15550 3250 15650 3250
+	15550 3350 15650 3350
 Text GLabel 8200 4900 2    60   Output ~ 0
 RPTSET
 Wire Wire Line
@@ -1576,9 +1576,6 @@ Connection ~ 15550 3850
 Connection ~ 15550 3750
 Wire Wire Line
 	15550 3650 15650 3650
-Wire Wire Line
-	15550 3550 15650 3550
-Connection ~ 15550 3650
 Text GLabel 8200 3750 2    60   Output ~ 0
 RUS/
 Wire Wire Line
@@ -1811,20 +1808,18 @@ Text GLabel 5400 6000 2    60   Output ~ 0
 WHOMPA
 Wire Wire Line
 	5400 6000 5300 6000
-Text GLabel 15550 3450 0    60   Input ~ 0
+Text GLabel 15550 3550 0    60   Input ~ 0
 WHOMPA
 Wire Wire Line
-	15550 3450 15650 3450
-Text GLabel 15550 3350 0    60   Input ~ 0
+	15550 3550 15650 3550
+Text GLabel 15550 3450 0    60   Input ~ 0
 WHOMP
 Wire Wire Line
-	15550 3350 15650 3350
+	15550 3450 15650 3450
 Text GLabel 5400 3350 2    60   Output ~ 0
 RB1F
 Wire Wire Line
 	5400 3350 5300 3350
-Wire Wire Line
-	15550 3550 15550 5650
 Text GLabel 14200 3850 0    60   Input ~ 0
 RB1F
 Wire Wire Line
@@ -1837,4 +1832,14 @@ Text GLabel 14200 5450 0    60   Input ~ 0
 WOVR/
 Wire Wire Line
 	14200 5450 14300 5450
+Text GLabel 8200 4800 2    60   Output ~ 0
+PSEUDO
+Wire Wire Line
+	8200 4800 8100 4800
+Wire Wire Line
+	15550 3650 15550 5650
+Text GLabel 15550 3250 0    60   Input ~ 0
+PSEUDO
+Wire Wire Line
+	15550 3250 15650 3250
 $EndSCHEMATC

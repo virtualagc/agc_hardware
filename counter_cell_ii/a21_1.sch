@@ -779,8 +779,8 @@ F 3 "" H 9500 1000 60  0000 C CNN
 	2    9500 1000
 	1    0    0    -1  
 $EndComp
-Text HLabel 8700 900  0    60   Input ~ 0
-RSCT/
+Text HLabel 7400 900  0    60   Input ~ 0
+RSCT
 $Comp
 L 74HC02 U21017
 U 3 1 5710C4CD
@@ -1381,7 +1381,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 900  8850 11200
 Wire Wire Line
-	8700 900  8900 900 
+	8400 900  8900 900 
 Wire Wire Line
 	5950 1100 8900 1100
 Connection ~ 8850 900 
@@ -2556,4 +2556,19 @@ Text HLabel 22500 2750 2    60   Output ~ 0
 SHIFT
 Wire Wire Line
 	22450 2750 22500 2750
+$Comp
+L 74HC04 U21061
+U 2 1 57E272A1
+P 7950 900
+F 0 "U21061" H 8100 1000 40  0000 C CNN
+F 1 "74HC04" H 8150 800 40  0000 C CNN
+F 2 "" H 7950 900 60  0000 C CNN
+F 3 "" H 7950 900 60  0000 C CNN
+	2    7950 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 900  7500 900 
+Text Label 8750 900  2    60   ~ 0
+RSCT/
 $EndSCHEMATC

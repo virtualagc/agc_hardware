@@ -1,0 +1,1569 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:agc_kicad_components
+LIBS:alarms-cache
+EELAYER 25 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2600 1200 1600 11050
+U 574CBB7B
+F0 "A13_1" 60
+F1 "a13_1.sch" 60
+F2 "MSTRT" I L 2600 7700 60 
+F3 "F05B/" I L 2600 3250 60 
+F4 "F05A/" I L 2600 3150 60 
+F5 "MSTRTP" O R 4200 2250 60 
+F6 "IIP" I L 2600 6450 60 
+F7 "F14B" I L 2600 4350 60 
+F8 "IIP/" I L 2600 6550 60 
+F9 "F12B" I L 2600 4050 60 
+F10 "FS14" I L 2600 4250 60 
+F11 "FS13" I L 2600 4150 60 
+F12 "MRPTAL/" O R 4200 2350 60 
+F13 "PALE" I L 2600 6650 60 
+F14 "TC0" I L 2600 5950 60 
+F15 "TCF0" I L 2600 6050 60 
+F16 "F10B" I L 2600 3950 60 
+F17 "INKL" I L 2600 6200 60 
+F18 "T04/" I L 2600 1650 60 
+F19 "MTCAL/" O R 4200 2450 60 
+F20 "F10A/" I L 2600 3850 60 
+F21 "BMAGZM" I L 2600 10750 60 
+F22 "INLNKP" I L 2600 10850 60 
+F23 "INLNKM" I L 2600 10950 60 
+F24 "RNRADP" I L 2600 11050 60 
+F25 "RNRADM" I L 2600 11150 60 
+F26 "GYROD" I L 2600 11250 60 
+F27 "CDUXD" I L 2600 11350 60 
+F28 "CDUYD" I L 2600 11450 60 
+F29 "CDUZD" I L 2600 11550 60 
+F30 "TRUND" I L 2600 11650 60 
+F31 "SHAFTD" I L 2600 11750 60 
+F32 "THRSTD" I L 2600 11850 60 
+F33 "EMSD" I L 2600 11950 60 
+F34 "OTLNKM" I L 2600 12050 60 
+F35 "ALTM" I L 2600 12150 60 
+F36 "PSEUDO" I L 2600 5850 60 
+F37 "NISQL/" I L 2600 6300 60 
+F38 "T09/" I L 2600 1750 60 
+F39 "T03/" I L 2600 1550 60 
+F40 "MCTRAL/" O R 4200 2550 60 
+F41 "CTROR" I L 2600 5700 60 
+F42 "F07A" I L 2600 3350 60 
+F43 "F07B/" I L 2600 3450 60 
+F44 "NHALGA" I L 2600 7800 60 
+F45 "ALGA" O R 4200 1350 60 
+F46 "VFAIL" I L 2600 4800 60 
+F47 "NHVFAL" I L 2600 7900 60 
+F48 "MVFAIL/" O R 4200 2650 60 
+F49 "STRT1" O R 4200 1450 60 
+F50 "STNDBY/" I L 2600 5350 60 
+F51 "2FSFAL" I L 2600 4900 60 
+F52 "FS10" I L 2600 3750 60 
+F53 "FS09" I L 2600 3650 60 
+F54 "DBLTST" I L 2600 7600 60 
+F55 "MSCDBL/" O R 4200 2950 60 
+F56 "ALTEST" I L 2600 7500 60 
+F57 "SB2/" I L 2600 2900 60 
+F58 "SB0/" I L 2600 2700 60 
+F59 "F08B" I L 2600 3550 60 
+F60 "FILTIN" O R 4200 1800 60 
+F61 "FLTOUT" I L 2600 5000 60 
+F62 "SCAFAL" I L 2600 5100 60 
+F63 "MWARNF/" O R 4200 2750 60 
+F64 "MSCAFL/" O R 4200 2850 60 
+F65 "CCH33" I L 2600 7150 60 
+F66 "AGCWAR" O R 4200 1600 60 
+F67 "CGCWAR" O R 4200 1700 60 
+F68 "STRT2" I L 2600 4700 60 
+F69 "MOSCAL/" O R 4200 3050 60 
+F70 "OSCALM" O R 4200 1900 60 
+F71 "TEMPIN/" I L 2600 6900 60 
+F72 "TMPOUT" I L 2600 7000 60 
+F73 "TMPCAU" O R 4200 2100 60 
+F74 "RESTRT" O R 4200 2000 60 
+F75 "SBY" I L 2600 5250 60 
+F76 "PIPAFL" I L 2600 6800 60 
+F77 "MPIPAL/" O R 4200 3150 60 
+F78 "FS01" I L 2600 3050 60 
+F79 "P02" I L 2600 2250 60 
+F80 "P03/" I L 2600 2550 60 
+F81 "CT/" I L 2600 2100 60 
+F82 "P02/" I L 2600 2350 60 
+F83 "P03" I L 2600 2450 60 
+F84 "SYNC4/" O R 4200 3400 60 
+F85 "SYNC14/" O R 4200 3500 60 
+F86 "T02/" I L 2600 1450 60 
+F87 "CA6/" I L 2600 7250 60 
+F88 "XB7/" I L 2600 7350 60 
+F89 "F17B" I L 2600 4550 60 
+F90 "F17A" I L 2600 4450 60 
+F91 "SB1/" I L 2600 2800 60 
+F92 "MWATCH/" O R 4200 3250 60 
+F93 "T1P" I L 2600 8050 60 
+F94 "T2P" I L 2600 8150 60 
+F95 "T3P" I L 2600 8250 60 
+F96 "T4P" I L 2600 8350 60 
+F97 "T5P" I L 2600 8450 60 
+F98 "T6P" I L 2600 8550 60 
+F99 "CDUXP" I L 2600 8650 60 
+F100 "CDUXM" I L 2600 8750 60 
+F101 "CDUYP" I L 2600 8850 60 
+F102 "CDUYM" I L 2600 8950 60 
+F103 "CDUZP" I L 2600 9050 60 
+F104 "CDUZM" I L 2600 9150 60 
+F105 "TRNP" I L 2600 9250 60 
+F106 "TRNM" I L 2600 9350 60 
+F107 "SHAFTP" I L 2600 9450 60 
+F108 "SHAFTM" I L 2600 9550 60 
+F109 "PIPXP" I L 2600 9650 60 
+F110 "PIPXM" I L 2600 9750 60 
+F111 "PIPYP" I L 2600 9850 60 
+F112 "PIPYM" I L 2600 9950 60 
+F113 "PIPZP" I L 2600 10050 60 
+F114 "PIPZM" I L 2600 10150 60 
+F115 "BMAGXP" I L 2600 10250 60 
+F116 "BMAGXM" I L 2600 10350 60 
+F117 "BMAGYP" I L 2600 10450 60 
+F118 "BMAGYM" I L 2600 10550 60 
+F119 "BMAGZP" I L 2600 10650 60 
+F120 "GOJAM" I L 2600 1300 60 
+F121 "T10" I L 2600 1850 60 
+$EndSheet
+$Comp
+L DIN_41612_128P P1
+U 1 1 574CBB85
+P 8850 2850
+F 0 "P1" H 8850 4500 50  0000 C CNN
+F 1 "DIN_41612_128P" V 9050 2850 50  0000 C CNN
+F 2 "" H 8850 2850 60  0000 C CNN
+F 3 "" H 8850 2850 60  0000 C CNN
+	1    8850 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIN_41612_128P P1
+U 2 1 574CBE93
+P 9900 2850
+F 0 "P1" H 9900 4500 50  0000 C CNN
+F 1 "DIN_41612_128P" V 10100 2850 50  0000 C CNN
+F 2 "" H 9900 2850 60  0000 C CNN
+F 3 "" H 9900 2850 60  0000 C CNN
+	2    9900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIN_41612_128P P1
+U 3 1 574CBFD5
+P 10950 2850
+F 0 "P1" H 10950 4500 50  0000 C CNN
+F 1 "DIN_41612_128P" V 11150 2850 50  0000 C CNN
+F 2 "" H 10950 2850 60  0000 C CNN
+F 3 "" H 10950 2850 60  0000 C CNN
+	3    10950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIN_41612_128P P1
+U 4 1 574CC021
+P 12000 2850
+F 0 "P1" H 12000 4500 50  0000 C CNN
+F 1 "DIN_41612_128P" V 12200 2850 50  0000 C CNN
+F 2 "" H 12000 2850 60  0000 C CNN
+F 3 "" H 12000 2850 60  0000 C CNN
+	4    12000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIN_41612_128P P1
+U 5 1 574CC1A5
+P 13050 2850
+F 0 "P1" H 13050 4500 50  0000 C CNN
+F 1 "DIN_41612_128P" V 13250 2850 50  0000 C CNN
+F 2 "" H 13050 2850 60  0000 C CNN
+F 3 "" H 13050 2850 60  0000 C CNN
+	5    13050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 574CC1EB
+P 12750 4500
+F 0 "#PWR01" H 12750 4250 50  0001 C CNN
+F 1 "GND" H 12750 4350 50  0000 C CNN
+F 2 "" H 12750 4500 60  0000 C CNN
+F 3 "" H 12750 4500 60  0000 C CNN
+	1    12750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIN_41612_128P P1
+U 6 1 574CC1F1
+P 14100 2850
+F 0 "P1" H 14100 4500 50  0000 C CNN
+F 1 "DIN_41612_128P" V 14300 2850 50  0000 C CNN
+F 2 "" H 14100 2850 60  0000 C CNN
+F 3 "" H 14100 2850 60  0000 C CNN
+	6    14100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 574CC237
+P 13800 4500
+F 0 "#PWR02" H 13800 4250 50  0001 C CNN
+F 1 "GND" H 13800 4350 50  0000 C CNN
+F 2 "" H 13800 4500 60  0000 C CNN
+F 3 "" H 13800 4500 60  0000 C CNN
+	1    13800 4500
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 5550 1200 1250 2450
+U 57A1B125
+F0 "A13_2" 60
+F1 "a13_2.sch" 60
+F2 "T12/" I L 5550 2200 60 
+F3 "PHS4/" I L 5550 1650 60 
+F4 "NISQL/" I L 5550 3300 60 
+F5 "GNHNC" I L 5550 3200 60 
+F6 "PSEUDO" I L 5550 3400 60 
+F7 "MLOAD" I L 5550 2650 60 
+F8 "MREAD" I L 5550 2750 60 
+F9 "MLDCH" I L 5550 2850 60 
+F10 "MRDCH" I L 5550 2950 60 
+F11 "PHS2/" I L 5550 1450 60 
+F12 "GOJAM" I L 5550 1300 60 
+F13 "ST1/" I L 5550 2500 60 
+F14 "MON/" O R 6800 1300 60 
+F15 "CT" I L 5550 2350 60 
+F16 "INOTRD" O R 6800 1650 60 
+F17 "INOTLD" O R 6800 1550 60 
+F18 "STORE1" O R 6800 2450 60 
+F19 "STORE1/" O R 6800 2550 60 
+F20 "FETCH1" O R 6800 2350 60 
+F21 "STFET1/" O R 6800 2650 60 
+F22 "FETCH0" O R 6800 2150 60 
+F23 "FETCH0/" O R 6800 2250 60 
+F24 "T11/" I L 5550 2100 60 
+F25 "MONPCH" O R 6800 1400 60 
+F26 "MREQIN" O R 6800 3450 60 
+F27 "MNHNC" I L 5550 3050 60 
+F28 "CTROR/" I L 5550 3550 60 
+F29 "PHS3/" I L 5550 1550 60 
+F30 "T02/" I L 5550 1800 60 
+F31 "INCSET/" O R 6800 1800 60 
+F32 "INKL" O R 6800 1900 60 
+F33 "INKL/" O R 6800 2000 60 
+F34 "MINKL" O R 6800 3350 60 
+F35 "T07/" I L 5550 1900 60 
+F36 "RSSB" O R 6800 3150 60 
+F37 "BKTF/" O R 6800 3050 60 
+F38 "T10/" I L 5550 2000 60 
+F39 "CHINC/" O R 6800 2900 60 
+F40 "CHINC" O R 6800 2800 60 
+$EndSheet
+Text GLabel 2500 1300 0    60   Input ~ 0
+GOJAM
+Text GLabel 5450 1300 0    60   Input ~ 0
+GOJAM
+Text GLabel 8550 1300 0    60   Output ~ 0
+GOJAM
+Text GLabel 5450 1450 0    60   Input ~ 0
+PHS2/
+Text GLabel 5450 1550 0    60   Input ~ 0
+PHS3/
+Text GLabel 5450 1650 0    60   Input ~ 0
+PHS4/
+Text GLabel 8550 1400 0    60   Output ~ 0
+PHS2/
+Text GLabel 8550 1500 0    60   Output ~ 0
+PHS3/
+Text GLabel 8550 1600 0    60   Output ~ 0
+PHS4/
+Text GLabel 5450 1800 0    60   Input ~ 0
+T02/
+Text GLabel 2500 1450 0    60   Input ~ 0
+T02/
+Text GLabel 8550 1700 0    60   Output ~ 0
+T02/
+Text GLabel 2500 1550 0    60   Input ~ 0
+T03/
+Text GLabel 2500 1650 0    60   Input ~ 0
+T04/
+Text GLabel 8550 1800 0    60   Output ~ 0
+T03/
+Text GLabel 8550 1900 0    60   Output ~ 0
+T04/
+Text GLabel 5450 1900 0    60   Input ~ 0
+T07/
+Text GLabel 8550 2000 0    60   Output ~ 0
+T07/
+Text GLabel 2500 1750 0    60   Input ~ 0
+T09/
+Text GLabel 8550 2100 0    60   Output ~ 0
+T09/
+Text GLabel 2500 1850 0    60   Input ~ 0
+T10
+Text GLabel 8550 2200 0    60   Output ~ 0
+T10
+Text GLabel 5450 2000 0    60   Input ~ 0
+T10/
+Text GLabel 8550 2300 0    60   Output ~ 0
+T10/
+Text GLabel 5450 2100 0    60   Input ~ 0
+T11/
+Text GLabel 5450 2200 0    60   Input ~ 0
+T12/
+Text GLabel 8550 2400 0    60   Output ~ 0
+T11/
+Text GLabel 8550 2500 0    60   Output ~ 0
+T12/
+Text GLabel 5450 2350 0    60   Input ~ 0
+CT
+Text GLabel 8550 2600 0    60   Output ~ 0
+CT
+Text GLabel 2500 2100 0    60   Input ~ 0
+CT/
+Text GLabel 8550 2700 0    60   Output ~ 0
+CT/
+Text GLabel 2500 2250 0    60   Input ~ 0
+P02
+Text GLabel 2500 2350 0    60   Input ~ 0
+P02/
+Text GLabel 2500 2450 0    60   Input ~ 0
+P03
+Text GLabel 2500 2550 0    60   Input ~ 0
+P03/
+Text GLabel 8550 2800 0    60   Output ~ 0
+P02
+Text GLabel 8550 2900 0    60   Output ~ 0
+P02/
+Text GLabel 8550 3000 0    60   Output ~ 0
+P03
+Text GLabel 8550 3100 0    60   Output ~ 0
+P03/
+Text GLabel 5450 2500 0    60   Input ~ 0
+ST1/
+Text GLabel 9600 1900 0    60   Output ~ 0
+ST1/
+Text GLabel 2500 2700 0    60   Input ~ 0
+SB0/
+Text GLabel 2500 2800 0    60   Input ~ 0
+SB1/
+Text GLabel 2500 2900 0    60   Input ~ 0
+SB2/
+Text GLabel 8550 3200 0    60   Output ~ 0
+SB0/
+Text GLabel 8550 3300 0    60   Output ~ 0
+SB1/
+Text GLabel 8550 3400 0    60   Output ~ 0
+SB2/
+Text GLabel 2500 3050 0    60   Input ~ 0
+FS01
+Text GLabel 2500 3150 0    60   Input ~ 0
+F05A/
+Text GLabel 2500 3250 0    60   Input ~ 0
+F05B/
+Text GLabel 2500 3350 0    60   Input ~ 0
+F07A
+Text GLabel 2500 3450 0    60   Input ~ 0
+F07B/
+Text GLabel 2500 3550 0    60   Input ~ 0
+F08B
+Text GLabel 2500 3650 0    60   Input ~ 0
+FS09
+Text GLabel 2500 3750 0    60   Input ~ 0
+FS10
+Text GLabel 2500 3850 0    60   Input ~ 0
+F10A/
+Text GLabel 2500 3950 0    60   Input ~ 0
+F10B
+Text GLabel 2500 4050 0    60   Input ~ 0
+F12B
+Text GLabel 2500 4150 0    60   Input ~ 0
+FS13
+Text GLabel 2500 4250 0    60   Input ~ 0
+FS14
+Text GLabel 2500 4350 0    60   Input ~ 0
+F14B
+Text GLabel 2500 4450 0    60   Input ~ 0
+F17A
+Text GLabel 2500 4550 0    60   Input ~ 0
+F17B
+Text GLabel 8550 3500 0    60   Output ~ 0
+FS01
+Text GLabel 8550 3600 0    60   Output ~ 0
+F05A/
+Text GLabel 8550 3700 0    60   Output ~ 0
+F05B/
+Text GLabel 8550 3800 0    60   Output ~ 0
+F07A
+Text GLabel 8550 3900 0    60   Output ~ 0
+F07B/
+Text GLabel 8550 4000 0    60   Output ~ 0
+F08B
+Text GLabel 8550 4100 0    60   Output ~ 0
+FS09
+Text GLabel 8550 4200 0    60   Output ~ 0
+FS10
+Text GLabel 8550 4300 0    60   Output ~ 0
+F10A/
+Text GLabel 8550 4400 0    60   Output ~ 0
+F10B
+Text GLabel 9600 1300 0    60   Output ~ 0
+F12B
+Text GLabel 9600 1400 0    60   Output ~ 0
+FS13
+Text GLabel 9600 1500 0    60   Output ~ 0
+FS14
+Text GLabel 9600 1600 0    60   Output ~ 0
+F14B
+Text GLabel 9600 1700 0    60   Output ~ 0
+F17A
+Text GLabel 9600 1800 0    60   Output ~ 0
+F17B
+Text GLabel 2500 4700 0    60   Input ~ 0
+STRT2
+Text GLabel 2500 4800 0    60   Input ~ 0
+VFAIL
+Text GLabel 2500 4900 0    60   Input ~ 0
+2FSFAL
+Text GLabel 2500 5000 0    60   Input ~ 0
+FLTOUT
+Text GLabel 2500 5100 0    60   Input ~ 0
+SCAFAL
+Text GLabel 9600 2000 0    60   Output ~ 0
+STRT2
+Text GLabel 9600 2100 0    60   Output ~ 0
+VFAIL
+Text GLabel 9600 2200 0    60   Output ~ 0
+2FSFAL
+Text GLabel 9600 2300 0    60   Output ~ 0
+FLTOUT
+Text GLabel 9600 2400 0    60   Output ~ 0
+SCAFAL
+Text GLabel 2500 5250 0    60   Input ~ 0
+SBY
+Text GLabel 2500 5350 0    60   Input ~ 0
+STNDBY/
+Text GLabel 9600 2500 0    60   Output ~ 0
+SBY
+Text GLabel 9600 2600 0    60   Output ~ 0
+STNDBY/
+Text GLabel 2500 5700 0    60   Input ~ 0
+CTROR
+Text GLabel 5450 3550 0    60   Input ~ 0
+CTROR/
+Text GLabel 9600 2800 0    60   Output ~ 0
+CTROR/
+Text GLabel 9600 2700 0    60   Output ~ 0
+CTROR
+Text GLabel 2500 5850 0    60   Input ~ 0
+PSEUDO
+Text GLabel 5450 3400 0    60   Input ~ 0
+PSEUDO
+Text GLabel 9600 2900 0    60   Output ~ 0
+PSEUDO
+Text GLabel 2500 5950 0    60   Input ~ 0
+TC0
+Text GLabel 2500 6050 0    60   Input ~ 0
+TCF0
+Text GLabel 9600 3000 0    60   Output ~ 0
+TC0
+Text GLabel 9600 3100 0    60   Output ~ 0
+TCF0
+Text GLabel 5450 3200 0    60   Input ~ 0
+GNHNC
+Text GLabel 5450 3300 0    60   Input ~ 0
+NISQL/
+Text GLabel 9600 3200 0    60   Output ~ 0
+GNHNC
+Text GLabel 9600 3300 0    60   Output ~ 0
+NISQL/
+Text GLabel 2500 6300 0    60   Input ~ 0
+NISQL/
+Text HLabel 7500 1900 2    60   Output ~ 0
+INKL
+Text GLabel 2500 6450 0    60   Input ~ 0
+IIP
+Text GLabel 2500 6550 0    60   Input ~ 0
+IIP/
+Text GLabel 9600 3400 0    60   Output ~ 0
+IIP
+Text GLabel 9600 3500 0    60   Output ~ 0
+IIP/
+Text GLabel 2500 6650 0    60   Input ~ 0
+PALE
+Text GLabel 9600 3600 0    60   Output ~ 0
+PALE
+Text GLabel 2500 6800 0    60   Input ~ 0
+PIPAFL
+Text GLabel 2500 6900 0    60   Input ~ 0
+TEMPIN/
+Text GLabel 2500 7000 0    60   Input ~ 0
+TMPOUT
+Text GLabel 9600 3700 0    60   Output ~ 0
+PIPAFL
+Text GLabel 9600 3800 0    60   Output ~ 0
+TEMPIN/
+Text GLabel 9600 3900 0    60   Output ~ 0
+TMPOUT
+Text GLabel 2500 7150 0    60   Input ~ 0
+CCH33
+Text GLabel 2500 7250 0    60   Input ~ 0
+CA6/
+Text GLabel 2500 7350 0    60   Input ~ 0
+XB7/
+Text GLabel 9600 4000 0    60   Output ~ 0
+CCH33
+Text GLabel 9600 4100 0    60   Output ~ 0
+CA6/
+Text GLabel 9600 4200 0    60   Output ~ 0
+XB7/
+Text GLabel 2500 7500 0    60   Input ~ 0
+ALTEST
+Text GLabel 2500 7600 0    60   Input ~ 0
+DBLTEST
+Text GLabel 2500 7700 0    60   Input ~ 0
+MSTRT
+Text GLabel 2500 7800 0    60   Input ~ 0
+NHALGA
+Text GLabel 2500 7900 0    60   Input ~ 0
+NHVFAL
+Text GLabel 9600 4300 0    60   Output ~ 0
+ALTEST
+Text GLabel 9600 4400 0    60   Output ~ 0
+DBLTEST
+Text GLabel 10650 1300 0    60   Output ~ 0
+MSTRT
+Text GLabel 10650 1400 0    60   Output ~ 0
+NHALGA
+Text GLabel 10650 1500 0    60   Output ~ 0
+NHVFAL
+Text GLabel 5450 2650 0    60   Input ~ 0
+MLOAD
+Text GLabel 5450 2750 0    60   Input ~ 0
+MREAD
+Text GLabel 5450 2850 0    60   Input ~ 0
+MLDCH
+Text GLabel 5450 2950 0    60   Input ~ 0
+MRDCH
+Text GLabel 5450 3050 0    60   Input ~ 0
+MNHNC
+Text GLabel 10650 1600 0    60   Output ~ 0
+MLOAD
+Text GLabel 10650 1700 0    60   Output ~ 0
+MREAD
+Text GLabel 10650 1800 0    60   Output ~ 0
+MLDCH
+Text GLabel 10650 1900 0    60   Output ~ 0
+MRDCH
+Text GLabel 10650 2000 0    60   Output ~ 0
+MNHNC
+Text GLabel 2500 8050 0    60   Input ~ 0
+T1P
+Text GLabel 2500 8150 0    60   Input ~ 0
+T2P
+Text GLabel 2500 8250 0    60   Input ~ 0
+T3P
+Text GLabel 2500 8350 0    60   Input ~ 0
+T4P
+Text GLabel 2500 8450 0    60   Input ~ 0
+T5P
+Text GLabel 2500 8550 0    60   Input ~ 0
+T6P
+Text GLabel 2500 8650 0    60   Input ~ 0
+CDUXP
+Text GLabel 2500 8750 0    60   Input ~ 0
+CDUXM
+Text GLabel 2500 8850 0    60   Input ~ 0
+CDUYP
+Text GLabel 2500 8950 0    60   Input ~ 0
+CDUYM
+Text GLabel 2500 9050 0    60   Input ~ 0
+CDUZP
+Text GLabel 2500 9150 0    60   Input ~ 0
+CDUZM
+Text GLabel 2500 9250 0    60   Input ~ 0
+TRNP
+Text GLabel 2500 9350 0    60   Input ~ 0
+TRNM
+Text GLabel 2500 9450 0    60   Input ~ 0
+SHAFTP
+Text GLabel 2500 9550 0    60   Input ~ 0
+SHAFTM
+Text GLabel 2500 9650 0    60   Input ~ 0
+PIPXP
+Text GLabel 2500 9750 0    60   Input ~ 0
+PIPXM
+Text GLabel 2500 9850 0    60   Input ~ 0
+PIPYP
+Text GLabel 2500 9950 0    60   Input ~ 0
+PIPYM
+Text GLabel 2500 10050 0    60   Input ~ 0
+PIPZP
+Text GLabel 2500 10150 0    60   Input ~ 0
+PIPZM
+Text GLabel 2500 10250 0    60   Input ~ 0
+BMAGXP
+Text GLabel 2500 10350 0    60   Input ~ 0
+BMAGXM
+Text GLabel 2500 10450 0    60   Input ~ 0
+BMAGYP
+Text GLabel 2500 10550 0    60   Input ~ 0
+BMAGYM
+Text GLabel 2500 10650 0    60   Input ~ 0
+BMAGZP
+Text GLabel 2500 10750 0    60   Input ~ 0
+BMAGZM
+Text GLabel 2500 10850 0    60   Input ~ 0
+INLNKP
+Text GLabel 2500 10950 0    60   Input ~ 0
+INLNKM
+Text GLabel 2500 11050 0    60   Input ~ 0
+RNRADP
+Text GLabel 2500 11150 0    60   Input ~ 0
+RNRADM
+Text GLabel 2500 11250 0    60   Input ~ 0
+GYROD
+Text GLabel 2500 11350 0    60   Input ~ 0
+CDUXD
+Text GLabel 2500 11450 0    60   Input ~ 0
+CDUYD
+Text GLabel 2500 11550 0    60   Input ~ 0
+CDUZD
+Text GLabel 2500 11650 0    60   Input ~ 0
+TRUND
+Text GLabel 2500 11750 0    60   Input ~ 0
+SHAFTD
+Text GLabel 2500 11850 0    60   Input ~ 0
+THRSTD
+Text GLabel 2500 11950 0    60   Input ~ 0
+EMSD
+Text GLabel 2500 12050 0    60   Input ~ 0
+OTLNKM
+Text GLabel 2500 12150 0    60   Input ~ 0
+ALTM
+Text GLabel 10650 2100 0    60   Output ~ 0
+T1P
+Text GLabel 10650 2200 0    60   Output ~ 0
+T2P
+Text GLabel 10650 2300 0    60   Output ~ 0
+T3P
+Text GLabel 10650 2400 0    60   Output ~ 0
+T4P
+Text GLabel 10650 2500 0    60   Output ~ 0
+T5P
+Text GLabel 10650 2600 0    60   Output ~ 0
+T6P
+Text GLabel 10650 2700 0    60   Output ~ 0
+CDUXP
+Text GLabel 10650 2800 0    60   Output ~ 0
+CDUXM
+Text GLabel 10650 2900 0    60   Output ~ 0
+CDUYP
+Text GLabel 10650 3000 0    60   Output ~ 0
+CDUYM
+Text GLabel 10650 3100 0    60   Output ~ 0
+CDUZP
+Text GLabel 10650 3200 0    60   Output ~ 0
+CDUZM
+Text GLabel 10650 3300 0    60   Output ~ 0
+TRNP
+Text GLabel 10650 3400 0    60   Output ~ 0
+TRNM
+Text GLabel 10650 3500 0    60   Output ~ 0
+SHAFTP
+Text GLabel 10650 3600 0    60   Output ~ 0
+SHAFTM
+Text GLabel 10650 3700 0    60   Output ~ 0
+PIPXP
+Text GLabel 10650 3800 0    60   Output ~ 0
+PIPXM
+Text GLabel 10650 3900 0    60   Output ~ 0
+PIPYP
+Text GLabel 10650 4000 0    60   Output ~ 0
+PIPYM
+Text GLabel 10650 4100 0    60   Output ~ 0
+PIPZP
+Text GLabel 10650 4200 0    60   Output ~ 0
+PIPZM
+Text GLabel 10650 4300 0    60   Output ~ 0
+BMAGXP
+Text GLabel 10650 4400 0    60   Output ~ 0
+BMAGXM
+Text GLabel 11700 1300 0    60   Output ~ 0
+BMAGYP
+Text GLabel 11700 1400 0    60   Output ~ 0
+BMAGYM
+Text GLabel 11700 1500 0    60   Output ~ 0
+BMAGZP
+Text GLabel 11700 1600 0    60   Output ~ 0
+BMAGZM
+Text GLabel 11700 1700 0    60   Output ~ 0
+INLNKP
+Text GLabel 11700 1800 0    60   Output ~ 0
+INLNKM
+Text GLabel 11700 1900 0    60   Output ~ 0
+RNRADP
+Text GLabel 11700 2000 0    60   Output ~ 0
+RNRADM
+Text GLabel 11700 2100 0    60   Output ~ 0
+GYROD
+Text GLabel 11700 2200 0    60   Output ~ 0
+CDUXD
+Text GLabel 11700 2300 0    60   Output ~ 0
+CDUYD
+Text GLabel 11700 2400 0    60   Output ~ 0
+CDUZD
+Text GLabel 11700 2500 0    60   Output ~ 0
+TRUND
+Text GLabel 11700 2600 0    60   Output ~ 0
+SHAFTD
+Text GLabel 11700 2700 0    60   Output ~ 0
+THRSTD
+Text GLabel 11700 2800 0    60   Output ~ 0
+EMSD
+Text GLabel 11700 2900 0    60   Output ~ 0
+OTLNKM
+Text GLabel 11700 3000 0    60   Output ~ 0
+ALTM
+Text GLabel 4300 1350 2    60   Output ~ 0
+ALGA
+Text GLabel 4300 1450 2    60   Output ~ 0
+STRT1
+Text GLabel 11700 3100 0    60   Input ~ 0
+ALGA
+Text GLabel 11700 3200 0    60   Input ~ 0
+STRT1
+Text GLabel 6900 3050 2    60   Output ~ 0
+BKTF/
+Text GLabel 6900 3150 2    60   Output ~ 0
+RSSB
+Text GLabel 11700 3300 0    60   Input ~ 0
+BKTF/
+Text GLabel 11700 3400 0    60   Input ~ 0
+RSSB
+Text GLabel 6900 2800 2    60   Output ~ 0
+CHINC
+Text GLabel 6900 2900 2    60   Output ~ 0
+CHINC/
+Text GLabel 11700 3500 0    60   Input ~ 0
+CHINC
+Text GLabel 11700 3600 0    60   Input ~ 0
+CHINC/
+Text GLabel 6900 2150 2    60   Output ~ 0
+FETCH0
+Text GLabel 6900 2250 2    60   Output ~ 0
+FETCH0/
+Text GLabel 6900 2350 2    60   Output ~ 0
+FETCH1
+Text GLabel 6900 2550 2    60   Output ~ 0
+STORE1/
+Text GLabel 6900 2650 2    60   Output ~ 0
+STFET1/
+Text GLabel 11700 3700 0    60   Input ~ 0
+FETCH0
+Text GLabel 11700 3800 0    60   Input ~ 0
+FETCH0/
+Text GLabel 11700 3900 0    60   Input ~ 0
+FETCH1
+Text GLabel 11700 4000 0    60   Input ~ 0
+STORE1/
+Text GLabel 11700 4100 0    60   Input ~ 0
+STFET1/
+Text GLabel 6900 1800 2    60   Output ~ 0
+INCSET/
+Text GLabel 6900 2000 2    60   Output ~ 0
+INKL/
+Text GLabel 11700 4200 0    60   Input ~ 0
+INCSET/
+Text GLabel 11700 4300 0    60   Input ~ 0
+INKL
+Text GLabel 11700 4400 0    60   Input ~ 0
+INKL/
+Text GLabel 6900 1550 2    60   Output ~ 0
+INOTLD
+Text GLabel 12750 1300 0    60   Input ~ 0
+INOTLD
+Text GLabel 4300 2250 2    60   Output ~ 0
+MSTRTP
+Text GLabel 6900 1300 2    60   Output ~ 0
+MON/
+Text GLabel 6900 1400 2    60   Output ~ 0
+MONPCH
+Wire Wire Line
+	12750 1800 12850 1800
+Connection ~ 12750 1800
+Wire Wire Line
+	12750 1900 12850 1900
+Connection ~ 12750 1900
+Wire Wire Line
+	12750 2000 12850 2000
+Connection ~ 12750 2000
+Wire Wire Line
+	12750 2100 12850 2100
+Connection ~ 12750 2100
+Wire Wire Line
+	12750 2200 12850 2200
+Connection ~ 12750 2200
+Wire Wire Line
+	12750 2300 12850 2300
+Connection ~ 12750 2300
+Wire Wire Line
+	12750 2400 12850 2400
+Connection ~ 12750 2400
+Wire Wire Line
+	12750 2500 12850 2500
+Connection ~ 12750 2500
+Wire Wire Line
+	12750 2600 12850 2600
+Connection ~ 12750 2600
+Wire Wire Line
+	12750 2700 12850 2700
+Connection ~ 12750 2700
+Wire Wire Line
+	12750 2800 12850 2800
+Connection ~ 12750 2800
+Wire Wire Line
+	12750 2900 12850 2900
+Connection ~ 12750 2900
+Wire Wire Line
+	12750 3000 12850 3000
+Connection ~ 12750 3000
+Wire Wire Line
+	12750 3100 12850 3100
+Connection ~ 12750 3100
+Wire Wire Line
+	12750 3200 12850 3200
+Connection ~ 12750 3200
+Wire Wire Line
+	12750 3300 12850 3300
+Connection ~ 12750 3300
+Wire Wire Line
+	12750 3400 12850 3400
+Connection ~ 12750 3400
+Wire Wire Line
+	12750 3500 12850 3500
+Connection ~ 12750 3500
+Wire Wire Line
+	12750 3600 12850 3600
+Connection ~ 12750 3600
+Wire Wire Line
+	12750 3700 12850 3700
+Connection ~ 12750 3700
+Wire Wire Line
+	12750 3800 12850 3800
+Connection ~ 12750 3800
+Wire Wire Line
+	12750 3900 12850 3900
+Connection ~ 12750 3900
+Wire Wire Line
+	12750 4000 12850 4000
+Connection ~ 12750 4000
+Wire Wire Line
+	12750 4100 12850 4100
+Connection ~ 12750 4100
+Wire Wire Line
+	12750 4200 12850 4200
+Connection ~ 12750 4200
+Wire Wire Line
+	12750 4300 12850 4300
+Connection ~ 12750 4300
+Wire Wire Line
+	12750 4400 12850 4400
+Connection ~ 12750 4400
+Wire Wire Line
+	13900 1300 13800 1300
+Wire Wire Line
+	13900 1400 13800 1400
+Connection ~ 13800 1400
+Wire Wire Line
+	13800 1500 13900 1500
+Connection ~ 13800 1500
+Wire Wire Line
+	13800 1600 13900 1600
+Connection ~ 13800 1600
+Wire Wire Line
+	13800 1700 13900 1700
+Connection ~ 13800 1700
+Wire Wire Line
+	13800 1800 13900 1800
+Connection ~ 13800 1800
+Wire Wire Line
+	13800 1900 13900 1900
+Connection ~ 13800 1900
+Wire Wire Line
+	13800 2000 13900 2000
+Connection ~ 13800 2000
+Wire Wire Line
+	13800 2100 13900 2100
+Connection ~ 13800 2100
+Wire Wire Line
+	13800 2200 13900 2200
+Connection ~ 13800 2200
+Wire Wire Line
+	13800 2300 13900 2300
+Connection ~ 13800 2300
+Wire Wire Line
+	13800 2400 13900 2400
+Connection ~ 13800 2400
+Wire Wire Line
+	13800 2500 13900 2500
+Connection ~ 13800 2500
+Wire Wire Line
+	13800 2600 13900 2600
+Connection ~ 13800 2600
+Wire Wire Line
+	13800 2700 13900 2700
+Connection ~ 13800 2700
+Wire Wire Line
+	13800 2800 13900 2800
+Connection ~ 13800 2800
+Wire Wire Line
+	13800 2900 13900 2900
+Connection ~ 13800 2900
+Wire Wire Line
+	13800 3000 13900 3000
+Connection ~ 13800 3000
+Wire Wire Line
+	13800 3100 13900 3100
+Connection ~ 13800 3100
+Wire Wire Line
+	13800 3200 13900 3200
+Connection ~ 13800 3200
+Wire Wire Line
+	13800 3300 13900 3300
+Connection ~ 13800 3300
+Wire Wire Line
+	13800 3400 13900 3400
+Connection ~ 13800 3400
+Wire Wire Line
+	13800 3500 13900 3500
+Connection ~ 13800 3500
+Wire Wire Line
+	13800 3600 13900 3600
+Connection ~ 13800 3600
+Wire Wire Line
+	13800 3700 13900 3700
+Connection ~ 13800 3700
+Wire Wire Line
+	13800 3800 13900 3800
+Connection ~ 13800 3800
+Wire Wire Line
+	13800 3900 13900 3900
+Connection ~ 13800 3900
+Wire Wire Line
+	13800 4000 13900 4000
+Connection ~ 13800 4000
+Wire Wire Line
+	13800 4100 13900 4100
+Connection ~ 13800 4100
+Wire Wire Line
+	13800 4200 13900 4200
+Connection ~ 13800 4200
+Wire Wire Line
+	13800 4300 13900 4300
+Connection ~ 13800 4300
+Wire Wire Line
+	13800 4400 13900 4400
+Connection ~ 13800 4400
+Wire Wire Line
+	13800 1300 13800 4500
+Wire Wire Line
+	2500 1300 2600 1300
+Wire Wire Line
+	5450 1300 5550 1300
+Wire Wire Line
+	8550 1300 8650 1300
+Wire Wire Line
+	5450 1450 5550 1450
+Wire Wire Line
+	5450 1550 5550 1550
+Wire Wire Line
+	5450 1650 5550 1650
+Wire Wire Line
+	8550 1400 8650 1400
+Wire Wire Line
+	8550 1500 8650 1500
+Wire Wire Line
+	8550 1600 8650 1600
+Wire Wire Line
+	5450 1800 5550 1800
+Wire Wire Line
+	2500 1450 2600 1450
+Wire Wire Line
+	8550 1700 8650 1700
+Wire Wire Line
+	2500 1550 2600 1550
+Wire Wire Line
+	2500 1650 2600 1650
+Wire Wire Line
+	8550 1800 8650 1800
+Wire Wire Line
+	8550 1900 8650 1900
+Wire Wire Line
+	5450 1900 5550 1900
+Wire Wire Line
+	8550 2000 8650 2000
+Wire Wire Line
+	2500 1750 2600 1750
+Wire Wire Line
+	8550 2100 8650 2100
+Wire Wire Line
+	2500 1850 2600 1850
+Wire Wire Line
+	8550 2200 8650 2200
+Wire Wire Line
+	5450 2000 5550 2000
+Wire Wire Line
+	8550 2300 8650 2300
+Wire Wire Line
+	5450 2100 5550 2100
+Wire Wire Line
+	5450 2200 5550 2200
+Wire Wire Line
+	8550 2400 8650 2400
+Wire Wire Line
+	8550 2500 8650 2500
+Wire Wire Line
+	5450 2350 5550 2350
+Wire Wire Line
+	8550 2600 8650 2600
+Wire Wire Line
+	2500 2100 2600 2100
+Wire Wire Line
+	8550 2700 8650 2700
+Wire Wire Line
+	2500 2250 2600 2250
+Wire Wire Line
+	2500 2350 2600 2350
+Wire Wire Line
+	2500 2450 2600 2450
+Wire Wire Line
+	2500 2550 2600 2550
+Wire Wire Line
+	8550 2800 8650 2800
+Wire Wire Line
+	8550 2900 8650 2900
+Wire Wire Line
+	8550 3000 8650 3000
+Wire Wire Line
+	8550 3100 8650 3100
+Wire Wire Line
+	5450 2500 5550 2500
+Wire Wire Line
+	9600 1900 9700 1900
+Wire Wire Line
+	2500 2700 2600 2700
+Wire Wire Line
+	2500 2800 2600 2800
+Wire Wire Line
+	2500 2900 2600 2900
+Wire Wire Line
+	8550 3200 8650 3200
+Wire Wire Line
+	8550 3300 8650 3300
+Wire Wire Line
+	8550 3400 8650 3400
+Wire Wire Line
+	2500 3050 2600 3050
+Wire Wire Line
+	2500 3150 2600 3150
+Wire Wire Line
+	2500 3250 2600 3250
+Wire Wire Line
+	2500 3350 2600 3350
+Wire Wire Line
+	2500 3450 2600 3450
+Wire Wire Line
+	2500 3550 2600 3550
+Wire Wire Line
+	2500 3650 2600 3650
+Wire Wire Line
+	2500 3750 2600 3750
+Wire Wire Line
+	2500 3850 2600 3850
+Wire Wire Line
+	2500 3950 2600 3950
+Wire Wire Line
+	2500 4050 2600 4050
+Wire Wire Line
+	2500 4150 2600 4150
+Wire Wire Line
+	2500 4250 2600 4250
+Wire Wire Line
+	2500 4350 2600 4350
+Wire Wire Line
+	2500 4450 2600 4450
+Wire Wire Line
+	2500 4550 2600 4550
+Wire Wire Line
+	8550 3500 8650 3500
+Wire Wire Line
+	8550 3600 8650 3600
+Wire Wire Line
+	8550 3700 8650 3700
+Wire Wire Line
+	8550 3800 8650 3800
+Wire Wire Line
+	8550 3900 8650 3900
+Wire Wire Line
+	8550 4000 8650 4000
+Wire Wire Line
+	8550 4100 8650 4100
+Wire Wire Line
+	8550 4200 8650 4200
+Wire Wire Line
+	8550 4300 8650 4300
+Wire Wire Line
+	8550 4400 8650 4400
+Wire Wire Line
+	9600 1300 9700 1300
+Wire Wire Line
+	9600 1400 9700 1400
+Wire Wire Line
+	9600 1500 9700 1500
+Wire Wire Line
+	9600 1600 9700 1600
+Wire Wire Line
+	9600 1700 9700 1700
+Wire Wire Line
+	9600 1800 9700 1800
+Wire Wire Line
+	2500 4700 2600 4700
+Wire Wire Line
+	2500 4800 2600 4800
+Wire Wire Line
+	2500 4900 2600 4900
+Wire Wire Line
+	2500 5000 2600 5000
+Wire Wire Line
+	2500 5100 2600 5100
+Wire Wire Line
+	9600 2000 9700 2000
+Wire Wire Line
+	9600 2100 9700 2100
+Wire Wire Line
+	9600 2200 9700 2200
+Wire Wire Line
+	9600 2300 9700 2300
+Wire Wire Line
+	9600 2400 9700 2400
+Wire Wire Line
+	2500 5250 2600 5250
+Wire Wire Line
+	2500 5350 2600 5350
+Wire Wire Line
+	9600 2500 9700 2500
+Wire Wire Line
+	9600 2600 9700 2600
+Wire Wire Line
+	2500 5700 2600 5700
+Wire Wire Line
+	5450 3550 5550 3550
+Wire Wire Line
+	9600 2800 9700 2800
+Wire Wire Line
+	9600 2700 9700 2700
+Wire Wire Line
+	2500 5850 2600 5850
+Wire Wire Line
+	5450 3400 5550 3400
+Wire Wire Line
+	9600 2900 9700 2900
+Wire Wire Line
+	2500 5950 2600 5950
+Wire Wire Line
+	2500 6050 2600 6050
+Wire Wire Line
+	9600 3000 9700 3000
+Wire Wire Line
+	9600 3100 9700 3100
+Wire Wire Line
+	5450 3200 5550 3200
+Wire Wire Line
+	5450 3300 5550 3300
+Wire Wire Line
+	9600 3200 9700 3200
+Wire Wire Line
+	9600 3300 9700 3300
+Wire Wire Line
+	2500 6300 2600 6300
+Wire Wire Line
+	1650 6200 2600 6200
+Wire Wire Line
+	6800 1900 7500 1900
+Wire Wire Line
+	7400 1900 7400 1000
+Wire Wire Line
+	7400 1000 1650 1000
+Wire Wire Line
+	1650 1000 1650 6200
+Connection ~ 7400 1900
+Wire Wire Line
+	2500 6450 2600 6450
+Wire Wire Line
+	2500 6550 2600 6550
+Wire Wire Line
+	9600 3400 9700 3400
+Wire Wire Line
+	9600 3500 9700 3500
+Wire Wire Line
+	2500 6650 2600 6650
+Wire Wire Line
+	9600 3600 9700 3600
+Wire Wire Line
+	2500 6800 2600 6800
+Wire Wire Line
+	2500 6900 2600 6900
+Wire Wire Line
+	2500 7000 2600 7000
+Wire Wire Line
+	9600 3700 9700 3700
+Wire Wire Line
+	9600 3800 9700 3800
+Wire Wire Line
+	9600 3900 9700 3900
+Wire Wire Line
+	2500 7150 2600 7150
+Wire Wire Line
+	2500 7250 2600 7250
+Wire Wire Line
+	2500 7350 2600 7350
+Wire Wire Line
+	9600 4000 9700 4000
+Wire Wire Line
+	9600 4100 9700 4100
+Wire Wire Line
+	9600 4200 9700 4200
+Wire Wire Line
+	2500 7500 2600 7500
+Wire Wire Line
+	2500 7600 2600 7600
+Wire Wire Line
+	2500 7700 2600 7700
+Wire Wire Line
+	2500 7800 2600 7800
+Wire Wire Line
+	2500 7900 2600 7900
+Wire Wire Line
+	9600 4300 9700 4300
+Wire Wire Line
+	9600 4400 9700 4400
+Wire Wire Line
+	10650 1300 10750 1300
+Wire Wire Line
+	10650 1400 10750 1400
+Wire Wire Line
+	10650 1500 10750 1500
+Wire Wire Line
+	5450 2650 5550 2650
+Wire Wire Line
+	5450 2750 5550 2750
+Wire Wire Line
+	5450 2850 5550 2850
+Wire Wire Line
+	5450 2950 5550 2950
+Wire Wire Line
+	5450 3050 5550 3050
+Wire Wire Line
+	10650 1600 10750 1600
+Wire Wire Line
+	10650 1700 10750 1700
+Wire Wire Line
+	10650 1800 10750 1800
+Wire Wire Line
+	10650 1900 10750 1900
+Wire Wire Line
+	10650 2000 10750 2000
+Wire Wire Line
+	2500 8050 2600 8050
+Wire Wire Line
+	2500 8150 2600 8150
+Wire Wire Line
+	2500 8250 2600 8250
+Wire Wire Line
+	2500 8350 2600 8350
+Wire Wire Line
+	2500 8450 2600 8450
+Wire Wire Line
+	2500 8550 2600 8550
+Wire Wire Line
+	2500 8650 2600 8650
+Wire Wire Line
+	2500 8750 2600 8750
+Wire Wire Line
+	2500 8850 2600 8850
+Wire Wire Line
+	2500 8950 2600 8950
+Wire Wire Line
+	2500 9050 2600 9050
+Wire Wire Line
+	2500 9150 2600 9150
+Wire Wire Line
+	2500 9250 2600 9250
+Wire Wire Line
+	2500 9350 2600 9350
+Wire Wire Line
+	2500 9450 2600 9450
+Wire Wire Line
+	2500 9550 2600 9550
+Wire Wire Line
+	2500 9650 2600 9650
+Wire Wire Line
+	2500 9750 2600 9750
+Wire Wire Line
+	2500 9850 2600 9850
+Wire Wire Line
+	2500 9950 2600 9950
+Wire Wire Line
+	2500 10050 2600 10050
+Wire Wire Line
+	2500 10150 2600 10150
+Wire Wire Line
+	2500 10250 2600 10250
+Wire Wire Line
+	2500 10350 2600 10350
+Wire Wire Line
+	2500 10450 2600 10450
+Wire Wire Line
+	2500 10550 2600 10550
+Wire Wire Line
+	2500 10650 2600 10650
+Wire Wire Line
+	2500 10750 2600 10750
+Wire Wire Line
+	2500 10850 2600 10850
+Wire Wire Line
+	2500 10950 2600 10950
+Wire Wire Line
+	2500 11050 2600 11050
+Wire Wire Line
+	2500 11150 2600 11150
+Wire Wire Line
+	2500 11250 2600 11250
+Wire Wire Line
+	2500 11350 2600 11350
+Wire Wire Line
+	2500 11450 2600 11450
+Wire Wire Line
+	2500 11550 2600 11550
+Wire Wire Line
+	2500 11650 2600 11650
+Wire Wire Line
+	2500 11750 2600 11750
+Wire Wire Line
+	2500 11850 2600 11850
+Wire Wire Line
+	2500 11950 2600 11950
+Wire Wire Line
+	2500 12050 2600 12050
+Wire Wire Line
+	2500 12150 2600 12150
+Wire Wire Line
+	10650 2100 10750 2100
+Wire Wire Line
+	10650 2200 10750 2200
+Wire Wire Line
+	10650 2300 10750 2300
+Wire Wire Line
+	10650 2400 10750 2400
+Wire Wire Line
+	10650 2500 10750 2500
+Wire Wire Line
+	10650 2600 10750 2600
+Wire Wire Line
+	10650 2700 10750 2700
+Wire Wire Line
+	10650 2800 10750 2800
+Wire Wire Line
+	10650 2900 10750 2900
+Wire Wire Line
+	10650 3000 10750 3000
+Wire Wire Line
+	10650 3100 10750 3100
+Wire Wire Line
+	10650 3200 10750 3200
+Wire Wire Line
+	10650 3300 10750 3300
+Wire Wire Line
+	10650 3400 10750 3400
+Wire Wire Line
+	10650 3500 10750 3500
+Wire Wire Line
+	10650 3600 10750 3600
+Wire Wire Line
+	10650 3700 10750 3700
+Wire Wire Line
+	10650 3800 10750 3800
+Wire Wire Line
+	10650 3900 10750 3900
+Wire Wire Line
+	10650 4000 10750 4000
+Wire Wire Line
+	10650 4100 10750 4100
+Wire Wire Line
+	10650 4200 10750 4200
+Wire Wire Line
+	10650 4300 10750 4300
+Wire Wire Line
+	10650 4400 10750 4400
+Wire Wire Line
+	11700 1300 11800 1300
+Wire Wire Line
+	11700 1400 11800 1400
+Wire Wire Line
+	11700 1500 11800 1500
+Wire Wire Line
+	11700 1600 11800 1600
+Wire Wire Line
+	11700 1700 11800 1700
+Wire Wire Line
+	11700 1800 11800 1800
+Wire Wire Line
+	11700 1900 11800 1900
+Wire Wire Line
+	11700 2000 11800 2000
+Wire Wire Line
+	11700 2100 11800 2100
+Wire Wire Line
+	11700 2200 11800 2200
+Wire Wire Line
+	11700 2300 11800 2300
+Wire Wire Line
+	11700 2400 11800 2400
+Wire Wire Line
+	11700 2500 11800 2500
+Wire Wire Line
+	11700 2600 11800 2600
+Wire Wire Line
+	11700 2700 11800 2700
+Wire Wire Line
+	11700 2800 11800 2800
+Wire Wire Line
+	11700 2900 11800 2900
+Wire Wire Line
+	11700 3000 11800 3000
+Wire Wire Line
+	4300 1350 4200 1350
+Wire Wire Line
+	4300 1450 4200 1450
+Wire Wire Line
+	11700 3100 11800 3100
+Wire Wire Line
+	11700 3200 11800 3200
+Wire Wire Line
+	6900 3050 6800 3050
+Wire Wire Line
+	6900 3150 6800 3150
+Wire Wire Line
+	11700 3300 11800 3300
+Wire Wire Line
+	11700 3400 11800 3400
+Wire Wire Line
+	6900 2800 6800 2800
+Wire Wire Line
+	6900 2900 6800 2900
+Wire Wire Line
+	11700 3500 11800 3500
+Wire Wire Line
+	11700 3600 11800 3600
+Wire Wire Line
+	6900 2150 6800 2150
+Wire Wire Line
+	6900 2250 6800 2250
+Wire Wire Line
+	6900 2350 6800 2350
+Wire Wire Line
+	6900 2550 6800 2550
+Wire Wire Line
+	6900 2650 6800 2650
+Wire Wire Line
+	11700 3700 11800 3700
+Wire Wire Line
+	11700 3800 11800 3800
+Wire Wire Line
+	11700 3900 11800 3900
+Wire Wire Line
+	11700 4000 11800 4000
+Wire Wire Line
+	11700 4100 11800 4100
+Wire Wire Line
+	6900 1800 6800 1800
+Wire Wire Line
+	6900 2000 6800 2000
+Wire Wire Line
+	11700 4200 11800 4200
+Wire Wire Line
+	11700 4300 11800 4300
+Wire Wire Line
+	11700 4400 11800 4400
+Wire Wire Line
+	6900 1550 6800 1550
+Wire Wire Line
+	12750 1300 12850 1300
+Wire Wire Line
+	4300 2250 4200 2250
+Wire Wire Line
+	6900 1300 6800 1300
+Wire Wire Line
+	6900 1400 6800 1400
+Wire Wire Line
+	12850 1700 12750 1700
+Wire Wire Line
+	12750 1700 12750 4500
+Text GLabel 12750 1400 0    60   Input ~ 0
+MON/
+Wire Wire Line
+	12750 1400 12850 1400
+Text GLabel 12750 1500 0    60   Input ~ 0
+MONPCH
+Wire Wire Line
+	12750 1500 12850 1500
+Text GLabel 12750 1600 0    60   Input ~ 0
+MSTRTP
+Wire Wire Line
+	12750 1600 12850 1600
+$EndSCHEMATC

@@ -78,7 +78,7 @@ F27 "C30A" I L 4050 3300 60
 F28 "C50A" I L 4050 7500 60 
 F29 "C60A" I L 4050 8300 60 
 F30 "C40A" I L 4050 5300 60 
-F31 "RSCT/" I L 4050 2750 60 
+F31 "RSCT" I L 4050 2750 60 
 F32 "CAD1" O R 5300 2400 60 
 F33 "CAD2" O R 5300 2500 60 
 F34 "CAD3" O R 5300 2600 60 
@@ -202,14 +202,7 @@ F 3 "" H 18000 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	17700 3000 17800 3000
-Connection ~ 17700 3000
-Wire Wire Line
-	17700 3100 17800 3100
-Connection ~ 17700 3100
-Wire Wire Line
 	17700 3200 17800 3200
-Connection ~ 17700 3200
 $Comp
 L DIN_41612_128P P1
 U 5 1 5709E5D8
@@ -555,7 +548,7 @@ INCSET/
 Wire Wire Line
 	4050 2750 3950 2750
 Text GLabel 3950 2750 0    60   Input ~ 0
-RSCT/
+RSCT
 Wire Wire Line
 	14600 2800 14500 2800
 Text GLabel 14500 2800 0    60   Output ~ 0
@@ -563,7 +556,7 @@ INCSET/
 Wire Wire Line
 	14600 2900 14500 2900
 Text GLabel 14500 2900 0    60   Output ~ 0
-RSCT/
+RSCT
 Wire Wire Line
 	8200 2650 8100 2650
 Text GLabel 8100 2650 0    60   Input ~ 0
@@ -1469,36 +1462,36 @@ Wire Wire Line
 Text GLabel 5400 4600 2    60   Output ~ 0
 CXB1/
 Wire Wire Line
-	16750 3900 16650 3900
-Text GLabel 16650 3900 0    60   Input ~ 0
-CXB2/
-Wire Wire Line
 	16750 4000 16650 4000
 Text GLabel 16650 4000 0    60   Input ~ 0
-CXB3/
-Wire Wire Line
-	16750 4300 16650 4300
-Text GLabel 16650 4300 0    60   Input ~ 0
-CXB6/
-Wire Wire Line
-	16750 4400 16650 4400
-Text GLabel 16650 4400 0    60   Input ~ 0
-CXB7/
-Wire Wire Line
-	16750 3700 16650 3700
-Text GLabel 16650 3700 0    60   Input ~ 0
-CXB0/
+CXB2/
 Wire Wire Line
 	16750 4100 16650 4100
 Text GLabel 16650 4100 0    60   Input ~ 0
-CXB4/
+CXB3/
 Wire Wire Line
-	16750 4200 16650 4200
-Text GLabel 16650 4200 0    60   Input ~ 0
-CXB5/
+	16750 4400 16650 4400
+Text GLabel 16650 4400 0    60   Input ~ 0
+CXB6/
+Wire Wire Line
+	16750 4500 16650 4500
+Text GLabel 16650 4500 0    60   Input ~ 0
+CXB7/
 Wire Wire Line
 	16750 3800 16650 3800
 Text GLabel 16650 3800 0    60   Input ~ 0
+CXB0/
+Wire Wire Line
+	16750 4200 16650 4200
+Text GLabel 16650 4200 0    60   Input ~ 0
+CXB4/
+Wire Wire Line
+	16750 4300 16650 4300
+Text GLabel 16650 4300 0    60   Input ~ 0
+CXB5/
+Wire Wire Line
+	16750 3900 16650 3900
+Text GLabel 16650 3900 0    60   Input ~ 0
 CXB1/
 Wire Wire Line
 	5300 2400 5400 2400
@@ -1525,36 +1518,36 @@ Wire Wire Line
 Text GLabel 5400 2900 2    60   Output ~ 0
 CAD6
 Wire Wire Line
-	16750 4500 16650 4500
-Text GLabel 16650 4500 0    60   Input ~ 0
-CAD1
-Wire Wire Line
 	16750 4600 16650 4600
 Text GLabel 16650 4600 0    60   Input ~ 0
-CAD2
+CAD1
 Wire Wire Line
 	16750 4700 16650 4700
 Text GLabel 16650 4700 0    60   Input ~ 0
-CAD3
+CAD2
 Wire Wire Line
 	16750 4800 16650 4800
 Text GLabel 16650 4800 0    60   Input ~ 0
-CAD4
+CAD3
 Wire Wire Line
 	16750 4900 16650 4900
 Text GLabel 16650 4900 0    60   Input ~ 0
-CAD5
+CAD4
 Wire Wire Line
 	16750 5000 16650 5000
 Text GLabel 16650 5000 0    60   Input ~ 0
+CAD5
+Wire Wire Line
+	16750 5100 16650 5100
+Text GLabel 16650 5100 0    60   Input ~ 0
 CAD6
 Wire Wire Line
 	9500 5100 9600 5100
 Text GLabel 9600 5100 2    60   Output ~ 0
 CG26
 Wire Wire Line
-	16750 5100 16650 5100
-Text GLabel 16650 5100 0    60   Input ~ 0
+	16750 5200 16650 5200
+Text GLabel 16650 5200 0    60   Input ~ 0
 CG26
 Wire Wire Line
 	5300 3050 5400 3050
@@ -1573,20 +1566,20 @@ Wire Wire Line
 Text GLabel 5400 3550 2    60   Output ~ 0
 DINC/
 Wire Wire Line
-	16750 5200 16650 5200
-Text GLabel 16650 5200 0    60   Input ~ 0
-PINC
-Wire Wire Line
 	16750 5300 16650 5300
 Text GLabel 16650 5300 0    60   Input ~ 0
-MINC
+PINC
 Wire Wire Line
 	16750 5400 16650 5400
 Text GLabel 16650 5400 0    60   Input ~ 0
-DINC
+MINC
 Wire Wire Line
 	16750 5500 16650 5500
 Text GLabel 16650 5500 0    60   Input ~ 0
+DINC
+Wire Wire Line
+	16750 5600 16650 5600
+Text GLabel 16650 5600 0    60   Input ~ 0
 DINC/
 Wire Wire Line
 	5300 3650 5400 3650
@@ -1597,20 +1590,20 @@ Wire Wire Line
 Text GLabel 5400 3850 2    60   Output ~ 0
 MCDU
 Wire Wire Line
-	16750 5600 16650 5600
-Text GLabel 16650 5600 0    60   Input ~ 0
-PCDU
-Wire Wire Line
 	16750 5700 16650 5700
 Text GLabel 16650 5700 0    60   Input ~ 0
+PCDU
+Wire Wire Line
+	17800 2600 17700 2600
+Text GLabel 17700 2600 0    60   Input ~ 0
 MCDU
 Wire Wire Line
 	5300 4350 5400 4350
 Text GLabel 5400 4350 2    60   Output ~ 0
 SHANC/
 Wire Wire Line
-	17800 2600 17700 2600
-Text GLabel 17700 2600 0    60   Input ~ 0
+	17800 2700 17700 2700
+Text GLabel 17700 2700 0    60   Input ~ 0
 SHANC/
 Wire Wire Line
 	5300 5900 5400 5900
@@ -1621,15 +1614,33 @@ Wire Wire Line
 Text GLabel 5400 6000 2    60   Output ~ 0
 SHIFT/
 Wire Wire Line
-	17800 2700 17700 2700
-Text GLabel 17700 2700 0    60   Input ~ 0
-SHIFT
-Wire Wire Line
 	17800 2800 17700 2800
 Text GLabel 17700 2800 0    60   Input ~ 0
+SHIFT
+Wire Wire Line
+	17800 2900 17700 2900
+Text GLabel 17700 2900 0    60   Input ~ 0
 SHIFT/
 Wire Wire Line
-	17700 5800 17700 2900
+	16750 3700 16650 3700
+Text GLabel 16650 3700 0    60   Input ~ 0
+CA6/
 Wire Wire Line
-	17700 2900 17800 2900
+	9500 3600 9600 3600
+Text GLabel 9600 3600 2    60   Output ~ 0
+CTROR
+Wire Wire Line
+	9500 3700 9600 3700
+Text GLabel 9600 3700 2    60   Output ~ 0
+CTROR/
+Wire Wire Line
+	17700 3200 17700 5800
+Wire Wire Line
+	17800 3000 17700 3000
+Text GLabel 17700 3000 0    60   Input ~ 0
+CTROR
+Wire Wire Line
+	17800 3100 17700 3100
+Text GLabel 17700 3100 0    60   Input ~ 0
+CTROR/
 $EndSCHEMATC
