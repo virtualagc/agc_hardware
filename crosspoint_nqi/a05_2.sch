@@ -212,7 +212,7 @@ $EndComp
 Text HLabel 6500 2500 2    60   Output ~ 0
 RSCT
 Text HLabel 4050 2500 0    60   Input ~ 0
-MONPCH
+MON+CH
 Text HLabel 4050 2650 0    60   Input ~ 0
 INKL/
 $Comp

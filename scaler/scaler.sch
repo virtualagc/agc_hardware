@@ -45,7 +45,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2450 900  1650 8050
+S 2450 900  1650 8300
 U 562BF6E2
 F0 "A01_1" 60
 F1 "a01_1.sch" 60
@@ -118,7 +118,10 @@ F67 "RCHAT/" I L 2450 1200 60
 F68 "F05B/" O R 4100 8400 60 
 F69 "F05A/" O R 4100 8300 60 
 F70 "F07B/" O R 4100 8500 60 
-F71 "F10A/" O R 4100 8600 60 
+F71 "F10A/" O R 4100 8700 60 
+F72 "F09B/" O R 4100 8600 60 
+F73 "FS07A" O R 4100 8850 60 
+F74 "FS07/" O R 4100 8950 60 
 $EndSheet
 $Sheet
 S 5300 900  1550 7350
@@ -254,7 +257,6 @@ Wire Wire Line
 	4200 2250 4100 2250
 NoConn ~ 4200 1950
 NoConn ~ 4200 2050
-NoConn ~ 4200 2150
 NoConn ~ 4200 2250
 Wire Wire Line
 	4100 2400 4200 2400
@@ -276,13 +278,11 @@ Wire Wire Line
 	4200 3050 4100 3050
 NoConn ~ 4200 2850
 NoConn ~ 4200 2950
-NoConn ~ 4200 3050
 Wire Wire Line
 	4100 3200 4200 3200
 Wire Wire Line
 	4200 3400 4100 3400
 NoConn ~ 4200 3200
-NoConn ~ 4200 3400
 Wire Wire Line
 	4100 3550 4200 3550
 Wire Wire Line
@@ -640,38 +640,38 @@ Wire Wire Line
 Text GLabel 4200 8500 2    60   Output ~ 0
 F07B/
 Wire Wire Line
-	4100 8600 4200 8600
-Text GLabel 4200 8600 2    60   Output ~ 0
+	4100 8700 4200 8700
+Text GLabel 4200 8700 2    60   Output ~ 0
 F10A/
-Wire Wire Line
-	8600 1300 8500 1300
-Text GLabel 8500 1300 0    60   Input ~ 0
-F05A/
 Wire Wire Line
 	8600 1400 8500 1400
 Text GLabel 8500 1400 0    60   Input ~ 0
+F05A/
+Wire Wire Line
+	8600 1500 8500 1500
+Text GLabel 8500 1500 0    60   Input ~ 0
 F05B/
 Wire Wire Line
-	8600 1600 8500 1600
-Text GLabel 8500 1600 0    60   Input ~ 0
+	8600 2100 8500 2100
+Text GLabel 8500 2100 0    60   Input ~ 0
 F07B/
 Wire Wire Line
-	8600 2000 8500 2000
-Text GLabel 8500 2000 0    60   Input ~ 0
+	8600 2600 8500 2600
+Text GLabel 8500 2600 0    60   Input ~ 0
 F10A/
 Wire Wire Line
 	4100 3300 4200 3300
 Text GLabel 4200 3300 2    60   Output ~ 0
 F07A
 Wire Wire Line
-	8600 1500 8500 1500
-Text GLabel 8500 1500 0    60   Input ~ 0
+	8600 1900 8500 1900
+Text GLabel 8500 1900 0    60   Input ~ 0
 F07A
 Text GLabel 4200 3750 2    60   Output ~ 0
 F08B
 Wire Wire Line
-	8600 1700 8500 1700
-Text GLabel 8500 1700 0    60   Input ~ 0
+	8600 2200 8500 2200
+Text GLabel 8500 2200 0    60   Input ~ 0
 F08B
 $Comp
 L DIN_41612_128P P1
@@ -689,36 +689,36 @@ FS09
 Text GLabel 4200 4250 2    60   Output ~ 0
 FS10
 Wire Wire Line
-	8600 1800 8500 1800
-Text GLabel 8500 1800 0    60   Input ~ 0
+	8600 2300 8500 2300
+Text GLabel 8500 2300 0    60   Input ~ 0
 FS09
 Wire Wire Line
-	8600 1900 8500 1900
-Text GLabel 8500 1900 0    60   Input ~ 0
+	8600 2500 8500 2500
+Text GLabel 8500 2500 0    60   Input ~ 0
 FS10
 Text GLabel 4200 4450 2    60   Output ~ 0
 F10B
 Text GLabel 4200 5150 2    60   Output ~ 0
 F12B
 Wire Wire Line
-	8600 2100 8500 2100
-Text GLabel 8500 2100 0    60   Input ~ 0
+	8600 2700 8500 2700
+Text GLabel 8500 2700 0    60   Input ~ 0
 F10B
 Wire Wire Line
-	8600 2200 8500 2200
-Text GLabel 8500 2200 0    60   Input ~ 0
+	8600 2800 8500 2800
+Text GLabel 8500 2800 0    60   Input ~ 0
 F12B
 Text GLabel 4200 5300 2    60   Output ~ 0
 FS13
 Text GLabel 4200 5650 2    60   Output ~ 0
 FS14
 Wire Wire Line
-	8600 2300 8500 2300
-Text GLabel 8500 2300 0    60   Input ~ 0
+	8600 2900 8500 2900
+Text GLabel 8500 2900 0    60   Input ~ 0
 FS13
 Wire Wire Line
-	8600 2400 8500 2400
-Text GLabel 8500 2400 0    60   Input ~ 0
+	8600 3000 8500 3000
+Text GLabel 8500 3000 0    60   Input ~ 0
 FS14
 Text GLabel 4200 5850 2    60   Output ~ 0
 F14B
@@ -728,16 +728,16 @@ Text GLabel 4750 6800 2    60   Output ~ 0
 F17A
 Connection ~ 4650 6800
 Wire Wire Line
-	8600 2500 8500 2500
-Text GLabel 8500 2500 0    60   Input ~ 0
+	8600 3100 8500 3100
+Text GLabel 8500 3100 0    60   Input ~ 0
 F14B
 Wire Wire Line
-	8600 2600 8500 2600
-Text GLabel 8500 2600 0    60   Input ~ 0
+	8600 3200 8500 3200
+Text GLabel 8500 3200 0    60   Input ~ 0
 F17A
 Wire Wire Line
-	8600 2700 8500 2700
-Text GLabel 8500 2700 0    60   Input ~ 0
+	8600 3300 8500 3300
+Text GLabel 8500 3300 0    60   Input ~ 0
 F17B
 $Comp
 L DIN_41612_128P P1
@@ -859,25 +859,7 @@ F 3 "" H 8500 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8600 2800 8500 2800
-Wire Wire Line
-	8600 2900 8500 2900
-Connection ~ 8500 2900
-Wire Wire Line
-	8500 3000 8600 3000
-Connection ~ 8500 3000
-Wire Wire Line
-	8500 3100 8600 3100
-Connection ~ 8500 3100
-Wire Wire Line
-	8500 3200 8600 3200
-Connection ~ 8500 3200
-Wire Wire Line
-	8500 3300 8600 3300
-Connection ~ 8500 3300
-Wire Wire Line
 	8500 3400 8600 3400
-Connection ~ 8500 3400
 Wire Wire Line
 	8500 3500 8600 3500
 Connection ~ 8500 3500
@@ -899,8 +881,6 @@ Connection ~ 8500 4000
 Wire Wire Line
 	8500 4100 8600 4100
 Connection ~ 8500 4100
-Wire Wire Line
-	8500 2800 8500 4200
 $Comp
 L GND #PWR04
 U 1 1 57CC0180
@@ -1374,4 +1354,48 @@ Wire Wire Line
 Connection ~ 13000 4100
 Wire Wire Line
 	13000 1100 13000 4200
+Text GLabel 4200 2150 2    60   Output ~ 0
+F04A
+Wire Wire Line
+	8600 1300 8500 1300
+Text GLabel 8500 1300 0    60   Input ~ 0
+F04A
+Text GLabel 4200 3050 2    60   Output ~ 0
+F06B
+Text GLabel 4200 3400 2    60   Output ~ 0
+F07B
+Wire Wire Line
+	8600 1600 8500 1600
+Text GLabel 8500 1600 0    60   Input ~ 0
+F06B
+Wire Wire Line
+	8600 2000 8500 2000
+Text GLabel 8500 2000 0    60   Input ~ 0
+F07B
+Wire Wire Line
+	4100 8600 4200 8600
+Text GLabel 4200 8600 2    60   Output ~ 0
+F09B/
+Wire Wire Line
+	8600 2400 8500 2400
+Text GLabel 8500 2400 0    60   Input ~ 0
+F09B/
+Wire Wire Line
+	4100 8950 4200 8950
+Text GLabel 4200 8950 2    60   Output ~ 0
+FS07/
+Wire Wire Line
+	4100 8850 4200 8850
+Text GLabel 4200 8850 2    60   Output ~ 0
+FS07A
+Wire Wire Line
+	8500 3400 8500 4200
+Wire Wire Line
+	8600 1700 8500 1700
+Text GLabel 8500 1700 0    60   Input ~ 0
+FS07A
+Wire Wire Line
+	8600 1800 8500 1800
+Text GLabel 8500 1800 0    60   Input ~ 0
+FS07/
 $EndSCHEMATC

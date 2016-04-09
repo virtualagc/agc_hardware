@@ -201,8 +201,6 @@ F 3 "" H 18000 4150 60  0000 C CNN
 	4    18000 4150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	17700 3200 17800 3200
 $Comp
 L DIN_41612_128P P1
 U 5 1 5709E5D8
@@ -508,6 +506,7 @@ F48 "CG26" O R 9500 5100 60
 F49 "CTROR/" O R 9500 3700 60 
 F50 "C46P" O R 9500 4750 60 
 F51 "C46M" O R 9500 4850 60 
+F52 "C45R" O R 9500 4200 60 
 $EndSheet
 Wire Wire Line
 	8200 2400 8100 2400
@@ -1348,10 +1347,7 @@ Wire Wire Line
 Text GLabel 5400 5000 2    60   Output ~ 0
 CXB5/
 Wire Wire Line
-	17700 3300 17800 3300
-Wire Wire Line
 	17700 3400 17800 3400
-Connection ~ 17700 3400
 Wire Wire Line
 	17700 3500 17800 3500
 Connection ~ 17700 3500
@@ -1432,7 +1428,6 @@ F 3 "" H 17700 5800 60  0000 C CNN
 	1    17700 5800
 	1    0    0    -1  
 $EndComp
-Connection ~ 17700 3300
 Wire Wire Line
 	5300 5350 5400 5350
 Text GLabel 5400 5350 2    60   Output ~ 0
@@ -1566,20 +1561,20 @@ Wire Wire Line
 Text GLabel 5400 3550 2    60   Output ~ 0
 DINC/
 Wire Wire Line
-	16750 5300 16650 5300
-Text GLabel 16650 5300 0    60   Input ~ 0
-PINC
-Wire Wire Line
 	16750 5400 16650 5400
 Text GLabel 16650 5400 0    60   Input ~ 0
-MINC
+PINC
 Wire Wire Line
 	16750 5500 16650 5500
 Text GLabel 16650 5500 0    60   Input ~ 0
-DINC
+MINC
 Wire Wire Line
 	16750 5600 16650 5600
 Text GLabel 16650 5600 0    60   Input ~ 0
+DINC
+Wire Wire Line
+	16750 5700 16650 5700
+Text GLabel 16650 5700 0    60   Input ~ 0
 DINC/
 Wire Wire Line
 	5300 3650 5400 3650
@@ -1590,20 +1585,20 @@ Wire Wire Line
 Text GLabel 5400 3850 2    60   Output ~ 0
 MCDU
 Wire Wire Line
-	16750 5700 16650 5700
-Text GLabel 16650 5700 0    60   Input ~ 0
-PCDU
-Wire Wire Line
 	17800 2600 17700 2600
 Text GLabel 17700 2600 0    60   Input ~ 0
+PCDU
+Wire Wire Line
+	17800 2700 17700 2700
+Text GLabel 17700 2700 0    60   Input ~ 0
 MCDU
 Wire Wire Line
 	5300 4350 5400 4350
 Text GLabel 5400 4350 2    60   Output ~ 0
 SHANC/
 Wire Wire Line
-	17800 2700 17700 2700
-Text GLabel 17700 2700 0    60   Input ~ 0
+	17800 2900 17700 2900
+Text GLabel 17700 2900 0    60   Input ~ 0
 SHANC/
 Wire Wire Line
 	5300 5900 5400 5900
@@ -1614,12 +1609,12 @@ Wire Wire Line
 Text GLabel 5400 6000 2    60   Output ~ 0
 SHIFT/
 Wire Wire Line
-	17800 2800 17700 2800
-Text GLabel 17700 2800 0    60   Input ~ 0
+	17800 3000 17700 3000
+Text GLabel 17700 3000 0    60   Input ~ 0
 SHIFT
 Wire Wire Line
-	17800 2900 17700 2900
-Text GLabel 17700 2900 0    60   Input ~ 0
+	17800 3100 17700 3100
+Text GLabel 17700 3100 0    60   Input ~ 0
 SHIFT/
 Wire Wire Line
 	16750 3700 16650 3700
@@ -1634,13 +1629,29 @@ Wire Wire Line
 Text GLabel 9600 3700 2    60   Output ~ 0
 CTROR/
 Wire Wire Line
-	17700 3200 17700 5800
-Wire Wire Line
-	17800 3000 17700 3000
-Text GLabel 17700 3000 0    60   Input ~ 0
+	17800 3200 17700 3200
+Text GLabel 17700 3200 0    60   Input ~ 0
 CTROR
 Wire Wire Line
-	17800 3100 17700 3100
-Text GLabel 17700 3100 0    60   Input ~ 0
+	17800 3300 17700 3300
+Text GLabel 17700 3300 0    60   Input ~ 0
 CTROR/
+Wire Wire Line
+	9500 4200 9600 4200
+Text GLabel 9600 4200 2    60   Output ~ 0
+C45R
+Wire Wire Line
+	16750 5300 16650 5300
+Text GLabel 16650 5300 0    60   Input ~ 0
+C45R
+Wire Wire Line
+	5300 4150 5400 4150
+Text GLabel 5400 4150 2    60   Output ~ 0
+SHINC/
+Wire Wire Line
+	17700 3400 17700 5800
+Wire Wire Line
+	17800 2800 17700 2800
+Text GLabel 17700 2800 0    60   Input ~ 0
+SHINC/
 $EndSCHEMATC

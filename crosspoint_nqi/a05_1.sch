@@ -544,7 +544,7 @@ PARTC
 Text HLabel 1250 8950 0    60   Input ~ 0
 SHIFT
 Text HLabel 1250 9100 0    60   Input ~ 0
-MONPCH
+MON+CH
 Text Notes 850  9300 0    60   ~ 0
 MON+CH
 Text HLabel 2500 9300 0    60   Input ~ 0

@@ -892,7 +892,7 @@ Wire Wire Line
 	10850 6400 10950 6400
 Connection ~ 10850 6850
 Text HLabel 12000 6750 2    60   Output ~ 0
-MONPCH
+MON+CH
 $Comp
 L 74HC04 U13043
 U 5 1 57A62B45
