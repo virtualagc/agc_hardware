@@ -834,11 +834,7 @@ MON/
 Text GLabel 6900 1400 2    60   Output ~ 0
 MON+CH
 Wire Wire Line
-	12750 1800 12850 1800
-Connection ~ 12750 1800
-Wire Wire Line
 	12750 1900 12850 1900
-Connection ~ 12750 1900
 Wire Wire Line
 	12750 2000 12850 2000
 Connection ~ 12750 2000
@@ -1550,10 +1546,6 @@ Wire Wire Line
 	6900 1300 6800 1300
 Wire Wire Line
 	6900 1400 6800 1400
-Wire Wire Line
-	12850 1700 12750 1700
-Wire Wire Line
-	12750 1700 12750 4500
 Text GLabel 12750 1400 0    60   Input ~ 0
 MON/
 Wire Wire Line
@@ -1566,4 +1558,22 @@ Text GLabel 12750 1600 0    60   Input ~ 0
 MSTRTP
 Wire Wire Line
 	12750 1600 12850 1600
+Text GLabel 4300 1600 2    60   Output ~ 0
+AGCWAR
+Wire Wire Line
+	4300 1600 4200 1600
+Text GLabel 12750 1700 0    60   Input ~ 0
+AGCWAR
+Wire Wire Line
+	12750 1700 12850 1700
+Text GLabel 4300 1900 2    60   Output ~ 0
+OSCALM
+Wire Wire Line
+	4300 1900 4200 1900
+Wire Wire Line
+	12750 4500 12750 1900
+Text GLabel 12750 1800 0    60   Input ~ 0
+OSCALM
+Wire Wire Line
+	12750 1800 12850 1800
 $EndSCHEMATC

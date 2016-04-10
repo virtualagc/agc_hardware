@@ -173,68 +173,6 @@ F 3 "" H 10800 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10500 1950 10600 1950
-Wire Wire Line
-	10500 2050 10600 2050
-Connection ~ 10500 2050
-Wire Wire Line
-	10500 2150 10600 2150
-Connection ~ 10500 2150
-Wire Wire Line
-	10500 2250 10600 2250
-Connection ~ 10500 2250
-Wire Wire Line
-	10500 2350 10600 2350
-Connection ~ 10500 2350
-Wire Wire Line
-	10500 2450 10600 2450
-Connection ~ 10500 2450
-Wire Wire Line
-	10500 2550 10600 2550
-Connection ~ 10500 2550
-Wire Wire Line
-	10500 2650 10600 2650
-Connection ~ 10500 2650
-Wire Wire Line
-	10500 2750 10600 2750
-Connection ~ 10500 2750
-Wire Wire Line
-	10500 2850 10600 2850
-Connection ~ 10500 2850
-Wire Wire Line
-	10500 2950 10600 2950
-Connection ~ 10500 2950
-Wire Wire Line
-	10500 3050 10600 3050
-Connection ~ 10500 3050
-Wire Wire Line
-	10500 3150 10600 3150
-Connection ~ 10500 3150
-Wire Wire Line
-	10500 3250 10600 3250
-Connection ~ 10500 3250
-Wire Wire Line
-	10500 3350 10600 3350
-Connection ~ 10500 3350
-Wire Wire Line
-	10500 3450 10600 3450
-Connection ~ 10500 3450
-Wire Wire Line
-	10500 3550 10600 3550
-Connection ~ 10500 3550
-Wire Wire Line
-	10500 3650 10600 3650
-Connection ~ 10500 3650
-Wire Wire Line
-	10500 3750 10600 3750
-Connection ~ 10500 3750
-Wire Wire Line
-	10500 3850 10600 3850
-Connection ~ 10500 3850
-Wire Wire Line
-	10500 3950 10600 3950
-Connection ~ 10500 3950
-Wire Wire Line
 	10500 4050 10600 4050
 Connection ~ 10500 4050
 Wire Wire Line
@@ -1478,9 +1416,141 @@ Wire Wire Line
 Text GLabel 3300 3500 2    60   Output ~ 0
 THRSTD
 Wire Wire Line
-	10500 1950 10500 4450
-Wire Wire Line
 	10600 1750 10500 1750
 Text GLabel 10500 1750 0    60   Input ~ 0
 THRSTD
+Wire Wire Line
+	3200 4000 3300 4000
+Text GLabel 3300 4000 2    60   Output ~ 0
+CH1305
+Wire Wire Line
+	3200 4100 3300 4100
+Text GLabel 3300 4100 2    60   Output ~ 0
+CH1306
+Wire Wire Line
+	3200 4200 3300 4200
+Text GLabel 3300 4200 2    60   Output ~ 0
+CH1401
+Wire Wire Line
+	3200 4300 3300 4300
+Text GLabel 3300 4300 2    60   Output ~ 0
+CH1402
+Wire Wire Line
+	3200 4400 3300 4400
+Text GLabel 3300 4400 2    60   Output ~ 0
+CH1403
+Wire Wire Line
+	3200 4500 3300 4500
+Text GLabel 3300 4500 2    60   Output ~ 0
+CH1404
+Wire Wire Line
+	3200 4600 3300 4600
+Text GLabel 3300 4600 2    60   Output ~ 0
+CH1405
+Wire Wire Line
+	3200 4700 3300 4700
+Text GLabel 3300 4700 2    60   Output ~ 0
+CH3310
+Wire Wire Line
+	5950 4900 6050 4900
+Text GLabel 6050 4900 2    60   Output ~ 0
+CH1308
+Wire Wire Line
+	5950 5000 6050 5000
+Text GLabel 6050 5000 2    60   Output ~ 0
+CH1406
+Wire Wire Line
+	5950 5100 6050 5100
+Text GLabel 6050 5100 2    60   Output ~ 0
+CH1407
+Wire Wire Line
+	5950 5200 6050 5200
+Text GLabel 6050 5200 2    60   Output ~ 0
+CH1408
+Wire Wire Line
+	5950 5300 6050 5300
+Text GLabel 6050 5300 2    60   Output ~ 0
+CH1409
+Wire Wire Line
+	5950 5400 6050 5400
+Text GLabel 6050 5400 2    60   Output ~ 0
+CH1410
+Wire Wire Line
+	10600 1950 10500 1950
+Text GLabel 10500 1950 0    60   Input ~ 0
+CH1305
+Wire Wire Line
+	10600 2050 10500 2050
+Text GLabel 10500 2050 0    60   Input ~ 0
+CH1306
+Wire Wire Line
+	10600 2250 10500 2250
+Text GLabel 10500 2250 0    60   Input ~ 0
+CH1401
+Wire Wire Line
+	10600 2350 10500 2350
+Text GLabel 10500 2350 0    60   Input ~ 0
+CH1402
+Wire Wire Line
+	10600 2450 10500 2450
+Text GLabel 10500 2450 0    60   Input ~ 0
+CH1403
+Wire Wire Line
+	10600 2550 10500 2550
+Text GLabel 10500 2550 0    60   Input ~ 0
+CH1404
+Wire Wire Line
+	10600 2650 10500 2650
+Text GLabel 10500 2650 0    60   Input ~ 0
+CH1405
+Wire Wire Line
+	10600 3250 10500 3250
+Text GLabel 10500 3250 0    60   Input ~ 0
+CH3310
+Wire Wire Line
+	10600 2150 10500 2150
+Text GLabel 10500 2150 0    60   Input ~ 0
+CH1308
+Wire Wire Line
+	10600 2750 10500 2750
+Text GLabel 10500 2750 0    60   Input ~ 0
+CH1406
+Wire Wire Line
+	10600 2850 10500 2850
+Text GLabel 10500 2850 0    60   Input ~ 0
+CH1407
+Wire Wire Line
+	10600 2950 10500 2950
+Text GLabel 10500 2950 0    60   Input ~ 0
+CH1408
+Wire Wire Line
+	10600 3050 10500 3050
+Text GLabel 10500 3050 0    60   Input ~ 0
+CH1409
+Wire Wire Line
+	10600 3150 10500 3150
+Text GLabel 10500 3150 0    60   Input ~ 0
+CH1410
+Wire Wire Line
+	10500 3650 10600 3650
+Connection ~ 10500 3650
+Wire Wire Line
+	10500 3750 10600 3750
+Connection ~ 10500 3750
+Wire Wire Line
+	10500 3850 10600 3850
+Connection ~ 10500 3850
+Wire Wire Line
+	10500 3950 10600 3950
+Connection ~ 10500 3950
+Wire Wire Line
+	10500 3450 10600 3450
+Connection ~ 10500 3450
+Wire Wire Line
+	10500 3550 10600 3550
+Connection ~ 10500 3550
+Wire Wire Line
+	10600 3350 10500 3350
+Wire Wire Line
+	10500 3350 10500 4450
 $EndSCHEMATC

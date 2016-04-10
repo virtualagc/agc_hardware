@@ -157,7 +157,7 @@ F 3 "" H 10900 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11650 2850 11750 2850
+	11650 2950 11750 2950
 Wire Wire Line
 	10600 3850 10700 3850
 Wire Wire Line
@@ -234,9 +234,6 @@ Connection ~ 11650 3250
 Wire Wire Line
 	11650 3050 11750 3050
 Connection ~ 11650 3150
-Wire Wire Line
-	11650 2950 11750 2950
-Connection ~ 11650 3050
 $Comp
 L DIN_41612_128P P1
 U 6 1 567B13EF
@@ -1279,16 +1276,16 @@ Wire Wire Line
 Text GLabel 4150 3100 2    60   Output ~ 0
 WG4G/
 Wire Wire Line
-	11650 1650 11750 1650
-Text GLabel 11650 1650 0    60   Input ~ 0
+	11650 1750 11750 1750
+Text GLabel 11650 1750 0    60   Input ~ 0
 WG1G/
-Wire Wire Line
-	11650 1850 11750 1850
-Text GLabel 11650 1850 0    60   Input ~ 0
-WG3G/
 Wire Wire Line
 	11650 1950 11750 1950
 Text GLabel 11650 1950 0    60   Input ~ 0
+WG3G/
+Wire Wire Line
+	11650 2050 11750 2050
+Text GLabel 11650 2050 0    60   Input ~ 0
 WG4G/
 Wire Wire Line
 	4050 3400 4150 3400
@@ -1299,12 +1296,12 @@ Wire Wire Line
 Text GLabel 4150 3300 2    60   Output ~ 0
 WLG/
 Wire Wire Line
-	11650 2150 11750 2150
-Text GLabel 11650 2150 0    60   Input ~ 0
-WLG/
-Wire Wire Line
 	11650 2250 11750 2250
 Text GLabel 11650 2250 0    60   Input ~ 0
+WLG/
+Wire Wire Line
+	11650 2350 11750 2350
+Text GLabel 11650 2350 0    60   Input ~ 0
 WQG/
 Wire Wire Line
 	4050 3700 4150 3700
@@ -1319,22 +1316,22 @@ Wire Wire Line
 Text GLabel 4150 3900 2    60   Output ~ 0
 WYLOG/
 Wire Wire Line
-	11650 2450 11750 2450
-Text GLabel 11650 2450 0    60   Input ~ 0
-WYDG/
-Wire Wire Line
 	11650 2550 11750 2550
 Text GLabel 11650 2550 0    60   Input ~ 0
+WYDG/
+Wire Wire Line
+	11650 2650 11750 2650
+Text GLabel 11650 2650 0    60   Input ~ 0
 WYDLOG/
 Wire Wire Line
-	11650 2750 11750 2750
-Text GLabel 11650 2750 0    60   Input ~ 0
+	11650 2850 11750 2850
+Text GLabel 11650 2850 0    60   Input ~ 0
 WYLOG/
 Wire Wire Line
 	4050 4000 4150 4000
 Text GLabel 4150 4000 2    60   Output ~ 0
 WZG/
-Text GLabel 11650 2850 0    60   Input ~ 0
+Text GLabel 11650 2950 0    60   Input ~ 0
 WZG/
 Wire Wire Line
 	6650 2250 6750 2250
@@ -1361,20 +1358,20 @@ Wire Wire Line
 Text GLabel 4150 3200 2    60   Output ~ 0
 WG5G/
 Wire Wire Line
-	11650 1750 11750 1750
-Text GLabel 11650 1750 0    60   Input ~ 0
+	11650 1850 11750 1850
+Text GLabel 11650 1850 0    60   Input ~ 0
 WG2G/
 Wire Wire Line
-	11650 2050 11750 2050
-Text GLabel 11650 2050 0    60   Input ~ 0
+	11650 2150 11750 2150
+Text GLabel 11650 2150 0    60   Input ~ 0
 WG5G/
 Wire Wire Line
 	4050 3800 4150 3800
 Text GLabel 4150 3800 2    60   Output ~ 0
 WYHIG/
 Wire Wire Line
-	11650 2650 11750 2650
-Text GLabel 11650 2650 0    60   Input ~ 0
+	11650 2750 11750 2750
+Text GLabel 11650 2750 0    60   Input ~ 0
 WYHIG/
 Wire Wire Line
 	6650 3450 6750 3450
@@ -1413,16 +1410,16 @@ Wire Wire Line
 Text GLabel 4150 3500 2    60   Output ~ 0
 WSG/
 Wire Wire Line
-	11650 2350 11750 2350
-Text GLabel 11650 2350 0    60   Input ~ 0
+	11650 2450 11750 2450
+Text GLabel 11650 2450 0    60   Input ~ 0
 WSG/
 Wire Wire Line
 	4050 2600 4150 2600
 Text GLabel 4150 2600 2    60   Output ~ 0
 WEDOPG/
 Wire Wire Line
-	11650 1350 11750 1350
-Text GLabel 11650 1350 0    60   Input ~ 0
+	11650 1450 11750 1450
+Text GLabel 11650 1450 0    60   Input ~ 0
 WEDOPG/
 Wire Wire Line
 	4050 2050 4150 2050
@@ -1477,12 +1474,12 @@ Wire Wire Line
 Text GLabel 10600 4350 0    60   Input ~ 0
 WBBEG/
 Wire Wire Line
-	11650 1450 11750 1450
-Text GLabel 11650 1450 0    60   Input ~ 0
-WEBG/
-Wire Wire Line
 	11650 1550 11750 1550
 Text GLabel 11650 1550 0    60   Input ~ 0
+WEBG/
+Wire Wire Line
+	11650 1650 11750 1650
+Text GLabel 11650 1650 0    60   Input ~ 0
 WFBG/
 Wire Wire Line
 	6650 3550 6750 3550
@@ -1509,9 +1506,17 @@ Wire Wire Line
 Text GLabel 4150 5150 2    60   Output ~ 0
 CCHG/
 Wire Wire Line
-	11650 2950 11650 4550
-Wire Wire Line
 	10700 1350 10600 1350
 Text GLabel 10600 1350 0    60   Input ~ 0
 CCHG/
+Wire Wire Line
+	4050 5250 4150 5250
+Text GLabel 4150 5250 2    60   Output ~ 0
+WCHG/
+Wire Wire Line
+	11650 3050 11650 4550
+Wire Wire Line
+	11650 1350 11750 1350
+Text GLabel 11650 1350 0    60   Input ~ 0
+WCHG/
 $EndSCHEMATC
