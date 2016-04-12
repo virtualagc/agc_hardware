@@ -216,7 +216,6 @@ F 3 "" H 10650 2650 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	10450 1200 10350 1200
-Connection ~ 10350 1200
 Wire Wire Line
 	10350 1300 10450 1300
 Connection ~ 10350 1300
@@ -307,10 +306,6 @@ Connection ~ 10350 4100
 Wire Wire Line
 	10350 4200 10450 4200
 Connection ~ 10350 4200
-Wire Wire Line
-	10450 1100 10350 1100
-Wire Wire Line
-	10350 1100 10350 4300
 $Comp
 L GND #PWR01
 U 1 1 570978E0
@@ -1508,37 +1503,6 @@ Wire Wire Line
 Text GLabel 9350 3200 0    60   Output ~ 0
 WCH13/
 Wire Wire Line
-	9350 3600 9450 3600
-Wire Wire Line
-	9350 3700 9450 3700
-Connection ~ 9350 3700
-Wire Wire Line
-	9350 3800 9450 3800
-Connection ~ 9350 3800
-Wire Wire Line
-	9350 3900 9450 3900
-Connection ~ 9350 3900
-Wire Wire Line
-	9350 4000 9450 4000
-Connection ~ 9350 4000
-Wire Wire Line
-	9350 4100 9450 4100
-Connection ~ 9350 4100
-Wire Wire Line
-	9350 4200 9450 4200
-Connection ~ 9350 4200
-$Comp
-L GND #PWR04
-U 1 1 57AD4A04
-P 9350 4300
-F 0 "#PWR04" H 9350 4050 50  0001 C CNN
-F 1 "GND" H 9350 4150 50  0000 C CNN
-F 2 "" H 9350 4300 60  0000 C CNN
-F 3 "" H 9350 4300 60  0000 C CNN
-	1    9350 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	3900 6400 3800 6400
 Text GLabel 3800 6400 0    60   Input ~ 0
 XB1/
@@ -1555,8 +1519,6 @@ Wire Wire Line
 Text GLabel 5250 4500 2    60   Output ~ 0
 WCH11/
 Wire Wire Line
-	9350 3600 9350 4300
-Wire Wire Line
 	9450 3300 9350 3300
 Text GLabel 9350 3300 0    60   Input ~ 0
 CCH11
@@ -1568,4 +1530,70 @@ Wire Wire Line
 	9450 3500 9350 3500
 Text GLabel 9350 3500 0    60   Input ~ 0
 WCH11/
+Wire Wire Line
+	2600 3650 2700 3650
+Text GLabel 2700 3650 2    60   Output ~ 0
+CH3201
+Wire Wire Line
+	2600 3750 2700 3750
+Text GLabel 2700 3750 2    60   Output ~ 0
+CH3202
+Wire Wire Line
+	2600 3850 2700 3850
+Text GLabel 2700 3850 2    60   Output ~ 0
+CH3203
+Wire Wire Line
+	2600 3950 2700 3950
+Text GLabel 2700 3950 2    60   Output ~ 0
+CH3204
+Wire Wire Line
+	2600 4050 2700 4050
+Text GLabel 2700 4050 2    60   Output ~ 0
+CH3205
+Wire Wire Line
+	2600 4150 2700 4150
+Text GLabel 2700 4150 2    60   Output ~ 0
+CH3206
+Wire Wire Line
+	2600 4250 2700 4250
+Text GLabel 2700 4250 2    60   Output ~ 0
+CH3207
+Wire Wire Line
+	2600 4350 2700 4350
+Text GLabel 2700 4350 2    60   Output ~ 0
+CH3208
+Wire Wire Line
+	9450 3600 9350 3600
+Text GLabel 9350 3600 0    60   Input ~ 0
+CH3201
+Wire Wire Line
+	9450 3700 9350 3700
+Text GLabel 9350 3700 0    60   Input ~ 0
+CH3202
+Wire Wire Line
+	9450 3800 9350 3800
+Text GLabel 9350 3800 0    60   Input ~ 0
+CH3203
+Wire Wire Line
+	9450 3900 9350 3900
+Text GLabel 9350 3900 0    60   Input ~ 0
+CH3204
+Wire Wire Line
+	9450 4000 9350 4000
+Text GLabel 9350 4000 0    60   Input ~ 0
+CH3205
+Wire Wire Line
+	9450 4100 9350 4100
+Text GLabel 9350 4100 0    60   Input ~ 0
+CH3206
+Wire Wire Line
+	9450 4200 9350 4200
+Text GLabel 9350 4200 0    60   Input ~ 0
+CH3207
+Wire Wire Line
+	10450 1100 10350 1100
+Text GLabel 10350 1100 0    60   Input ~ 0
+CH3208
+Wire Wire Line
+	10350 1200 10350 4300
 $EndSCHEMATC
