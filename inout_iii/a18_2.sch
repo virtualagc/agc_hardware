@@ -1,0 +1,205 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:agc_kicad_components
+LIBS:inout_iii-cache
+EELAYER 25 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74HC02 U18032
+U 1 1 577F0729
+P 2050 1350
+F 0 "U18032" H 2050 1400 60  0000 C CNN
+F 1 "74HC02" H 2100 1300 60  0000 C CNN
+F 2 "" H 2050 1350 60  0000 C CNN
+F 3 "" H 2050 1350 60  0000 C CNN
+	1    2050 1350
+	1    0    0    -1  
+$EndComp
+Text HLabel 1300 1250 0    60   Input ~ 0
+CHWL04/
+Wire Wire Line
+	1300 1250 1450 1250
+Text HLabel 1300 1450 0    60   Input ~ 0
+WCH13/
+Wire Wire Line
+	1300 1450 1450 1450
+$Comp
+L 74HC02 U18032
+U 2 1 577F09C3
+P 3350 1450
+F 0 "U18032" H 3350 1500 60  0000 C CNN
+F 1 "74HC02" H 3400 1400 60  0000 C CNN
+F 2 "" H 3350 1450 60  0000 C CNN
+F 3 "" H 3350 1450 60  0000 C CNN
+F 4 "1" H 3600 1450 60  0000 C CIN "Initial"
+	2    3350 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1350 2750 1350
+$Comp
+L 74HC27 U18023
+U 2 1 577FBDD5
+P 3350 2150
+F 0 "U18023" H 3350 2200 60  0000 C CNN
+F 1 "74HC27" H 3350 2100 60  0000 C CNN
+F 2 "" H 3350 2150 60  0000 C CNN
+F 3 "" H 3350 2150 60  0000 C CNN
+	2    3350 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 1450 3950 1700
+Wire Wire Line
+	3950 1700 2750 1900
+Wire Wire Line
+	2750 1900 2750 2000
+Wire Wire Line
+	2750 1550 2750 1700
+Wire Wire Line
+	2750 1700 3950 1900
+Wire Wire Line
+	3950 1900 3950 2150
+$Comp
+L 74HC02 U18032
+U 3 1 577FC5FC
+P 4750 1350
+F 0 "U18032" H 4750 1400 60  0000 C CNN
+F 1 "74HC02" H 4800 1300 60  0000 C CNN
+F 2 "" H 4750 1350 60  0000 C CNN
+F 3 "" H 4750 1350 60  0000 C CNN
+	3    4750 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 1450
+Wire Wire Line
+	3950 1450 4150 1450
+Text HLabel 5500 1350 2    60   Output ~ 0
+CH1304
+Wire Wire Line
+	5500 1350 5350 1350
+Wire Wire Line
+	4050 1250 4150 1250
+Text HLabel 4050 1250 0    60   Input ~ 0
+RCH13/
+$Comp
+L 74HC02 U?
+U 1 1 577FCC50
+P 2050 2700
+F 0 "U?" H 2050 2750 60  0000 C CNN
+F 1 "74HC02" H 2100 2650 60  0000 C CNN
+F 2 "" H 2050 2700 60  0000 C CNN
+F 3 "" H 2050 2700 60  0000 C CNN
+	1    2050 2700
+	1    0    0    -1  
+$EndComp
+Text HLabel 1300 2600 0    60   Input ~ 0
+CHWL03/
+Wire Wire Line
+	1300 2600 1450 2600
+$Comp
+L 74HC02 U?
+U 1 1 577FCC5B
+P 3350 2800
+F 0 "U?" H 3350 2850 60  0000 C CNN
+F 1 "74HC02" H 3400 2750 60  0000 C CNN
+F 2 "" H 3350 2800 60  0000 C CNN
+F 3 "" H 3350 2800 60  0000 C CNN
+F 4 "1" H 3600 2800 60  0000 C CIN "Initial"
+	1    3350 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2700 2750 2700
+Wire Wire Line
+	3950 2800 3950 3050
+Wire Wire Line
+	3950 3050 2750 3250
+Wire Wire Line
+	2750 3250 2750 3400
+Wire Wire Line
+	2750 2900 2750 3050
+Wire Wire Line
+	2750 3050 3950 3250
+Wire Wire Line
+	3950 3250 3950 3500
+$Comp
+L 74HC02 U?
+U 1 1 577FCC6E
+P 4750 2700
+F 0 "U?" H 4750 2750 60  0000 C CNN
+F 1 "74HC02" H 4800 2650 60  0000 C CNN
+F 2 "" H 4750 2700 60  0000 C CNN
+F 3 "" H 4750 2700 60  0000 C CNN
+	1    4750 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 2800
+Wire Wire Line
+	3950 2800 4150 2800
+Text HLabel 5500 2700 2    60   Output ~ 0
+CH1304
+Wire Wire Line
+	5500 2700 5350 2700
+Wire Wire Line
+	4150 2600 4100 2600
+Wire Wire Line
+	4100 2600 4100 1250
+Connection ~ 4100 1250
+$Comp
+L 74HC02 U?
+U 1 1 57800994
+P 3350 3500
+F 0 "U?" H 3350 3550 60  0000 C CNN
+F 1 "74HC02" H 3400 3450 60  0000 C CNN
+F 2 "" H 3350 3500 60  0000 C CNN
+F 3 "" H 3350 3500 60  0000 C CNN
+	1    3350 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1450 1400 2800
+Wire Wire Line
+	1400 2800 1450 2800
+Connection ~ 1400 1450
+$EndSCHEMATC
