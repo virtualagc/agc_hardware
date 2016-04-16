@@ -300,8 +300,8 @@ Wire Wire Line
 Wire Wire Line
 	18500 2000 19050 2000
 Wire Wire Line
-	18500 2250 18650 2250
-Text HLabel 18650 2250 2    60   Output ~ 0
+	18500 2250 18800 2250
+Text HLabel 18800 2250 2    60   Output ~ 0
 F09B
 Text HLabel 18650 1900 2    60   Output ~ 0
 FS09
@@ -959,14 +959,14 @@ F 3 "" H 19700 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	18600 2250 18600 2700
+	18750 2250 18750 2700
 Wire Wire Line
-	18600 2700 19250 2700
+	18750 2700 19250 2700
 Wire Wire Line
 	20150 2700 20200 2700
 Text HLabel 20200 2700 2    60   Output ~ 0
 F09B/
-Connection ~ 18600 2250
+Connection ~ 18750 2250
 Wire Wire Line
 	14300 1900 14300 3000
 Wire Wire Line
@@ -1027,4 +1027,24 @@ Wire Wire Line
 	10950 1300 11050 1300
 Text HLabel 11050 1300 2    60   Output ~ 0
 FS05/
+Wire Wire Line
+	18600 1900 18600 3100
+Wire Wire Line
+	18600 3100 19250 3100
+Connection ~ 18600 1900
+$Comp
+L 74HC04 U1064
+U 1 1 57219F28
+P 19700 3100
+F 0 "U1064" H 19850 3200 40  0000 C CNN
+F 1 "74HC04" H 19900 3000 40  0000 C CNN
+F 2 "" H 19700 3100 60  0000 C CNN
+F 3 "" H 19700 3100 60  0000 C CNN
+	1    19700 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20150 3100 20200 3100
+Text HLabel 20200 3100 2    60   Output ~ 0
+FS09/
 $EndSCHEMATC
