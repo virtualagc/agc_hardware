@@ -247,9 +247,6 @@ Wire Wire Line
 Connection ~ 10850 1400
 Wire Wire Line
 	10950 1300 10850 1300
-Connection ~ 10850 1300
-Wire Wire Line
-	10950 1200 10850 1200
 $Comp
 L DIN_41612_128P P1
 U 5 1 56AFEA6F
@@ -1366,9 +1363,17 @@ Wire Wire Line
 Text GLabel 2900 2100 2    60   Output ~ 0
 PALE
 Wire Wire Line
-	10850 1200 10850 4150
+	10950 1200 10850 1200
+Text GLabel 10850 1200 0    60   Input ~ 0
+PALE
+Wire Wire Line
+	2800 1650 2900 1650
+Text GLabel 2900 1650 2    60   Output ~ 0
+PC15/
+Wire Wire Line
+	10850 1300 10850 4150
 Wire Wire Line
 	10950 1100 10850 1100
 Text GLabel 10850 1100 0    60   Input ~ 0
-PALE
+PC15/
 $EndSCHEMATC
