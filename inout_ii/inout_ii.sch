@@ -215,10 +215,7 @@ F 3 "" H 10650 2650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10450 1200 10350 1200
-Wire Wire Line
 	10350 1300 10450 1300
-Connection ~ 10350 1300
 Wire Wire Line
 	10350 1400 10450 1400
 Connection ~ 10350 1400
@@ -1563,37 +1560,45 @@ Wire Wire Line
 Text GLabel 2700 4350 2    60   Output ~ 0
 CH3208
 Wire Wire Line
-	9450 3600 9350 3600
-Text GLabel 9350 3600 0    60   Input ~ 0
-CH3201
-Wire Wire Line
 	9450 3700 9350 3700
 Text GLabel 9350 3700 0    60   Input ~ 0
-CH3202
+CH3201
 Wire Wire Line
 	9450 3800 9350 3800
 Text GLabel 9350 3800 0    60   Input ~ 0
-CH3203
+CH3202
 Wire Wire Line
 	9450 3900 9350 3900
 Text GLabel 9350 3900 0    60   Input ~ 0
-CH3204
+CH3203
 Wire Wire Line
 	9450 4000 9350 4000
 Text GLabel 9350 4000 0    60   Input ~ 0
-CH3205
+CH3204
 Wire Wire Line
 	9450 4100 9350 4100
 Text GLabel 9350 4100 0    60   Input ~ 0
-CH3206
+CH3205
 Wire Wire Line
 	9450 4200 9350 4200
 Text GLabel 9350 4200 0    60   Input ~ 0
-CH3207
+CH3206
 Wire Wire Line
 	10450 1100 10350 1100
 Text GLabel 10350 1100 0    60   Input ~ 0
+CH3207
+Wire Wire Line
+	10450 1200 10350 1200
+Text GLabel 10350 1200 0    60   Input ~ 0
 CH3208
 Wire Wire Line
-	10350 1200 10350 4300
+	2600 1150 2700 1150
+Text GLabel 2700 1150 2    60   Output ~ 0
+HNDRPT
+Wire Wire Line
+	10350 1300 10350 4300
+Wire Wire Line
+	9450 3600 9350 3600
+Text GLabel 9350 3600 0    60   Input ~ 0
+HNDRPT
 $EndSCHEMATC

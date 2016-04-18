@@ -194,7 +194,6 @@ F 3 "" H 12450 2950 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	12150 2900 12250 2900
-Connection ~ 12150 2900
 Wire Wire Line
 	12150 3000 12250 3000
 Connection ~ 12150 3000
@@ -1609,8 +1608,6 @@ Wire Wire Line
 Text GLabel 12150 2600 0    60   Input ~ 0
 STR912
 Wire Wire Line
-	12150 2800 12250 2800
-Wire Wire Line
 	7300 2900 7400 2900
 Text GLabel 7400 2900 2    60   Output ~ 0
 STR412
@@ -1623,9 +1620,17 @@ Wire Wire Line
 Text GLabel 7400 3500 2    60   Output ~ 0
 DRPRST
 Wire Wire Line
-	12150 2800 12150 4600
+	12250 2800 12150 2800
+Text GLabel 12150 2800 0    60   Input ~ 0
+DRPRST
+Wire Wire Line
+	7300 3800 7400 3800
+Text GLabel 7400 3800 2    60   Output ~ 0
+T6RPT
+Wire Wire Line
+	12150 2900 12150 4600
 Wire Wire Line
 	12250 2700 12150 2700
 Text GLabel 12150 2700 0    60   Input ~ 0
-DRPRST
+T6RPT
 $EndSCHEMATC

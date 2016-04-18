@@ -402,8 +402,6 @@ Wire Wire Line
 Wire Wire Line
 	6950 1200 6850 1200
 NoConn ~ 6950 1000
-NoConn ~ 6950 1100
-NoConn ~ 6950 1200
 Wire Wire Line
 	6850 1350 6950 1350
 Wire Wire Line
@@ -845,22 +843,6 @@ Wire Wire Line
 	9500 1000 9400 1000
 Wire Wire Line
 	9400 1000 9400 4200
-$Comp
-L GND #PWR03
-U 1 1 57CBFAA9
-P 8500 4200
-F 0 "#PWR03" H 8500 3950 50  0001 C CNN
-F 1 "GND" H 8500 4050 50  0000 C CNN
-F 2 "" H 8500 4200 60  0000 C CNN
-F 3 "" H 8500 4200 60  0000 C CNN
-	1    8500 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8500 4000 8600 4000
-Wire Wire Line
-	8500 4100 8600 4100
-Connection ~ 8500 4100
 $Comp
 L GND #PWR04
 U 1 1 57CC0180
@@ -1413,9 +1395,19 @@ Wire Wire Line
 Text GLabel 4200 9150 2    60   Output ~ 0
 FS09/
 Wire Wire Line
-	8500 4000 8500 4200
-Wire Wire Line
 	8600 2600 8500 2600
 Text GLabel 8500 2600 0    60   Input ~ 0
 FS09/
+Text GLabel 6950 1100 2    60   Output ~ 0
+F18A
+Text GLabel 6950 1200 2    60   Output ~ 0
+F18B
+Wire Wire Line
+	8600 4000 8500 4000
+Text GLabel 8500 4000 0    60   Input ~ 0
+F18A
+Wire Wire Line
+	8600 4100 8500 4100
+Text GLabel 8500 4100 0    60   Input ~ 0
+F18B
 $EndSCHEMATC
