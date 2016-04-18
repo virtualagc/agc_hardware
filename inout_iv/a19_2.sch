@@ -987,7 +987,7 @@ F 3 "" H 5550 12000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 6250 12000 2    60   Output ~ 0
-CH1308
+CH1309
 $Comp
 L 74HC02 U19051
 U 3 1 58316037
