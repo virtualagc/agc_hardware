@@ -138,31 +138,7 @@ F 3 "" H 8650 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8350 1850 8450 1850
-Wire Wire Line
-	8350 1950 8450 1950
-Connection ~ 8350 1950
-Wire Wire Line
-	8350 2050 8450 2050
-Connection ~ 8350 2050
-Wire Wire Line
-	8350 2150 8450 2150
-Connection ~ 8350 2150
-Wire Wire Line
-	8350 2250 8450 2250
-Connection ~ 8350 2250
-Wire Wire Line
-	8350 2350 8450 2350
-Connection ~ 8350 2350
-Wire Wire Line
-	8350 2450 8450 2450
-Connection ~ 8350 2450
-Wire Wire Line
-	8350 2550 8450 2550
-Connection ~ 8350 2550
-Wire Wire Line
 	8350 2650 8450 2650
-Connection ~ 8350 2650
 Wire Wire Line
 	8350 2750 8450 2750
 Connection ~ 8350 2750
@@ -1204,9 +1180,73 @@ Wire Wire Line
 	2950 1300 2950 1400
 Connection ~ 2950 1400
 Wire Wire Line
-	8350 1850 8350 4550
-Wire Wire Line
 	7450 3250 7350 3250
 Text GLabel 7350 3250 0    60   Input ~ 0
 TPOR/
+Wire Wire Line
+	2800 2750 2900 2750
+Text GLabel 2900 2750 2    60   Output ~ 0
+CH1505
+Wire Wire Line
+	8450 1850 8350 1850
+Text GLabel 8350 1850 0    60   Input ~ 0
+CH1505
+Wire Wire Line
+	2800 2900 2900 2900
+Text GLabel 2900 2900 2    60   Output ~ 0
+CH1601
+Wire Wire Line
+	2800 3000 2900 3000
+Text GLabel 2900 3000 2    60   Output ~ 0
+CH1602
+Wire Wire Line
+	2800 3100 2900 3100
+Text GLabel 2900 3100 2    60   Output ~ 0
+CH1603
+Wire Wire Line
+	2800 3200 2900 3200
+Text GLabel 2900 3200 2    60   Output ~ 0
+CH1604
+Wire Wire Line
+	2800 3300 2900 3300
+Text GLabel 2900 3300 2    60   Output ~ 0
+CH1605
+Wire Wire Line
+	2800 3400 2900 3400
+Text GLabel 2900 3400 2    60   Output ~ 0
+CH1606
+Wire Wire Line
+	2800 3500 2900 3500
+Text GLabel 2900 3500 2    60   Output ~ 0
+CH1607
+Wire Wire Line
+	8450 1950 8350 1950
+Text GLabel 8350 1950 0    60   Input ~ 0
+CH1601
+Wire Wire Line
+	8450 2050 8350 2050
+Text GLabel 8350 2050 0    60   Input ~ 0
+CH1602
+Wire Wire Line
+	8450 2150 8350 2150
+Text GLabel 8350 2150 0    60   Input ~ 0
+CH1603
+Wire Wire Line
+	8450 2250 8350 2250
+Text GLabel 8350 2250 0    60   Input ~ 0
+CH1604
+Wire Wire Line
+	8450 2350 8350 2350
+Text GLabel 8350 2350 0    60   Input ~ 0
+CH1605
+Wire Wire Line
+	8450 2450 8350 2450
+Text GLabel 8350 2450 0    60   Input ~ 0
+CH1606
+Wire Wire Line
+	8450 2550 8350 2550
+Text GLabel 8350 2550 0    60   Input ~ 0
+CH1607
+Wire Wire Line
+	8350 2650 8350 4550
 $EndSCHEMATC

@@ -606,19 +606,7 @@ L01/
 Text GLabel 4200 4700 0    60   Input ~ 0
 L02/
 Wire Wire Line
-	11050 950  10950 950 
-Wire Wire Line
-	11050 1050 10950 1050
-Connection ~ 10950 1050
-Wire Wire Line
-	10950 1150 11050 1150
-Connection ~ 10950 1150
-Wire Wire Line
-	10950 1250 11050 1250
-Connection ~ 10950 1250
-Wire Wire Line
 	10950 1350 11050 1350
-Connection ~ 10950 1350
 Wire Wire Line
 	10950 1450 11050 1450
 Connection ~ 10950 1450
@@ -700,8 +688,6 @@ Connection ~ 10950 3950
 Wire Wire Line
 	10950 4050 11050 4050
 Connection ~ 10950 4050
-Wire Wire Line
-	10950 950  10950 4200
 Wire Wire Line
 	11850 950  11750 950 
 Wire Wire Line
@@ -1573,22 +1559,22 @@ Text GLabel 9850 1950 0    60   Input ~ 0
 L02/
 Wire Wire Line
 	9950 1950 9850 1950
-Text GLabel 9850 3150 0    60   BiDi ~ 0
+Text GLabel 9850 3250 0    60   BiDi ~ 0
 WL01/
 Wire Wire Line
-	9950 3150 9850 3150
-Text GLabel 9850 3250 0    60   BiDi ~ 0
+	9950 3250 9850 3250
+Text GLabel 9850 3450 0    60   BiDi ~ 0
 WL02/
 Wire Wire Line
-	9950 3250 9850 3250
-Text GLabel 9850 3350 0    60   BiDi ~ 0
+	9950 3450 9850 3450
+Text GLabel 9850 3650 0    60   BiDi ~ 0
 WL03/
 Wire Wire Line
-	9950 3350 9850 3350
-Text GLabel 9850 3450 0    60   BiDi ~ 0
+	9950 3650 9850 3650
+Text GLabel 9850 3850 0    60   BiDi ~ 0
 WL04/
 Wire Wire Line
-	9950 3450 9850 3450
+	9950 3850 9850 3850
 Text GLabel 5800 2750 2    60   Output ~ 0
 CI05/
 Wire Wire Line
@@ -1629,14 +1615,14 @@ Text GLabel 3250 3450 2    60   Output ~ 0
 XUY02/
 Wire Wire Line
 	3150 3450 3250 3450
-Text GLabel 9850 3550 0    60   Input ~ 0
+Text GLabel 9850 3950 0    60   Input ~ 0
 XUY01/
 Wire Wire Line
-	9950 3550 9850 3550
-Text GLabel 9850 3650 0    60   Input ~ 0
+	9950 3950 9850 3950
+Text GLabel 9850 4050 0    60   Input ~ 0
 XUY02/
 Wire Wire Line
-	9950 3650 9850 3650
+	9950 4050 9850 4050
 Text GLabel 1650 8700 0    60   Input ~ 0
 WHOMPA
 Wire Wire Line
@@ -1818,20 +1804,54 @@ Text GLabel 5800 3700 2    60   Output ~ 0
 GEM04
 Wire Wire Line
 	5700 3700 5800 3700
-Text GLabel 9850 3750 0    60   Input ~ 0
+Text GLabel 10950 950  0    60   Input ~ 0
 GEM01
 Wire Wire Line
-	9950 3750 9850 3750
-Text GLabel 9850 3850 0    60   Input ~ 0
+	11050 950  10950 950 
+Text GLabel 10950 1050 0    60   Input ~ 0
 GEM02
 Wire Wire Line
-	9950 3850 9850 3850
-Text GLabel 9850 3950 0    60   Input ~ 0
+	11050 1050 10950 1050
+Text GLabel 10950 1150 0    60   Input ~ 0
 GEM03
 Wire Wire Line
-	9950 3950 9850 3950
-Text GLabel 9850 4050 0    60   Input ~ 0
+	11050 1150 10950 1150
+Text GLabel 10950 1250 0    60   Input ~ 0
 GEM04
 Wire Wire Line
-	9950 4050 9850 4050
+	11050 1250 10950 1250
+Text GLabel 3250 4050 2    60   Output ~ 0
+WL01
+Wire Wire Line
+	3150 4050 3250 4050
+Text GLabel 3250 4250 2    60   Output ~ 0
+WL02
+Wire Wire Line
+	3150 4250 3250 4250
+Text GLabel 5800 4050 2    60   Output ~ 0
+WL03
+Wire Wire Line
+	5700 4050 5800 4050
+Text GLabel 5800 4250 2    60   Output ~ 0
+WL04
+Wire Wire Line
+	5700 4250 5800 4250
+Wire Wire Line
+	10950 1350 10950 4200
+Text GLabel 9850 3150 0    60   Input ~ 0
+WL01
+Wire Wire Line
+	9950 3150 9850 3150
+Text GLabel 9850 3350 0    60   Input ~ 0
+WL02
+Wire Wire Line
+	9950 3350 9850 3350
+Text GLabel 9850 3550 0    60   Input ~ 0
+WL03
+Wire Wire Line
+	9950 3550 9850 3550
+Text GLabel 9850 3750 0    60   Input ~ 0
+WL04
+Wire Wire Line
+	9950 3750 9850 3750
 $EndSCHEMATC
