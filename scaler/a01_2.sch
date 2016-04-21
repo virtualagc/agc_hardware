@@ -888,4 +888,5 @@ Wire Wire Line
 Wire Wire Line
 	5900 1200 5900 1600
 Connection ~ 3750 1200
+Connection ~ 14500 3500
 $EndSCHEMATC
