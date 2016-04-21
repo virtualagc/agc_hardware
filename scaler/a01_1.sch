@@ -1047,4 +1047,5 @@ Wire Wire Line
 	20150 3100 20200 3100
 Text HLabel 20200 3100 2    60   Output ~ 0
 FS09/
+Connection ~ 14850 3750
 $EndSCHEMATC
