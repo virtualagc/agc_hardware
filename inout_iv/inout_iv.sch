@@ -172,29 +172,6 @@ F 3 "" H 10800 2800 60  0000 C CNN
 	4    10800 2800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10500 4050 10600 4050
-Connection ~ 10500 4050
-Wire Wire Line
-	10500 4150 10600 4150
-Connection ~ 10500 4150
-Wire Wire Line
-	10500 4250 10600 4250
-Connection ~ 10500 4250
-Wire Wire Line
-	10500 4350 10600 4350
-Connection ~ 10500 4350
-$Comp
-L GND #PWR01
-U 1 1 57F2F9C5
-P 10500 4450
-F 0 "#PWR01" H 10500 4200 50  0001 C CNN
-F 1 "GND" H 10500 4300 50  0000 C CNN
-F 2 "" H 10500 4450 60  0000 C CNN
-F 3 "" H 10500 4450 60  0000 C CNN
-	1    10500 4450
-	1    0    0    -1  
-$EndComp
 $Comp
 L DIN_41612_128P P1
 U 5 1 57F2FAA7
@@ -1528,8 +1505,6 @@ Wire Wire Line
 	10600 3750 10500 3750
 Text GLabel 10500 3750 0    60   Input ~ 0
 CH1410
-Wire Wire Line
-	10500 3950 10600 3950
 Text GLabel 3700 1600 2    60   Output ~ 0
 F5ASB2/
 Connection ~ 3650 1600
@@ -1582,9 +1557,47 @@ Wire Wire Line
 Text GLabel 3300 3150 2    60   Output ~ 0
 UPRUPT
 Wire Wire Line
-	10500 3950 10500 4450
-Wire Wire Line
 	10600 1850 10500 1850
 Text GLabel 10500 1850 0    60   Input ~ 0
 UPRUPT
+Wire Wire Line
+	3200 4800 3300 4800
+Text GLabel 3300 4800 2    60   Output ~ 0
+CH3311
+Wire Wire Line
+	10600 3950 10500 3950
+Text GLabel 10500 3950 0    60   Input ~ 0
+CH3311
+Wire Wire Line
+	6200 4500 6300 4500
+Text GLabel 6300 4500 2    60   Output ~ 0
+CH1109
+Wire Wire Line
+	6200 4600 6300 4600
+Text GLabel 6300 4600 2    60   Output ~ 0
+CH1110
+Wire Wire Line
+	6200 4700 6300 4700
+Text GLabel 6300 4700 2    60   Output ~ 0
+CH1111
+Wire Wire Line
+	6200 4800 6300 4800
+Text GLabel 6300 4800 2    60   Output ~ 0
+CH1112
+Wire Wire Line
+	10600 4050 10500 4050
+Text GLabel 10500 4050 0    60   Input ~ 0
+CH1109
+Wire Wire Line
+	10600 4150 10500 4150
+Text GLabel 10500 4150 0    60   Input ~ 0
+CH1110
+Wire Wire Line
+	10600 4250 10500 4250
+Text GLabel 10500 4250 0    60   Input ~ 0
+CH1111
+Wire Wire Line
+	10600 4350 10500 4350
+Text GLabel 10500 4350 0    60   Input ~ 0
+CH1112
 $EndSCHEMATC

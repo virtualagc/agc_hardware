@@ -679,7 +679,7 @@ F 4 "1" H 4900 11650 60  0000 C CIN "Initial"
 $EndComp
 Text HLabel 4000 11650 0    60   Input ~ 0
 7XP14
-Text HLabel 5300 11650 2    60   Output ~ 0
+Text HLabel 5350 11650 2    60   Output ~ 0
 WCH/
 $Comp
 L 74HC27 U4043
@@ -1753,7 +1753,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 11800 4050 11800
 Wire Wire Line
-	5250 11650 5300 11650
+	5250 11650 5350 11650
 Wire Wire Line
 	3550 12500 5750 12500
 Wire Wire Line
@@ -3047,4 +3047,24 @@ Connection ~ 5150 4500
 Wire Wire Line
 	5150 4450 5200 4450
 Connection ~ 13600 16950
+Wire Wire Line
+	5300 11650 5300 11900
+Wire Wire Line
+	5300 11900 5900 11900
+Connection ~ 5300 11650
+$Comp
+L 74HC04 U4058
+U 4 1 5718E9A5
+P 6350 11900
+F 0 "U4058" H 6500 12000 40  0000 C CNN
+F 1 "74HC04" H 6550 11800 40  0000 C CNN
+F 2 "" H 6350 11900 60  0000 C CNN
+F 3 "" H 6350 11900 60  0000 C CNN
+	4    6350 11900
+	1    0    0    -1  
+$EndComp
+Text HLabel 6900 11900 2    60   Output ~ 0
+MWCH
+Wire Wire Line
+	6800 11900 6900 11900
 $EndSCHEMATC
