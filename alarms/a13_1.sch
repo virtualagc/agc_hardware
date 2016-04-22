@@ -1952,7 +1952,7 @@ GOJAM
 Wire Wire Line
 	4750 13400 4600 13400
 Text HLabel 4600 13400 0    60   Input ~ 0
-GOJAM
+ERRST
 Connection ~ 5950 12700
 Wire Wire Line
 	5950 12700 6350 12700
