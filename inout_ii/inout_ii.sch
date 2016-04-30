@@ -226,25 +226,7 @@ F 3 "" H 12100 2650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11900 1200 11800 1200
-Wire Wire Line
-	11900 1300 11800 1300
-Connection ~ 11800 1300
-Wire Wire Line
-	11800 1400 11900 1400
-Connection ~ 11800 1400
-Wire Wire Line
-	11800 1500 11900 1500
-Connection ~ 11800 1500
-Wire Wire Line
-	11800 1600 11900 1600
-Connection ~ 11800 1600
-Wire Wire Line
-	11800 1700 11900 1700
-Connection ~ 11800 1700
-Wire Wire Line
 	11800 1800 11900 1800
-Connection ~ 11800 1800
 Wire Wire Line
 	11800 1900 11900 1900
 Connection ~ 11800 1900
@@ -317,8 +299,6 @@ Connection ~ 11800 4100
 Wire Wire Line
 	11800 4200 11900 4200
 Connection ~ 11800 4200
-Wire Wire Line
-	11800 1200 11800 4300
 $Comp
 L GND #PWR02
 U 1 1 5709794B
@@ -1720,50 +1700,133 @@ Wire Wire Line
 Text GLabel 10750 3300 0    60   Input ~ 0
 CHOR16/
 Wire Wire Line
-	10750 3400 10850 3400
-Wire Wire Line
-	10750 3500 10850 3500
-Connection ~ 10750 3500
-Wire Wire Line
-	10750 3600 10850 3600
-Connection ~ 10750 3600
-Wire Wire Line
-	10750 3700 10850 3700
-Connection ~ 10750 3700
-Wire Wire Line
-	10750 3800 10850 3800
-Connection ~ 10750 3800
-Wire Wire Line
-	10750 3900 10850 3900
-Connection ~ 10750 3900
-Wire Wire Line
-	10750 4000 10850 4000
-Connection ~ 10750 4000
-Wire Wire Line
-	10750 4100 10850 4100
-Connection ~ 10750 4100
-Wire Wire Line
-	10750 4200 10850 4200
-Connection ~ 10750 4200
-$Comp
-L GND #PWR?
-U 1 1 572EAC03
-P 10750 4300
-F 0 "#PWR?" H 10750 4050 50  0001 C CNN
-F 1 "GND" H 10750 4150 50  0000 C CNN
-F 2 "" H 10750 4300 60  0000 C CNN
-F 3 "" H 10750 4300 60  0000 C CNN
-	1    10750 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	2600 1950 2700 1950
 Text GLabel 2700 1950 2    60   Output ~ 0
 RCH33/
 Wire Wire Line
-	10750 3400 10750 4300
-Wire Wire Line
 	9750 3500 9650 3500
 Text GLabel 9650 3500 0    60   Input ~ 0
 RCH33/
+Wire Wire Line
+	5150 2700 5250 2700
+Text GLabel 5250 2700 2    60   Output ~ 0
+RLYB01
+Wire Wire Line
+	5150 2800 5250 2800
+Text GLabel 5250 2800 2    60   Output ~ 0
+RLYB02
+Wire Wire Line
+	5150 2900 5250 2900
+Text GLabel 5250 2900 2    60   Output ~ 0
+RLYB03
+Wire Wire Line
+	5150 3000 5250 3000
+Text GLabel 5250 3000 2    60   Output ~ 0
+RLYB04
+Wire Wire Line
+	5150 3100 5250 3100
+Text GLabel 5250 3100 2    60   Output ~ 0
+RLYB05
+Wire Wire Line
+	5150 3200 5250 3200
+Text GLabel 5250 3200 2    60   Output ~ 0
+RLYB06
+Wire Wire Line
+	5150 3300 5250 3300
+Text GLabel 5250 3300 2    60   Output ~ 0
+RLYB07
+Wire Wire Line
+	5150 3400 5250 3400
+Text GLabel 5250 3400 2    60   Output ~ 0
+RLYB08
+Wire Wire Line
+	5150 3500 5250 3500
+Text GLabel 5250 3500 2    60   Output ~ 0
+RLYB09
+Wire Wire Line
+	5150 3600 5250 3600
+Text GLabel 5250 3600 2    60   Output ~ 0
+RLYB10
+Wire Wire Line
+	5150 3700 5250 3700
+Text GLabel 5250 3700 2    60   Output ~ 0
+RLYB11
+Wire Wire Line
+	5150 3850 5250 3850
+Text GLabel 5250 3850 2    60   Output ~ 0
+RYWD12
+Wire Wire Line
+	5150 3950 5250 3950
+Text GLabel 5250 3950 2    60   Output ~ 0
+RYWD13
+Wire Wire Line
+	5150 4050 5250 4050
+Text GLabel 5250 4050 2    60   Output ~ 0
+RYWD14
+Wire Wire Line
+	5150 4150 5250 4150
+Text GLabel 5250 4150 2    60   Output ~ 0
+RYWD16
+Wire Wire Line
+	10850 3400 10750 3400
+Text GLabel 10750 3400 0    60   Input ~ 0
+RLYB01
+Wire Wire Line
+	10850 3500 10750 3500
+Text GLabel 10750 3500 0    60   Input ~ 0
+RLYB02
+Wire Wire Line
+	10850 3600 10750 3600
+Text GLabel 10750 3600 0    60   Input ~ 0
+RLYB03
+Wire Wire Line
+	10850 3700 10750 3700
+Text GLabel 10750 3700 0    60   Input ~ 0
+RLYB04
+Wire Wire Line
+	10850 3800 10750 3800
+Text GLabel 10750 3800 0    60   Input ~ 0
+RLYB05
+Wire Wire Line
+	10850 3900 10750 3900
+Text GLabel 10750 3900 0    60   Input ~ 0
+RLYB06
+Wire Wire Line
+	10850 4000 10750 4000
+Text GLabel 10750 4000 0    60   Input ~ 0
+RLYB07
+Wire Wire Line
+	10850 4100 10750 4100
+Text GLabel 10750 4100 0    60   Input ~ 0
+RLYB08
+Wire Wire Line
+	10850 4200 10750 4200
+Text GLabel 10750 4200 0    60   Input ~ 0
+RLYB09
+Wire Wire Line
+	11900 1200 11800 1200
+Text GLabel 11800 1200 0    60   Input ~ 0
+RLYB10
+Wire Wire Line
+	11900 1300 11800 1300
+Text GLabel 11800 1300 0    60   Input ~ 0
+RLYB11
+Wire Wire Line
+	11900 1400 11800 1400
+Text GLabel 11800 1400 0    60   Input ~ 0
+RYWD12
+Wire Wire Line
+	11900 1500 11800 1500
+Text GLabel 11800 1500 0    60   Input ~ 0
+RYWD13
+Wire Wire Line
+	11900 1600 11800 1600
+Text GLabel 11800 1600 0    60   Input ~ 0
+RYWD14
+Wire Wire Line
+	11900 1700 11800 1700
+Text GLabel 11800 1700 0    60   Input ~ 0
+RYWD16
+Wire Wire Line
+	11800 1800 11800 4300
 $EndSCHEMATC
