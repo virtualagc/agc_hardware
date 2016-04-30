@@ -161,7 +161,7 @@ F 3 "" H 13750 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 14250 4000 2    60   Output ~ 0
-ZOPCDU
+ISSWAR
 $Comp
 L 74HC27 U16032
 U 1 1 57221CB6

@@ -138,11 +138,7 @@ F 3 "" H 9450 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 1500 9150 1500
-Connection ~ 9150 1500
-Wire Wire Line
 	9150 1600 9250 1600
-Connection ~ 9150 1600
 Wire Wire Line
 	9150 1700 9250 1700
 Connection ~ 9150 1700
@@ -230,10 +226,6 @@ Connection ~ 9150 4400
 Wire Wire Line
 	9150 4500 9250 4500
 Connection ~ 9150 4500
-Wire Wire Line
-	9250 1400 9150 1400
-Wire Wire Line
-	9150 1400 9150 4600
 $Comp
 L GND #PWR01
 U 1 1 570AE2B7
@@ -615,7 +607,7 @@ F 3 "" H 12500 1350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 3900 1300 1150 3650
+S 3900 1300 1150 3800
 U 572139C1
 F0 "A16_2" 60
 F1 "a16_2.sch" 60
@@ -684,6 +676,7 @@ F63 "RCH11/" I L 3900 1900 60
 F64 "WCH12/" O R 5050 4850 60 
 F65 "CCH12" O R 5050 4650 60 
 F66 "RCH12/" O R 5050 4750 60 
+F67 "ISSWAR" O R 5050 5000 60 
 $EndSheet
 Text GLabel 1350 1400 0    60   Input ~ 0
 GOJAM
@@ -1275,24 +1268,45 @@ Wire Wire Line
 Text GLabel 5150 4500 2    60   Output ~ 0
 CHOR07/
 Wire Wire Line
-	8000 4300 8100 4300
+	5050 1600 5150 1600
+Text GLabel 5150 1600 2    60   Output ~ 0
+COMACT
 Wire Wire Line
-	8000 4400 8100 4400
-Connection ~ 8000 4400
+	8100 4300 8000 4300
+Text GLabel 8000 4300 0    60   Input ~ 0
+COMACT
 Wire Wire Line
-	8000 4500 8100 4500
-Connection ~ 8000 4500
+	5050 1800 5150 1800
+Text GLabel 5150 1800 2    60   Output ~ 0
+UPLACT
 Wire Wire Line
-	8000 4300 8000 4600
-$Comp
-L GND #PWR06
-U 1 1 572CC374
-P 8000 4600
-F 0 "#PWR06" H 8000 4350 50  0001 C CNN
-F 1 "GND" H 8000 4450 50  0000 C CNN
-F 2 "" H 8000 4600 60  0000 C CNN
-F 3 "" H 8000 4600 60  0000 C CNN
-	1    8000 4600
-	1    0    0    -1  
-$EndComp
+	8100 4400 8000 4400
+Text GLabel 8000 4400 0    60   Input ~ 0
+UPLACT
+Wire Wire Line
+	5050 2200 5150 2200
+Text GLabel 5150 2200 2    60   Output ~ 0
+KYRLS
+Wire Wire Line
+	8100 4500 8000 4500
+Text GLabel 8000 4500 0    60   Input ~ 0
+KYRLS
+Wire Wire Line
+	5050 2400 5150 2400
+Text GLabel 5150 2400 2    60   Output ~ 0
+VNFLSH
+Wire Wire Line
+	9250 1400 9150 1400
+Text GLabel 9150 1400 0    60   Input ~ 0
+VNFLSH
+Wire Wire Line
+	5050 2800 5150 2800
+Text GLabel 5150 2800 2    60   Output ~ 0
+OPEROR
+Wire Wire Line
+	9250 1500 9150 1500
+Text GLabel 9150 1500 0    60   Input ~ 0
+OPEROR
+Wire Wire Line
+	9150 1600 9150 4600
 $EndSCHEMATC
