@@ -839,10 +839,7 @@ MON/
 Text GLabel 6900 1400 2    60   Output ~ 0
 MON+CH
 Wire Wire Line
-	12750 2300 12850 2300
-Wire Wire Line
 	12750 2400 12850 2400
-Connection ~ 12750 2400
 Wire Wire Line
 	12750 2500 12850 2500
 Connection ~ 12750 2500
@@ -1595,10 +1592,18 @@ Text GLabel 4300 2100 2    60   Output ~ 0
 TMPCAU
 Wire Wire Line
 	4300 2100 4200 2100
-Wire Wire Line
-	12750 2300 12750 4500
 Text GLabel 12750 2200 0    60   Input ~ 0
 TMPCAU
 Wire Wire Line
 	12750 2200 12850 2200
+Text GLabel 4300 2000 2    60   Output ~ 0
+RESTRT
+Wire Wire Line
+	4300 2000 4200 2000
+Text GLabel 12750 2300 0    60   Input ~ 0
+RESTRT
+Wire Wire Line
+	12750 2300 12850 2300
+Wire Wire Line
+	12750 2400 12750 4500
 $EndSCHEMATC
