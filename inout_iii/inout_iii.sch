@@ -484,11 +484,11 @@ Text GLabel 2900 1650 2    60   Output ~ 0
 KYRPT2
 Text GLabel 2900 1750 2    60   Output ~ 0
 MKRPT
-Text GLabel 7350 3550 0    60   Input ~ 0
-KYRPT1
 Text GLabel 7350 3650 0    60   Input ~ 0
-KYRPT2
+KYRPT1
 Text GLabel 7350 3750 0    60   Input ~ 0
+KYRPT2
+Text GLabel 7350 3850 0    60   Input ~ 0
 MKRPT
 Text GLabel 2900 1900 2    60   Output ~ 0
 SBY
@@ -500,11 +500,11 @@ Text GLabel 5400 2250 2    60   Output ~ 0
 RNRADP
 Text GLabel 5400 2350 2    60   Output ~ 0
 RNRADM
-Text GLabel 7350 3850 0    60   Input ~ 0
-RADRPT
 Text GLabel 7350 3950 0    60   Input ~ 0
-RNRADP
+RADRPT
 Text GLabel 7350 4050 0    60   Input ~ 0
+RNRADP
+Text GLabel 7350 4150 0    60   Input ~ 0
 RNRADM
 Text GLabel 5400 2700 2    60   Output ~ 0
 CH1301
@@ -516,15 +516,15 @@ Text GLabel 5400 3000 2    60   Output ~ 0
 CH1304
 Text GLabel 2900 3650 2    60   Output ~ 0
 CH1311
-Text GLabel 7350 4150 0    60   Input ~ 0
-CH1301
 Text GLabel 7350 4250 0    60   Input ~ 0
-CH1302
+CH1301
 Text GLabel 7350 4350 0    60   Input ~ 0
-CH1303
+CH1302
 Text GLabel 7350 4450 0    60   Input ~ 0
-CH1304
+CH1303
 Text GLabel 8350 1350 0    60   Input ~ 0
+CH1304
+Text GLabel 8350 1450 0    60   Input ~ 0
 CH1311
 Text GLabel 2900 2350 2    60   Output ~ 0
 CH1501
@@ -534,13 +534,13 @@ Text GLabel 2900 2550 2    60   Output ~ 0
 CH1503
 Text GLabel 2900 2650 2    60   Output ~ 0
 CH1504
-Text GLabel 8350 1450 0    60   Input ~ 0
-CH1501
 Text GLabel 8350 1550 0    60   Input ~ 0
-CH1502
+CH1501
 Text GLabel 8350 1650 0    60   Input ~ 0
-CH1503
+CH1502
 Text GLabel 8350 1750 0    60   Input ~ 0
+CH1503
+Text GLabel 8350 1850 0    60   Input ~ 0
 CH1504
 Text GLabel 2900 2100 2    60   Output ~ 0
 STNDBY/
@@ -552,7 +552,7 @@ Text GLabel 7350 3250 0    60   Input ~ 0
 TPOR/
 Text GLabel 2900 2750 2    60   Output ~ 0
 CH1505
-Text GLabel 8350 1850 0    60   Input ~ 0
+Text GLabel 8350 1950 0    60   Input ~ 0
 CH1505
 Text GLabel 2900 2900 2    60   Output ~ 0
 CH1601
@@ -568,19 +568,19 @@ Text GLabel 2900 3400 2    60   Output ~ 0
 CH1606
 Text GLabel 2900 3500 2    60   Output ~ 0
 CH1607
-Text GLabel 8350 1950 0    60   Input ~ 0
-CH1601
 Text GLabel 8350 2050 0    60   Input ~ 0
-CH1602
+CH1601
 Text GLabel 8350 2150 0    60   Input ~ 0
-CH1603
+CH1602
 Text GLabel 8350 2250 0    60   Input ~ 0
-CH1604
+CH1603
 Text GLabel 8350 2350 0    60   Input ~ 0
-CH1605
+CH1604
 Text GLabel 8350 2450 0    60   Input ~ 0
-CH1606
+CH1605
 Text GLabel 8350 2550 0    60   Input ~ 0
+CH1606
+Text GLabel 8350 2650 0    60   Input ~ 0
 CH1607
 Text GLabel 4000 3950 0    60   Input ~ 0
 CCH13
@@ -1150,11 +1150,11 @@ Wire Wire Line
 Wire Wire Line
 	2800 1750 2900 1750
 Wire Wire Line
-	7450 3550 7350 3550
-Wire Wire Line
 	7450 3650 7350 3650
 Wire Wire Line
 	7450 3750 7350 3750
+Wire Wire Line
+	7450 3850 7350 3850
 Wire Wire Line
 	2800 1900 2900 1900
 Wire Wire Line
@@ -1166,11 +1166,11 @@ Wire Wire Line
 Wire Wire Line
 	5300 2350 5400 2350
 Wire Wire Line
-	7450 3850 7350 3850
-Wire Wire Line
 	7450 3950 7350 3950
 Wire Wire Line
 	7450 4050 7350 4050
+Wire Wire Line
+	7450 4150 7350 4150
 Wire Wire Line
 	5300 2700 5400 2700
 Wire Wire Line
@@ -1182,8 +1182,6 @@ Wire Wire Line
 Wire Wire Line
 	2800 3650 2900 3650
 Wire Wire Line
-	7450 4150 7350 4150
-Wire Wire Line
 	7450 4250 7350 4250
 Wire Wire Line
 	7450 4350 7350 4350
@@ -1191,6 +1189,8 @@ Wire Wire Line
 	7450 4450 7350 4450
 Wire Wire Line
 	8450 1350 8350 1350
+Wire Wire Line
+	8450 1450 8350 1450
 Wire Wire Line
 	2800 2350 2900 2350
 Wire Wire Line
@@ -1200,13 +1200,13 @@ Wire Wire Line
 Wire Wire Line
 	2800 2650 2900 2650
 Wire Wire Line
-	8450 1450 8350 1450
-Wire Wire Line
 	8450 1550 8350 1550
 Wire Wire Line
 	8450 1650 8350 1650
 Wire Wire Line
 	8450 1750 8350 1750
+Wire Wire Line
+	8450 1850 8350 1850
 Wire Wire Line
 	2800 2100 2900 2100
 Wire Wire Line
@@ -1221,7 +1221,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 2750 2900 2750
 Wire Wire Line
-	8450 1850 8350 1850
+	8450 1950 8350 1950
 Wire Wire Line
 	2800 2900 2900 2900
 Wire Wire Line
@@ -1237,8 +1237,6 @@ Wire Wire Line
 Wire Wire Line
 	2800 3500 2900 3500
 Wire Wire Line
-	8450 1950 8350 1950
-Wire Wire Line
 	8450 2050 8350 2050
 Wire Wire Line
 	8450 2150 8350 2150
@@ -1251,10 +1249,17 @@ Wire Wire Line
 Wire Wire Line
 	8450 2550 8350 2550
 Wire Wire Line
+	8450 2650 8350 2650
+Wire Wire Line
 	4100 3950 4000 3950
-Connection ~ 8350 2750
+Text GLabel 2900 2200 2    60   Output ~ 0
+SBYLIT
 Wire Wire Line
-	8350 2650 8350 4550
+	2800 2200 2900 2200
+Text GLabel 7350 3550 0    60   Input ~ 0
+SBYLIT
 Wire Wire Line
-	8350 2650 8450 2650
+	7450 3550 7350 3550
+Wire Wire Line
+	8350 2750 8350 4550
 $EndSCHEMATC
