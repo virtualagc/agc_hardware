@@ -25,6 +25,11 @@ D Hex Open Drain Buffer
 K CMOS OPEN DRAIN BUFFER
 $ENDCMP
 #
+$CMP EC2-12TNU
+D Latching DPDT Relay
+K latching dpdt relay
+$ENDCMP
+#
 $CMP MR0A16A
 D Everspin Technologies 64k x 16 Parallel MRAM
 K 64k x 16 mram
