@@ -543,11 +543,10 @@ $EndComp
 Wire Wire Line
 	11150 1250 11300 1250
 Wire Wire Line
-	11200 1250 11200 1000
+	12250 1000 12250 2250
 Wire Wire Line
-	11200 1000 11350 1000
-Connection ~ 11200 1250
-Text HLabel 11350 1000 2    60   Output ~ 0
+	12250 1000 13600 1000
+Text HLabel 13600 1000 2    60   Output ~ 0
 PIPPLS/
 $Comp
 L 74HC02 U24004
@@ -592,8 +591,6 @@ F 3 "" H 12900 2350 60  0000 C CNN
 	1    12900 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12250 1250 12250 2250
 Wire Wire Line
 	12250 1750 12300 1750
 Connection ~ 12250 1250

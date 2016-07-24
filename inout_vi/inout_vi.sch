@@ -105,25 +105,7 @@ F 3 "" H 8750 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 3350 8550 3350
-Wire Wire Line
-	8450 3450 8550 3450
-Connection ~ 8450 3450
-Wire Wire Line
-	8450 3550 8550 3550
-Connection ~ 8450 3550
-Wire Wire Line
-	8450 3650 8550 3650
-Connection ~ 8450 3650
-Wire Wire Line
-	8450 3750 8550 3750
-Connection ~ 8450 3750
-Wire Wire Line
-	8450 3850 8550 3850
-Connection ~ 8450 3850
-Wire Wire Line
 	8450 3950 8550 3950
-Connection ~ 8450 3950
 Wire Wire Line
 	8450 4050 8550 4050
 Connection ~ 8450 4050
@@ -1270,5 +1252,53 @@ Wire Wire Line
 Text GLabel 8450 2850 0    60   Input ~ 0
 CH1108
 Wire Wire Line
-	8450 3350 8450 4650
+	4750 1950 4850 1950
+Text GLabel 4850 1950 2    60   Output ~ 0
+CDUXDP
+Wire Wire Line
+	4750 2050 4850 2050
+Text GLabel 4850 2050 2    60   Output ~ 0
+CDUXDM
+Wire Wire Line
+	4750 2250 4850 2250
+Text GLabel 4850 2250 2    60   Output ~ 0
+CDUYDP
+Wire Wire Line
+	4750 2350 4850 2350
+Text GLabel 4850 2350 2    60   Output ~ 0
+CDUYDM
+Wire Wire Line
+	4750 2550 4850 2550
+Text GLabel 4850 2550 2    60   Output ~ 0
+CDUZDP
+Wire Wire Line
+	4750 2650 4850 2650
+Text GLabel 4850 2650 2    60   Output ~ 0
+CDUZDM
+Wire Wire Line
+	8450 4650 8450 3950
+Wire Wire Line
+	8550 3350 8450 3350
+Text GLabel 8450 3350 0    60   Input ~ 0
+CDUXDP
+Wire Wire Line
+	8550 3450 8450 3450
+Text GLabel 8450 3450 0    60   Input ~ 0
+CDUXDM
+Wire Wire Line
+	8550 3550 8450 3550
+Text GLabel 8450 3550 0    60   Input ~ 0
+CDUYDP
+Wire Wire Line
+	8550 3650 8450 3650
+Text GLabel 8450 3650 0    60   Input ~ 0
+CDUYDM
+Wire Wire Line
+	8550 3750 8450 3750
+Text GLabel 8450 3750 0    60   Input ~ 0
+CDUZDP
+Wire Wire Line
+	8550 3850 8450 3850
+Text GLabel 8450 3850 0    60   Input ~ 0
+CDUZDM
 $EndSCHEMATC
