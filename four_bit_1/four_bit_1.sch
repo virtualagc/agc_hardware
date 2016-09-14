@@ -606,19 +606,7 @@ L01/
 Text GLabel 4200 4700 0    60   Input ~ 0
 L02/
 Wire Wire Line
-	10950 1350 11050 1350
-Wire Wire Line
-	10950 1450 11050 1450
-Connection ~ 10950 1450
-Wire Wire Line
-	10950 1550 11050 1550
-Connection ~ 10950 1550
-Wire Wire Line
-	10950 1650 11050 1650
-Connection ~ 10950 1650
-Wire Wire Line
 	10950 1750 11050 1750
-Connection ~ 10950 1750
 Wire Wire Line
 	10950 1850 11050 1850
 Connection ~ 10950 1850
@@ -1836,8 +1824,6 @@ Text GLabel 5800 4250 2    60   Output ~ 0
 WL04
 Wire Wire Line
 	5700 4250 5800 4250
-Wire Wire Line
-	10950 1350 10950 4200
 Text GLabel 9850 3150 0    60   Input ~ 0
 WL01
 Wire Wire Line
@@ -1854,4 +1840,38 @@ Text GLabel 9850 3750 0    60   Input ~ 0
 WL04
 Wire Wire Line
 	9950 3750 9850 3750
+Text GLabel 3250 4850 2    60   Output ~ 0
+MWL02
+Wire Wire Line
+	3150 4850 3250 4850
+Text GLabel 3250 4750 2    60   Output ~ 0
+MWL01
+Wire Wire Line
+	3150 4750 3250 4750
+Text GLabel 5800 4850 2    60   Output ~ 0
+MWL04
+Wire Wire Line
+	5700 4850 5800 4850
+Text GLabel 5800 4750 2    60   Output ~ 0
+MWL03
+Wire Wire Line
+	5700 4750 5800 4750
+Text GLabel 10950 1450 0    60   Input ~ 0
+MWL02
+Wire Wire Line
+	11050 1450 10950 1450
+Text GLabel 10950 1350 0    60   Input ~ 0
+MWL01
+Wire Wire Line
+	11050 1350 10950 1350
+Text GLabel 10950 1650 0    60   Input ~ 0
+MWL04
+Wire Wire Line
+	11050 1650 10950 1650
+Text GLabel 10950 1550 0    60   Input ~ 0
+MWL03
+Wire Wire Line
+	11050 1550 10950 1550
+Wire Wire Line
+	10950 1750 10950 4200
 $EndSCHEMATC

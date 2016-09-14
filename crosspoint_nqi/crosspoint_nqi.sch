@@ -1899,10 +1899,7 @@ F98 "MNISQ" O R 3350 5400 60
 F99 "4XP5" I L 1900 7200 60 
 $EndSheet
 Wire Wire Line
-	12900 2650 12800 2650
-Wire Wire Line
 	12900 2750 12800 2750
-Connection ~ 12800 2750
 Wire Wire Line
 	12900 2850 12800 2850
 Connection ~ 12800 2850
@@ -1971,10 +1968,18 @@ Text GLabel 3450 1350 2    60   Output ~ 0
 NISQ/
 Wire Wire Line
 	3450 1350 3350 1350
-Wire Wire Line
-	12800 2650 12800 4750
 Text GLabel 10700 3250 0    60   Input ~ 0
 NISQ/
 Wire Wire Line
 	10700 3250 10800 3250
+Text GLabel 3450 5400 2    60   Output ~ 0
+MNISQ
+Wire Wire Line
+	3350 5400 3450 5400
+Wire Wire Line
+	12800 2750 12800 4750
+Text GLabel 12800 2650 0    60   Input ~ 0
+MNISQ
+Wire Wire Line
+	12800 2650 12900 2650
 $EndSCHEMATC

@@ -329,7 +329,7 @@ F58 "_L_IN_1" I L 4400 4700 60
 F59 "_WG12G_1" I L 4400 6500 60 
 F60 "_WL1" O R 5800 4050 60 
 F61 "_WL1/" O R 5800 4150 60 
-F62 "_MWL1" O R 5800 4700 60 
+F62 "_MWL1" O R 5800 4750 60 
 F63 "_CI_OUT" O R 5800 2750 60 
 F64 "_CO_IN" I L 4400 3650 60 
 F65 "_XUY_IN2" I L 4400 4050 60 
@@ -1470,19 +1470,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 8350 4300 8350
 Wire Wire Line
-	9700 3050 9800 3050
-Wire Wire Line
-	9700 3150 9800 3150
-Connection ~ 9700 3150
-Wire Wire Line
-	9700 3250 9800 3250
-Connection ~ 9700 3250
-Wire Wire Line
-	9700 3350 9800 3350
-Connection ~ 9700 3350
-Wire Wire Line
 	9700 3450 9800 3450
-Connection ~ 9700 3450
 Wire Wire Line
 	9700 3550 9800 3550
 Connection ~ 9700 3550
@@ -1831,8 +1819,6 @@ Wire Wire Line
 	5800 4050 5900 4050
 Wire Wire Line
 	5800 4250 5900 4250
-Wire Wire Line
-	9700 3050 9700 4200
 Text GLabel 9700 2450 0    60   Input ~ 0
 WL08
 Wire Wire Line
@@ -1849,4 +1835,38 @@ Text GLabel 9700 1850 0    60   Input ~ 0
 WL05
 Wire Wire Line
 	9800 1850 9700 1850
+Text GLabel 3250 4850 2    60   Output ~ 0
+MWL06
+Wire Wire Line
+	3150 4850 3250 4850
+Text GLabel 3250 4750 2    60   Output ~ 0
+MWL05
+Wire Wire Line
+	3150 4750 3250 4750
+Text GLabel 5900 4850 2    60   Output ~ 0
+MWL08
+Wire Wire Line
+	5800 4850 5900 4850
+Text GLabel 5900 4750 2    60   Output ~ 0
+MWL07
+Wire Wire Line
+	5800 4750 5900 4750
+Text GLabel 9700 3150 0    60   Input ~ 0
+MWL06
+Wire Wire Line
+	9800 3150 9700 3150
+Text GLabel 9700 3050 0    60   Input ~ 0
+MWL05
+Wire Wire Line
+	9800 3050 9700 3050
+Text GLabel 9700 3350 0    60   Input ~ 0
+MWL08
+Wire Wire Line
+	9800 3350 9700 3350
+Text GLabel 9700 3250 0    60   Input ~ 0
+MWL07
+Wire Wire Line
+	9800 3250 9700 3250
+Wire Wire Line
+	9700 3450 9700 4200
 $EndSCHEMATC

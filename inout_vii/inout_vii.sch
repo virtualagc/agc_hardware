@@ -1784,10 +1784,7 @@ Wire Wire Line
 	12300 3850 12200 3850
 Connection ~ 12200 3850
 Wire Wire Line
-	12300 3550 12200 3550
-Wire Wire Line
 	12300 3650 12200 3650
-Connection ~ 12200 3650
 Wire Wire Line
 	12300 3750 12200 3750
 Connection ~ 12200 3750
@@ -1803,10 +1800,18 @@ Text GLabel 2850 3600 2    60   Output ~ 0
 PIPASW
 Wire Wire Line
 	2750 3600 2850 3600
-Wire Wire Line
-	12200 3550 12200 4950
 Text GLabel 12200 3450 0    60   Input ~ 0
 PIPDAT
 Wire Wire Line
 	12300 3450 12200 3450
+Text GLabel 2850 5550 2    60   Output ~ 0
+MON800
+Wire Wire Line
+	2750 5550 2850 5550
+Wire Wire Line
+	12200 3650 12200 4950
+Text GLabel 12200 3550 0    60   Input ~ 0
+MON800
+Wire Wire Line
+	12300 3550 12200 3550
 $EndSCHEMATC
