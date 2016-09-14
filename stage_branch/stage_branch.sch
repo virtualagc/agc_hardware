@@ -279,11 +279,6 @@ Text GLabel 3350 7100 0    60   Input ~ 0
 L15/
 Text GLabel 3350 7300 0    60   Input ~ 0
 GEQZRO/
-NoConn ~ 4850 8050
-NoConn ~ 4850 8150
-NoConn ~ 4850 8250
-NoConn ~ 4850 8350
-NoConn ~ 4850 8450
 Text GLabel 12500 3300 0    60   Output ~ 0
 PHS2/
 Text GLabel 12500 3500 0    60   Output ~ 0
@@ -654,7 +649,6 @@ Text GLabel 8300 5600 2    60   Output ~ 0
 KRPT
 Text GLabel 15900 3750 0    60   Input ~ 0
 KRPT
-NoConn ~ 8350 8650
 Text GLabel 8300 3800 2    60   Output ~ 0
 RXOR0
 Text GLabel 15900 5650 0    60   Input ~ 0
@@ -1208,7 +1202,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 8500 8200 8500
 Wire Wire Line
-	8350 8650 8200 8650
+	8300 8650 8200 8650
 Wire Wire Line
 	8300 5500 8200 5500
 Wire Wire Line
@@ -1435,28 +1429,6 @@ F 3 "" H 17150 4800 60  0000 C CNN
 	5    17150 4800
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR04
-U 1 1 566C586C
-P 16850 6500
-F 0 "#PWR04" H 16850 6250 50  0001 C CNN
-F 1 "GND" H 16850 6350 50  0000 C CNN
-F 2 "" H 16850 6500 60  0000 C CNN
-F 3 "" H 16850 6500 60  0000 C CNN
-	1    16850 6500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16850 6350 16950 6350
-Connection ~ 16850 6350
-Wire Wire Line
-	16850 6250 16950 6250
-Connection ~ 16850 6250
-Wire Wire Line
-	16850 6150 16950 6150
-Connection ~ 16850 6150
-Wire Wire Line
-	16850 6050 16950 6050
 Text GLabel 8300 2800 2    60   Output ~ 0
 INOUT/
 Text GLabel 8300 2700 2    60   Output ~ 0
@@ -1702,10 +1674,10 @@ F 3 "" H 18450 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND #PWR04
 U 1 1 56CE86C4
 P 18150 6500
-F 0 "#PWR05" H 18150 6250 50  0001 C CNN
+F 0 "#PWR04" H 18150 6250 50  0001 C CNN
 F 1 "GND" H 18150 6350 50  0000 C CNN
 F 2 "" H 18150 6500 60  0000 C CNN
 F 3 "" H 18150 6500 60  0000 C CNN
@@ -1795,17 +1767,8 @@ Wire Wire Line
 Connection ~ 18150 3750
 Wire Wire Line
 	18150 3650 18250 3650
-Connection ~ 18150 3650
 Wire Wire Line
-	18150 3550 18250 3550
-Connection ~ 18150 3550
-Wire Wire Line
-	18150 3450 18250 3450
-Connection ~ 18150 3450
-Wire Wire Line
-	18150 3350 18250 3350
-Wire Wire Line
-	18150 3350 18150 6500
+	18150 3650 18150 6500
 Text GLabel 8300 5250 2    60   Output ~ 0
 RSC/
 Wire Wire Line
@@ -1885,8 +1848,6 @@ L16/
 Text GLabel 4850 4300 2    60   Output ~ 0
 DV3764
 Wire Wire Line
-	16850 6050 16850 6500
-Wire Wire Line
 	16000 4650 15900 4650
 Text GLabel 15900 4650 0    60   Input ~ 0
 DV3764
@@ -1896,4 +1857,48 @@ Text GLabel 12500 5700 0    60   Output ~ 0
 SQEXT
 Wire Wire Line
 	12600 5700 12500 5700
+Text GLabel 4850 8050 2    60   Output ~ 0
+MST1
+Text GLabel 4850 8150 2    60   Output ~ 0
+MST2
+Text GLabel 4850 8250 2    60   Output ~ 0
+MST3
+Text GLabel 4850 8350 2    60   Output ~ 0
+MBR1
+Text GLabel 4850 8450 2    60   Output ~ 0
+MBR2
+Wire Wire Line
+	16850 6050 16950 6050
+Wire Wire Line
+	16850 6150 16950 6150
+Wire Wire Line
+	16850 6250 16950 6250
+Wire Wire Line
+	16950 6350 16850 6350
+Wire Wire Line
+	18150 3350 18250 3350
+Text GLabel 16850 6050 0    60   Input ~ 0
+MST1
+Text GLabel 16850 6150 0    60   Input ~ 0
+MST2
+Text GLabel 16850 6250 0    60   Input ~ 0
+MST3
+Text GLabel 16850 6350 0    60   Input ~ 0
+MBR1
+Text GLabel 18150 3350 0    60   Input ~ 0
+MBR2
+Text GLabel 8300 8650 2    60   Output ~ 0
+MRSC
+Wire Wire Line
+	8300 8750 8200 8750
+Text GLabel 8300 8750 2    60   Output ~ 0
+MWCH
+Wire Wire Line
+	18150 3450 18250 3450
+Text GLabel 18150 3450 0    60   Input ~ 0
+MRSC
+Wire Wire Line
+	18150 3550 18250 3550
+Text GLabel 18150 3550 0    60   Input ~ 0
+MWCH
 $EndSCHEMATC

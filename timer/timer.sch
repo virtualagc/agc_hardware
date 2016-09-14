@@ -248,8 +248,6 @@ Text GLabel 11100 1650 0    60   Input ~ 0
 MGOJAM
 Text GLabel 3350 3300 2    60   Output ~ 0
 MONWT
-Text GLabel 3350 3400 2    60   Output ~ 0
-Q2A
 Text GLabel 4600 3250 0    60   Input ~ 0
 MSTP
 $Sheet
@@ -486,8 +484,6 @@ Wire Wire Line
 	1500 1300 1700 1300
 Wire Wire Line
 	3200 3300 3350 3300
-Wire Wire Line
-	3200 3400 3350 3400
 Wire Wire Line
 	3200 2900 4250 2900
 Wire Wire Line
@@ -894,54 +890,54 @@ Text GLabel 6450 10800 2    60   Output ~ 0
 MT12
 Wire Wire Line
 	6350 10800 6450 10800
-Text GLabel 11100 1850 0    60   Input ~ 0
-MT02
-Wire Wire Line
-	11100 1850 11200 1850
-Text GLabel 11100 2050 0    60   Input ~ 0
-MT04
-Wire Wire Line
-	11100 2050 11200 2050
-Text GLabel 11100 2250 0    60   Input ~ 0
-MT06
-Wire Wire Line
-	11100 2250 11200 2250
-Text GLabel 11100 2450 0    60   Input ~ 0
-MT08
-Wire Wire Line
-	11100 2450 11200 2450
-Text GLabel 11100 2650 0    60   Input ~ 0
-MT10
-Wire Wire Line
-	11100 2650 11200 2650
-Text GLabel 11100 2850 0    60   Input ~ 0
-MT12
-Wire Wire Line
-	11100 2850 11200 2850
-Text GLabel 11100 1750 0    60   Input ~ 0
-MT01
-Wire Wire Line
-	11100 1750 11200 1750
 Text GLabel 11100 1950 0    60   Input ~ 0
-MT03
+MT02
 Wire Wire Line
 	11100 1950 11200 1950
 Text GLabel 11100 2150 0    60   Input ~ 0
-MT05
+MT04
 Wire Wire Line
 	11100 2150 11200 2150
 Text GLabel 11100 2350 0    60   Input ~ 0
-MT07
+MT06
 Wire Wire Line
 	11100 2350 11200 2350
 Text GLabel 11100 2550 0    60   Input ~ 0
-MT09
+MT08
 Wire Wire Line
 	11100 2550 11200 2550
 Text GLabel 11100 2750 0    60   Input ~ 0
-MT11
+MT10
 Wire Wire Line
 	11100 2750 11200 2750
+Text GLabel 11100 2950 0    60   Input ~ 0
+MT12
+Wire Wire Line
+	11100 2950 11200 2950
+Text GLabel 11100 1850 0    60   Input ~ 0
+MT01
+Wire Wire Line
+	11100 1850 11200 1850
+Text GLabel 11100 2050 0    60   Input ~ 0
+MT03
+Wire Wire Line
+	11100 2050 11200 2050
+Text GLabel 11100 2250 0    60   Input ~ 0
+MT05
+Wire Wire Line
+	11100 2250 11200 2250
+Text GLabel 11100 2450 0    60   Input ~ 0
+MT07
+Wire Wire Line
+	11100 2450 11200 2450
+Text GLabel 11100 2650 0    60   Input ~ 0
+MT09
+Wire Wire Line
+	11100 2650 11200 2650
+Text GLabel 11100 2850 0    60   Input ~ 0
+MT11
+Wire Wire Line
+	11100 2850 11200 2850
 Text GLabel 6550 4350 2    60   Output ~ 0
 TIMR
 Text GLabel 10150 4550 0    60   Input ~ 0
@@ -1019,20 +1015,6 @@ F 3 "" H 11400 3100 60  0000 C CNN
 	3    11400 3100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11200 2950 11100 2950
-Wire Wire Line
-	11200 3050 11100 3050
-Connection ~ 11100 3050
-Wire Wire Line
-	11200 3150 11100 3150
-Connection ~ 11100 3150
-Wire Wire Line
-	11200 3250 11100 3250
-Connection ~ 11100 3250
-Wire Wire Line
-	11200 3350 11100 3350
-Connection ~ 11100 3350
 Wire Wire Line
 	11200 3450 11100 3450
 Connection ~ 11100 3450
@@ -1445,8 +1427,6 @@ Text GLabel 6550 2650 2    60   Output ~ 0
 F01B
 Text GLabel 6550 2550 2    60   Output ~ 0
 F01A
-Wire Wire Line
-	11100 2950 11100 4750
 Text GLabel 10150 1850 0    60   Input ~ 0
 F01A
 Wire Wire Line
@@ -1455,4 +1435,22 @@ Text GLabel 10150 1950 0    60   Input ~ 0
 F01B
 Wire Wire Line
 	10250 1950 10150 1950
+Text GLabel 11100 3050 0    60   Input ~ 0
+MONWT
+Wire Wire Line
+	11100 3050 11200 3050
+Text GLabel 11100 1750 0    60   Input ~ 0
+MSTPIT/
+Wire Wire Line
+	11100 1750 11200 1750
+Wire Wire Line
+	11200 3350 11100 3350
+Connection ~ 11100 3350
+Wire Wire Line
+	11200 3250 11100 3250
+Wire Wire Line
+	11100 3150 11100 4750
+Wire Wire Line
+	11100 3150 11200 3150
+Connection ~ 11100 3250
 $EndSCHEMATC

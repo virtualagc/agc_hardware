@@ -138,6 +138,7 @@ F87 "GOJAM" I L 3750 8400 60
 F88 "NISQ" I L 3750 8500 60 
 F89 "WHOMP" O R 5300 5900 60 
 F90 "WHOMPA" O R 5300 6000 60 
+F91 "MRCH" O R 5300 6150 60 
 $EndSheet
 $Comp
 L DIN_41612_128P P1
@@ -1564,9 +1565,6 @@ Connection ~ 15550 4250
 Wire Wire Line
 	15550 4050 15650 4050
 Connection ~ 15550 4150
-Wire Wire Line
-	15550 3950 15650 3950
-Connection ~ 15550 4050
 Text GLabel 8200 3750 2    60   Output ~ 0
 RUS/
 Wire Wire Line
@@ -1843,8 +1841,6 @@ Text GLabel 8200 4650 2    60   Output ~ 0
 ZOUT/
 Wire Wire Line
 	8200 4650 8100 4650
-Wire Wire Line
-	15550 5650 15550 3950
 Text GLabel 15550 3150 0    60   Input ~ 0
 POUT/
 Wire Wire Line
@@ -1857,4 +1853,14 @@ Text GLabel 15550 3350 0    60   Input ~ 0
 ZOUT/
 Wire Wire Line
 	15550 3350 15650 3350
+Text GLabel 5400 6150 2    60   Output ~ 0
+MRCH
+Wire Wire Line
+	5400 6150 5300 6150
+Text GLabel 15550 3950 0    60   Input ~ 0
+MRCH
+Wire Wire Line
+	15550 3950 15650 3950
+Wire Wire Line
+	15550 4050 15550 5650
 $EndSCHEMATC

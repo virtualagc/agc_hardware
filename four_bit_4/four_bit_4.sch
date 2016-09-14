@@ -683,19 +683,7 @@ L12/
 Text Label 3250 2100 0    60   ~ 0
 L13/
 Wire Wire Line
-	11400 1150 11500 1150
-Wire Wire Line
-	11400 1250 11500 1250
-Connection ~ 11400 1250
-Wire Wire Line
-	11400 1350 11500 1350
-Connection ~ 11400 1350
-Wire Wire Line
-	11400 1450 11500 1450
-Connection ~ 11400 1450
-Wire Wire Line
 	11400 1550 11500 1550
-Connection ~ 11400 1550
 Wire Wire Line
 	11400 1650 11500 1650
 Connection ~ 11400 1650
@@ -1930,8 +1918,6 @@ Wire Wire Line
 	3150 4050 3250 4050
 Wire Wire Line
 	3150 4250 3250 4250
-Wire Wire Line
-	11400 1150 11400 4200
 Text GLabel 10250 3050 0    60   Input ~ 0
 WL13
 Text GLabel 10250 3250 0    60   Input ~ 0
@@ -1940,4 +1926,38 @@ Wire Wire Line
 	10350 3050 10250 3050
 Wire Wire Line
 	10350 3250 10250 3250
+Text GLabel 3250 4850 2    60   Output ~ 0
+MWL14
+Text GLabel 3250 4750 2    60   Output ~ 0
+MWL13
+Wire Wire Line
+	3150 4750 3250 4750
+Wire Wire Line
+	3250 4850 3150 4850
+Text GLabel 6100 4850 2    60   Output ~ 0
+MWL16
+Text GLabel 6100 4750 2    60   Output ~ 0
+MWL15
+Wire Wire Line
+	6000 4750 6100 4750
+Wire Wire Line
+	6100 4850 6000 4850
+Text GLabel 11400 1250 0    60   Input ~ 0
+MWL14
+Text GLabel 11400 1150 0    60   Input ~ 0
+MWL13
+Wire Wire Line
+	11500 1150 11400 1150
+Wire Wire Line
+	11400 1250 11500 1250
+Text GLabel 11400 1450 0    60   Input ~ 0
+MWL16
+Text GLabel 11400 1350 0    60   Input ~ 0
+MWL15
+Wire Wire Line
+	11500 1350 11400 1350
+Wire Wire Line
+	11400 1450 11500 1450
+Wire Wire Line
+	11400 1550 11400 4200
 $EndSCHEMATC

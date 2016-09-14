@@ -88,7 +88,7 @@ F37 "GOJAM" I L 1650 900 60
 F38 "TPARG/" I L 1650 1250 60 
 F39 "8XP5" I L 1650 3650 60 
 F40 "PALE" O R 2800 2100 60 
-F41 "MPAL" O R 2800 2500 60 
+F41 "MPAL/" O R 2800 2500 60 
 F42 "T07/" I L 1650 1050 60 
 F43 "PHS4/" I L 1650 3950 60 
 F44 "FUTEXT" I L 1650 4050 60 
@@ -238,15 +238,6 @@ Wire Wire Line
 Connection ~ 10850 1700
 Wire Wire Line
 	10950 1600 10850 1600
-Connection ~ 10850 1600
-Wire Wire Line
-	10950 1500 10850 1500
-Connection ~ 10850 1500
-Wire Wire Line
-	10950 1400 10850 1400
-Connection ~ 10850 1400
-Wire Wire Line
-	10950 1300 10850 1300
 $Comp
 L DIN_41612_128P P1
 U 5 1 56AFEA6F
@@ -1371,9 +1362,33 @@ Wire Wire Line
 Text GLabel 2900 1650 2    60   Output ~ 0
 PC15/
 Wire Wire Line
-	10850 1300 10850 4150
-Wire Wire Line
 	10950 1100 10850 1100
 Text GLabel 10850 1100 0    60   Input ~ 0
 PC15/
+Wire Wire Line
+	2800 2300 2900 2300
+Text GLabel 2900 2300 2    60   Output ~ 0
+MGP/
+Wire Wire Line
+	2800 2400 2900 2400
+Text GLabel 2900 2400 2    60   Output ~ 0
+MSP
+Wire Wire Line
+	2800 2500 2900 2500
+Text GLabel 2900 2500 2    60   Output ~ 0
+MPAL/
+Wire Wire Line
+	10950 1300 10850 1300
+Text GLabel 10850 1300 0    60   Input ~ 0
+MGP/
+Wire Wire Line
+	10950 1400 10850 1400
+Text GLabel 10850 1400 0    60   Input ~ 0
+MSP
+Wire Wire Line
+	10950 1500 10850 1500
+Text GLabel 10850 1500 0    60   Input ~ 0
+MPAL/
+Wire Wire Line
+	10850 1600 10850 4150
 $EndSCHEMATC

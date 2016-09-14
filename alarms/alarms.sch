@@ -839,47 +839,6 @@ MON/
 Text GLabel 6900 1400 2    60   Output ~ 0
 MON+CH
 Wire Wire Line
-	12750 2400 12850 2400
-Wire Wire Line
-	12750 2500 12850 2500
-Connection ~ 12750 2500
-Wire Wire Line
-	12750 2600 12850 2600
-Connection ~ 12750 2600
-Wire Wire Line
-	12750 2700 12850 2700
-Connection ~ 12750 2700
-Wire Wire Line
-	12750 2800 12850 2800
-Connection ~ 12750 2800
-Wire Wire Line
-	12750 2900 12850 2900
-Connection ~ 12750 2900
-Wire Wire Line
-	12750 3000 12850 3000
-Connection ~ 12750 3000
-Wire Wire Line
-	12750 3100 12850 3100
-Connection ~ 12750 3100
-Wire Wire Line
-	12750 3200 12850 3200
-Connection ~ 12750 3200
-Wire Wire Line
-	12750 3300 12850 3300
-Connection ~ 12750 3300
-Wire Wire Line
-	12750 3400 12850 3400
-Connection ~ 12750 3400
-Wire Wire Line
-	12750 3500 12850 3500
-Connection ~ 12750 3500
-Wire Wire Line
-	12750 3600 12850 3600
-Connection ~ 12750 3600
-Wire Wire Line
-	12750 3700 12850 3700
-Connection ~ 12750 3700
-Wire Wire Line
 	12750 3800 12850 3800
 Connection ~ 12750 3800
 Wire Wire Line
@@ -1604,6 +1563,108 @@ Text GLabel 12750 2300 0    60   Input ~ 0
 RESTRT
 Wire Wire Line
 	12750 2300 12850 2300
+Text GLabel 4300 3150 2    60   Output ~ 0
+MPIPAL/
 Wire Wire Line
-	12750 2400 12750 4500
+	4300 3150 4200 3150
+Text GLabel 4300 2650 2    60   Output ~ 0
+MVFAIL/
+Wire Wire Line
+	4300 2650 4200 2650
+Text GLabel 4300 2350 2    60   Output ~ 0
+MRPTAL/
+Wire Wire Line
+	4300 2350 4200 2350
+Text GLabel 4300 2450 2    60   Output ~ 0
+MTCAL/
+Wire Wire Line
+	4300 2450 4200 2450
+Text GLabel 4300 2550 2    60   Output ~ 0
+MCTRAL/
+Wire Wire Line
+	4300 2550 4200 2550
+Text GLabel 4300 2750 2    60   Output ~ 0
+MWARNF/
+Wire Wire Line
+	4300 2750 4200 2750
+Text GLabel 4300 2850 2    60   Output ~ 0
+MSCAFL/
+Wire Wire Line
+	4300 2850 4200 2850
+Text GLabel 4300 2950 2    60   Output ~ 0
+MSCDBL/
+Wire Wire Line
+	4300 2950 4200 2950
+Text GLabel 4300 3050 2    60   Output ~ 0
+MOSCAL/
+Wire Wire Line
+	4300 3050 4200 3050
+Text GLabel 4300 3250 2    60   Output ~ 0
+MWATCH/
+Wire Wire Line
+	4300 3250 4200 3250
+Text GLabel 12750 2400 0    60   Input ~ 0
+MSTRTP
+Wire Wire Line
+	12750 2400 12850 2400
+Text GLabel 12750 3300 0    60   Input ~ 0
+MPIPAL/
+Wire Wire Line
+	12750 3300 12850 3300
+Text GLabel 12750 2800 0    60   Input ~ 0
+MVFAIL/
+Wire Wire Line
+	12750 2800 12850 2800
+Text GLabel 12750 2500 0    60   Input ~ 0
+MRPTAL/
+Wire Wire Line
+	12750 2500 12850 2500
+Text GLabel 12750 2600 0    60   Input ~ 0
+MTCAL/
+Wire Wire Line
+	12750 2600 12850 2600
+Text GLabel 12750 2700 0    60   Input ~ 0
+MCTRAL/
+Wire Wire Line
+	12750 2700 12850 2700
+Text GLabel 12750 2900 0    60   Input ~ 0
+MWARNF/
+Wire Wire Line
+	12750 2900 12850 2900
+Text GLabel 12750 3000 0    60   Input ~ 0
+MSCAFL/
+Wire Wire Line
+	12750 3000 12850 3000
+Text GLabel 12750 3100 0    60   Input ~ 0
+MSCDBL/
+Wire Wire Line
+	12750 3100 12850 3100
+Text GLabel 12750 3200 0    60   Input ~ 0
+MOSCAL/
+Wire Wire Line
+	12750 3200 12850 3200
+Text GLabel 12750 3400 0    60   Input ~ 0
+MWATCH/
+Wire Wire Line
+	12750 3400 12850 3400
+Text GLabel 6900 3350 2    60   Output ~ 0
+MINKL
+Wire Wire Line
+	6900 3350 6800 3350
+Text GLabel 6900 3450 2    60   Output ~ 0
+MREQIN
+Wire Wire Line
+	6900 3450 6800 3450
+Text GLabel 12750 3500 0    60   Input ~ 0
+MINKL
+Wire Wire Line
+	12750 3500 12850 3500
+Text GLabel 12750 3600 0    60   Input ~ 0
+MREQIN
+Wire Wire Line
+	12750 3600 12850 3600
+Wire Wire Line
+	12850 3700 12750 3700
+Wire Wire Line
+	12750 3700 12750 4500
 $EndSCHEMATC
