@@ -635,8 +635,6 @@ Wire Wire Line
 	9300 4100 9300 4950
 Wire Wire Line
 	9300 4100 9600 4100
-Wire Wire Line
-	9500 3900 9600 3900
 Connection ~ 9500 3400
 $Comp
 L 74HC27 U13040
@@ -651,7 +649,6 @@ F 3 "" H 10200 4550 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	9500 4700 9600 4700
-Connection ~ 9500 3900
 Wire Wire Line
 	9600 4400 9300 4400
 Connection ~ 9300 4400
@@ -1222,4 +1219,8 @@ Wire Wire Line
 Wire Wire Line
 	11250 5500 11250 4700
 Connection ~ 12300 5850
+Wire Wire Line
+	9600 3900 9400 3900
+Text HLabel 9400 3900 0    60   Input ~ 0
+ST0/
 $EndSCHEMATC
