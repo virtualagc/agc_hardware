@@ -78,17 +78,7 @@ F 3 "" H 8750 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 4400 8550 4400
-Connection ~ 8450 4400
-Wire Wire Line
-	8450 4500 8550 4500
-Connection ~ 8450 4500
-Wire Wire Line
-	8450 4600 8550 4600
-Connection ~ 8450 4600
-Wire Wire Line
 	8450 4700 8550 4700
-Connection ~ 8450 4700
 Wire Wire Line
 	8450 4800 8550 4800
 Connection ~ 8450 4800
@@ -767,70 +757,70 @@ Text GLabel 3350 3100 2    60   Output ~ 0
 SA16
 Wire Wire Line
 	3350 3100 3250 3100
-Text GLabel 8450 2700 0    60   Input ~ 0
+Text GLabel 8450 3100 0    60   Input ~ 0
 SAP
-Wire Wire Line
-	8450 2700 8550 2700
-Text GLabel 8450 2800 0    60   BiDi ~ 0
-SA01
-Wire Wire Line
-	8450 2800 8550 2800
-Text GLabel 8450 2900 0    60   BiDi ~ 0
-SA02
-Wire Wire Line
-	8450 2900 8550 2900
-Text GLabel 8450 3000 0    60   BiDi ~ 0
-SA03
-Wire Wire Line
-	8450 3000 8550 3000
-Text GLabel 8450 3100 0    60   BiDi ~ 0
-SA04
 Wire Wire Line
 	8450 3100 8550 3100
 Text GLabel 8450 3200 0    60   BiDi ~ 0
-SA05
+SA01
 Wire Wire Line
 	8450 3200 8550 3200
 Text GLabel 8450 3300 0    60   BiDi ~ 0
-SA06
+SA02
 Wire Wire Line
 	8450 3300 8550 3300
 Text GLabel 8450 3400 0    60   BiDi ~ 0
-SA07
+SA03
 Wire Wire Line
 	8450 3400 8550 3400
 Text GLabel 8450 3500 0    60   BiDi ~ 0
-SA08
+SA04
 Wire Wire Line
 	8450 3500 8550 3500
 Text GLabel 8450 3600 0    60   BiDi ~ 0
-SA09
+SA05
 Wire Wire Line
 	8450 3600 8550 3600
 Text GLabel 8450 3700 0    60   BiDi ~ 0
-SA10
+SA06
 Wire Wire Line
 	8450 3700 8550 3700
 Text GLabel 8450 3800 0    60   BiDi ~ 0
-SA11
+SA07
 Wire Wire Line
 	8450 3800 8550 3800
 Text GLabel 8450 3900 0    60   BiDi ~ 0
-SA12
+SA08
 Wire Wire Line
 	8450 3900 8550 3900
 Text GLabel 8450 4000 0    60   BiDi ~ 0
-SA13
+SA09
 Wire Wire Line
 	8450 4000 8550 4000
 Text GLabel 8450 4100 0    60   BiDi ~ 0
-SA14
+SA10
 Wire Wire Line
 	8450 4100 8550 4100
 Text GLabel 8450 4200 0    60   BiDi ~ 0
-SA16
+SA11
 Wire Wire Line
 	8450 4200 8550 4200
+Text GLabel 8450 4300 0    60   BiDi ~ 0
+SA12
+Wire Wire Line
+	8450 4300 8550 4300
+Text GLabel 8450 4400 0    60   BiDi ~ 0
+SA13
+Wire Wire Line
+	8450 4400 8550 4400
+Text GLabel 8450 4500 0    60   BiDi ~ 0
+SA14
+Wire Wire Line
+	8450 4500 8550 4500
+Text GLabel 8450 4600 0    60   BiDi ~ 0
+SA16
+Wire Wire Line
+	8450 4600 8550 4600
 Text GLabel 2150 2850 0    60   Input ~ 0
 STR412
 Wire Wire Line
@@ -872,7 +862,7 @@ CLROPE
 Wire Wire Line
 	6500 3700 6600 3700
 $Sheet
-S 4200 1500 1000 4950
+S 4200 1500 1000 5450
 U 56D35FA5
 F0 "B01_2" 60
 F1 "b01_2.sch" 60
@@ -900,7 +890,7 @@ F22 "YT6E" I L 4200 4050 60
 F23 "YT1E" I L 4200 3550 60 
 F24 "YT5E" I L 4200 3950 60 
 F25 "YT3E" I L 4200 3750 60 
-F26 "ZID" I L 4200 6300 60 
+F26 "ZID" I L 4200 6850 60 
 F27 "GEMP" I L 4200 4200 60 
 F28 "GEM01" I L 4200 4300 60 
 F29 "GEM02" I L 4200 4400 60 
@@ -933,10 +923,14 @@ F55 "SA12" O R 5200 2800 60
 F56 "SA13" O R 5200 2900 60 
 F57 "SA14" O R 5200 3000 60 
 F58 "SA16" O R 5200 3100 60 
-F59 "WEX" I L 4200 6100 60 
-F60 "WEY" I L 4200 6200 60 
-F61 "SBE" I L 4200 5950 60 
+F59 "WEX" I L 4200 6600 60 
+F60 "WEY" I L 4200 6700 60 
+F61 "SBE" I L 4200 6200 60 
 F62 "SETEK" I L 4200 5850 60 
+F63 "RSTKX/" I L 4200 5950 60 
+F64 "RSTKY/" I L 4200 6050 60 
+F65 "REX" I L 4200 6350 60 
+F66 "REY" I L 4200 6450 60 
 $EndSheet
 Text GLabel 5300 1600 2    60   Output ~ 0
 SAP
@@ -1322,48 +1316,78 @@ Text GLabel 8450 2100 0    60   Output ~ 0
 GEM16
 Wire Wire Line
 	8450 2100 8550 2100
-Text GLabel 4100 5950 0    60   Input ~ 0
-SBE
-Wire Wire Line
-	4100 5950 4200 5950
-Text GLabel 4100 6100 0    60   Input ~ 0
-WEX
-Wire Wire Line
-	4100 6100 4200 6100
 Text GLabel 4100 6200 0    60   Input ~ 0
-WEY
+SBE
 Wire Wire Line
 	4100 6200 4200 6200
-Text GLabel 4100 6300 0    60   Input ~ 0
-ZID
-Wire Wire Line
-	4100 6300 4200 6300
-Text GLabel 8450 2300 0    60   Output ~ 0
-SBE
-Wire Wire Line
-	8450 2300 8550 2300
-Text GLabel 8450 2400 0    60   Output ~ 0
+Text GLabel 4100 6600 0    60   Input ~ 0
 WEX
 Wire Wire Line
-	8450 2400 8550 2400
-Text GLabel 8450 2500 0    60   Output ~ 0
+	4100 6600 4200 6600
+Text GLabel 4100 6700 0    60   Input ~ 0
 WEY
 Wire Wire Line
-	8450 2500 8550 2500
-Text GLabel 8450 2600 0    60   Output ~ 0
+	4100 6700 4200 6700
+Text GLabel 4100 6850 0    60   Input ~ 0
 ZID
 Wire Wire Line
-	8450 2600 8550 2600
+	4100 6850 4200 6850
+Text GLabel 8450 2500 0    60   Output ~ 0
+SBE
 Wire Wire Line
-	8450 4300 8550 4300
+	8450 2500 8550 2500
+Text GLabel 8450 2800 0    60   Output ~ 0
+WEX
+Wire Wire Line
+	8450 2800 8550 2800
+Text GLabel 8450 2900 0    60   Output ~ 0
+WEY
+Wire Wire Line
+	8450 2900 8550 2900
+Text GLabel 8450 3000 0    60   Output ~ 0
+ZID
+Wire Wire Line
+	8450 3000 8550 3000
 Text GLabel 4100 5850 0    60   Input ~ 0
 SETEK
 Wire Wire Line
 	4100 5850 4200 5850
-Wire Wire Line
-	8450 4300 8450 5100
 Text GLabel 8450 2200 0    60   Output ~ 0
 SETEK
 Wire Wire Line
 	8450 2200 8550 2200
+Text GLabel 4100 5950 0    60   Input ~ 0
+RSTKX/
+Wire Wire Line
+	4100 5950 4200 5950
+Text GLabel 4100 6050 0    60   Input ~ 0
+RSTKY/
+Wire Wire Line
+	4100 6050 4200 6050
+Text GLabel 4100 6350 0    60   Input ~ 0
+REX
+Wire Wire Line
+	4100 6350 4200 6350
+Text GLabel 4100 6450 0    60   Input ~ 0
+REY
+Wire Wire Line
+	4100 6450 4200 6450
+Text GLabel 8450 2300 0    60   Output ~ 0
+RSTKX/
+Wire Wire Line
+	8450 2300 8550 2300
+Text GLabel 8450 2400 0    60   Output ~ 0
+RSTKY/
+Wire Wire Line
+	8450 2400 8550 2400
+Text GLabel 8450 2600 0    60   Output ~ 0
+REX
+Wire Wire Line
+	8450 2600 8550 2600
+Text GLabel 8450 2700 0    60   Output ~ 0
+REY
+Wire Wire Line
+	8450 2700 8550 2700
+Wire Wire Line
+	8450 4700 8450 5100
 $EndSCHEMATC
