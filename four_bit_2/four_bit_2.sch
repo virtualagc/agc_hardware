@@ -5,7 +5,6 @@ LIBS:transistors
 LIBS:conn
 LIBS:linear
 LIBS:regul
-LIBS:74xx
 LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory

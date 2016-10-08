@@ -33,7 +33,7 @@ LibName3=transistors
 LibName4=conn
 LibName5=linear
 LibName6=regul
-LibName7=74xx
+LibName7=agc_kicad_components
 LibName8=cmos4000
 LibName9=adc-dac
 LibName10=memory
@@ -56,6 +56,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=agc_kicad_components
 [general]
 version=1
