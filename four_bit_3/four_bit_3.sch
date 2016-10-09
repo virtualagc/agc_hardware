@@ -5,6 +5,7 @@ LIBS:transistors
 LIBS:conn
 LIBS:linear
 LIBS:regul
+LIBS:agc_kicad_components
 LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
@@ -27,8 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:agc_kicad_components
-LIBS:four_bit_3-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
