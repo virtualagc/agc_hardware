@@ -1,33 +1,32 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +4VDC
+K POWER, PWR
+$ENDCMP
+#
 $CMP 74HC02
 D Quad Nor2
 K TTL Nor2
 $ENDCMP
 #
 $CMP 74HC04
-D Triple Nr 3 inputs
-K TTL Nor3
+D Hextuple Nor1
+K Nor1
+$ENDCMP
+#
+$CMP 74HC244
+D 8 bits Bus Buffer 3 State out
+K TTL Buffer BUS 3State
 $ENDCMP
 #
 $CMP 74HC27
-D Triple Nr 3 inputs
-K TTL Nor3
+D Triple Nor3
+K Nor3
 $ENDCMP
 #
 $CMP 74HC4002
-D Dual  4 input NOR gate
+D Dual  Nor4
 K CMOS Nor4
-$ENDCMP
-#
-$CMP 74LS241
-D 8 bits Bus Buffer 3 State out
-K TTL Buffer BUS 3State
-$ENDCMP
-#
-$CMP 74LS244
-D 8 bits Bus Buffer 3 State out
-K TTL Buffer BUS 3State
 $ENDCMP
 #
 $CMP 74LVC07
