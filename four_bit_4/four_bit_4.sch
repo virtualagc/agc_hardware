@@ -28,12 +28,11 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:four_bit_4-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 4
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -2419,8 +2418,8 @@ L 74HC27 U?
 U 4 1 58199F0F
 P 13850 6200
 AR Path="/58194E86/58199F0F" Ref="U?"  Part="4" 
-AR Path="/58199F0F" Ref="U10036"  Part="4" 
-F 0 "U10036" H 13850 6250 60  0000 C CNN
+AR Path="/58199F0F" Ref="U11036"  Part="4" 
+F 0 "U11036" H 13850 6250 60  0000 C CNN
 F 1 "74HC27" H 13850 6150 60  0001 C CNN
 F 2 "" H 13850 6200 60  0000 C CNN
 F 3 "" H 13850 6200 60  0000 C CNN
