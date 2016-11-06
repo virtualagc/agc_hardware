@@ -1,0 +1,591 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:agc_kicad_components
+LIBS:digital_indicator-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 12 25
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED D8
+U 1 1 5870A873
+P 5600 2300
+AR Path="/58709A98/5870A873" Ref="D8"  Part="1" 
+AR Path="/58710C4B/5870A873" Ref="D64"  Part="1" 
+AR Path="/5870D5D9/5870A873" Ref="D36"  Part="1" 
+AR Path="/5870BA6D/5870A873" Ref="D15"  Part="1" 
+AR Path="/5870C280/5870A873" Ref="D22"  Part="1" 
+AR Path="/5870C70C/5870A873" Ref="D29"  Part="1" 
+AR Path="/5870D5E2/5870A873" Ref="D43"  Part="1" 
+AR Path="/58710C39/5870A873" Ref="D50"  Part="1" 
+AR Path="/58710C42/5870A873" Ref="D57"  Part="1" 
+AR Path="/58710C54/5870A873" Ref="D71"  Part="1" 
+AR Path="/58711173/5870A873" Ref="D78"  Part="1" 
+AR Path="/58712055/5870A873" Ref="D85"  Part="1" 
+AR Path="/5871205E/5870A873" Ref="D92"  Part="1" 
+AR Path="/58712067/5870A873" Ref="D99"  Part="1" 
+AR Path="/58712070/5870A873" Ref="D106"  Part="1" 
+AR Path="/58712079/5870A873" Ref="D113"  Part="1" 
+AR Path="/58714278/5870A873" Ref="D120"  Part="1" 
+AR Path="/58714281/5870A873" Ref="D127"  Part="1" 
+AR Path="/5871428A/5870A873" Ref="D134"  Part="1" 
+AR Path="/58714293/5870A873" Ref="D141"  Part="1" 
+AR Path="/5871429C/5870A873" Ref="D148"  Part="1" 
+F 0 "D78" H 5600 2400 50  0000 C CNN
+F 1 "LED" H 5600 2200 50  0000 C CNN
+F 2 "" H 5600 2300 60  0000 C CNN
+F 3 "" H 5600 2300 60  0000 C CNN
+	1    5600 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 2300 5850 2300
+$Comp
+L R R8
+U 1 1 5870A87B
+P 6000 2300
+AR Path="/58709A98/5870A87B" Ref="R8"  Part="1" 
+AR Path="/58710C4B/5870A87B" Ref="R64"  Part="1" 
+AR Path="/5870D5D9/5870A87B" Ref="R36"  Part="1" 
+AR Path="/5870BA6D/5870A87B" Ref="R15"  Part="1" 
+AR Path="/5870C280/5870A87B" Ref="R22"  Part="1" 
+AR Path="/5870C70C/5870A87B" Ref="R29"  Part="1" 
+AR Path="/5870D5E2/5870A87B" Ref="R43"  Part="1" 
+AR Path="/58710C39/5870A87B" Ref="R50"  Part="1" 
+AR Path="/58710C42/5870A87B" Ref="R57"  Part="1" 
+AR Path="/58710C54/5870A87B" Ref="R71"  Part="1" 
+AR Path="/58711173/5870A87B" Ref="R78"  Part="1" 
+AR Path="/58712055/5870A87B" Ref="R85"  Part="1" 
+AR Path="/5871205E/5870A87B" Ref="R92"  Part="1" 
+AR Path="/58712067/5870A87B" Ref="R99"  Part="1" 
+AR Path="/58712070/5870A87B" Ref="R106"  Part="1" 
+AR Path="/58712079/5870A87B" Ref="R113"  Part="1" 
+AR Path="/58714278/5870A87B" Ref="R120"  Part="1" 
+AR Path="/58714281/5870A87B" Ref="R127"  Part="1" 
+AR Path="/5871428A/5870A87B" Ref="R134"  Part="1" 
+AR Path="/58714293/5870A87B" Ref="R141"  Part="1" 
+AR Path="/5871429C/5870A87B" Ref="R148"  Part="1" 
+F 0 "R78" V 6080 2300 50  0000 C CNN
+F 1 "1k" V 6000 2300 50  0000 C CNN
+F 2 "" V 5930 2300 30  0000 C CNN
+F 3 "" H 6000 2300 30  0000 C CNN
+	1    6000 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 2300 5350 2300
+Text HLabel 5350 2300 0    60   Input ~ 0
+SEG_A
+Wire Wire Line
+	6150 2300 6200 2300
+Wire Wire Line
+	6200 2300 6200 4200
+$Comp
+L LED D9
+U 1 1 5870A886
+P 5600 2600
+AR Path="/58709A98/5870A886" Ref="D9"  Part="1" 
+AR Path="/58710C4B/5870A886" Ref="D65"  Part="1" 
+AR Path="/5870D5D9/5870A886" Ref="D37"  Part="1" 
+AR Path="/5870BA6D/5870A886" Ref="D16"  Part="1" 
+AR Path="/5870C280/5870A886" Ref="D23"  Part="1" 
+AR Path="/5870C70C/5870A886" Ref="D30"  Part="1" 
+AR Path="/5870D5E2/5870A886" Ref="D44"  Part="1" 
+AR Path="/58710C39/5870A886" Ref="D51"  Part="1" 
+AR Path="/58710C42/5870A886" Ref="D58"  Part="1" 
+AR Path="/58710C54/5870A886" Ref="D72"  Part="1" 
+AR Path="/58711173/5870A886" Ref="D79"  Part="1" 
+AR Path="/58712055/5870A886" Ref="D86"  Part="1" 
+AR Path="/5871205E/5870A886" Ref="D93"  Part="1" 
+AR Path="/58712067/5870A886" Ref="D100"  Part="1" 
+AR Path="/58712070/5870A886" Ref="D107"  Part="1" 
+AR Path="/58712079/5870A886" Ref="D114"  Part="1" 
+AR Path="/58714278/5870A886" Ref="D121"  Part="1" 
+AR Path="/58714281/5870A886" Ref="D128"  Part="1" 
+AR Path="/5871428A/5870A886" Ref="D135"  Part="1" 
+AR Path="/58714293/5870A886" Ref="D142"  Part="1" 
+AR Path="/5871429C/5870A886" Ref="D149"  Part="1" 
+F 0 "D79" H 5600 2700 50  0000 C CNN
+F 1 "LED" H 5600 2500 50  0000 C CNN
+F 2 "" H 5600 2600 60  0000 C CNN
+F 3 "" H 5600 2600 60  0000 C CNN
+	1    5600 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 2600 5850 2600
+$Comp
+L R R9
+U 1 1 5870A88E
+P 6000 2600
+AR Path="/58709A98/5870A88E" Ref="R9"  Part="1" 
+AR Path="/58710C4B/5870A88E" Ref="R65"  Part="1" 
+AR Path="/5870D5D9/5870A88E" Ref="R37"  Part="1" 
+AR Path="/5870BA6D/5870A88E" Ref="R16"  Part="1" 
+AR Path="/5870C280/5870A88E" Ref="R23"  Part="1" 
+AR Path="/5870C70C/5870A88E" Ref="R30"  Part="1" 
+AR Path="/5870D5E2/5870A88E" Ref="R44"  Part="1" 
+AR Path="/58710C39/5870A88E" Ref="R51"  Part="1" 
+AR Path="/58710C42/5870A88E" Ref="R58"  Part="1" 
+AR Path="/58710C54/5870A88E" Ref="R72"  Part="1" 
+AR Path="/58711173/5870A88E" Ref="R79"  Part="1" 
+AR Path="/58712055/5870A88E" Ref="R86"  Part="1" 
+AR Path="/5871205E/5870A88E" Ref="R93"  Part="1" 
+AR Path="/58712067/5870A88E" Ref="R100"  Part="1" 
+AR Path="/58712070/5870A88E" Ref="R107"  Part="1" 
+AR Path="/58712079/5870A88E" Ref="R114"  Part="1" 
+AR Path="/58714278/5870A88E" Ref="R121"  Part="1" 
+AR Path="/58714281/5870A88E" Ref="R128"  Part="1" 
+AR Path="/5871428A/5870A88E" Ref="R135"  Part="1" 
+AR Path="/58714293/5870A88E" Ref="R142"  Part="1" 
+AR Path="/5871429C/5870A88E" Ref="R149"  Part="1" 
+F 0 "R79" V 6080 2600 50  0000 C CNN
+F 1 "1k" V 6000 2600 50  0000 C CNN
+F 2 "" V 5930 2600 30  0000 C CNN
+F 3 "" H 6000 2600 30  0000 C CNN
+	1    6000 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 2600 5350 2600
+Text HLabel 5350 2600 0    60   Input ~ 0
+SEG_B
+Wire Wire Line
+	6200 2600 6150 2600
+$Comp
+L LED D10
+U 1 1 5870A898
+P 5600 2900
+AR Path="/58709A98/5870A898" Ref="D10"  Part="1" 
+AR Path="/58710C4B/5870A898" Ref="D66"  Part="1" 
+AR Path="/5870D5D9/5870A898" Ref="D38"  Part="1" 
+AR Path="/5870BA6D/5870A898" Ref="D17"  Part="1" 
+AR Path="/5870C280/5870A898" Ref="D24"  Part="1" 
+AR Path="/5870C70C/5870A898" Ref="D31"  Part="1" 
+AR Path="/5870D5E2/5870A898" Ref="D45"  Part="1" 
+AR Path="/58710C39/5870A898" Ref="D52"  Part="1" 
+AR Path="/58710C42/5870A898" Ref="D59"  Part="1" 
+AR Path="/58710C54/5870A898" Ref="D73"  Part="1" 
+AR Path="/58711173/5870A898" Ref="D80"  Part="1" 
+AR Path="/58712055/5870A898" Ref="D87"  Part="1" 
+AR Path="/5871205E/5870A898" Ref="D94"  Part="1" 
+AR Path="/58712067/5870A898" Ref="D101"  Part="1" 
+AR Path="/58712070/5870A898" Ref="D108"  Part="1" 
+AR Path="/58712079/5870A898" Ref="D115"  Part="1" 
+AR Path="/58714278/5870A898" Ref="D122"  Part="1" 
+AR Path="/58714281/5870A898" Ref="D129"  Part="1" 
+AR Path="/5871428A/5870A898" Ref="D136"  Part="1" 
+AR Path="/58714293/5870A898" Ref="D143"  Part="1" 
+AR Path="/5871429C/5870A898" Ref="D150"  Part="1" 
+F 0 "D80" H 5600 3000 50  0000 C CNN
+F 1 "LED" H 5600 2800 50  0000 C CNN
+F 2 "" H 5600 2900 60  0000 C CNN
+F 3 "" H 5600 2900 60  0000 C CNN
+	1    5600 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 2900 5850 2900
+$Comp
+L R R10
+U 1 1 5870A8A0
+P 6000 2900
+AR Path="/58709A98/5870A8A0" Ref="R10"  Part="1" 
+AR Path="/58710C4B/5870A8A0" Ref="R66"  Part="1" 
+AR Path="/5870D5D9/5870A8A0" Ref="R38"  Part="1" 
+AR Path="/5870BA6D/5870A8A0" Ref="R17"  Part="1" 
+AR Path="/5870C280/5870A8A0" Ref="R24"  Part="1" 
+AR Path="/5870C70C/5870A8A0" Ref="R31"  Part="1" 
+AR Path="/5870D5E2/5870A8A0" Ref="R45"  Part="1" 
+AR Path="/58710C39/5870A8A0" Ref="R52"  Part="1" 
+AR Path="/58710C42/5870A8A0" Ref="R59"  Part="1" 
+AR Path="/58710C54/5870A8A0" Ref="R73"  Part="1" 
+AR Path="/58711173/5870A8A0" Ref="R80"  Part="1" 
+AR Path="/58712055/5870A8A0" Ref="R87"  Part="1" 
+AR Path="/5871205E/5870A8A0" Ref="R94"  Part="1" 
+AR Path="/58712067/5870A8A0" Ref="R101"  Part="1" 
+AR Path="/58712070/5870A8A0" Ref="R108"  Part="1" 
+AR Path="/58712079/5870A8A0" Ref="R115"  Part="1" 
+AR Path="/58714278/5870A8A0" Ref="R122"  Part="1" 
+AR Path="/58714281/5870A8A0" Ref="R129"  Part="1" 
+AR Path="/5871428A/5870A8A0" Ref="R136"  Part="1" 
+AR Path="/58714293/5870A8A0" Ref="R143"  Part="1" 
+AR Path="/5871429C/5870A8A0" Ref="R150"  Part="1" 
+F 0 "R80" V 6080 2900 50  0000 C CNN
+F 1 "1k" V 6000 2900 50  0000 C CNN
+F 2 "" V 5930 2900 30  0000 C CNN
+F 3 "" H 6000 2900 30  0000 C CNN
+	1    6000 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 2900 5350 2900
+Text HLabel 5350 2900 0    60   Input ~ 0
+SEG_C
+Wire Wire Line
+	6200 2900 6150 2900
+$Comp
+L LED D11
+U 1 1 5870A8AA
+P 5600 3200
+AR Path="/58709A98/5870A8AA" Ref="D11"  Part="1" 
+AR Path="/58710C4B/5870A8AA" Ref="D67"  Part="1" 
+AR Path="/5870D5D9/5870A8AA" Ref="D39"  Part="1" 
+AR Path="/5870BA6D/5870A8AA" Ref="D18"  Part="1" 
+AR Path="/5870C280/5870A8AA" Ref="D25"  Part="1" 
+AR Path="/5870C70C/5870A8AA" Ref="D32"  Part="1" 
+AR Path="/5870D5E2/5870A8AA" Ref="D46"  Part="1" 
+AR Path="/58710C39/5870A8AA" Ref="D53"  Part="1" 
+AR Path="/58710C42/5870A8AA" Ref="D60"  Part="1" 
+AR Path="/58710C54/5870A8AA" Ref="D74"  Part="1" 
+AR Path="/58711173/5870A8AA" Ref="D81"  Part="1" 
+AR Path="/58712055/5870A8AA" Ref="D88"  Part="1" 
+AR Path="/5871205E/5870A8AA" Ref="D95"  Part="1" 
+AR Path="/58712067/5870A8AA" Ref="D102"  Part="1" 
+AR Path="/58712070/5870A8AA" Ref="D109"  Part="1" 
+AR Path="/58712079/5870A8AA" Ref="D116"  Part="1" 
+AR Path="/58714278/5870A8AA" Ref="D123"  Part="1" 
+AR Path="/58714281/5870A8AA" Ref="D130"  Part="1" 
+AR Path="/5871428A/5870A8AA" Ref="D137"  Part="1" 
+AR Path="/58714293/5870A8AA" Ref="D144"  Part="1" 
+AR Path="/5871429C/5870A8AA" Ref="D151"  Part="1" 
+F 0 "D81" H 5600 3300 50  0000 C CNN
+F 1 "LED" H 5600 3100 50  0000 C CNN
+F 2 "" H 5600 3200 60  0000 C CNN
+F 3 "" H 5600 3200 60  0000 C CNN
+	1    5600 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 3200 5850 3200
+$Comp
+L R R11
+U 1 1 5870A8B2
+P 6000 3200
+AR Path="/58709A98/5870A8B2" Ref="R11"  Part="1" 
+AR Path="/58710C4B/5870A8B2" Ref="R67"  Part="1" 
+AR Path="/5870D5D9/5870A8B2" Ref="R39"  Part="1" 
+AR Path="/5870BA6D/5870A8B2" Ref="R18"  Part="1" 
+AR Path="/5870C280/5870A8B2" Ref="R25"  Part="1" 
+AR Path="/5870C70C/5870A8B2" Ref="R32"  Part="1" 
+AR Path="/5870D5E2/5870A8B2" Ref="R46"  Part="1" 
+AR Path="/58710C39/5870A8B2" Ref="R53"  Part="1" 
+AR Path="/58710C42/5870A8B2" Ref="R60"  Part="1" 
+AR Path="/58710C54/5870A8B2" Ref="R74"  Part="1" 
+AR Path="/58711173/5870A8B2" Ref="R81"  Part="1" 
+AR Path="/58712055/5870A8B2" Ref="R88"  Part="1" 
+AR Path="/5871205E/5870A8B2" Ref="R95"  Part="1" 
+AR Path="/58712067/5870A8B2" Ref="R102"  Part="1" 
+AR Path="/58712070/5870A8B2" Ref="R109"  Part="1" 
+AR Path="/58712079/5870A8B2" Ref="R116"  Part="1" 
+AR Path="/58714278/5870A8B2" Ref="R123"  Part="1" 
+AR Path="/58714281/5870A8B2" Ref="R130"  Part="1" 
+AR Path="/5871428A/5870A8B2" Ref="R137"  Part="1" 
+AR Path="/58714293/5870A8B2" Ref="R144"  Part="1" 
+AR Path="/5871429C/5870A8B2" Ref="R151"  Part="1" 
+F 0 "R81" V 6080 3200 50  0000 C CNN
+F 1 "1k" V 6000 3200 50  0000 C CNN
+F 2 "" V 5930 3200 30  0000 C CNN
+F 3 "" H 6000 3200 30  0000 C CNN
+	1    6000 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 3200 5350 3200
+Text HLabel 5350 3200 0    60   Input ~ 0
+SEG_D
+Wire Wire Line
+	6200 3200 6150 3200
+Connection ~ 6200 2600
+Connection ~ 6200 2900
+$Comp
+L LED D12
+U 1 1 5870A8BE
+P 5600 3500
+AR Path="/58709A98/5870A8BE" Ref="D12"  Part="1" 
+AR Path="/58710C4B/5870A8BE" Ref="D68"  Part="1" 
+AR Path="/5870D5D9/5870A8BE" Ref="D40"  Part="1" 
+AR Path="/5870BA6D/5870A8BE" Ref="D19"  Part="1" 
+AR Path="/5870C280/5870A8BE" Ref="D26"  Part="1" 
+AR Path="/5870C70C/5870A8BE" Ref="D33"  Part="1" 
+AR Path="/5870D5E2/5870A8BE" Ref="D47"  Part="1" 
+AR Path="/58710C39/5870A8BE" Ref="D54"  Part="1" 
+AR Path="/58710C42/5870A8BE" Ref="D61"  Part="1" 
+AR Path="/58710C54/5870A8BE" Ref="D75"  Part="1" 
+AR Path="/58711173/5870A8BE" Ref="D82"  Part="1" 
+AR Path="/58712055/5870A8BE" Ref="D89"  Part="1" 
+AR Path="/5871205E/5870A8BE" Ref="D96"  Part="1" 
+AR Path="/58712067/5870A8BE" Ref="D103"  Part="1" 
+AR Path="/58712070/5870A8BE" Ref="D110"  Part="1" 
+AR Path="/58712079/5870A8BE" Ref="D117"  Part="1" 
+AR Path="/58714278/5870A8BE" Ref="D124"  Part="1" 
+AR Path="/58714281/5870A8BE" Ref="D131"  Part="1" 
+AR Path="/5871428A/5870A8BE" Ref="D138"  Part="1" 
+AR Path="/58714293/5870A8BE" Ref="D145"  Part="1" 
+AR Path="/5871429C/5870A8BE" Ref="D152"  Part="1" 
+F 0 "D82" H 5600 3600 50  0000 C CNN
+F 1 "LED" H 5600 3400 50  0000 C CNN
+F 2 "" H 5600 3500 60  0000 C CNN
+F 3 "" H 5600 3500 60  0000 C CNN
+	1    5600 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 3500 5850 3500
+$Comp
+L R R12
+U 1 1 5870A8C6
+P 6000 3500
+AR Path="/58709A98/5870A8C6" Ref="R12"  Part="1" 
+AR Path="/58710C4B/5870A8C6" Ref="R68"  Part="1" 
+AR Path="/5870D5D9/5870A8C6" Ref="R40"  Part="1" 
+AR Path="/5870BA6D/5870A8C6" Ref="R19"  Part="1" 
+AR Path="/5870C280/5870A8C6" Ref="R26"  Part="1" 
+AR Path="/5870C70C/5870A8C6" Ref="R33"  Part="1" 
+AR Path="/5870D5E2/5870A8C6" Ref="R47"  Part="1" 
+AR Path="/58710C39/5870A8C6" Ref="R54"  Part="1" 
+AR Path="/58710C42/5870A8C6" Ref="R61"  Part="1" 
+AR Path="/58710C54/5870A8C6" Ref="R75"  Part="1" 
+AR Path="/58711173/5870A8C6" Ref="R82"  Part="1" 
+AR Path="/58712055/5870A8C6" Ref="R89"  Part="1" 
+AR Path="/5871205E/5870A8C6" Ref="R96"  Part="1" 
+AR Path="/58712067/5870A8C6" Ref="R103"  Part="1" 
+AR Path="/58712070/5870A8C6" Ref="R110"  Part="1" 
+AR Path="/58712079/5870A8C6" Ref="R117"  Part="1" 
+AR Path="/58714278/5870A8C6" Ref="R124"  Part="1" 
+AR Path="/58714281/5870A8C6" Ref="R131"  Part="1" 
+AR Path="/5871428A/5870A8C6" Ref="R138"  Part="1" 
+AR Path="/58714293/5870A8C6" Ref="R145"  Part="1" 
+AR Path="/5871429C/5870A8C6" Ref="R152"  Part="1" 
+F 0 "R82" V 6080 3500 50  0000 C CNN
+F 1 "1k" V 6000 3500 50  0000 C CNN
+F 2 "" V 5930 3500 30  0000 C CNN
+F 3 "" H 6000 3500 30  0000 C CNN
+	1    6000 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 3500 5350 3500
+Text HLabel 5350 3500 0    60   Input ~ 0
+SEG_E
+Wire Wire Line
+	6200 3500 6150 3500
+$Comp
+L LED D13
+U 1 1 5870A8D0
+P 5600 3800
+AR Path="/58709A98/5870A8D0" Ref="D13"  Part="1" 
+AR Path="/58710C4B/5870A8D0" Ref="D69"  Part="1" 
+AR Path="/5870D5D9/5870A8D0" Ref="D41"  Part="1" 
+AR Path="/5870BA6D/5870A8D0" Ref="D20"  Part="1" 
+AR Path="/5870C280/5870A8D0" Ref="D27"  Part="1" 
+AR Path="/5870C70C/5870A8D0" Ref="D34"  Part="1" 
+AR Path="/5870D5E2/5870A8D0" Ref="D48"  Part="1" 
+AR Path="/58710C39/5870A8D0" Ref="D55"  Part="1" 
+AR Path="/58710C42/5870A8D0" Ref="D62"  Part="1" 
+AR Path="/58710C54/5870A8D0" Ref="D76"  Part="1" 
+AR Path="/58711173/5870A8D0" Ref="D83"  Part="1" 
+AR Path="/58712055/5870A8D0" Ref="D90"  Part="1" 
+AR Path="/5871205E/5870A8D0" Ref="D97"  Part="1" 
+AR Path="/58712067/5870A8D0" Ref="D104"  Part="1" 
+AR Path="/58712070/5870A8D0" Ref="D111"  Part="1" 
+AR Path="/58712079/5870A8D0" Ref="D118"  Part="1" 
+AR Path="/58714278/5870A8D0" Ref="D125"  Part="1" 
+AR Path="/58714281/5870A8D0" Ref="D132"  Part="1" 
+AR Path="/5871428A/5870A8D0" Ref="D139"  Part="1" 
+AR Path="/58714293/5870A8D0" Ref="D146"  Part="1" 
+AR Path="/5871429C/5870A8D0" Ref="D153"  Part="1" 
+F 0 "D83" H 5600 3900 50  0000 C CNN
+F 1 "LED" H 5600 3700 50  0000 C CNN
+F 2 "" H 5600 3800 60  0000 C CNN
+F 3 "" H 5600 3800 60  0000 C CNN
+	1    5600 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 3800 5850 3800
+$Comp
+L R R13
+U 1 1 5870A8D8
+P 6000 3800
+AR Path="/58709A98/5870A8D8" Ref="R13"  Part="1" 
+AR Path="/58710C4B/5870A8D8" Ref="R69"  Part="1" 
+AR Path="/5870D5D9/5870A8D8" Ref="R41"  Part="1" 
+AR Path="/5870BA6D/5870A8D8" Ref="R20"  Part="1" 
+AR Path="/5870C280/5870A8D8" Ref="R27"  Part="1" 
+AR Path="/5870C70C/5870A8D8" Ref="R34"  Part="1" 
+AR Path="/5870D5E2/5870A8D8" Ref="R48"  Part="1" 
+AR Path="/58710C39/5870A8D8" Ref="R55"  Part="1" 
+AR Path="/58710C42/5870A8D8" Ref="R62"  Part="1" 
+AR Path="/58710C54/5870A8D8" Ref="R76"  Part="1" 
+AR Path="/58711173/5870A8D8" Ref="R83"  Part="1" 
+AR Path="/58712055/5870A8D8" Ref="R90"  Part="1" 
+AR Path="/5871205E/5870A8D8" Ref="R97"  Part="1" 
+AR Path="/58712067/5870A8D8" Ref="R104"  Part="1" 
+AR Path="/58712070/5870A8D8" Ref="R111"  Part="1" 
+AR Path="/58712079/5870A8D8" Ref="R118"  Part="1" 
+AR Path="/58714278/5870A8D8" Ref="R125"  Part="1" 
+AR Path="/58714281/5870A8D8" Ref="R132"  Part="1" 
+AR Path="/5871428A/5870A8D8" Ref="R139"  Part="1" 
+AR Path="/58714293/5870A8D8" Ref="R146"  Part="1" 
+AR Path="/5871429C/5870A8D8" Ref="R153"  Part="1" 
+F 0 "R83" V 6080 3800 50  0000 C CNN
+F 1 "1k" V 6000 3800 50  0000 C CNN
+F 2 "" V 5930 3800 30  0000 C CNN
+F 3 "" H 6000 3800 30  0000 C CNN
+	1    6000 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 3800 5350 3800
+Text HLabel 5350 3800 0    60   Input ~ 0
+SEG_F
+Wire Wire Line
+	6200 3800 6150 3800
+$Comp
+L LED D14
+U 1 1 5870A8E2
+P 5600 4100
+AR Path="/58709A98/5870A8E2" Ref="D14"  Part="1" 
+AR Path="/58710C4B/5870A8E2" Ref="D70"  Part="1" 
+AR Path="/5870D5D9/5870A8E2" Ref="D42"  Part="1" 
+AR Path="/5870BA6D/5870A8E2" Ref="D21"  Part="1" 
+AR Path="/5870C280/5870A8E2" Ref="D28"  Part="1" 
+AR Path="/5870C70C/5870A8E2" Ref="D35"  Part="1" 
+AR Path="/5870D5E2/5870A8E2" Ref="D49"  Part="1" 
+AR Path="/58710C39/5870A8E2" Ref="D56"  Part="1" 
+AR Path="/58710C42/5870A8E2" Ref="D63"  Part="1" 
+AR Path="/58710C54/5870A8E2" Ref="D77"  Part="1" 
+AR Path="/58711173/5870A8E2" Ref="D84"  Part="1" 
+AR Path="/58712055/5870A8E2" Ref="D91"  Part="1" 
+AR Path="/5871205E/5870A8E2" Ref="D98"  Part="1" 
+AR Path="/58712067/5870A8E2" Ref="D105"  Part="1" 
+AR Path="/58712070/5870A8E2" Ref="D112"  Part="1" 
+AR Path="/58712079/5870A8E2" Ref="D119"  Part="1" 
+AR Path="/58714278/5870A8E2" Ref="D126"  Part="1" 
+AR Path="/58714281/5870A8E2" Ref="D133"  Part="1" 
+AR Path="/5871428A/5870A8E2" Ref="D140"  Part="1" 
+AR Path="/58714293/5870A8E2" Ref="D147"  Part="1" 
+AR Path="/5871429C/5870A8E2" Ref="D154"  Part="1" 
+F 0 "D84" H 5600 4200 50  0000 C CNN
+F 1 "LED" H 5600 4000 50  0000 C CNN
+F 2 "" H 5600 4100 60  0000 C CNN
+F 3 "" H 5600 4100 60  0000 C CNN
+	1    5600 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 4100 5850 4100
+$Comp
+L R R14
+U 1 1 5870A8EA
+P 6000 4100
+AR Path="/58709A98/5870A8EA" Ref="R14"  Part="1" 
+AR Path="/58710C4B/5870A8EA" Ref="R70"  Part="1" 
+AR Path="/5870D5D9/5870A8EA" Ref="R42"  Part="1" 
+AR Path="/5870BA6D/5870A8EA" Ref="R21"  Part="1" 
+AR Path="/5870C280/5870A8EA" Ref="R28"  Part="1" 
+AR Path="/5870C70C/5870A8EA" Ref="R35"  Part="1" 
+AR Path="/5870D5E2/5870A8EA" Ref="R49"  Part="1" 
+AR Path="/58710C39/5870A8EA" Ref="R56"  Part="1" 
+AR Path="/58710C42/5870A8EA" Ref="R63"  Part="1" 
+AR Path="/58710C54/5870A8EA" Ref="R77"  Part="1" 
+AR Path="/58711173/5870A8EA" Ref="R84"  Part="1" 
+AR Path="/58712055/5870A8EA" Ref="R91"  Part="1" 
+AR Path="/5871205E/5870A8EA" Ref="R98"  Part="1" 
+AR Path="/58712067/5870A8EA" Ref="R105"  Part="1" 
+AR Path="/58712070/5870A8EA" Ref="R112"  Part="1" 
+AR Path="/58712079/5870A8EA" Ref="R119"  Part="1" 
+AR Path="/58714278/5870A8EA" Ref="R126"  Part="1" 
+AR Path="/58714281/5870A8EA" Ref="R133"  Part="1" 
+AR Path="/5871428A/5870A8EA" Ref="R140"  Part="1" 
+AR Path="/58714293/5870A8EA" Ref="R147"  Part="1" 
+AR Path="/5871429C/5870A8EA" Ref="R154"  Part="1" 
+F 0 "R84" V 6080 4100 50  0000 C CNN
+F 1 "1k" V 6000 4100 50  0000 C CNN
+F 2 "" V 5930 4100 30  0000 C CNN
+F 3 "" H 6000 4100 30  0000 C CNN
+	1    6000 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 4100 5350 4100
+Text HLabel 5350 4100 0    60   Input ~ 0
+SEG_G
+Wire Wire Line
+	6200 4100 6150 4100
+Connection ~ 6200 3500
+Connection ~ 6200 3800
+Connection ~ 6200 3200
+Connection ~ 6200 4100
+$Comp
+L GND #PWR04
+U 1 1 5870A8F8
+P 6200 4200
+AR Path="/58709A98/5870A8F8" Ref="#PWR04"  Part="1" 
+AR Path="/58710C4B/5870A8F8" Ref="#PWR012"  Part="1" 
+AR Path="/5870D5D9/5870A8F8" Ref="#PWR08"  Part="1" 
+AR Path="/5870BA6D/5870A8F8" Ref="#PWR05"  Part="1" 
+AR Path="/5870C280/5870A8F8" Ref="#PWR06"  Part="1" 
+AR Path="/5870C70C/5870A8F8" Ref="#PWR07"  Part="1" 
+AR Path="/5870D5E2/5870A8F8" Ref="#PWR09"  Part="1" 
+AR Path="/58710C39/5870A8F8" Ref="#PWR010"  Part="1" 
+AR Path="/58710C42/5870A8F8" Ref="#PWR011"  Part="1" 
+AR Path="/58710C54/5870A8F8" Ref="#PWR013"  Part="1" 
+AR Path="/58711173/5870A8F8" Ref="#PWR014"  Part="1" 
+AR Path="/58712055/5870A8F8" Ref="#PWR015"  Part="1" 
+AR Path="/5871205E/5870A8F8" Ref="#PWR016"  Part="1" 
+AR Path="/58712067/5870A8F8" Ref="#PWR017"  Part="1" 
+AR Path="/58712070/5870A8F8" Ref="#PWR018"  Part="1" 
+AR Path="/58712079/5870A8F8" Ref="#PWR019"  Part="1" 
+AR Path="/58714278/5870A8F8" Ref="#PWR020"  Part="1" 
+AR Path="/58714281/5870A8F8" Ref="#PWR021"  Part="1" 
+AR Path="/5871428A/5870A8F8" Ref="#PWR022"  Part="1" 
+AR Path="/58714293/5870A8F8" Ref="#PWR023"  Part="1" 
+AR Path="/5871429C/5870A8F8" Ref="#PWR024"  Part="1" 
+F 0 "#PWR014" H 6200 3950 50  0001 C CNN
+F 1 "GND" H 6200 4050 50  0000 C CNN
+F 2 "" H 6200 4200 60  0000 C CNN
+F 3 "" H 6200 4200 60  0000 C CNN
+	1    6200 4200
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
