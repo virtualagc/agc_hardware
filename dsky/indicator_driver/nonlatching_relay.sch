@@ -1,0 +1,212 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:agc_kicad_components
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 12 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L EC2-12NU K21
+U 1 1 582E9908
+P 6450 2600
+AR Path="/582E87BD/582E9908" Ref="K21"  Part="1" 
+AR Path="/582FE107/582E9908" Ref="K22"  Part="1" 
+F 0 "K22" H 6450 3000 60  0000 C CNN
+F 1 "EC2-12NU" H 6450 2175 60  0000 C CNN
+F 2 "" H 6450 2550 60  0000 C CNN
+F 3 "" H 6450 2550 60  0000 C CNN
+	1    6450 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2900 6900 2900
+Wire Wire Line
+	6900 2900 6900 3300
+$Comp
+L GND #PWR010
+U 1 1 582E9BB0
+P 6900 3300
+AR Path="/582E87BD/582E9BB0" Ref="#PWR010"  Part="1" 
+AR Path="/582FE107/582E9BB0" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 6900 3050 50  0001 C CNN
+F 1 "GND" H 6900 3150 50  0000 C CNN
+F 2 "" H 6900 3300 60  0000 C CNN
+F 3 "" H 6900 3300 60  0000 C CNN
+	1    6900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D89
+U 1 1 582E9BCC
+P 6450 3250
+AR Path="/582E87BD/582E9BCC" Ref="D89"  Part="1" 
+AR Path="/582FE107/582E9BCC" Ref="D90"  Part="1" 
+F 0 "D90" H 6450 3350 50  0000 C CNN
+F 1 "D" H 6450 3150 50  0000 C CNN
+F 2 "" H 6450 3250 60  0000 C CNN
+F 3 "" H 6450 3250 60  0000 C CNN
+	1    6450 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3250 6600 3250
+Connection ~ 6900 3250
+Wire Wire Line
+	6300 3250 6050 3250
+Wire Wire Line
+	6050 3250 6050 2900
+Wire Wire Line
+	5150 2900 6100 2900
+Wire Wire Line
+	5150 2850 5150 2900
+Connection ~ 6050 2900
+Text HLabel 3650 2650 0    60   Input ~ 0
+RELAY_SET
+Wire Wire Line
+	4150 2650 4850 2650
+$Comp
+L R R24
+U 1 1 582EC118
+P 4000 2650
+AR Path="/582FE107/582EC118" Ref="R24"  Part="1" 
+AR Path="/582E87BD/582EC118" Ref="R22"  Part="1" 
+F 0 "R24" V 4080 2650 50  0000 C CNN
+F 1 "10k" V 4000 2650 50  0000 C CNN
+F 2 "" V 3930 2650 30  0000 C CNN
+F 3 "" H 4000 2650 30  0000 C CNN
+	1    4000 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 2650 3650 2650
+$Comp
+L R R25
+U 1 1 582EC121
+P 4300 2400
+AR Path="/582FE107/582EC121" Ref="R25"  Part="1" 
+AR Path="/582E87BD/582EC121" Ref="R23"  Part="1" 
+F 0 "R25" V 4380 2400 50  0000 C CNN
+F 1 "2k" V 4300 2400 50  0000 C CNN
+F 2 "" V 4230 2400 30  0000 C CNN
+F 3 "" H 4300 2400 30  0000 C CNN
+	1    4300 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2550 4300 2650
+Connection ~ 4300 2650
+$Comp
+L C C5
+U 1 1 582EC12A
+P 4600 2400
+AR Path="/582FE107/582EC12A" Ref="C5"  Part="1" 
+AR Path="/582E87BD/582EC12A" Ref="C4"  Part="1" 
+F 0 "C5" H 4625 2500 50  0000 L CNN
+F 1 "0.1uF" H 4625 2300 50  0000 L CNN
+F 2 "" H 4638 2250 30  0000 C CNN
+F 3 "" H 4600 2400 60  0000 C CNN
+	1    4600 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2550 4600 2650
+Connection ~ 4600 2650
+Wire Wire Line
+	4300 2250 4300 2150
+Wire Wire Line
+	4600 2150 4600 2250
+$Comp
+L +12V #PWR013
+U 1 1 582EC136
+P 5150 2050
+AR Path="/582FE107/582EC136" Ref="#PWR013"  Part="1" 
+AR Path="/582E87BD/582EC136" Ref="#PWR011"  Part="1" 
+F 0 "#PWR013" H 5150 1900 50  0001 C CNN
+F 1 "+12V" H 5150 2190 50  0000 C CNN
+F 2 "" H 5150 2050 60  0000 C CNN
+F 3 "" H 5150 2050 60  0000 C CNN
+	1    5150 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2050 5150 2450
+$Comp
+L Q_PNP_CBE Q12
+U 1 1 582EC13D
+P 5050 2650
+AR Path="/582FE107/582EC13D" Ref="Q12"  Part="1" 
+AR Path="/582E87BD/582EC13D" Ref="Q11"  Part="1" 
+F 0 "Q12" H 5400 2700 50  0000 R CNN
+F 1 "PN2907A" H 5600 2600 50  0000 R CNN
+F 2 "" H 5250 2750 29  0000 C CNN
+F 3 "" H 5050 2650 60  0000 C CNN
+	1    5050 2650
+	1    0    0    1   
+$EndComp
+Connection ~ 4600 2150
+Connection ~ 5150 2150
+Wire Wire Line
+	4300 2150 5150 2150
+Wire Wire Line
+	6800 2350 6900 2350
+Text HLabel 6900 2350 2    60   Output ~ 0
+C1
+Wire Wire Line
+	6800 2650 6900 2650
+Text HLabel 6900 2650 2    60   Output ~ 0
+C2
+Text HLabel 6000 2250 0    60   Input ~ 0
+NC1
+Wire Wire Line
+	6000 2250 6100 2250
+Text HLabel 6000 2450 0    60   Input ~ 0
+NO1
+Wire Wire Line
+	6000 2450 6100 2450
+Text HLabel 6000 2550 0    60   Input ~ 0
+NC2
+Wire Wire Line
+	6000 2550 6100 2550
+Text HLabel 6000 2750 0    60   Input ~ 0
+NO2
+Wire Wire Line
+	6000 2750 6100 2750
+$EndSCHEMATC

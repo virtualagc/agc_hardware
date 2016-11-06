@@ -1,0 +1,322 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:agc_kicad_components
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L D D81
+U 1 1 582B1340
+P 3200 2200
+AR Path="/582AE841/582B1340" Ref="D81"  Part="1" 
+AR Path="/582C01D3/582B1340" Ref="D85"  Part="1" 
+F 0 "D85" H 3200 2300 50  0000 C CNN
+F 1 "1N4148" H 3200 2100 50  0000 C CNN
+F 2 "" H 3200 2200 60  0000 C CNN
+F 3 "" H 3200 2200 60  0000 C CNN
+	1    3200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D82
+U 1 1 582B1403
+P 3200 2550
+AR Path="/582AE841/582B1403" Ref="D82"  Part="1" 
+AR Path="/582C01D3/582B1403" Ref="D86"  Part="1" 
+F 0 "D86" H 3200 2650 50  0000 C CNN
+F 1 "1N4148" H 3200 2450 50  0000 C CNN
+F 2 "" H 3200 2550 60  0000 C CNN
+F 3 "" H 3200 2550 60  0000 C CNN
+	1    3200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D83
+U 1 1 582B141D
+P 3200 2900
+AR Path="/582AE841/582B141D" Ref="D83"  Part="1" 
+AR Path="/582C01D3/582B141D" Ref="D87"  Part="1" 
+F 0 "D87" H 3200 3000 50  0000 C CNN
+F 1 "1N4148" H 3200 2800 50  0000 C CNN
+F 2 "" H 3200 2900 60  0000 C CNN
+F 3 "" H 3200 2900 60  0000 C CNN
+	1    3200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D84
+U 1 1 582B1438
+P 3200 3250
+AR Path="/582AE841/582B1438" Ref="D84"  Part="1" 
+AR Path="/582C01D3/582B1438" Ref="D88"  Part="1" 
+F 0 "D88" H 3200 3350 50  0000 C CNN
+F 1 "1N4148" H 3200 3150 50  0000 C CNN
+F 2 "" H 3200 3250 60  0000 C CNN
+F 3 "" H 3200 3250 60  0000 C CNN
+	1    3200 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 582B14F9
+P 2900 3600
+AR Path="/582AE841/582B14F9" Ref="R10"  Part="1" 
+AR Path="/582C01D3/582B14F9" Ref="R16"  Part="1" 
+F 0 "R16" V 2980 3600 50  0000 C CNN
+F 1 "1k" V 2900 3600 50  0000 C CNN
+F 2 "" V 2830 3600 30  0000 C CNN
+F 3 "" H 2900 3600 30  0000 C CNN
+	1    2900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R11
+U 1 1 582B1AC1
+P 2700 3600
+AR Path="/582AE841/582B1AC1" Ref="R11"  Part="1" 
+AR Path="/582C01D3/582B1AC1" Ref="R17"  Part="1" 
+F 0 "R17" V 2780 3600 50  0000 C CNN
+F 1 "1k" V 2700 3600 50  0000 C CNN
+F 2 "" V 2630 3600 30  0000 C CNN
+F 3 "" H 2700 3600 30  0000 C CNN
+	1    2700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R12
+U 1 1 582B1B16
+P 2500 3600
+AR Path="/582AE841/582B1B16" Ref="R12"  Part="1" 
+AR Path="/582C01D3/582B1B16" Ref="R18"  Part="1" 
+F 0 "R18" V 2580 3600 50  0000 C CNN
+F 1 "1k" V 2500 3600 50  0000 C CNN
+F 2 "" V 2430 3600 30  0000 C CNN
+F 3 "" H 2500 3600 30  0000 C CNN
+	1    2500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R13
+U 1 1 582B1B1C
+P 2300 3600
+AR Path="/582AE841/582B1B1C" Ref="R13"  Part="1" 
+AR Path="/582C01D3/582B1B1C" Ref="R19"  Part="1" 
+F 0 "R19" V 2380 3600 50  0000 C CNN
+F 1 "1k" V 2300 3600 50  0000 C CNN
+F 2 "" V 2230 3600 30  0000 C CNN
+F 3 "" H 2300 3600 30  0000 C CNN
+	1    2300 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3750 2300 3850
+Wire Wire Line
+	2300 3850 2900 3850
+Wire Wire Line
+	2500 3850 2500 3750
+Wire Wire Line
+	2700 3850 2700 3750
+Connection ~ 2500 3850
+Wire Wire Line
+	2900 3850 2900 3750
+Connection ~ 2700 3850
+$Comp
+L GND #PWR04
+U 1 1 582B1BA1
+P 2600 3950
+AR Path="/582AE841/582B1BA1" Ref="#PWR04"  Part="1" 
+AR Path="/582C01D3/582B1BA1" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 2600 3700 50  0001 C CNN
+F 1 "GND" H 2600 3800 50  0000 C CNN
+F 2 "" H 2600 3950 60  0000 C CNN
+F 3 "" H 2600 3950 60  0000 C CNN
+	1    2600 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3950 2600 3850
+Connection ~ 2600 3850
+Wire Wire Line
+	2150 3250 3050 3250
+Wire Wire Line
+	2900 3250 2900 3450
+Wire Wire Line
+	2150 2900 3050 2900
+Wire Wire Line
+	2700 2900 2700 3450
+Wire Wire Line
+	2150 2550 3050 2550
+Wire Wire Line
+	2500 2550 2500 3450
+Wire Wire Line
+	2150 2200 3050 2200
+Wire Wire Line
+	2300 2200 2300 3450
+Connection ~ 2300 2200
+Text HLabel 2150 2200 0    60   Input ~ 0
+RELAY_ADDR_4
+Text HLabel 2150 2550 0    60   Input ~ 0
+RELAY_ADDR_3
+Connection ~ 2500 2550
+Text HLabel 2150 2900 0    60   Input ~ 0
+RELAY_ADDR_2
+Connection ~ 2700 2900
+Text HLabel 2150 3250 0    60   Input ~ 0
+RELAY_ADDR_1
+Connection ~ 2900 3250
+Wire Wire Line
+	3350 2200 3500 2200
+Wire Wire Line
+	3350 2550 4000 2550
+Wire Wire Line
+	3500 2150 3500 3250
+Wire Wire Line
+	3500 2900 3350 2900
+Connection ~ 3500 2550
+Wire Wire Line
+	3500 3250 3350 3250
+Connection ~ 3500 2900
+Connection ~ 3500 2200
+$Comp
+L R R14
+U 1 1 582B2579
+P 3500 2000
+AR Path="/582AE841/582B2579" Ref="R14"  Part="1" 
+AR Path="/582C01D3/582B2579" Ref="R20"  Part="1" 
+F 0 "R20" V 3580 2000 50  0000 C CNN
+F 1 "100k" V 3500 2000 50  0000 C CNN
+F 2 "" V 3430 2000 30  0000 C CNN
+F 3 "" H 3500 2000 30  0000 C CNN
+	1    3500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR05
+U 1 1 582B258A
+P 3500 1850
+AR Path="/582AE841/582B258A" Ref="#PWR05"  Part="1" 
+AR Path="/582C01D3/582B258A" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 3500 1700 50  0001 C CNN
+F 1 "+12V" H 3500 1990 50  0000 C CNN
+F 2 "" H 3500 1850 60  0000 C CNN
+F 3 "" H 3500 1850 60  0000 C CNN
+	1    3500 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NPN_CBE Q7
+U 1 1 582B2973
+P 4200 2550
+AR Path="/582AE841/582B2973" Ref="Q7"  Part="1" 
+AR Path="/582C01D3/582B2973" Ref="Q9"  Part="1" 
+F 0 "Q9" H 4500 2600 50  0000 R CNN
+F 1 "PN2222AA" H 4750 2500 50  0000 R CNN
+F 2 "" H 4400 2650 29  0000 C CNN
+F 3 "" H 4200 2550 60  0000 C CNN
+	1    4200 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2750 4300 2950
+Wire Wire Line
+	4300 2950 4700 2950
+$Comp
+L Q_NPN_CBE Q8
+U 1 1 582B2AA5
+P 4900 2950
+AR Path="/582AE841/582B2AA5" Ref="Q8"  Part="1" 
+AR Path="/582C01D3/582B2AA5" Ref="Q10"  Part="1" 
+F 0 "Q10" H 5200 3000 50  0000 R CNN
+F 1 "PN2222AA" H 5450 2900 50  0000 R CNN
+F 2 "" H 5100 3050 29  0000 C CNN
+F 3 "" H 4900 2950 60  0000 C CNN
+	1    4900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 582B2C0D
+P 5000 3450
+AR Path="/582AE841/582B2C0D" Ref="#PWR06"  Part="1" 
+AR Path="/582C01D3/582B2C0D" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 5000 3200 50  0001 C CNN
+F 1 "GND" H 5000 3300 50  0000 C CNN
+F 2 "" H 5000 3450 60  0000 C CNN
+F 3 "" H 5000 3450 60  0000 C CNN
+	1    5000 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3150 5000 3450
+$Comp
+L R R15
+U 1 1 582B2CB4
+P 4600 3150
+AR Path="/582AE841/582B2CB4" Ref="R15"  Part="1" 
+AR Path="/582C01D3/582B2CB4" Ref="R21"  Part="1" 
+F 0 "R21" V 4680 3150 50  0000 C CNN
+F 1 "5k" V 4600 3150 50  0000 C CNN
+F 2 "" V 4530 3150 30  0000 C CNN
+F 3 "" H 4600 3150 30  0000 C CNN
+	1    4600 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3300 4600 3350
+Wire Wire Line
+	4600 3350 5000 3350
+Connection ~ 5000 3350
+Wire Wire Line
+	4600 3000 4600 2950
+Connection ~ 4600 2950
+Wire Wire Line
+	4300 2350 4300 2250
+Wire Wire Line
+	4300 2250 5000 2250
+Wire Wire Line
+	5000 2000 5000 2750
+Connection ~ 5000 2250
+Wire Wire Line
+	5000 2000 5450 2000
+Text HLabel 5450 2000 2    60   Input ~ 0
+RELAY_LINE
+$EndSCHEMATC

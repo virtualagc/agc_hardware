@@ -38,8 +38,13 @@ D Hex Open Drain Buffer
 K CMOS OPEN DRAIN BUFFER
 $ENDCMP
 #
-$CMP EC2-12TNU
+$CMP EC2-12NU
 D Latching DPDT Relay
+K latching dpdt relay
+$ENDCMP
+#
+$CMP EC2-12TNU
+D Non-Latching DPDT Relay
 K latching dpdt relay
 $ENDCMP
 #
