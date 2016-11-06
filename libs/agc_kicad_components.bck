@@ -44,7 +44,7 @@ K latching dpdt relay
 $ENDCMP
 #
 $CMP EC2-12TNU
-D Latching DPDT Relay
+D Non-Latching DPDT Relay
 K latching dpdt relay
 $ENDCMP
 #
