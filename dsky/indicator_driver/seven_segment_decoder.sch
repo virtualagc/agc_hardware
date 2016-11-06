@@ -33,7 +33,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 12
+Sheet 12 12
 Title ""
 Date ""
 Rev ""
@@ -133,19 +133,6 @@ F 3 "" H 4100 6750 60  0000 C CNN
 	1    4100 6750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4050 5800 4100 5800
-Wire Wire Line
-	4100 5800 4100 6600
-Wire Wire Line
-	4400 5650 4400 6600
-Wire Wire Line
-	4050 5650 4400 5650
-Wire Wire Line
-	4400 7100 4400 6900
-Wire Wire Line
-	4100 6900 4100 7100
-Connection ~ 4400 7100
 $Comp
 L D D16
 U 1 1 5736EB71
@@ -176,20 +163,6 @@ F 3 "" H 6250 6750 60  0000 C CNN
 	1    6250 6750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5900 5800 5950 5800
-Wire Wire Line
-	5950 5800 5950 6600
-Wire Wire Line
-	6250 5650 6250 6600
-Wire Wire Line
-	5900 5650 6250 5650
-Wire Wire Line
-	5950 7100 5950 6900
-Connection ~ 5950 7100
-Wire Wire Line
-	6250 6900 6250 7300
-Connection ~ 6250 7100
 $Comp
 L D D12
 U 1 1 5736F1E0
@@ -220,19 +193,6 @@ F 3 "" H 8100 6750 60  0000 C CNN
 	1    8100 6750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7750 5800 7800 5800
-Wire Wire Line
-	7800 5800 7800 6600
-Wire Wire Line
-	8100 5650 8100 6600
-Wire Wire Line
-	7750 5650 8100 5650
-Wire Wire Line
-	7800 6900 7800 7100
-Wire Wire Line
-	8100 7100 8100 6900
-Connection ~ 7800 7100
 $Comp
 L D D8
 U 1 1 5736F3A7
@@ -263,19 +223,6 @@ F 3 "" H 9950 6750 60  0000 C CNN
 	1    9950 6750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	9600 5800 9650 5800
-Wire Wire Line
-	9650 5800 9650 6600
-Wire Wire Line
-	9950 5650 9950 6600
-Wire Wire Line
-	9600 5650 9950 5650
-Wire Wire Line
-	9650 7100 9650 6900
-Wire Wire Line
-	9950 7100 9950 6900
-Connection ~ 9650 7100
 $Comp
 L D D4
 U 1 1 5736FBD9
@@ -306,20 +253,7 @@ F 3 "" H 11800 6750 60  0000 C CNN
 	1    11800 6750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	11450 5800 11500 5800
-Wire Wire Line
-	11500 5800 11500 6600
-Wire Wire Line
-	11800 5650 11800 6600
-Wire Wire Line
-	11450 5650 11800 5650
-Wire Wire Line
-	11500 6900 11500 7100
-Wire Wire Line
-	11800 7100 11800 6900
-Connection ~ 11500 7100
-Text HLabel 2800 4250 0    60   Input ~ 0
+Text HLabel 2800 4100 0    60   Input ~ 0
 +250VAC
 Text HLabel 12350 3200 2    60   Output ~ 0
 SEG_A
@@ -365,26 +299,6 @@ F 3 "" H 3700 6500 60  0000 C CNN
 	1    3700 6500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4100 6200 3850 6200
-Connection ~ 4100 6200
-Wire Wire Line
-	4400 6500 3850 6500
-Connection ~ 4400 6500
-Wire Wire Line
-	3550 6200 3300 6200
-Wire Wire Line
-	3300 6200 3300 5800
-Wire Wire Line
-	3150 5800 3350 5800
-Wire Wire Line
-	3550 6500 3200 6500
-Wire Wire Line
-	3200 6500 3200 5650
-Wire Wire Line
-	3150 5650 3350 5650
-Connection ~ 3300 5800
-Connection ~ 3200 5650
 Text HLabel 3150 5650 0    60   Input ~ 0
 R5_SET
 Text HLabel 3150 5800 0    60   Input ~ 0
@@ -419,48 +333,14 @@ F 3 "" H 5550 6500 60  0000 C CNN
 	1    5550 6500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5950 6200 5700 6200
-Wire Wire Line
-	6250 6500 5700 6500
-Wire Wire Line
-	5400 6200 5150 6200
-Wire Wire Line
-	5400 6500 5050 6500
-Connection ~ 5950 6200
-Connection ~ 6250 6500
-Wire Wire Line
-	5000 5800 5200 5800
-Wire Wire Line
-	5000 5650 5200 5650
 Text HLabel 5000 5650 0    60   Input ~ 0
 R4_SET
 Text HLabel 5000 5800 0    60   Input ~ 0
 R4_RESET
-Wire Wire Line
-	5150 6200 5150 5800
-Connection ~ 5150 5800
-Wire Wire Line
-	5050 6500 5050 5650
-Connection ~ 5050 5650
-Wire Wire Line
-	7250 6200 7000 6200
-Wire Wire Line
-	7250 6500 6900 6500
-Wire Wire Line
-	6850 5800 7050 5800
-Wire Wire Line
-	6850 5650 7050 5650
 Text HLabel 6850 5650 0    60   Input ~ 0
 R3_SET
 Text HLabel 6850 5800 0    60   Input ~ 0
 R3_RESET
-Wire Wire Line
-	7000 6200 7000 5800
-Connection ~ 7000 5800
-Wire Wire Line
-	6900 6500 6900 5650
-Connection ~ 6900 5650
 $Comp
 L D D10
 U 1 1 57394E76
@@ -491,30 +371,10 @@ F 3 "" H 7400 6500 60  0000 C CNN
 	1    7400 6500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7800 6200 7550 6200
-Wire Wire Line
-	8100 6500 7550 6500
-Connection ~ 7800 6200
-Connection ~ 8100 6500
-Wire Wire Line
-	9100 6200 8850 6200
-Wire Wire Line
-	9100 6500 8750 6500
-Wire Wire Line
-	8700 5800 8900 5800
-Wire Wire Line
-	8700 5650 8900 5650
 Text HLabel 8700 5650 0    60   Input ~ 0
 R2_SET
 Text HLabel 8700 5800 0    60   Input ~ 0
 R2_RESET
-Wire Wire Line
-	8850 6200 8850 5800
-Connection ~ 8850 5800
-Wire Wire Line
-	8750 6500 8750 5650
-Connection ~ 8750 5650
 $Comp
 L D D6
 U 1 1 5739DEC3
@@ -545,30 +405,10 @@ F 3 "" H 9250 6500 60  0000 C CNN
 	1    9250 6500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9650 6200 9400 6200
-Wire Wire Line
-	9950 6500 9400 6500
-Connection ~ 9650 6200
-Connection ~ 9950 6500
-Wire Wire Line
-	10950 6200 10700 6200
-Wire Wire Line
-	10950 6500 10600 6500
-Wire Wire Line
-	10550 5800 10750 5800
-Wire Wire Line
-	10550 5650 10750 5650
 Text HLabel 10550 5650 0    60   Input ~ 0
 R1_SET
 Text HLabel 10550 5800 0    60   Input ~ 0
 R1_RESET
-Wire Wire Line
-	10700 6200 10700 5800
-Connection ~ 10700 5800
-Wire Wire Line
-	10600 6500 10600 5650
-Connection ~ 10600 5650
 $Comp
 L D D2
 U 1 1 573A3828
@@ -599,13 +439,6 @@ F 3 "" H 11100 6500 60  0000 C CNN
 	1    11100 6500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11500 6200 11250 6200
-Wire Wire Line
-	11800 6500 11250 6500
-Connection ~ 11500 6200
-Connection ~ 11800 6500
-Connection ~ 4100 7100
 Text HLabel 3700 7100 0    60   Input ~ 0
 R145_LINE/
 $Comp
@@ -623,10 +456,199 @@ F 3 "" H 5550 5300 60  0000 C CNN
 	1    5550 5350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10500 7100 11800 7100
 Text HLabel 7600 7100 0    60   Input ~ 0
 R2_LINE/
+Text HLabel 9700 5400 2    60   Output ~ 0
+R2_OUT
+Text HLabel 10350 5200 0    60   Input ~ 0
+R15_IN
+Text Notes 9800 5100 0    60   ~ 0
+Short these \nfor 7SDs
+Text Notes 6750 7750 0    60   ~ 0
+Adapted from the Apollo 12 Mission Report.
+Text Notes 12750 3450 0    60   ~ 0
+== MINUS
+Text Notes 12750 3750 0    60   ~ 0
+== PLUS VERTICAL
+Text Notes 12750 3250 0    60   ~ 0
+== R5 INDICATOR
+Text Notes 12750 3850 0    60   ~ 0
+== R4 INDICATOR
+Text Notes 12750 3650 0    60   ~ 0
+== R1 or R5 (for PGNS WARNING)
+Text Notes 12750 3350 0    60   ~ 0
+== R1 INDICATOR
+Text HLabel 9450 7100 0    60   Input ~ 0
+R3_LINE/
+Wire Wire Line
+	4050 5800 4100 5800
+Wire Wire Line
+	4100 5800 4100 6600
+Wire Wire Line
+	4400 5650 4400 6600
+Wire Wire Line
+	4050 5650 4400 5650
+Wire Wire Line
+	4400 7100 4400 6900
+Wire Wire Line
+	4100 6900 4100 7100
+Connection ~ 4400 7100
+Wire Wire Line
+	5900 5800 5950 5800
+Wire Wire Line
+	5950 5800 5950 6600
+Wire Wire Line
+	6250 5650 6250 6600
+Wire Wire Line
+	5900 5650 6250 5650
+Wire Wire Line
+	5950 7100 5950 6900
+Connection ~ 5950 7100
+Wire Wire Line
+	6250 6900 6250 7300
+Connection ~ 6250 7100
+Wire Wire Line
+	7750 5800 7800 5800
+Wire Wire Line
+	7800 5800 7800 6600
+Wire Wire Line
+	8100 5650 8100 6600
+Wire Wire Line
+	7750 5650 8100 5650
+Wire Wire Line
+	7800 6900 7800 7100
+Wire Wire Line
+	8100 7100 8100 6900
+Connection ~ 7800 7100
+Wire Wire Line
+	9600 5800 9650 5800
+Wire Wire Line
+	9650 5800 9650 6600
+Wire Wire Line
+	9950 5650 9950 6600
+Wire Wire Line
+	9600 5650 9950 5650
+Wire Wire Line
+	9650 7100 9650 6900
+Wire Wire Line
+	9950 7100 9950 6900
+Connection ~ 9650 7100
+Wire Wire Line
+	11450 5800 11500 5800
+Wire Wire Line
+	11500 5800 11500 6600
+Wire Wire Line
+	11800 5650 11800 6600
+Wire Wire Line
+	11450 5650 11800 5650
+Wire Wire Line
+	11500 6900 11500 7100
+Wire Wire Line
+	11800 7100 11800 6900
+Connection ~ 11500 7100
+Wire Wire Line
+	4100 6200 3850 6200
+Connection ~ 4100 6200
+Wire Wire Line
+	4400 6500 3850 6500
+Connection ~ 4400 6500
+Wire Wire Line
+	3550 6200 3300 6200
+Wire Wire Line
+	3300 6200 3300 5800
+Wire Wire Line
+	3150 5800 3350 5800
+Wire Wire Line
+	3550 6500 3200 6500
+Wire Wire Line
+	3200 6500 3200 5650
+Wire Wire Line
+	3150 5650 3350 5650
+Connection ~ 3300 5800
+Connection ~ 3200 5650
+Wire Wire Line
+	5950 6200 5700 6200
+Wire Wire Line
+	6250 6500 5700 6500
+Wire Wire Line
+	5400 6200 5150 6200
+Wire Wire Line
+	5400 6500 5050 6500
+Connection ~ 5950 6200
+Connection ~ 6250 6500
+Wire Wire Line
+	5000 5800 5200 5800
+Wire Wire Line
+	5000 5650 5200 5650
+Wire Wire Line
+	5150 6200 5150 5800
+Connection ~ 5150 5800
+Wire Wire Line
+	5050 6500 5050 5650
+Connection ~ 5050 5650
+Wire Wire Line
+	7250 6200 7000 6200
+Wire Wire Line
+	7250 6500 6900 6500
+Wire Wire Line
+	6850 5800 7050 5800
+Wire Wire Line
+	6850 5650 7050 5650
+Wire Wire Line
+	7000 6200 7000 5800
+Connection ~ 7000 5800
+Wire Wire Line
+	6900 6500 6900 5650
+Connection ~ 6900 5650
+Wire Wire Line
+	7800 6200 7550 6200
+Wire Wire Line
+	8100 6500 7550 6500
+Connection ~ 7800 6200
+Connection ~ 8100 6500
+Wire Wire Line
+	9100 6200 8850 6200
+Wire Wire Line
+	9100 6500 8750 6500
+Wire Wire Line
+	8700 5800 8900 5800
+Wire Wire Line
+	8700 5650 8900 5650
+Wire Wire Line
+	8850 6200 8850 5800
+Connection ~ 8850 5800
+Wire Wire Line
+	8750 6500 8750 5650
+Connection ~ 8750 5650
+Wire Wire Line
+	9650 6200 9400 6200
+Wire Wire Line
+	9950 6500 9400 6500
+Connection ~ 9650 6200
+Connection ~ 9950 6500
+Wire Wire Line
+	10950 6200 10700 6200
+Wire Wire Line
+	10950 6500 10600 6500
+Wire Wire Line
+	10550 5800 10750 5800
+Wire Wire Line
+	10550 5650 10750 5650
+Wire Wire Line
+	10700 6200 10700 5800
+Connection ~ 10700 5800
+Wire Wire Line
+	10600 6500 10600 5650
+Connection ~ 10600 5650
+Wire Wire Line
+	11500 6200 11250 6200
+Wire Wire Line
+	11800 6500 11250 6500
+Connection ~ 11500 6200
+Connection ~ 11800 6500
+Connection ~ 4100 7100
+Wire Wire Line
+	10500 7100 11800 7100
 Wire Wire Line
 	3700 7100 6250 7100
 Wire Wire Line
@@ -634,33 +656,31 @@ Wire Wire Line
 Wire Wire Line
 	10500 7300 10500 7100
 Wire Wire Line
-	2800 4250 10600 4250
+	2800 4100 10600 4100
 Wire Wire Line
-	3200 4250 3200 5500
+	3200 4100 3200 5500
 Wire Wire Line
 	3200 5500 3350 5500
 Wire Wire Line
-	5050 4250 5050 5500
+	5050 4100 5050 5500
 Wire Wire Line
 	5050 5500 5200 5500
-Connection ~ 3200 4250
+Connection ~ 3200 4100
 Wire Wire Line
-	6900 4250 6900 5500
+	6900 4100 6900 5500
 Wire Wire Line
 	6900 5500 7050 5500
-Connection ~ 5050 4250
+Connection ~ 5050 4100
 Wire Wire Line
-	8850 4250 8850 5300
+	8850 4100 8850 5300
 Wire Wire Line
 	8850 5300 8900 5300
-Connection ~ 6900 4250
+Connection ~ 6900 4100
 Wire Wire Line
-	10600 4250 10600 5500
+	10600 4100 10600 5500
 Wire Wire Line
 	10600 5500 10750 5500
-Connection ~ 8850 4250
-Text Notes 4450 8200 0    60   ~ 0
-NOTE: Common Discharge Paths present in the original IDM are not connected here (yet).
+Connection ~ 8850 4100
 Wire Wire Line
 	8900 5200 8850 5200
 Connection ~ 8850 5200
@@ -699,14 +719,8 @@ Wire Wire Line
 Connection ~ 8750 5000
 Wire Wire Line
 	9600 5400 9700 5400
-Text HLabel 9700 5400 2    60   Output ~ 0
-R2_OUT
-Text HLabel 10350 5200 0    60   Input ~ 0
-R15_IN
 Wire Wire Line
 	10350 5200 10750 5200
-Text Notes 9500 5350 0    60   ~ 0
-Short these for 7SDs
 Wire Wire Line
 	10700 5200 10700 4500
 Wire Wire Line
@@ -754,24 +768,19 @@ Wire Wire Line
 	9650 5100 9650 3400
 Wire Wire Line
 	9650 3400 12350 3400
-Text Notes 5550 8000 0    60   ~ 0
-Adapted from the Apollo 12 Mission Report.
-Text Notes 12750 3450 0    60   ~ 0
-== MINUS
-Text Notes 12750 3750 0    60   ~ 0
-== PLUS VERTICAL
-Text Notes 12750 3250 0    60   ~ 0
-== R5 INDICATOR
-Text Notes 12750 3850 0    60   ~ 0
-== R4 INDICATOR
-Text Notes 12750 3650 0    60   ~ 0
-== R1 or R5 (for PGNS WARNING)
-Text Notes 12750 3350 0    60   ~ 0
-== R1 INDICATOR
 Wire Wire Line
-	8100 7100 7600 7100
-Text HLabel 9450 7100 0    60   Input ~ 0
-R3_LINE/
+	7600 7100 8100 7100
 Wire Wire Line
-	9950 7100 9450 7100
+	9450 7100 9950 7100
+Text Notes 5500 8100 0    60   ~ 0
+The original decoder had a common return path hooked up to all currently disconnected relay contacts.\nIt is not currently wired in because we haven't yet figured out exactly how it works. \nIt should not be needed for driving LEDS.
+NoConn ~ 3350 5000
+NoConn ~ 3350 5300
+NoConn ~ 5200 5000
+NoConn ~ 5200 5300
+NoConn ~ 7050 5000
+NoConn ~ 7050 5300
+NoConn ~ 8900 5500
+NoConn ~ 10750 5000
+NoConn ~ 10750 5300
 $EndSCHEMATC
