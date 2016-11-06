@@ -317,6 +317,6 @@ Wire Wire Line
 Connection ~ 5000 2250
 Wire Wire Line
 	5000 2000 5450 2000
-Text HLabel 5450 2000 2    60   Input ~ 0
+Text HLabel 5450 2000 2    60   Output ~ 0
 RELAY_LINE
 $EndSCHEMATC

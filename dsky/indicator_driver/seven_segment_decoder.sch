@@ -233,7 +233,6 @@ Wire Wire Line
 Wire Wire Line
 	8100 7100 8100 6900
 Connection ~ 7800 7100
-Connection ~ 8100 7100
 $Comp
 L D D8
 U 1 1 5736F3A7
@@ -627,9 +626,7 @@ $EndComp
 Wire Wire Line
 	10500 7100 11800 7100
 Text HLabel 7600 7100 0    60   Input ~ 0
-R23_LINE/
-Wire Wire Line
-	7600 7100 9950 7100
+R2_LINE/
 Wire Wire Line
 	3700 7100 6250 7100
 Wire Wire Line
@@ -771,4 +768,10 @@ Text Notes 12750 3650 0    60   ~ 0
 == R1 or R5 (for PGNS WARNING)
 Text Notes 12750 3350 0    60   ~ 0
 == R1 INDICATOR
+Wire Wire Line
+	8100 7100 7600 7100
+Text HLabel 9450 7100 0    60   Input ~ 0
+R3_LINE/
+Wire Wire Line
+	9950 7100 9450 7100
 $EndSCHEMATC
