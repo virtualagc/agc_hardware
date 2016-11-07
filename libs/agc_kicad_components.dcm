@@ -8,11 +8,6 @@ $CMP +4VSW
 K POWER, PWR
 $ENDCMP
 #
-$CMP 1NO1NC_BUT_LIT
-D Button
-K Switch 1NC1NO
-$ENDCMP
-#
 $CMP 74HC02
 D Quad Nor2
 K TTL Nor2
@@ -57,6 +52,11 @@ $CMP MR0A16A
 D Everspin Technologies 64k x 16 Parallel MRAM
 K 64k x 16 mram
 F http://www.everspin.com/PDF/EST_MR0A16A_prod.pdf
+$ENDCMP
+#
+$CMP SPDT_BUT_LIT
+D Button
+K Switch SPDT
 $ENDCMP
 #
 $CMP SST39VF200A
