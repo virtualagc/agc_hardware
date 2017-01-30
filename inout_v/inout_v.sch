@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:inout_v-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
@@ -2008,7 +2007,6 @@ Connection ~ 11900 6600
 Connection ~ 12300 6600
 Connection ~ 13900 7150
 Connection ~ 13500 7150
-Connection ~ 13050 7150
 Connection ~ 12700 7150
 Connection ~ 12300 7150
 Connection ~ 11900 7150
@@ -2198,4 +2196,5 @@ Wire Wire Line
 	10500 9200 10500 9250
 Connection ~ 10500 9250
 Connection ~ 10500 9750
+Connection ~ 13100 7150
 $EndSCHEMATC

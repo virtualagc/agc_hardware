@@ -28,12 +28,11 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:four_bit_2-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 4
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -2741,9 +2740,9 @@ Wire Wire Line
 Wire Wire Line
 	7950 7750 15550 7750
 Wire Wire Line
-	10550 8300 12950 8300
+	10550 8300 13350 8300
 Wire Wire Line
-	10550 8800 12950 8800
+	10550 8800 13350 8800
 Connection ~ 8350 5150
 Connection ~ 8750 5150
 Connection ~ 9150 5150
@@ -2983,4 +2982,17 @@ F 3 "" H 13500 800 60  0000 C CNN
 	1    13500 800 
 	1    0    0    -1  
 $EndComp
+$Comp
+L 74LVC06 U9068
+U 7 1 5888EA32
+P 13350 8550
+F 0 "U9068" H 13350 8600 60  0000 C CNN
+F 1 "74LVC06" H 13350 8500 60  0001 C CNN
+F 2 "" H 13350 8550 60  0000 C CNN
+F 3 "" H 13350 8550 60  0000 C CNN
+	7    13350 8550
+	1    0    0    -1  
+$EndComp
+Connection ~ 12950 8300
+Connection ~ 12950 8800
 $EndSCHEMATC
