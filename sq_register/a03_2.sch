@@ -28,8 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:sq_register-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -2399,7 +2398,6 @@ F 0 "U3048" H 16200 13000 60  0000 C CNN
 F 1 "74HC04" H 16200 12700 60  0001 C CNN
 F 2 "" H 16200 12950 60  0000 C CNN
 F 3 "" H 16200 12950 60  0000 C CNN
-F 4 "1" H 16450 12950 60  0000 C CIN "Initial"
 	5    16200 12950
 	1    0    0    -1  
 $EndComp
