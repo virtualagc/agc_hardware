@@ -28,7 +28,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:agc_kicad_components
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
