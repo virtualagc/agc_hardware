@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name agc_footprints)(type KiCad)(uri /home/mstewart/agc_hardware/libs/agc_footprints.pretty)(options "")(descr ""))
+)
