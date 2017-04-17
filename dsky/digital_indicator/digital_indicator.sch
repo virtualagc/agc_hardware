@@ -353,22 +353,7 @@ F 3 "" H 6250 900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6450 900  6500 900 
-$Comp
-L R R5
-U 1 1 58722AEE
-P 6650 900
-F 0 "R5" V 6730 900 50  0000 C CNN
-F 1 "1k" V 6650 900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6580 900 30  0001 C CNN
-F 3 "" H 6650 900 30  0000 C CNN
-	1    6650 900 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
 	6050 900  6000 900 
-Wire Wire Line
-	6800 900  6850 900 
 $Comp
 L LED D6
 U 1 1 58722AF9
@@ -381,22 +366,7 @@ F 3 "" H 6250 1200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6450 1200 6500 1200
-$Comp
-L R R6
-U 1 1 58722B01
-P 6650 1200
-F 0 "R6" V 6730 1200 50  0000 C CNN
-F 1 "1k" V 6650 1200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6580 1200 30  0001 C CNN
-F 3 "" H 6650 1200 30  0000 C CNN
-	1    6650 1200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
 	6000 1200 6050 1200
-Wire Wire Line
-	6850 1200 6800 1200
 $Comp
 L +12V #PWR01
 U 1 1 58725529
@@ -422,18 +392,20 @@ F 3 "" H 1250 950 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	1450 950  1500 950 
+Wire Wire Line
+	1500 950  1550 950 
 $Comp
 L R R1
 U 1 1 5872BDA9
-P 1650 950
-F 0 "R1" V 1730 950 50  0000 C CNN
-F 1 "1k" V 1650 950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1580 950 30  0001 C CNN
-F 3 "" H 1650 950 30  0000 C CNN
-	1    1650 950 
+P 1700 950
+F 0 "R1" V 1780 950 50  0000 C CNN
+F 1 "250" V 1700 950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1630 950 30  0001 C CNN
+F 3 "" H 1700 950 30  0000 C CNN
+	1    1700 950 
 	0    1    1    0   
 $EndComp
-Text GLabel 1950 950  2    60   Output ~ 0
+Text GLabel 1900 950  2    60   Output ~ 0
 COMACT
 Text GLabel 1650 5850 2    60   Output ~ 0
 R1-
@@ -1047,187 +1019,183 @@ Text GLabel 7350 10800 2    60   Output ~ 0
 R3D5_G
 Wire Wire Line
 	7300 10800 7350 10800
-Text GLabel 10850 1650 0    60   Output ~ 0
-COMACT
-Text GLabel 10850 1750 0    60   Output ~ 0
-MD1_A
-Text GLabel 10850 1850 0    60   Output ~ 0
-MD1_B
-Text GLabel 10850 1950 0    60   Output ~ 0
-MD1_C
-Text GLabel 10850 2050 0    60   Output ~ 0
-MD1_D
-Text GLabel 10850 2150 0    60   Output ~ 0
-MD1_E
-Text GLabel 10850 2250 0    60   Output ~ 0
-MD1_F
-Text GLabel 10850 2350 0    60   Output ~ 0
-MD1_G
-Text GLabel 10850 2450 0    60   Output ~ 0
-MD2_A
-Text GLabel 10850 2550 0    60   Output ~ 0
-MD2_B
-Text GLabel 10850 2650 0    60   Output ~ 0
-MD2_C
-Text GLabel 10850 2750 0    60   Output ~ 0
-MD2_D
-Text GLabel 10850 2850 0    60   Output ~ 0
-MD2_E
-Text GLabel 10850 2950 0    60   Output ~ 0
-MD2_F
-Text GLabel 10850 3050 0    60   Output ~ 0
-MD2_G
-Text GLabel 10850 3150 0    60   Output ~ 0
-VD1_A
-Text GLabel 10850 3250 0    60   Output ~ 0
-VD1_B
-Text GLabel 10850 3350 0    60   Output ~ 0
-VD1_C
-Text GLabel 10850 3450 0    60   Output ~ 0
-VD1_D
-Text GLabel 10850 3550 0    60   Output ~ 0
-VD1_E
-Text GLabel 11350 1650 2    60   Output ~ 0
-VD1_F
-Text GLabel 11350 1750 2    60   Output ~ 0
-VD1_G
-Text GLabel 11350 1850 2    60   Output ~ 0
-VD2_A
-Text GLabel 11350 1950 2    60   Output ~ 0
-VD2_B
-Text GLabel 11350 2050 2    60   Output ~ 0
-VD2_C
-Text GLabel 11350 2150 2    60   Output ~ 0
-VD2_D
-Text GLabel 11350 2250 2    60   Output ~ 0
-VD2_E
-Text GLabel 11350 2350 2    60   Output ~ 0
-VD2_F
-Text GLabel 11350 2450 2    60   Output ~ 0
-VD2_G
-Text GLabel 11350 2550 2    60   Output ~ 0
-ND1_A
-Text GLabel 11350 2650 2    60   Output ~ 0
-ND1_B
-Text GLabel 11350 2750 2    60   Output ~ 0
-ND1_C
-Text GLabel 12850 2050 2    60   Output ~ 0
-ND1_D
-Text GLabel 12850 2150 2    60   Output ~ 0
-ND1_E
-Text GLabel 12850 2250 2    60   Output ~ 0
-ND1_F
-Text GLabel 12850 2350 2    60   Output ~ 0
-ND1_G
-Text GLabel 12850 2450 2    60   Output ~ 0
-ND2_A
-Text GLabel 12850 2550 2    60   Output ~ 0
-ND2_B
-Text GLabel 12850 2650 2    60   Output ~ 0
-ND2_C
-Text GLabel 12850 2750 2    60   Output ~ 0
-ND2_D
-Text GLabel 12350 1650 0    60   Output ~ 0
-ND2_E
-Text GLabel 12350 1750 0    60   Output ~ 0
-ND2_F
-Text GLabel 12350 1850 0    60   Output ~ 0
-ND2_G
-Text GLabel 12350 1950 0    60   Output ~ 0
-R1-
-Text GLabel 12350 2050 0    60   Output ~ 0
-R1+
-Text GLabel 12350 2150 0    60   Output ~ 0
-R1D1_A
-Text GLabel 12350 2250 0    60   Output ~ 0
-R1D1_B
-Text GLabel 12350 2350 0    60   Output ~ 0
-R1D1_C
-Text GLabel 12350 2450 0    60   Output ~ 0
-R1D1_D
-Text GLabel 12350 2550 0    60   Output ~ 0
-R1D1_E
-Text GLabel 12350 2650 0    60   Output ~ 0
-R1D1_F
-Text GLabel 12350 2750 0    60   Output ~ 0
-R1D1_G
-Text GLabel 12350 2850 0    60   Output ~ 0
-R1D2_A
-Text GLabel 12350 2950 0    60   Output ~ 0
-R1D2_B
-Text GLabel 12350 3050 0    60   Output ~ 0
-R1D2_C
-Text GLabel 12350 3150 0    60   Output ~ 0
-R1D2_D
-Text GLabel 12350 3250 0    60   Output ~ 0
-R1D2_E
-Text GLabel 12350 3350 0    60   Output ~ 0
-R1D2_F
-Text GLabel 12350 3450 0    60   Output ~ 0
-R1D2_G
-Text GLabel 12350 3550 0    60   Output ~ 0
-R1D3_A
-Text GLabel 12850 1650 2    60   Output ~ 0
-R1D3_B
-Text GLabel 12850 1750 2    60   Output ~ 0
-R1D3_C
-Text GLabel 12850 1850 2    60   Output ~ 0
-R1D3_D
-Text GLabel 12850 1950 2    60   Output ~ 0
-R1D3_E
-Text GLabel 11350 2850 2    60   Output ~ 0
-R1D3_F
-Text GLabel 11350 2950 2    60   Output ~ 0
-R1D3_G
-Text GLabel 11350 3050 2    60   Output ~ 0
-R1D4_A
-Text GLabel 11350 3150 2    60   Output ~ 0
-R1D4_B
-Text GLabel 11350 3250 2    60   Output ~ 0
-R1D4_C
-Text GLabel 11350 3350 2    60   Output ~ 0
-R1D4_D
-Text GLabel 11350 3450 2    60   Output ~ 0
-R1D4_E
 Text GLabel 11350 3550 2    60   Output ~ 0
+COMACT
+Text GLabel 11350 2350 2    60   Output ~ 0
+MD1_A
+Text GLabel 11350 2450 2    60   Output ~ 0
+MD1_B
+Text GLabel 11350 2550 2    60   Output ~ 0
+MD1_C
+Text GLabel 11350 2650 2    60   Output ~ 0
+MD1_D
+Text GLabel 11350 2750 2    60   Output ~ 0
+MD1_E
+Text GLabel 11350 2850 2    60   Output ~ 0
+MD1_F
+Text GLabel 11350 2950 2    60   Output ~ 0
+MD1_G
+Text GLabel 11350 1650 2    60   Output ~ 0
+MD2_A
+Text GLabel 11350 1750 2    60   Output ~ 0
+MD2_B
+Text GLabel 11350 1850 2    60   Output ~ 0
+MD2_C
+Text GLabel 11350 1950 2    60   Output ~ 0
+MD2_D
+Text GLabel 11350 2050 2    60   Output ~ 0
+MD2_E
+Text GLabel 11350 2150 2    60   Output ~ 0
+MD2_F
+Text GLabel 11350 2250 2    60   Output ~ 0
+MD2_G
+Text GLabel 11350 3150 2    60   Output ~ 0
+VD1_A
+Text GLabel 11350 3050 2    60   Output ~ 0
+VD1_B
+Text GLabel 10850 3050 0    60   Output ~ 0
+VD1_C
+Text GLabel 10850 3150 0    60   Output ~ 0
+VD1_D
+Text GLabel 10850 3250 0    60   Output ~ 0
+VD1_E
+Text GLabel 11350 3250 2    60   Output ~ 0
+VD1_F
+Text GLabel 10850 3350 0    60   Output ~ 0
+VD1_G
+Text GLabel 10850 3550 0    60   Output ~ 0
+VD2_A
+Text GLabel 10850 3450 0    60   Output ~ 0
+VD2_B
+Text GLabel 12600 3450 0    60   Output ~ 0
+VD2_C
+Text GLabel 12600 3550 0    60   Output ~ 0
+VD2_D
+Text GLabel 13100 3350 2    60   Output ~ 0
+VD2_E
+Text GLabel 13100 3450 2    60   Output ~ 0
+VD2_F
+Text GLabel 13100 3550 2    60   Output ~ 0
+VD2_G
+Text GLabel 10850 2350 0    60   Output ~ 0
+ND1_A
+Text GLabel 10850 2450 0    60   Output ~ 0
+ND1_B
+Text GLabel 10850 2550 0    60   Output ~ 0
+ND1_C
+Text GLabel 10850 2650 0    60   Output ~ 0
+ND1_D
+Text GLabel 10850 2750 0    60   Output ~ 0
+ND1_E
+Text GLabel 10850 2850 0    60   Output ~ 0
+ND1_F
+Text GLabel 10850 2950 0    60   Output ~ 0
+ND1_G
+Text GLabel 10850 1650 0    60   Output ~ 0
+ND2_A
+Text GLabel 10850 1750 0    60   Output ~ 0
+ND2_B
+Text GLabel 10850 1850 0    60   Output ~ 0
+ND2_C
+Text GLabel 10850 1950 0    60   Output ~ 0
+ND2_D
+Text GLabel 10850 2050 0    60   Output ~ 0
+ND2_E
+Text GLabel 10850 2150 0    60   Output ~ 0
+ND2_F
+Text GLabel 10850 2250 0    60   Output ~ 0
+ND2_G
+Text GLabel 10850 5850 0    60   Output ~ 0
+R1-
+Text GLabel 11350 5850 2    60   Output ~ 0
+R1+
+Text GLabel 13100 3150 2    60   Output ~ 0
+R1D1_A
+Text GLabel 13100 3050 2    60   Output ~ 0
+R1D1_B
+Text GLabel 11350 5650 2    60   Output ~ 0
+R1D1_C
+Text GLabel 11350 5750 2    60   Output ~ 0
+R1D1_D
+Text GLabel 12600 3250 0    60   Output ~ 0
+R1D1_E
+Text GLabel 13100 3250 2    60   Output ~ 0
+R1D1_F
+Text GLabel 12600 3350 0    60   Output ~ 0
+R1D1_G
+Text GLabel 13100 2850 2    60   Output ~ 0
+R1D2_A
+Text GLabel 13100 2750 2    60   Output ~ 0
+R1D2_B
+Text GLabel 12600 2850 0    60   Output ~ 0
+R1D2_C
+Text GLabel 12600 2950 0    60   Output ~ 0
+R1D2_D
+Text GLabel 12600 3050 0    60   Output ~ 0
+R1D2_E
+Text GLabel 13100 2950 2    60   Output ~ 0
+R1D2_F
+Text GLabel 12600 3150 0    60   Output ~ 0
+R1D2_G
+Text GLabel 13100 2450 2    60   Output ~ 0
+R1D3_A
+Text GLabel 13100 2350 2    60   Output ~ 0
+R1D3_B
+Text GLabel 12600 2450 0    60   Output ~ 0
+R1D3_C
+Text GLabel 12600 2550 0    60   Output ~ 0
+R1D3_D
+Text GLabel 12600 2650 0    60   Output ~ 0
+R1D3_E
+Text GLabel 13100 2550 2    60   Output ~ 0
+R1D3_F
+Text GLabel 12600 2750 0    60   Output ~ 0
+R1D3_G
+Text GLabel 13100 2050 2    60   Output ~ 0
+R1D4_A
+Text GLabel 13100 1950 2    60   Output ~ 0
+R1D4_B
+Text GLabel 12600 2050 0    60   Output ~ 0
+R1D4_C
+Text GLabel 12600 2150 0    60   Output ~ 0
+R1D4_D
+Text GLabel 12600 2250 0    60   Output ~ 0
+R1D4_E
+Text GLabel 13100 2150 2    60   Output ~ 0
 R1D4_F
-Text GLabel 12850 2850 2    60   Output ~ 0
+Text GLabel 12600 2350 0    60   Output ~ 0
 R1D4_G
-Text GLabel 12850 2950 2    60   Output ~ 0
+Text GLabel 13100 1750 2    60   Output ~ 0
 R1D5_A
-Text GLabel 12850 3050 2    60   Output ~ 0
+Text GLabel 13100 1650 2    60   Output ~ 0
 R1D5_B
-Text GLabel 12850 3150 2    60   Output ~ 0
+Text GLabel 12600 1650 0    60   Output ~ 0
 R1D5_C
-Text GLabel 12850 3250 2    60   Output ~ 0
+Text GLabel 12600 1750 0    60   Output ~ 0
 R1D5_D
-Text GLabel 12850 3350 2    60   Output ~ 0
+Text GLabel 12600 1850 0    60   Output ~ 0
 R1D5_E
-Text GLabel 12850 3450 2    60   Output ~ 0
+Text GLabel 13100 1850 2    60   Output ~ 0
 R1D5_F
-Text GLabel 12850 3550 2    60   Output ~ 0
+Text GLabel 12600 1950 0    60   Output ~ 0
 R1D5_G
-Text GLabel 10850 3950 0    60   Output ~ 0
-R2-
-Text GLabel 10850 4050 0    60   Output ~ 0
-R2+
-Text GLabel 10850 4150 0    60   Output ~ 0
+Text GLabel 11350 5450 2    60   Output ~ 0
 R2D1_A
-Text GLabel 10850 4250 0    60   Output ~ 0
+Text GLabel 11350 5350 2    60   Output ~ 0
 R2D1_B
-Text GLabel 10850 4350 0    60   Output ~ 0
+Text GLabel 10850 5350 0    60   Output ~ 0
 R2D1_C
-Text GLabel 10850 4450 0    60   Output ~ 0
+Text GLabel 10850 5450 0    60   Output ~ 0
 R2D1_D
-Text GLabel 10850 4550 0    60   Output ~ 0
+Text GLabel 10850 5550 0    60   Output ~ 0
 R2D1_E
-Text GLabel 10850 4650 0    60   Output ~ 0
+Text GLabel 11350 5550 2    60   Output ~ 0
 R2D1_F
-Text GLabel 10850 4750 0    60   Output ~ 0
+Text GLabel 10850 5650 0    60   Output ~ 0
 R2D1_G
-Text GLabel 10850 4850 0    60   Output ~ 0
+Text GLabel 11350 5150 2    60   Output ~ 0
 R2D2_A
-Text GLabel 10850 4950 0    60   Output ~ 0
+Text GLabel 11350 5050 2    60   Output ~ 0
 R2D2_B
 Text GLabel 10850 5050 0    60   Output ~ 0
 R2D2_C
@@ -1235,157 +1203,131 @@ Text GLabel 10850 5150 0    60   Output ~ 0
 R2D2_D
 Text GLabel 10850 5250 0    60   Output ~ 0
 R2D2_E
-Text GLabel 10850 5350 0    60   Output ~ 0
+Text GLabel 11350 5250 2    60   Output ~ 0
 R2D2_F
-Text GLabel 10850 5450 0    60   Output ~ 0
+Text GLabel 10850 4950 0    60   Output ~ 0
 R2D2_G
-Text GLabel 10850 5550 0    60   Output ~ 0
+Text GLabel 11350 4750 2    60   Output ~ 0
 R2D3_A
-Text GLabel 10850 5650 0    60   Output ~ 0
+Text GLabel 11350 4650 2    60   Output ~ 0
 R2D3_B
-Text GLabel 10850 5750 0    60   Output ~ 0
+Text GLabel 10850 4650 0    60   Output ~ 0
 R2D3_C
-Text GLabel 10850 5850 0    60   Output ~ 0
+Text GLabel 10850 4750 0    60   Output ~ 0
 R2D3_D
-Text GLabel 11350 3950 2    60   Output ~ 0
+Text GLabel 10850 4850 0    60   Output ~ 0
 R2D3_E
-Text GLabel 11350 4050 2    60   Output ~ 0
+Text GLabel 11350 4850 2    60   Output ~ 0
 R2D3_F
-Text GLabel 11350 4150 2    60   Output ~ 0
+Text GLabel 11350 4950 2    60   Output ~ 0
 R2D3_G
-Text GLabel 11350 4250 2    60   Output ~ 0
+Text GLabel 11350 4450 2    60   Output ~ 0
 R2D4_A
 Text GLabel 11350 4350 2    60   Output ~ 0
 R2D4_B
-Text GLabel 11350 4450 2    60   Output ~ 0
+Text GLabel 10850 4350 0    60   Output ~ 0
 R2D4_C
-Text GLabel 11350 4550 2    60   Output ~ 0
+Text GLabel 10850 4450 0    60   Output ~ 0
 R2D4_D
-Text GLabel 11350 4650 2    60   Output ~ 0
+Text GLabel 10850 4550 0    60   Output ~ 0
 R2D4_E
-Text GLabel 11350 4750 2    60   Output ~ 0
+Text GLabel 11350 4550 2    60   Output ~ 0
 R2D4_F
-Text GLabel 11350 4850 2    60   Output ~ 0
+Text GLabel 11350 4250 2    60   Output ~ 0
 R2D4_G
-Text GLabel 11350 4950 2    60   Output ~ 0
+Text GLabel 11350 4050 2    60   Output ~ 0
 R2D5_A
-Text GLabel 11350 5050 2    60   Output ~ 0
+Text GLabel 11350 3950 2    60   Output ~ 0
 R2D5_B
-Text GLabel 11350 5150 2    60   Output ~ 0
+Text GLabel 10850 3950 0    60   Output ~ 0
 R2D5_C
-Text GLabel 11350 5250 2    60   Output ~ 0
+Text GLabel 10850 4050 0    60   Output ~ 0
 R2D5_D
-Text GLabel 11350 5350 2    60   Output ~ 0
+Text GLabel 10850 4150 0    60   Output ~ 0
 R2D5_E
-Text GLabel 11350 5450 2    60   Output ~ 0
+Text GLabel 11350 4150 2    60   Output ~ 0
 R2D5_F
-Text GLabel 11350 5550 2    60   Output ~ 0
+Text GLabel 10850 4250 0    60   Output ~ 0
 R2D5_G
-Text GLabel 12450 3950 0    60   Output ~ 0
+Text GLabel 12450 5750 0    60   Output ~ 0
 R3-
-Text GLabel 12950 3950 2    60   Output ~ 0
+Text GLabel 12950 5650 2    60   Output ~ 0
 R3+
-Text GLabel 12950 4050 2    60   Output ~ 0
+Text GLabel 12950 5450 2    60   Output ~ 0
 R3D1_A
-Text GLabel 12950 4150 2    60   Output ~ 0
+Text GLabel 12950 5350 2    60   Output ~ 0
 R3D1_B
-Text GLabel 12450 4050 0    60   Output ~ 0
+Text GLabel 12450 5350 0    60   Output ~ 0
 R3D1_C
-Text GLabel 12450 4150 0    60   Output ~ 0
+Text GLabel 12450 5450 0    60   Output ~ 0
 R3D1_D
-Text GLabel 12450 4250 0    60   Output ~ 0
+Text GLabel 12450 5550 0    60   Output ~ 0
 R3D1_E
-Text GLabel 12950 4250 2    60   Output ~ 0
+Text GLabel 12950 5550 2    60   Output ~ 0
 R3D1_F
-Text GLabel 12450 4350 0    60   Output ~ 0
+Text GLabel 12450 5650 0    60   Output ~ 0
 R3D1_G
-Text GLabel 12950 4350 2    60   Output ~ 0
+Text GLabel 12950 5150 2    60   Output ~ 0
 R3D2_A
-Text GLabel 12950 4450 2    60   Output ~ 0
+Text GLabel 12950 5050 2    60   Output ~ 0
 R3D2_B
-Text GLabel 12450 4450 0    60   Output ~ 0
+Text GLabel 12450 5050 0    60   Output ~ 0
 R3D2_C
-Text GLabel 12450 4550 0    60   Output ~ 0
+Text GLabel 12450 5150 0    60   Output ~ 0
 R3D2_D
-Text GLabel 12450 4650 0    60   Output ~ 0
+Text GLabel 12450 5250 0    60   Output ~ 0
 R3D2_E
-Text GLabel 12950 4550 2    60   Output ~ 0
+Text GLabel 12950 5250 2    60   Output ~ 0
 R3D2_F
-Text GLabel 12950 4650 2    60   Output ~ 0
+Text GLabel 12950 4950 2    60   Output ~ 0
 R3D2_G
 Text GLabel 12950 4750 2    60   Output ~ 0
 R3D3_A
-Text GLabel 12950 4850 2    60   Output ~ 0
+Text GLabel 12950 4650 2    60   Output ~ 0
 R3D3_B
-Text GLabel 12450 4750 0    60   Output ~ 0
+Text GLabel 12450 4650 0    60   Output ~ 0
 R3D3_C
-Text GLabel 12450 4850 0    60   Output ~ 0
+Text GLabel 12450 4750 0    60   Output ~ 0
 R3D3_D
-Text GLabel 12450 4950 0    60   Output ~ 0
+Text GLabel 12450 4850 0    60   Output ~ 0
 R3D3_E
-Text GLabel 12950 4950 2    60   Output ~ 0
+Text GLabel 12950 4850 2    60   Output ~ 0
 R3D3_F
-Text GLabel 12450 5050 0    60   Output ~ 0
+Text GLabel 12450 4950 0    60   Output ~ 0
 R3D3_G
-Text GLabel 12950 5050 2    60   Output ~ 0
+Text GLabel 12950 4450 2    60   Output ~ 0
 R3D4_A
-Text GLabel 12950 5150 2    60   Output ~ 0
+Text GLabel 12950 4350 2    60   Output ~ 0
 R3D4_B
-Text GLabel 12450 5150 0    60   Output ~ 0
+Text GLabel 12450 4350 0    60   Output ~ 0
 R3D4_C
-Text GLabel 12450 5250 0    60   Output ~ 0
+Text GLabel 12450 4450 0    60   Output ~ 0
 R3D4_D
-Text GLabel 12450 5350 0    60   Output ~ 0
+Text GLabel 12450 4550 0    60   Output ~ 0
 R3D4_E
-Text GLabel 12950 5250 2    60   Output ~ 0
+Text GLabel 12950 4550 2    60   Output ~ 0
 R3D4_F
-Text GLabel 12950 5350 2    60   Output ~ 0
+Text GLabel 12950 4250 2    60   Output ~ 0
 R3D4_G
-Text GLabel 12950 5450 2    60   Output ~ 0
+Text GLabel 12950 4050 2    60   Output ~ 0
 R3D5_A
-Text GLabel 12950 5550 2    60   Output ~ 0
+Text GLabel 12950 3950 2    60   Output ~ 0
 R3D5_B
-Text GLabel 12450 5450 0    60   Output ~ 0
+Text GLabel 12450 3950 0    60   Output ~ 0
 R3D5_C
-Text GLabel 12450 5550 0    60   Output ~ 0
+Text GLabel 12450 4050 0    60   Output ~ 0
 R3D5_D
-Text GLabel 12450 5650 0    60   Output ~ 0
+Text GLabel 12450 4150 0    60   Output ~ 0
 R3D5_E
-Text GLabel 12950 5650 2    60   Output ~ 0
+Text GLabel 12950 4150 2    60   Output ~ 0
 R3D5_F
-Text GLabel 12450 5750 0    60   Output ~ 0
+Text GLabel 12450 4250 0    60   Output ~ 0
 R3D5_G
 $Comp
 L +12V #PWR02
-U 1 1 588D155A
-P 13600 5700
-F 0 "#PWR02" H 13600 5550 50  0001 C CNN
-F 1 "+12V" H 13600 5840 50  0000 C CNN
-F 2 "" H 13600 5700 60  0000 C CNN
-F 3 "" H 13600 5700 60  0000 C CNN
-	1    13600 5700
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	13600 5750 13600 5700
-$Comp
-L GND #PWR03
-U 1 1 588D35E5
-P 13050 6050
-F 0 "#PWR03" H 13050 5800 50  0001 C CNN
-F 1 "GND" H 13050 5900 50  0000 C CNN
-F 2 "" H 13050 6050 60  0000 C CNN
-F 3 "" H 13050 6050 60  0000 C CNN
-	1    13050 6050
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	13050 5850 13050 6050
-$Comp
-L +12V #PWR04
 U 1 1 58DD1F2C
 P 1000 900
-F 0 "#PWR04" H 1000 750 50  0001 C CNN
+F 0 "#PWR02" H 1000 750 50  0001 C CNN
 F 1 "+12V" H 1000 1040 50  0000 C CNN
 F 2 "" H 1000 900 60  0000 C CNN
 F 3 "" H 1000 900 60  0000 C CNN
@@ -1393,7 +1335,13 @@ F 3 "" H 1000 900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1000 900  1000 1700
+	1000 900  1000 950 
+Wire Wire Line
+	1000 950  1000 1200
+Wire Wire Line
+	1000 1200 1000 1450
+Wire Wire Line
+	1000 1450 1000 1700
 Wire Wire Line
 	1000 950  1050 950 
 $Comp
@@ -1408,21 +1356,21 @@ F 3 "" H 11100 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X20 P3
+L CONN_02X20 P2
 U 1 1 58DEF3B5
-P 12600 2600
-F 0 "P3" H 12600 3650 50  0000 C CNN
-F 1 "CONN_02X20" V 12600 2600 50  0000 C CNN
-F 2 "agc_footprints:SHF-120-01-L-D-SM" H 12600 1650 60  0001 C CNN
-F 3 "" H 12600 1650 60  0000 C CNN
-	1    12600 2600
+P 12850 2600
+F 0 "P2" H 12850 3650 50  0000 C CNN
+F 1 "CONN_02X20" V 12850 2600 50  0000 C CNN
+F 2 "agc_footprints:SHF-120-01-L-D-SM" H 12850 1650 60  0001 C CNN
+F 3 "" H 12850 1650 60  0000 C CNN
+	1    12850 2600
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X20 P2
+L CONN_02X20 P3
 U 1 1 58DEF63F
 P 11100 4900
-F 0 "P2" H 11100 5950 50  0000 C CNN
+F 0 "P3" H 11100 5950 50  0000 C CNN
 F 1 "CONN_02X20" V 11100 4900 50  0000 C CNN
 F 2 "agc_footprints:SHF-120-01-L-D-SM" H 11100 3950 60  0001 C CNN
 F 3 "" H 11100 3950 60  0000 C CNN
@@ -1440,13 +1388,11 @@ F 3 "" H 12700 3950 60  0000 C CNN
 	1    12700 4900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13050 5850 12950 5850
 $Comp
-L +12V #PWR05
+L +12V #PWR03
 U 1 1 58E18FB7
 P 13850 3450
-F 0 "#PWR05" H 13850 3300 50  0001 C CNN
+F 0 "#PWR03" H 13850 3300 50  0001 C CNN
 F 1 "+12V" H 13850 3590 50  0000 C CNN
 F 2 "" H 13850 3450 60  0000 C CNN
 F 3 "" H 13850 3450 60  0000 C CNN
@@ -1454,10 +1400,10 @@ F 3 "" H 13850 3450 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG06
+L PWR_FLAG #FLG04
 U 1 1 58E0FE3E
 P 13850 3450
-F 0 "#FLG06" H 13850 3545 50  0001 C CNN
+F 0 "#FLG04" H 13850 3545 50  0001 C CNN
 F 1 "PWR_FLAG" H 13850 3630 50  0000 C CNN
 F 2 "" H 13850 3450 60  0000 C CNN
 F 3 "" H 13850 3450 60  0000 C CNN
@@ -1465,10 +1411,10 @@ F 3 "" H 13850 3450 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L PWR_FLAG #FLG07
+L PWR_FLAG #FLG05
 U 1 1 58E2B9BD
 P 13850 3950
-F 0 "#FLG07" H 13850 4045 50  0001 C CNN
+F 0 "#FLG05" H 13850 4045 50  0001 C CNN
 F 1 "PWR_FLAG" H 13850 4130 50  0000 C CNN
 F 2 "" H 13850 3950 60  0000 C CNN
 F 3 "" H 13850 3950 60  0000 C CNN
@@ -1476,10 +1422,10 @@ F 3 "" H 13850 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L GND #PWR06
 U 1 1 58E2BD89
 P 13850 3950
-F 0 "#PWR08" H 13850 3700 50  0001 C CNN
+F 0 "#PWR06" H 13850 3700 50  0001 C CNN
 F 1 "GND" H 13850 3800 50  0000 C CNN
 F 2 "" H 13850 3950 60  0000 C CNN
 F 3 "" H 13850 3950 60  0000 C CNN
@@ -1497,27 +1443,18 @@ F 3 "" H 1250 1200 60  0000 C CNN
 	1    1250 1200
 	-1   0    0    1   
 $EndComp
-$Comp
-L R R2
-U 1 1 58E08E6E
-P 1650 1200
-F 0 "R2" V 1730 1200 50  0000 C CNN
-F 1 "1k" V 1650 1200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1580 1200 30  0001 C CNN
-F 3 "" H 1650 1200 30  0000 C CNN
-	1    1650 1200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1800 1200 1850 1200
 Wire Wire Line
 	1000 1200 1050 1200
 Connection ~ 1000 950 
 Wire Wire Line
 	1450 1200 1500 1200
 Wire Wire Line
-	1850 950  1850 1700
-Connection ~ 1850 950 
+	1500 950  1500 1200
+Wire Wire Line
+	1500 1200 1500 1450
+Wire Wire Line
+	1500 1450 1500 1700
+Connection ~ 1500 950 
 $Comp
 L LED D3
 U 1 1 58E126D7
@@ -1530,19 +1467,6 @@ F 3 "" H 1250 1450 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R3
-U 1 1 58E126DD
-P 1650 1450
-F 0 "R3" V 1730 1450 50  0000 C CNN
-F 1 "1k" V 1650 1450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1580 1450 30  0001 C CNN
-F 3 "" H 1650 1450 30  0000 C CNN
-	1    1650 1450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1800 1450 1850 1450
-$Comp
 L LED D4
 U 1 1 58E12AC6
 P 1250 1700
@@ -1553,25 +1477,12 @@ F 3 "" H 1250 1700 60  0000 C CNN
 	1    1250 1700
 	-1   0    0    1   
 $EndComp
-$Comp
-L R R4
-U 1 1 58E12ACC
-P 1650 1700
-F 0 "R4" V 1730 1700 50  0000 C CNN
-F 1 "1k" V 1650 1700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1580 1700 30  0001 C CNN
-F 3 "" H 1650 1700 30  0000 C CNN
-	1    1650 1700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1850 1700 1800 1700
 Wire Wire Line
 	1500 1450 1450 1450
-Connection ~ 1850 1200
+Connection ~ 1500 1200
 Wire Wire Line
 	1500 1700 1450 1700
-Connection ~ 1850 1450
+Connection ~ 1500 1450
 Wire Wire Line
 	1000 1450 1050 1450
 Connection ~ 1000 1200
@@ -1579,23 +1490,11 @@ Wire Wire Line
 	1000 1700 1050 1700
 Connection ~ 1000 1450
 Wire Wire Line
-	6000 800  6000 1200
+	6000 800  6000 900 
 Wire Wire Line
-	6850 900  6850 1250
+	6000 900  6000 1200
 Text Notes 6300 700  0    60   ~ 0
 PROG
-Connection ~ 6850 1200
-$Comp
-L GND #PWR09
-U 1 1 58E24D3D
-P 6850 1250
-F 0 "#PWR09" H 6850 1000 50  0001 C CNN
-F 1 "GND" H 6850 1100 50  0000 C CNN
-F 2 "" H 6850 1250 60  0000 C CNN
-F 3 "" H 6850 1250 60  0000 C CNN
-	1    6850 1250
-	1    0    0    -1  
-$EndComp
 $Comp
 L LED D21
 U 1 1 58E37582
@@ -1609,21 +1508,23 @@ F 3 "" H 1750 2750 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	1950 2750 2000 2750
+Wire Wire Line
+	2000 2750 2050 2750
 $Comp
-L R R21
+L R R3
 U 1 1 58E37589
-P 2150 2750
-F 0 "R21" V 2230 2750 50  0000 C CNN
-F 1 "1k" V 2150 2750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2080 2750 30  0001 C CNN
-F 3 "" H 2150 2750 30  0000 C CNN
-	1    2150 2750
+P 2200 2750
+F 0 "R3" V 2280 2750 50  0000 C CNN
+F 1 "500" V 2200 2750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2130 2750 30  0001 C CNN
+F 3 "" H 2200 2750 30  0000 C CNN
+	1    2200 2750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1550 2750 1500 2750
 Wire Wire Line
-	2300 2750 2350 2750
+	2350 2750 2400 2750
 $Comp
 L LED D22
 U 1 1 58E37591
@@ -1637,26 +1538,13 @@ F 3 "" H 1750 3050 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	1950 3050 2000 3050
-$Comp
-L R R22
-U 1 1 58E37598
-P 2150 3050
-F 0 "R22" V 2230 3050 50  0000 C CNN
-F 1 "1k" V 2150 3050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2080 3050 30  0001 C CNN
-F 3 "" H 2150 3050 30  0000 C CNN
-	1    2150 3050
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1500 3050 1550 3050
-Wire Wire Line
-	2350 3050 2300 3050
 $Comp
-L +12V #PWR010
+L +12V #PWR07
 U 1 1 58E375A0
 P 1500 2650
-F 0 "#PWR010" H 1500 2500 50  0001 C CNN
+F 0 "#PWR07" H 1500 2500 50  0001 C CNN
 F 1 "+12V" H 1500 2790 50  0000 C CNN
 F 2 "" H 1500 2650 60  0000 C CNN
 F 3 "" H 1500 2650 60  0000 C CNN
@@ -1665,21 +1553,22 @@ F 3 "" H 1500 2650 60  0000 C CNN
 $EndComp
 Connection ~ 1500 2750
 Wire Wire Line
-	1500 2650 1500 3050
+	1500 2650 1500 2750
 Wire Wire Line
-	2350 2750 2350 3100
+	1500 2750 1500 3050
+Wire Wire Line
+	2400 2750 2400 2850
 Text Notes 1800 2550 0    60   ~ 0
 VERB
-Connection ~ 2350 3050
 $Comp
-L GND #PWR011
+L GND #PWR08
 U 1 1 58E375AB
-P 2350 3100
-F 0 "#PWR011" H 2350 2850 50  0001 C CNN
-F 1 "GND" H 2350 2950 50  0000 C CNN
-F 2 "" H 2350 3100 60  0000 C CNN
-F 3 "" H 2350 3100 60  0000 C CNN
-	1    2350 3100
+P 2400 2850
+F 0 "#PWR08" H 2400 2600 50  0001 C CNN
+F 1 "GND" H 2400 2700 50  0000 C CNN
+F 2 "" H 2400 2850 60  0000 C CNN
+F 3 "" H 2400 2850 60  0000 C CNN
+	1    2400 2850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1694,22 +1583,7 @@ F 3 "" H 6250 2750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6450 2750 6500 2750
-$Comp
-L R R37
-U 1 1 58E49ECC
-P 6650 2750
-F 0 "R37" V 6730 2750 50  0000 C CNN
-F 1 "1k" V 6650 2750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6580 2750 30  0001 C CNN
-F 3 "" H 6650 2750 30  0000 C CNN
-	1    6650 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
 	6050 2750 6000 2750
-Wire Wire Line
-	6800 2750 6850 2750
 $Comp
 L LED D38
 U 1 1 58E49ED4
@@ -1722,27 +1596,12 @@ F 3 "" H 6250 3050 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6450 3050 6500 3050
-$Comp
-L R R38
-U 1 1 58E49EDB
-P 6650 3050
-F 0 "R38" V 6730 3050 50  0000 C CNN
-F 1 "1k" V 6650 3050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6580 3050 30  0001 C CNN
-F 3 "" H 6650 3050 30  0000 C CNN
-	1    6650 3050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
 	6000 3050 6050 3050
-Wire Wire Line
-	6850 3050 6800 3050
 $Comp
-L +12V #PWR012
+L +12V #PWR09
 U 1 1 58E49EE3
 P 6000 2650
-F 0 "#PWR012" H 6000 2500 50  0001 C CNN
+F 0 "#PWR09" H 6000 2500 50  0001 C CNN
 F 1 "+12V" H 6000 2790 50  0000 C CNN
 F 2 "" H 6000 2650 60  0000 C CNN
 F 3 "" H 6000 2650 60  0000 C CNN
@@ -1751,23 +1610,11 @@ F 3 "" H 6000 2650 60  0000 C CNN
 $EndComp
 Connection ~ 6000 2750
 Wire Wire Line
-	6000 2650 6000 3050
+	6000 2650 6000 2750
 Wire Wire Line
-	6850 2750 6850 3100
+	6000 2750 6000 3050
 Text Notes 6300 2550 0    60   ~ 0
 NOUN
-Connection ~ 6850 3050
-$Comp
-L GND #PWR013
-U 1 1 58E49EEE
-P 6850 3100
-F 0 "#PWR013" H 6850 2850 50  0001 C CNN
-F 1 "GND" H 6850 2950 50  0000 C CNN
-F 2 "" H 6850 3100 60  0000 C CNN
-F 3 "" H 6850 3100 60  0000 C CNN
-	1    6850 3100
-	1    0    0    -1  
-$EndComp
 $Comp
 L LED D53
 U 1 1 58EABE36
@@ -1780,23 +1627,10 @@ F 3 "" H 4400 4350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R53
-U 1 1 58EABE3D
-P 4800 4350
-F 0 "R53" V 4880 4350 50  0000 C CNN
-F 1 "1k" V 4800 4350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4730 4350 30  0001 C CNN
-F 3 "" H 4800 4350 30  0000 C CNN
-	1    4800 4350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4950 4350 5000 4350
-$Comp
-L +12V #PWR014
+L +12V #PWR010
 U 1 1 58EABE45
 P 4150 4300
-F 0 "#PWR014" H 4150 4150 50  0001 C CNN
+F 0 "#PWR010" H 4150 4150 50  0001 C CNN
 F 1 "+12V" H 4150 4440 50  0000 C CNN
 F 2 "" H 4150 4300 60  0000 C CNN
 F 3 "" H 4150 4300 60  0000 C CNN
@@ -1804,7 +1638,13 @@ F 3 "" H 4150 4300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 4300 4150 5100
+	4150 4300 4150 4350
+Wire Wire Line
+	4150 4350 4150 4600
+Wire Wire Line
+	4150 4600 4150 4850
+Wire Wire Line
+	4150 4850 4150 5100
 Wire Wire Line
 	4150 4350 4200 4350
 $Comp
@@ -1818,26 +1658,9 @@ F 3 "" H 4400 4600 60  0000 C CNN
 	1    4400 4600
 	-1   0    0    1   
 $EndComp
-$Comp
-L R R54
-U 1 1 58EABE53
-P 4800 4600
-F 0 "R54" V 4880 4600 50  0000 C CNN
-F 1 "1k" V 4800 4600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4730 4600 30  0001 C CNN
-F 3 "" H 4800 4600 30  0000 C CNN
-	1    4800 4600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4950 4600 5000 4600
 Wire Wire Line
 	4150 4600 4200 4600
 Connection ~ 4150 4350
-Wire Wire Line
-	4600 4600 4650 4600
-Wire Wire Line
-	5000 4350 5000 5150
 $Comp
 L LED D55
 U 1 1 58EABE5F
@@ -1850,19 +1673,6 @@ F 3 "" H 4400 4850 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R55
-U 1 1 58EABE65
-P 4800 4850
-F 0 "R55" V 4880 4850 50  0000 C CNN
-F 1 "1k" V 4800 4850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4730 4850 30  0001 C CNN
-F 3 "" H 4800 4850 30  0000 C CNN
-	1    4800 4850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4950 4850 5000 4850
-$Comp
 L LED D56
 U 1 1 58EABE6C
 P 4400 5100
@@ -1873,45 +1683,12 @@ F 3 "" H 4400 5100 60  0000 C CNN
 	1    4400 5100
 	-1   0    0    1   
 $EndComp
-$Comp
-L R R56
-U 1 1 58EABE72
-P 4800 5100
-F 0 "R56" V 4880 5100 50  0000 C CNN
-F 1 "1k" V 4800 5100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4730 5100 30  0001 C CNN
-F 3 "" H 4800 5100 30  0000 C CNN
-	1    4800 5100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4950 5100 5000 5100
-Wire Wire Line
-	4650 4850 4600 4850
-Connection ~ 5000 4600
-Wire Wire Line
-	4650 5100 4600 5100
-Connection ~ 5000 4850
 Wire Wire Line
 	4150 4850 4200 4850
 Connection ~ 4150 4600
 Wire Wire Line
 	4150 5100 4200 5100
 Connection ~ 4150 4850
-Wire Wire Line
-	4600 4350 4650 4350
-$Comp
-L GND #PWR015
-U 1 1 58EAD69F
-P 5000 5150
-F 0 "#PWR015" H 5000 4900 50  0001 C CNN
-F 1 "GND" H 5000 5000 50  0000 C CNN
-F 2 "" H 5000 5150 60  0000 C CNN
-F 3 "" H 5000 5150 60  0000 C CNN
-	1    5000 5150
-	1    0    0    -1  
-$EndComp
-Connection ~ 5000 5100
 Text Notes 4500 4150 0    60   ~ 0
 Line 1
 $Comp
@@ -1926,23 +1703,10 @@ F 3 "" H 4500 6700 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R95
-U 1 1 58EAFDA7
-P 4900 6700
-F 0 "R95" V 4980 6700 50  0000 C CNN
-F 1 "1k" V 4900 6700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4830 6700 30  0001 C CNN
-F 3 "" H 4900 6700 30  0000 C CNN
-	1    4900 6700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5050 6700 5100 6700
-$Comp
-L +12V #PWR016
+L +12V #PWR011
 U 1 1 58EAFDAE
 P 4250 6650
-F 0 "#PWR016" H 4250 6500 50  0001 C CNN
+F 0 "#PWR011" H 4250 6500 50  0001 C CNN
 F 1 "+12V" H 4250 6790 50  0000 C CNN
 F 2 "" H 4250 6650 60  0000 C CNN
 F 3 "" H 4250 6650 60  0000 C CNN
@@ -1950,7 +1714,13 @@ F 3 "" H 4250 6650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 6650 4250 7450
+	4250 6650 4250 6700
+Wire Wire Line
+	4250 6700 4250 6950
+Wire Wire Line
+	4250 6950 4250 7200
+Wire Wire Line
+	4250 7200 4250 7450
 Wire Wire Line
 	4250 6700 4300 6700
 $Comp
@@ -1964,26 +1734,9 @@ F 3 "" H 4500 6950 60  0000 C CNN
 	1    4500 6950
 	-1   0    0    1   
 $EndComp
-$Comp
-L R R96
-U 1 1 58EAFDBC
-P 4900 6950
-F 0 "R96" V 4980 6950 50  0000 C CNN
-F 1 "1k" V 4900 6950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4830 6950 30  0001 C CNN
-F 3 "" H 4900 6950 30  0000 C CNN
-	1    4900 6950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5050 6950 5100 6950
 Wire Wire Line
 	4250 6950 4300 6950
 Connection ~ 4250 6700
-Wire Wire Line
-	4700 6950 4750 6950
-Wire Wire Line
-	5100 6700 5100 7500
 $Comp
 L LED D97
 U 1 1 58EAFDC7
@@ -1996,19 +1749,6 @@ F 3 "" H 4500 7200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R97
-U 1 1 58EAFDCD
-P 4900 7200
-F 0 "R97" V 4980 7200 50  0000 C CNN
-F 1 "1k" V 4900 7200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4830 7200 30  0001 C CNN
-F 3 "" H 4900 7200 30  0000 C CNN
-	1    4900 7200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5050 7200 5100 7200
-$Comp
 L LED D98
 U 1 1 58EAFDD4
 P 4500 7450
@@ -2019,45 +1759,12 @@ F 3 "" H 4500 7450 60  0000 C CNN
 	1    4500 7450
 	-1   0    0    1   
 $EndComp
-$Comp
-L R R98
-U 1 1 58EAFDDA
-P 4900 7450
-F 0 "R98" V 4980 7450 50  0000 C CNN
-F 1 "1k" V 4900 7450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4830 7450 30  0001 C CNN
-F 3 "" H 4900 7450 30  0000 C CNN
-	1    4900 7450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5050 7450 5100 7450
-Wire Wire Line
-	4750 7200 4700 7200
-Connection ~ 5100 6950
-Wire Wire Line
-	4750 7450 4700 7450
-Connection ~ 5100 7200
 Wire Wire Line
 	4250 7200 4300 7200
 Connection ~ 4250 6950
 Wire Wire Line
 	4250 7450 4300 7450
 Connection ~ 4250 7200
-Wire Wire Line
-	4700 6700 4750 6700
-$Comp
-L GND #PWR017
-U 1 1 58EAFDEA
-P 5100 7500
-F 0 "#PWR017" H 5100 7250 50  0001 C CNN
-F 1 "GND" H 5100 7350 50  0000 C CNN
-F 2 "" H 5100 7500 60  0000 C CNN
-F 3 "" H 5100 7500 60  0000 C CNN
-	1    5100 7500
-	1    0    0    -1  
-$EndComp
-Connection ~ 5100 7450
 Text Notes 4600 6500 0    60   ~ 0
 Line 2
 $Comp
@@ -2072,23 +1779,10 @@ F 3 "" H 4450 9000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R137
-U 1 1 58EB02CB
-P 4850 9000
-F 0 "R137" V 4930 9000 50  0000 C CNN
-F 1 "1k" V 4850 9000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4780 9000 30  0001 C CNN
-F 3 "" H 4850 9000 30  0000 C CNN
-	1    4850 9000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5000 9000 5050 9000
-$Comp
-L +12V #PWR018
+L +12V #PWR012
 U 1 1 58EB02D2
 P 4200 8950
-F 0 "#PWR018" H 4200 8800 50  0001 C CNN
+F 0 "#PWR012" H 4200 8800 50  0001 C CNN
 F 1 "+12V" H 4200 9090 50  0000 C CNN
 F 2 "" H 4200 8950 60  0000 C CNN
 F 3 "" H 4200 8950 60  0000 C CNN
@@ -2096,7 +1790,13 @@ F 3 "" H 4200 8950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 8950 4200 9750
+	4200 8950 4200 9000
+Wire Wire Line
+	4200 9000 4200 9250
+Wire Wire Line
+	4200 9250 4200 9500
+Wire Wire Line
+	4200 9500 4200 9750
 Wire Wire Line
 	4200 9000 4250 9000
 $Comp
@@ -2110,26 +1810,9 @@ F 3 "" H 4450 9250 60  0000 C CNN
 	1    4450 9250
 	-1   0    0    1   
 $EndComp
-$Comp
-L R R138
-U 1 1 58EB02E0
-P 4850 9250
-F 0 "R138" V 4930 9250 50  0000 C CNN
-F 1 "1k" V 4850 9250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4780 9250 30  0001 C CNN
-F 3 "" H 4850 9250 30  0000 C CNN
-	1    4850 9250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5000 9250 5050 9250
 Wire Wire Line
 	4200 9250 4250 9250
 Connection ~ 4200 9000
-Wire Wire Line
-	4650 9250 4700 9250
-Wire Wire Line
-	5050 9000 5050 9800
 $Comp
 L LED D139
 U 1 1 58EB02EB
@@ -2142,19 +1825,6 @@ F 3 "" H 4450 9500 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R139
-U 1 1 58EB02F1
-P 4850 9500
-F 0 "R139" V 4930 9500 50  0000 C CNN
-F 1 "1k" V 4850 9500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4780 9500 30  0001 C CNN
-F 3 "" H 4850 9500 30  0000 C CNN
-	1    4850 9500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5000 9500 5050 9500
-$Comp
 L LED D140
 U 1 1 58EB02F8
 P 4450 9750
@@ -2165,65 +1835,306 @@ F 3 "" H 4450 9750 60  0000 C CNN
 	1    4450 9750
 	-1   0    0    1   
 $EndComp
-$Comp
-L R R140
-U 1 1 58EB02FE
-P 4850 9750
-F 0 "R140" V 4930 9750 50  0000 C CNN
-F 1 "1k" V 4850 9750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4780 9750 30  0001 C CNN
-F 3 "" H 4850 9750 30  0000 C CNN
-	1    4850 9750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5000 9750 5050 9750
-Wire Wire Line
-	4700 9500 4650 9500
-Connection ~ 5050 9250
-Wire Wire Line
-	4700 9750 4650 9750
-Connection ~ 5050 9500
 Wire Wire Line
 	4200 9500 4250 9500
 Connection ~ 4200 9250
 Wire Wire Line
 	4200 9750 4250 9750
 Connection ~ 4200 9500
-Wire Wire Line
-	4650 9000 4700 9000
-$Comp
-L GND #PWR019
-U 1 1 58EB030E
-P 5050 9800
-F 0 "#PWR019" H 5050 9550 50  0001 C CNN
-F 1 "GND" H 5050 9650 50  0000 C CNN
-F 2 "" H 5050 9800 60  0000 C CNN
-F 3 "" H 5050 9800 60  0000 C CNN
-	1    5050 9800
-	1    0    0    -1  
-$EndComp
-Connection ~ 5050 9750
 Text Notes 4550 8800 0    60   ~ 0
 Line 3
-Wire Wire Line
-	1800 950  1950 950 
-Wire Wire Line
-	13600 5750 12950 5750
-Wire Wire Line
-	13050 6000 12450 6000
-Wire Wire Line
-	12450 6000 12450 5850
-Connection ~ 13050 6000
+Text GLabel 12950 5850 2    60   Output ~ 0
+R2-
+Text GLabel 12950 5750 2    60   Output ~ 0
+R2+
 $Comp
-L R8_BUSSED RN1
-U 1 1 58E89C11
-P 3500 1650
-F 0 "RN1" H 3500 2050 60  0000 C CNN
-F 1 "R8_BUSSED" H 3500 1150 60  0000 C CNN
-F 2 "agc_footprints:R8_746" H 3700 1400 60  0001 C CNN
-F 3 "" H 3700 1400 60  0001 C CNN
-	1    3500 1650
+L GND #PWR013
+U 1 1 58ED21D5
+P 12400 5950
+F 0 "#PWR013" H 12400 5700 50  0001 C CNN
+F 1 "GND" H 12400 5800 50  0000 C CNN
+F 2 "" H 12400 5950 60  0000 C CNN
+F 3 "" H 12400 5950 60  0000 C CNN
+	1    12400 5950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	12400 5950 12400 5850
+Wire Wire Line
+	12400 5850 12450 5850
+Wire Wire Line
+	1900 950  1850 950 
+Wire Wire Line
+	2000 3050 2000 2750
+Connection ~ 2000 2750
+Wire Wire Line
+	6450 900  6500 900 
+Wire Wire Line
+	6500 900  6550 900 
+$Comp
+L R R2
+U 1 1 58F201C1
+P 6700 900
+F 0 "R2" V 6780 900 50  0000 C CNN
+F 1 "500" V 6700 900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6630 900 30  0001 C CNN
+F 3 "" H 6700 900 30  0000 C CNN
+	1    6700 900 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 900  6900 900 
+Wire Wire Line
+	6450 1200 6500 1200
+Wire Wire Line
+	6900 900  6900 1000
+$Comp
+L GND #PWR014
+U 1 1 58F201CA
+P 6900 1000
+F 0 "#PWR014" H 6900 750 50  0001 C CNN
+F 1 "GND" H 6900 850 50  0000 C CNN
+F 2 "" H 6900 1000 60  0000 C CNN
+F 3 "" H 6900 1000 60  0000 C CNN
+	1    6900 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1200 6500 900 
+Connection ~ 6500 900 
+Wire Wire Line
+	6450 2750 6500 2750
+Wire Wire Line
+	6500 2750 6550 2750
+$Comp
+L R R4
+U 1 1 58F20E29
+P 6700 2750
+F 0 "R4" V 6780 2750 50  0000 C CNN
+F 1 "500" V 6700 2750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6630 2750 30  0001 C CNN
+F 3 "" H 6700 2750 30  0000 C CNN
+	1    6700 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 2750 6900 2750
+Wire Wire Line
+	6450 3050 6500 3050
+Wire Wire Line
+	6900 2750 6900 2850
+$Comp
+L GND #PWR015
+U 1 1 58F20E32
+P 6900 2850
+F 0 "#PWR015" H 6900 2600 50  0001 C CNN
+F 1 "GND" H 6900 2700 50  0000 C CNN
+F 2 "" H 6900 2850 60  0000 C CNN
+F 3 "" H 6900 2850 60  0000 C CNN
+	1    6900 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3050 6500 2750
+Connection ~ 6500 2750
+Wire Wire Line
+	4600 4350 4650 4350
+Wire Wire Line
+	4650 4350 4700 4350
+$Comp
+L R R5
+U 1 1 58F37C19
+P 4850 4350
+F 0 "R5" V 4930 4350 50  0000 C CNN
+F 1 "250" V 4850 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4780 4350 30  0001 C CNN
+F 3 "" H 4850 4350 30  0000 C CNN
+	1    4850 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 4600 4650 4600
+Wire Wire Line
+	4650 4350 4650 4600
+Wire Wire Line
+	4650 4600 4650 4850
+Wire Wire Line
+	4650 4850 4650 5100
+Connection ~ 4650 4350
+Wire Wire Line
+	4650 4850 4600 4850
+Connection ~ 4650 4600
+Wire Wire Line
+	4650 5100 4600 5100
+Connection ~ 4650 4850
+Wire Wire Line
+	5050 4350 5000 4350
+Wire Wire Line
+	5050 4350 5050 4500
+$Comp
+L GND #PWR016
+U 1 1 58F38EFB
+P 5050 4500
+F 0 "#PWR016" H 5050 4250 50  0001 C CNN
+F 1 "GND" H 5050 4350 50  0000 C CNN
+F 2 "" H 5050 4500 60  0000 C CNN
+F 3 "" H 5050 4500 60  0000 C CNN
+	1    5050 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 6700 4750 6700
+Wire Wire Line
+	4750 6700 4800 6700
+$Comp
+L R R8
+U 1 1 58F407B9
+P 4950 6700
+F 0 "R8" V 5030 6700 50  0000 C CNN
+F 1 "250" V 4950 6700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4880 6700 30  0001 C CNN
+F 3 "" H 4950 6700 30  0000 C CNN
+	1    4950 6700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 6950 4750 6950
+Wire Wire Line
+	4750 6700 4750 6950
+Wire Wire Line
+	4750 6950 4750 7200
+Wire Wire Line
+	4750 7200 4750 7450
+Connection ~ 4750 6700
+Wire Wire Line
+	4750 7200 4700 7200
+Connection ~ 4750 6950
+Wire Wire Line
+	4750 7450 4700 7450
+Connection ~ 4750 7200
+Wire Wire Line
+	5150 6700 5100 6700
+Wire Wire Line
+	5150 6700 5150 6850
+$Comp
+L GND #PWR017
+U 1 1 58F407C8
+P 5150 6850
+F 0 "#PWR017" H 5150 6600 50  0001 C CNN
+F 1 "GND" H 5150 6700 50  0000 C CNN
+F 2 "" H 5150 6850 60  0000 C CNN
+F 3 "" H 5150 6850 60  0000 C CNN
+	1    5150 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 9000 4700 9000
+Wire Wire Line
+	4700 9000 4750 9000
+$Comp
+L R R11
+U 1 1 58F483C0
+P 4900 9000
+F 0 "R11" V 4980 9000 50  0000 C CNN
+F 1 "250" V 4900 9000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4830 9000 30  0001 C CNN
+F 3 "" H 4900 9000 30  0000 C CNN
+	1    4900 9000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 9250 4700 9250
+Wire Wire Line
+	4700 9000 4700 9250
+Wire Wire Line
+	4700 9250 4700 9500
+Wire Wire Line
+	4700 9500 4700 9750
+Connection ~ 4700 9000
+Wire Wire Line
+	4700 9500 4650 9500
+Connection ~ 4700 9250
+Wire Wire Line
+	4700 9750 4650 9750
+Connection ~ 4700 9500
+Wire Wire Line
+	5100 9000 5050 9000
+Wire Wire Line
+	5100 9000 5100 9150
+$Comp
+L GND #PWR018
+U 1 1 58F483CF
+P 5100 9150
+F 0 "#PWR018" H 5100 8900 50  0001 C CNN
+F 1 "GND" H 5100 9000 50  0000 C CNN
+F 2 "" H 5100 9150 60  0000 C CNN
+F 3 "" H 5100 9150 60  0000 C CNN
+	1    5100 9150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 5750 10350 5750
+Wire Wire Line
+	10350 5750 10350 5550
+$Comp
+L +12V #PWR019
+U 1 1 58F6EF38
+P 10350 5550
+F 0 "#PWR019" H 10350 5400 50  0001 C CNN
+F 1 "+12V" H 10350 5690 50  0000 C CNN
+F 2 "" H 10350 5550 60  0000 C CNN
+F 3 "" H 10350 5550 60  0000 C CNN
+	1    10350 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 2250 13650 2250
+Wire Wire Line
+	13650 2100 13650 2250
+Wire Wire Line
+	13650 2250 13650 2650
+$Comp
+L +12V #PWR020
+U 1 1 58FFA6C9
+P 13650 2100
+F 0 "#PWR020" H 13650 1950 50  0001 C CNN
+F 1 "+12V" H 13650 2240 50  0000 C CNN
+F 2 "" H 13650 2100 60  0000 C CNN
+F 3 "" H 13650 2100 60  0000 C CNN
+	1    13650 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11350 3350 11800 3350
+Wire Wire Line
+	11800 3350 11800 3200
+$Comp
+L +12V #PWR021
+U 1 1 59035FA0
+P 11800 3200
+F 0 "#PWR021" H 11800 3050 50  0001 C CNN
+F 1 "+12V" H 11800 3340 50  0000 C CNN
+F 2 "" H 11800 3200 60  0000 C CNN
+F 3 "" H 11800 3200 60  0000 C CNN
+	1    11800 3200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11350 3450 11800 3450
+Wire Wire Line
+	11800 3450 11800 3550
+$Comp
+L GND #PWR022
+U 1 1 590366AB
+P 11800 3550
+F 0 "#PWR022" H 11800 3300 50  0001 C CNN
+F 1 "GND" H 11800 3400 50  0000 C CNN
+F 2 "" H 11800 3550 60  0000 C CNN
+F 3 "" H 11800 3550 60  0000 C CNN
+	1    11800 3550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13650 2650 13100 2650
+Connection ~ 13650 2250
 $EndSCHEMATC
