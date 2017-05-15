@@ -28,7 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-EELAYER 25 0
+LIBS:inout_v-cache
+EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -110,10 +111,7 @@ F 3 "" H 7700 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7400 1550 7500 1550
-Wire Wire Line
 	7400 1650 7500 1650
-Connection ~ 7400 1650
 Wire Wire Line
 	7400 1750 7500 1750
 Connection ~ 7400 1750
@@ -195,8 +193,6 @@ Connection ~ 7400 4250
 Wire Wire Line
 	7400 4350 7500 4350
 Connection ~ 7400 4350
-Wire Wire Line
-	7400 1550 7400 4450
 $Comp
 L GND #PWR01
 U 1 1 5726C68D
@@ -1140,12 +1136,12 @@ Wire Wire Line
 Text GLabel 7400 1250 0    60   Input ~ 0
 DLKPLS
 Wire Wire Line
-	7500 1350 7400 1350
-Text GLabel 7400 1350 0    60   Input ~ 0
-CH1307
-Wire Wire Line
 	7500 1450 7400 1450
 Text GLabel 7400 1450 0    60   Input ~ 0
+CH1307
+Wire Wire Line
+	7500 1550 7400 1550
+Text GLabel 7400 1550 0    60   Input ~ 0
 CH3312
 $Comp
 L +4VDC #PWR06
@@ -2197,4 +2193,14 @@ Wire Wire Line
 Connection ~ 10500 9250
 Connection ~ 10500 9750
 Connection ~ 13100 7150
+Wire Wire Line
+	2750 1450 2850 1450
+Text GLabel 2850 1450 2    60   Output ~ 0
+DKDATA
+Wire Wire Line
+	7400 4450 7400 1650
+Wire Wire Line
+	7500 1350 7400 1350
+Text GLabel 7400 1350 0    60   Input ~ 0
+DKDATA
 $EndSCHEMATC
