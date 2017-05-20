@@ -1,4 +1,4 @@
-update=Fri 13 May 2016 08:32:01 PM PDT
+update=Fri 19 May 2017 07:39:21 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../libs
@@ -59,3 +57,15 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=agc_kicad_components
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
+[general]
+version=1

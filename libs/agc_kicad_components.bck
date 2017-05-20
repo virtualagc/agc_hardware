@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +28VDC
+K POWER, PWR
+$ENDCMP
+#
 $CMP +4VDC
 K POWER, PWR
 $ENDCMP
@@ -43,12 +47,17 @@ D Hex Open Drain Buffer
 K CMOS OPEN DRAIN BUFFER
 $ENDCMP
 #
-$CMP EC2-12NU
+$CMP EC2-12NU_poles
 D Latching DPDT Relay
 K latching dpdt relay
 $ENDCMP
 #
 $CMP EC2-12TNU
+D Non-Latching DPDT Relay
+K latching dpdt relay
+$ENDCMP
+#
+$CMP EC2-12TNU_poles
 D Non-Latching DPDT Relay
 K latching dpdt relay
 $ENDCMP
