@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:fixed_erasable_memory-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -342,35 +342,35 @@ F 4 "7,8,9,10,13,14,15,16,29,30,31,32,35,36,37,38" H 19000 5050 60  0001 C CNN "
 	1    19000 5050
 	1    0    0    -1  
 $EndComp
-Text HLabel 19700 3850 2    60   3State ~ 0
-SAP
-Text HLabel 19700 3950 2    60   3State ~ 0
-SA01
-Text HLabel 19700 4050 2    60   3State ~ 0
-SA02
-Text HLabel 19700 4150 2    60   3State ~ 0
-SA03
-Text HLabel 19700 4250 2    60   3State ~ 0
-SA04
-Text HLabel 19700 4350 2    60   3State ~ 0
-SA05
-Text HLabel 19700 4450 2    60   3State ~ 0
-SA06
-Text HLabel 19700 4550 2    60   3State ~ 0
-SA07
-Text HLabel 19700 4650 2    60   3State ~ 0
-SA08
-Text HLabel 19700 4750 2    60   3State ~ 0
-SA09
-Text HLabel 19700 4850 2    60   3State ~ 0
-SA10
-Text HLabel 19700 4950 2    60   3State ~ 0
-SA11
-Text HLabel 19700 5050 2    60   3State ~ 0
-SA12
-Text HLabel 19700 5150 2    60   3State ~ 0
-SA13
 Text HLabel 19700 5250 2    60   3State ~ 0
+SAP
+Text HLabel 19700 3850 2    60   3State ~ 0
+SA01
+Text HLabel 19700 3950 2    60   3State ~ 0
+SA02
+Text HLabel 19700 4050 2    60   3State ~ 0
+SA03
+Text HLabel 19700 4150 2    60   3State ~ 0
+SA04
+Text HLabel 19700 4250 2    60   3State ~ 0
+SA05
+Text HLabel 19700 4350 2    60   3State ~ 0
+SA06
+Text HLabel 19700 4450 2    60   3State ~ 0
+SA07
+Text HLabel 19700 4550 2    60   3State ~ 0
+SA08
+Text HLabel 19700 4650 2    60   3State ~ 0
+SA09
+Text HLabel 19700 4750 2    60   3State ~ 0
+SA10
+Text HLabel 19700 4850 2    60   3State ~ 0
+SA11
+Text HLabel 19700 4950 2    60   3State ~ 0
+SA12
+Text HLabel 19700 5050 2    60   3State ~ 0
+SA13
+Text HLabel 19700 5150 2    60   3State ~ 0
 SA14
 Text HLabel 19700 5350 2    60   3State ~ 0
 SA16

@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:fixed_erasable_memory-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -236,35 +236,35 @@ F 3 "" H 17600 3150 30  0000 C CNN
 $EndComp
 Text HLabel 17750 2900 2    60   Output ~ 0
 SA16
-Text HLabel 17750 2800 2    60   Output ~ 0
-SA14
 Text HLabel 17750 2700 2    60   Output ~ 0
-SA13
+SA14
 Text HLabel 17750 2600 2    60   Output ~ 0
-SA12
-Text HLabel 17750 1700 2    60   Output ~ 0
-SA03
-Text HLabel 17750 1600 2    60   Output ~ 0
-SA02
-Text HLabel 17750 1500 2    60   Output ~ 0
-SA01
-Text HLabel 17750 1400 2    60   Output ~ 0
-SAP
-Text HLabel 17750 2100 2    60   Output ~ 0
-SA07
-Text HLabel 17750 2000 2    60   Output ~ 0
-SA06
-Text HLabel 17750 1900 2    60   Output ~ 0
-SA05
-Text HLabel 17750 1800 2    60   Output ~ 0
-SA04
+SA13
 Text HLabel 17750 2500 2    60   Output ~ 0
-SA11
+SA12
+Text HLabel 17750 1600 2    60   Output ~ 0
+SA03
+Text HLabel 17750 1500 2    60   Output ~ 0
+SA02
+Text HLabel 17750 1400 2    60   Output ~ 0
+SA01
+Text HLabel 17750 2800 2    60   Output ~ 0
+SAP
+Text HLabel 17750 2000 2    60   Output ~ 0
+SA07
+Text HLabel 17750 1900 2    60   Output ~ 0
+SA06
+Text HLabel 17750 1800 2    60   Output ~ 0
+SA05
+Text HLabel 17750 1700 2    60   Output ~ 0
+SA04
 Text HLabel 17750 2400 2    60   Output ~ 0
-SA10
+SA11
 Text HLabel 17750 2300 2    60   Output ~ 0
-SA09
+SA10
 Text HLabel 17750 2200 2    60   Output ~ 0
+SA09
+Text HLabel 17750 2100 2    60   Output ~ 0
 SA08
 $Comp
 L GND #PWR06
