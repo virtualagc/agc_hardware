@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:memory_timing_addressing-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
@@ -1459,7 +1459,7 @@ F 3 "" H 29800 7150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 29050 7250 0    60   Input ~ 0
-STRT2
+MYCLMP
 Text HLabel 30500 7150 2    60   Output ~ 0
 ZID
 $Comp
@@ -2860,7 +2860,7 @@ $EndComp
 Wire Wire Line
 	7250 9050 7200 9050
 Text HLabel 7200 9050 0    60   Input ~ 0
-STRT2
+MYCLMP
 $Comp
 L +4VSW #PWR010
 U 1 1 5846BB25
