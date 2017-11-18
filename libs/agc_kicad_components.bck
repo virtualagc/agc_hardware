@@ -12,6 +12,10 @@ $CMP +4VSW
 K POWER, PWR
 $ENDCMP
 #
+$CMP 0VDCA
+K POWER, PWR
+$ENDCMP
+#
 $CMP 74HC02
 D Quad Nor2
 K TTL Nor2
@@ -20,6 +24,71 @@ $ENDCMP
 $CMP 74HC04
 D Hextuple Nor1
 K Nor1
+$ENDCMP
+#
+$CMP 74HC05
+D Dual Open-Drain Nor3
+K Nor3 open drain
+$ENDCMP
+#
+$CMP 74HC05-ABC-DEF
+D Dual Open-Drain Nor3
+K Nor3 open drain
+$ENDCMP
+#
+$CMP 74HC05-ABC-DFE
+D Dual Open-Drain Nor3
+K Nor3 open drain
+$ENDCMP
+#
+$CMP 74HC05-ABC-E_F
+D Dual Open-Drain Nor3
+K Nor3 open drain
+$ENDCMP
+#
+$CMP 74HC05-ACB-E_F
+D Dual Open-Drain Nor3
+K Nor3 open drain
+$ENDCMP
+#
+$CMP 74HC05-A_B-E_F
+D Dual Open-Drain Nor3
+K Nor3 open drain
+$ENDCMP
+#
+$CMP 74HC05-A_C-E_F
+D Dual Open-Drain Nor3
+K Nor3 open drain
+$ENDCMP
+#
+$CMP 74HC05-BAC-DEF
+D Dual Open-Drain Nor3
+K Nor3 open drain
+$ENDCMP
+#
+$CMP 74HC05-BAC-E_F
+D Dual Open-Drain Nor3
+K Nor3 open drain
+$ENDCMP
+#
+$CMP 74HC05-B_C-EDF
+D Dual Open-Drain Nor3
+K Nor3 open drain
+$ENDCMP
+#
+$CMP 74HC05-B_C-E_F
+D Dual Open-Drain Nor3
+K Nor3 open drain
+$ENDCMP
+#
+$CMP 74HC05-SPARE
+D Dual Open-Drain Nor3
+K Nor3 open drain
+$ENDCMP
+#
+$CMP 74HC05X
+D Dual Open-Drain Nor3
+K Nor3 open drain
 $ENDCMP
 #
 $CMP 74HC244
@@ -47,6 +116,11 @@ D Hex Open Drain Buffer
 K CMOS OPEN DRAIN BUFFER
 $ENDCMP
 #
+$CMP EC2-12NU
+D Non-Latching DPDT Relay
+K latching dpdt relay
+$ENDCMP
+#
 $CMP EC2-12NU_poles
 D Latching DPDT Relay
 K latching dpdt relay
@@ -62,10 +136,18 @@ D Non-Latching DPDT Relay
 K latching dpdt relay
 $ENDCMP
 #
+$CMP FAP
+K POWER, PWR
+$ENDCMP
+#
 $CMP MR0A16A
 D Everspin Technologies 64k x 16 Parallel MRAM
 K 64k x 16 mram
 F http://www.everspin.com/PDF/EST_MR0A16A_prod.pdf
+$ENDCMP
+#
+$CMP R_tiny
+D Tiny resistor
 $ENDCMP
 #
 $CMP SPDT_BUT_LIT
