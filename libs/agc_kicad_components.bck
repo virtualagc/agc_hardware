@@ -116,6 +116,12 @@ D Hex Open Drain Buffer
 K CMOS OPEN DRAIN BUFFER
 $ENDCMP
 #
+$CMP Conn_09x16
+D Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP EC2-12NU
 D Non-Latching DPDT Relay
 K latching dpdt relay
