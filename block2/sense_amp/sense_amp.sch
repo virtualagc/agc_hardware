@@ -1,0 +1,375 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:agc_kicad_components
+LIBS:sense_amp-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DUAL_NPN_2 Q1
+U 1 1 5B208B8F
+P 4675 2875
+F 0 "Q1" H 4925 2725 50  0000 R CNN
+F 1 "DUAL_NPN_2" H 4925 2475 50  0001 R CNN
+F 2 "TO_SOT_Packages_SMD2:SOT-666" H 4625 3025 29  0001 C CNN
+F 3 "" H 4525 2875 60  0000 C CNN
+	1    4675 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P2
+U 1 1 5B208CAB
+P 4175 2875
+F 0 "P2" H 4175 2975 50  0000 C CNN
+F 1 "CONN_01X01" V 4275 2875 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4175 2875 60  0001 C CNN
+F 3 "" H 4175 2875 60  0000 C CNN
+	1    4175 2875
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4425 2875 4375 2875
+$Comp
+L R_Small R3
+U 1 1 5B208F30
+P 4625 3150
+F 0 "R3" H 4655 3170 50  0000 L CNN
+F 1 "10" H 4655 3110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 4625 3150 60  0001 C CNN
+F 3 "" H 4625 3150 60  0000 C CNN
+	1    4625 3150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4625 3050 4625 3025
+$Comp
+L R_Small R4
+U 1 1 5B208FE3
+P 4725 3150
+F 0 "R4" H 4755 3170 50  0000 L CNN
+F 1 "10" H 4755 3110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 4725 3150 60  0001 C CNN
+F 3 "" H 4725 3150 60  0000 C CNN
+	1    4725 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4725 3050 4725 3025
+Wire Wire Line
+	4625 3250 4625 3275
+Wire Wire Line
+	4625 3275 4725 3275
+Wire Wire Line
+	4725 3275 4725 3250
+$Comp
+L CONN_01X01 P7
+U 1 1 5B2090C5
+P 5175 2875
+F 0 "P7" H 5175 2975 50  0000 C CNN
+F 1 "CONN_01X01" V 5275 2875 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5175 2875 60  0001 C CNN
+F 3 "" H 5175 2875 60  0000 C CNN
+	1    5175 2875
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4925 2875 4975 2875
+Wire Wire Line
+	4675 3275 4675 3350
+Wire Wire Line
+	4675 3350 5950 3350
+Connection ~ 4675 3275
+$Comp
+L R_Small R1
+U 1 1 5B2096F3
+P 4625 2200
+F 0 "R1" H 4655 2220 50  0000 L CNN
+F 1 "5k" H 4655 2160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 4625 2200 60  0001 C CNN
+F 3 "" H 4625 2200 60  0000 C CNN
+	1    4625 2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R_Small R2
+U 1 1 5B2096F9
+P 4725 2200
+F 0 "R2" H 4755 2220 50  0000 L CNN
+F 1 "5k" H 4755 2160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 4725 2200 60  0001 C CNN
+F 3 "" H 4725 2200 60  0000 C CNN
+	1    4725 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4725 2300 4725 2725
+Wire Wire Line
+	4625 2300 4625 2725
+$Comp
+L CONN_01X01 P10
+U 1 1 5B20993C
+P 4175 2050
+F 0 "P10" H 4175 2150 50  0000 C CNN
+F 1 "CONN_01X01" V 4275 2050 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4175 2050 60  0001 C CNN
+F 3 "" H 4175 2050 60  0000 C CNN
+	1    4175 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4375 2050 4950 2050
+Wire Wire Line
+	4625 2050 4625 2100
+Wire Wire Line
+	4725 2050 4725 2100
+Connection ~ 4625 2050
+$Comp
+L DUAL_NPN_2 Q5
+U 1 1 5B209D63
+P 5400 2375
+F 0 "Q5" H 5650 2225 50  0000 R CNN
+F 1 "DUAL_NPN_2" H 5650 1975 50  0001 R CNN
+F 2 "TO_SOT_Packages_SMD2:SOT-666" H 5350 2525 29  0001 C CNN
+F 3 "" H 5250 2375 60  0000 C CNN
+	1    5400 2375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4625 2650 5675 2650
+Wire Wire Line
+	5675 2650 5675 2375
+Wire Wire Line
+	5675 2375 5650 2375
+Connection ~ 4625 2650
+Wire Wire Line
+	5150 2375 4725 2375
+Connection ~ 4725 2375
+Wire Wire Line
+	5350 2525 5350 2550
+Wire Wire Line
+	5350 2550 5450 2550
+Wire Wire Line
+	5450 2550 5450 2525
+Wire Wire Line
+	5400 2550 5400 2600
+Wire Wire Line
+	5400 2600 5700 2600
+Connection ~ 5400 2550
+Wire Wire Line
+	5350 2225 5350 2200
+Wire Wire Line
+	5350 2200 5450 2200
+Wire Wire Line
+	5450 2200 5450 2225
+$Comp
+L R_Small R9
+U 1 1 5B20A137
+P 5050 2050
+F 0 "R9" V 5200 2000 50  0000 L CNN
+F 1 "5k" V 5125 2000 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 5050 2050 60  0001 C CNN
+F 3 "" H 5050 2050 60  0000 C CNN
+	1    5050 2050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4725 2050
+Wire Wire Line
+	5150 2050 6325 2050
+Wire Wire Line
+	5400 2050 5400 2200
+Connection ~ 5400 2200
+$Comp
+L CONN_01X01 P1
+U 1 1 5B20AD75
+P 5900 2600
+F 0 "P1" H 5900 2700 50  0000 C CNN
+F 1 "CONN_01X01" V 6000 2600 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5900 2600 60  0001 C CNN
+F 3 "" H 5900 2600 60  0000 C CNN
+	1    5900 2600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5750 3550 5725 3550
+$Comp
+L CONN_01X01 P6
+U 1 1 5B20B2FB
+P 5525 3550
+F 0 "P6" H 5525 3650 50  0000 C CNN
+F 1 "CONN_01X01" V 5625 3550 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5525 3550 60  0001 C CNN
+F 3 "" H 5525 3550 60  0000 C CNN
+	1    5525 3550
+	-1   0    0    -1  
+$EndComp
+Connection ~ 5400 2050
+$Comp
+L R_Small R7
+U 1 1 5B20BCE3
+P 6475 3550
+F 0 "R7" V 6625 3500 50  0000 L CNN
+F 1 "5k" V 6550 3500 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 6475 3550 60  0001 C CNN
+F 3 "" H 6475 3550 60  0000 C CNN
+	1    6475 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6375 3550 6250 3550
+$Comp
+L R_Small R5
+U 1 1 5B20BF68
+P 6075 4075
+F 0 "R5" V 6225 4025 50  0000 L CNN
+F 1 "250" V 6150 4025 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 6075 4075 60  0001 C CNN
+F 3 "" H 6075 4075 60  0000 C CNN
+	1    6075 4075
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 4075 5975 4075
+$Comp
+L R_Small R6
+U 1 1 5B20BFDC
+P 6325 4075
+F 0 "R6" V 6475 4025 50  0000 L CNN
+F 1 "250" V 6400 4025 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 6325 4075 60  0001 C CNN
+F 3 "" H 6325 4075 60  0000 C CNN
+	1    6325 4075
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6175 4075 6225 4075
+Wire Wire Line
+	6200 4075 6200 4125
+Connection ~ 6200 4075
+$Comp
+L CONN_01X01 P4
+U 1 1 5B20C862
+P 6200 4325
+F 0 "P4" V 6200 4425 50  0000 C CNN
+F 1 "CONN_01X01" V 6300 4325 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6200 4325 60  0001 C CNN
+F 3 "" H 6200 4325 60  0000 C CNN
+	1    6200 4325
+	0    -1   1    0   
+$EndComp
+$Comp
+L CONN_01X01 P3
+U 1 1 5B20C9AB
+P 6450 4325
+F 0 "P3" V 6450 4425 50  0000 C CNN
+F 1 "CONN_01X01" V 6550 4325 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6450 4325 60  0001 C CNN
+F 3 "" H 6450 4325 60  0000 C CNN
+	1    6450 4325
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6450 4125 6450 4075
+Wire Wire Line
+	6450 4075 6425 4075
+$Comp
+L CONN_01X01 P9
+U 1 1 5B20D04D
+P 6800 3550
+F 0 "P9" H 6800 3650 50  0000 C CNN
+F 1 "CONN_01X01" V 6900 3550 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6800 3550 60  0001 C CNN
+F 3 "" H 6800 3550 60  0000 C CNN
+	1    6800 3550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6600 3550 6575 3550
+$Comp
+L R_Small R8
+U 1 1 5B20D9E9
+P 6475 3300
+F 0 "R8" V 6625 3250 50  0000 L CNN
+F 1 "250" V 6550 3250 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" H 6475 3300 60  0001 C CNN
+F 3 "" H 6475 3300 60  0000 C CNN
+	1    6475 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P8
+U 1 1 5B20DA26
+P 6800 3300
+F 0 "P8" H 6800 3400 50  0000 C CNN
+F 1 "CONN_01X01" V 6900 3300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6800 3300 60  0001 C CNN
+F 3 "" H 6800 3300 60  0000 C CNN
+	1    6800 3300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6600 3300 6575 3300
+Wire Wire Line
+	6375 3300 6050 3300
+Wire Wire Line
+	6050 3300 6050 3400
+$Comp
+L DUAL_NPN_2 Q3
+U 1 1 5B20BAA9
+P 6000 3550
+F 0 "Q3" H 6250 3400 50  0000 R CNN
+F 1 "DUAL_NPN_2" H 6250 3150 50  0001 R CNN
+F 2 "TO_SOT_Packages_SMD2:SOT-666" H 5950 3700 29  0001 C CNN
+F 3 "" H 5850 3550 60  0000 C CNN
+	1    6000 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3350 5950 3400
+Wire Wire Line
+	5950 3700 5950 4075
+Wire Wire Line
+	6325 2050 6325 3800
+Wire Wire Line
+	6325 3800 6050 3800
+Wire Wire Line
+	6050 3800 6050 3700
+$EndSCHEMATC
