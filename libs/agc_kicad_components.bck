@@ -10,6 +10,16 @@ D Transistor NPN (general)
 K npn transistor
 $ENDCMP
 #
+$CMP SENSE_AMP
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
+$CMP TRANSFORMER_1_2
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
 $CMP Zener_Small
 D Diode
 $ENDCMP
