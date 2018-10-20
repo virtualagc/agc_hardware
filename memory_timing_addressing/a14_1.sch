@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:memory_timing_addressing-cache
 EELAYER 26 0
 EELAYER END
 $Descr A1 33110 23386
@@ -765,7 +764,7 @@ PHS4/
 Text HLabel 1200 6500 0    60   Input ~ 0
 MP1
 Text HLabel 1200 6950 0    60   Input ~ 0
-T05/
+T06/
 Text HLabel 3700 6700 2    60   Output ~ 0
 SBFSET
 Text HLabel 1200 7100 0    60   Input ~ 0
