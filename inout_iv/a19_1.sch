@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:inout_iv-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -1971,7 +1971,7 @@ F 3 "" H 15000 4100 60  0000 C CNN
 $EndComp
 Connection ~ 13950 4000
 Text HLabel 14300 4200 0    60   Input ~ 0
-CCH13
+RCH13/
 Wire Wire Line
 	14300 4200 14400 4200
 Text HLabel 15700 4100 2    60   Output ~ 0

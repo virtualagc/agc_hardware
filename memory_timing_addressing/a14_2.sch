@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:memory_timing_addressing-cache
 EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535

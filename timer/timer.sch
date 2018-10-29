@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:timer-cache
 EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535

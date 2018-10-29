@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:inout_iv-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -2190,10 +2190,7 @@ Wire Wire Line
 	10700 10100 10750 10100
 Connection ~ 10700 11400
 Wire Wire Line
-	10600 9950 10600 13450
-Wire Wire Line
 	10600 12550 10750 12550
-Connection ~ 10600 13450
 Wire Wire Line
 	10600 11250 10750 11250
 Connection ~ 10600 12550
@@ -2809,4 +2806,7 @@ Wire Wire Line
 	20450 10100 20150 10100
 Text HLabel 20150 10100 0    60   Input ~ 0
 OVF/
+Wire Wire Line
+	10600 9950 10600 13300
+Connection ~ 10600 13300
 $EndSCHEMATC
